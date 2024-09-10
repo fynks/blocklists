@@ -1,11 +1,15 @@
+! Title: Xiaomi Ads and Tracking Blocklist
+! Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
+! Last updated: 2024-09-11 01:04:04 AM PKT
+! Number of unique domains: 359
 !
-! Title: Xiaomi ads and tracking
-! Description: Filter composed of several other filters (AdGuard DNS filter, HaGeZi's Pro++ DNS Blocklist, etc)
-! Homepage: https://github.com/fynks/blocklists
-! Last modified: 2024-07-29T06:30:37Z
+! Sources:
+! - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
+! - https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 !
-! Compiled by @Fynks
+! Maintained by @Fynks
 !
+
 11-c3.bigdata.ctc.neo.xiaomi.com
 3rdupgrade.pandora.xiaomi.com
 5-c3.bigdata.ctc.neo.xiaomi.com
@@ -73,7 +77,6 @@ bigdata-lbs-pri-c3.alb.xiaomi.com
 bossadmin.pandora.xiaomi.com
 box.pandora.xiaomi.com
 browser.miui.com
-brs.api.intl.miui.com
 bsp.sasdc.pandora.xiaomi.com
 bss.pandora.xiaomi.com
 bugreport.pt.xiaomi.com
@@ -97,7 +100,7 @@ cms.sec.miui.com
 cnbj1.fds.api.xiaomi.com
 cn-register.xmpush.xiaomi.com
 cn.register.xmpush.xiaomi.com
-coml7.pandora.xiaomi.com
+comc4l7.pandora.xiaomi.com
 console.admin.xmpush.xiaomi.com
 controller.india.xiaomi.com
 cse.avlyun.sec.miui.com
@@ -140,7 +143,6 @@ fr-register.xmpush.global.xiaomi.com
 fr.resolver.msg.global.xiaomi.net
 galleryapi.micloud.xiaomi.net
 gallery.cdn.pandora.xiaomi.com
-gallery.pandora.xiaomi.com
 gamebox.sec.intl.miui.com
 gamebox.sec.miui.com
 geofence.sys.miui.com
@@ -178,7 +180,6 @@ in-protect-dev.sec.intl.miui.com
 intl.up.w.xk.miui.com
 intranet.c3.bigdata-l7-trackservice.eup4xvxeqr.elb.xiaomi.com
 invoice.netroam.mihome.xiaomi.net
-iosdl.game.xiaomi.com
 ip-info.ff.avast.sec.miui.com
 i.xiaomi.com
 jupiter.intl.sys.miui.com
@@ -364,6 +365,7 @@ xadx.file.market.xiaomi.com
 ! xiaomi
 xiaomifood.cn
 ! xiaomi mi band app
+xiaomi-shop.shop
 xiaomivietnam.xyz
 xiazai.xiaomi.com
 xlmc.sec.miui.com
