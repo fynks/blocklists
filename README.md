@@ -4,6 +4,6 @@
 
 | Blocklist | Domains | Adguard |
 | --------- | ------- | ------- |
-| Personal  | [Get]() | [Get]() |
-| Xiaomi    | [Get]() | [Get]() |
+| Personal  | [Get](https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal_blocklist_simple.txt) | [Get](https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal_blocklist_adguard.txt) |
+| Xiaomi    | [Get](https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/xiaomi_blocklist_simple.txt) | [Get](https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/xiaomi_blocklist_adguard.txt) |
 
