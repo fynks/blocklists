@@ -13,10 +13,10 @@ readonly OUTPUT_FILE_XIAOMI_HOSTS="${OUTPUT_DIR}/xiaomi_blocklist_hosts.txt"
 readonly LOG_FILE="${LOGS_DIR}/xiaomi_blocklist_generation.log"
 readonly TEMP_FILE=$(mktemp)
 readonly FILTER_KEYWORDS=("xiaomi" "miui")
+readonly XIAOMI_SPECIFIC_URL="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt"
 readonly DOMAIN_LIST_URLS=(
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt"
     "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-    "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt"
 )
 
 # Function to log messages
@@ -40,6 +40,7 @@ add_header() {
         echo "# Number of unique domains: $domain_count"
         echo "#"
         echo "# Sources:"
+        echo "# - $XIAOMI_SPECIFIC_URL"
         for url in "${DOMAIN_LIST_URLS[@]}"; do
             echo "# - $url"
         done
@@ -67,7 +68,22 @@ fetch_and_filter() {
     local grep_pattern=$(printf "|%s" "${FILTER_KEYWORDS[@]}")
     grep_pattern=${grep_pattern:1}  # Remove leading '|'
 
-    echo "$DOMAIN_LIST" | grep -E "$grep_pattern" | while IFS= read -r domain; do
+    echo "$DOMAIN_LIST" | grep -E "$grep_pattern" | grep -v '^[#!]' | while IFS= read -r domain; do
+        cleaned_domain=$(echo "$domain" | sed 's/^||//;s/\^$//')
+        echo "$cleaned_domain" >> "$TEMP_FILE"
+    done
+}
+
+# Function to fetch all domains from Xiaomi-specific URL
+fetch_xiaomi_specific() {
+    log "Fetching all domains from Xiaomi-specific URL: $XIAOMI_SPECIFIC_URL"
+
+    if ! DOMAIN_LIST=$(curl -s --max-time 30 "$XIAOMI_SPECIFIC_URL"); then
+        log "Error: Failed to fetch domain list from $XIAOMI_SPECIFIC_URL"
+        return 1
+    fi
+
+    echo "$DOMAIN_LIST" | grep -v '^[#!]' | while IFS= read -r domain; do
         cleaned_domain=$(echo "$domain" | sed 's/^||//;s/\^$//')
         echo "$cleaned_domain" >> "$TEMP_FILE"
     done
@@ -81,6 +97,9 @@ generate_xiaomi_blocklist() {
     mkdir -p "$LOGS_DIR"
     # Clear previous log file
     : > "$LOG_FILE"
+
+    # Fetch all domains from Xiaomi-specific URL
+    fetch_xiaomi_specific
 
     # Fetch and filter domains from each URL
     for url in "${DOMAIN_LIST_URLS[@]}"; do
