@@ -11,7 +11,7 @@ readonly LOGS_DIR="${SCRIPT_DIR}/../.logs"
 readonly OUTPUT_FILE_XIAOMI_ADGUARD="${OUTPUT_DIR}/xiaomi_blocklist_adguard.txt"
 readonly OUTPUT_FILE_XIAOMI_HOSTS="${OUTPUT_DIR}/xiaomi_blocklist_hosts.txt"
 readonly LOG_FILE="${LOGS_DIR}/xiaomi_blocklist_generation.log"
-readonly TEMP_FILE=$(mktemp)
+readonly TEMP_DIR=$(mktemp -d)
 readonly FILTER_KEYWORDS=("xiaomi" "miui")
 readonly XIAOMI_SPECIFIC_URL="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt"
 readonly DOMAIN_LIST_URLS=(
@@ -58,68 +58,55 @@ add_header() {
 # Function to fetch and filter domains from a URL
 fetch_and_filter() {
     local url="$1"
+    local output_file="$2"
     log "Fetching domain list from $url"
 
-    if ! DOMAIN_LIST=$(curl -s --max-time 30 "$url"); then
+    if ! curl -s --max-time 30 "$url" | grep -E "$(IFS='|'; echo "${FILTER_KEYWORDS[*]}")" | grep -v '^[#!]' | sed 's/^||//;s/\^$//' > "$output_file"; then
         log "Error: Failed to fetch domain list from $url"
         return 1
     fi
-
-    local grep_pattern=$(printf "|%s" "${FILTER_KEYWORDS[@]}")
-    grep_pattern=${grep_pattern:1}  # Remove leading '|'
-
-    echo "$DOMAIN_LIST" | grep -E "$grep_pattern" | grep -v '^[#!]' | while IFS= read -r domain; do
-        cleaned_domain=$(echo "$domain" | sed 's/^||//;s/\^$//')
-        echo "$cleaned_domain" >> "$TEMP_FILE"
-    done
 }
 
 # Function to fetch all domains from Xiaomi-specific URL
 fetch_xiaomi_specific() {
+    local output_file="$1"
     log "Fetching all domains from Xiaomi-specific URL: $XIAOMI_SPECIFIC_URL"
 
-    if ! DOMAIN_LIST=$(curl -s --max-time 30 "$XIAOMI_SPECIFIC_URL"); then
+    if ! curl -s --max-time 30 "$XIAOMI_SPECIFIC_URL" | grep -v '^[#!]' | sed 's/^||//;s/\^$//' > "$output_file"; then
         log "Error: Failed to fetch domain list from $XIAOMI_SPECIFIC_URL"
         return 1
     fi
-
-    echo "$DOMAIN_LIST" | grep -v '^[#!]' | while IFS= read -r domain; do
-        cleaned_domain=$(echo "$domain" | sed 's/^||//;s/\^$//')
-        echo "$cleaned_domain" >> "$TEMP_FILE"
-    done
 }
 
 # Function to generate Xiaomi-specific blocklist
 generate_xiaomi_blocklist() {
     log "Starting Xiaomi blocklist generation..."
 
-    mkdir -p "$OUTPUT_DIR"
-    mkdir -p "$LOGS_DIR"
-    # Clear previous log file
+    mkdir -p "$OUTPUT_DIR" "$LOGS_DIR"
     : > "$LOG_FILE"
 
     # Fetch all domains from Xiaomi-specific URL
-    fetch_xiaomi_specific
+    fetch_xiaomi_specific "${TEMP_DIR}/xiaomi_specific.txt" &
 
-    # Fetch and filter domains from each URL
+    # Fetch and filter domains from each URL in parallel
     for url in "${DOMAIN_LIST_URLS[@]}"; do
-        fetch_and_filter "$url" &
+        fetch_and_filter "$url" "${TEMP_DIR}/$(basename "$url").txt" &
     done
     wait
 
-    # Remove duplicates and sort
-    sort -u "$TEMP_FILE" > "${TEMP_FILE}_sorted"
+    # Combine all fetched files, remove duplicates, and sort
+    sort -u "${TEMP_DIR}"/*.txt > "${TEMP_DIR}/sorted_unique.txt"
 
-    local domain_count=$(wc -l < "${TEMP_FILE}_sorted")
+    local domain_count=$(wc -l < "${TEMP_DIR}/sorted_unique.txt")
 
     # Add header for both AdGuard and hosts formats
     add_header "adguard" "$domain_count"
     add_header "hosts" "$domain_count"
 
     # Format the blocklist entries in AdGuard format
-    sed 's/^/||/;s/$/^/' "${TEMP_FILE}_sorted" >> "$OUTPUT_FILE_XIAOMI_ADGUARD"
+    sed 's/^/||/;s/$/^/' "${TEMP_DIR}/sorted_unique.txt" >> "$OUTPUT_FILE_XIAOMI_ADGUARD"
     # Create hosts blocklist in hosts format (0.0.0.0 domain.com)
-    sed 's/^/0.0.0.0 /' "${TEMP_FILE}_sorted" >> "$OUTPUT_FILE_XIAOMI_HOSTS"
+    sed 's/^/0.0.0.0 /' "${TEMP_DIR}/sorted_unique.txt" >> "$OUTPUT_FILE_XIAOMI_HOSTS"
 
     log "Xiaomi blocklist generated: $OUTPUT_FILE_XIAOMI_ADGUARD (AdGuard format)"
     log "Xiaomi blocklist generated: $OUTPUT_FILE_XIAOMI_HOSTS (Hosts format)"
@@ -128,7 +115,7 @@ generate_xiaomi_blocklist() {
 
 # Cleanup function
 cleanup() {
-    rm -f "$TEMP_FILE" "${TEMP_FILE}_sorted"
+    rm -rf "$TEMP_DIR"
     log "Temporary files cleaned up"
 }
 trap cleanup EXIT

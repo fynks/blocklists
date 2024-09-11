@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2024-09-11 11:02:49 AM PKT
-# Number of unique domains: 508
+# Last updated: 2024-09-11 11:05:49 AM PKT
+# Number of unique domains: 513
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -71,6 +71,7 @@
 0.0.0.0 api.xmpush.global.xiaomi.com
 0.0.0.0 api.zhuti.xiaomi.com
 0.0.0.0 apkrep.ff.avast.sec.miui.com
+0.0.0.0 app.chat.xiaomi.net
 0.0.0.0 app.greengurad.sec.miui.com
 0.0.0.0 app.migc.g.mi.com
 0.0.0.0 app.miui.com
@@ -248,6 +249,7 @@
 0.0.0.0 live.miphone.pandora.xiaomi.com
 0.0.0.0 log-abroad.avlyun.sec.miui.com
 0.0.0.0 log.ad.xiaomi.com
+0.0.0.0 log.avlyun.sec.intl.miui.com
 0.0.0.0 logonext.tv.kuyun.com
 0.0.0.0 log.pt.xiaomi.com
 0.0.0.0 logs.n.xiaomi.com
@@ -359,6 +361,7 @@
 0.0.0.0 r.browser.miui.com
 0.0.0.0 reader.browser.miui.com
 0.0.0.0 register.xmpush.global.xiaomi.com
+0.0.0.0 register.xmpush.xiaomi.com
 0.0.0.0 report.n.xiaomi.com
 0.0.0.0 resolver.gslb.mi-idc.com
 0.0.0.0 resolver.mi.xiaomi.com
@@ -479,6 +482,7 @@
 0.0.0.0 tracking.india.miui.com
 0.0.0.0 tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com
 0.0.0.0 tracking.intl.miui.com
+0.0.0.0 tracking.*.miui.com
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 traffic-media.co
@@ -516,6 +520,7 @@
 0.0.0.0 xiaomifood.cn
 0.0.0.0 xiaomi.ovh
 0.0.0.0 xiaomi-shop.shop
+0.0.0.0 xiaomivietnam.xyz
 0.0.0.0 xiazai.xiaomi.com
 0.0.0.0 xlmc.sec.miui.com
 0.0.0.0 zeus.ad.xiaomi.com
