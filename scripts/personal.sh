@@ -6,7 +6,7 @@ set -euo pipefail
 readonly INPUT_FILE="input.json"
 readonly OUTPUT_DIR="../blocklists"
 readonly LOGS_DIR="../.logs"
-readonly OUTPUT_FILE_SIMPLE="${OUTPUT_DIR}/personal_blocklist_simple.txt"
+readonly OUTPUT_FILE_HOSTS="${OUTPUT_DIR}/personal_blocklist_hosts.txt"
 readonly OUTPUT_FILE_ADGUARD="${OUTPUT_DIR}/personal_blocklist_adguard.txt"
 readonly LOG_FILE="${LOGS_DIR}/personal_blocklist_generation.log"
 readonly TEMP_DIR=$(mktemp -d)
@@ -45,25 +45,25 @@ generate_blocklist() {
     log "Generating $format format blocklist..."
 
     {
-        if [[ "$format" == "simple" ]]; then
+        if [[ "$format" == "hosts" ]]; then
             cat << EOF
-# Title: Personal Blocklist (Simple Format)
+# Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
 # Last updated: $timestamp
 # Number of unique domains: $domain_count
 #
-# Simple domain list format
+# Hosts file format: 0.0.0.0 example.com
 
 EOF
-            cat "$DOMAINS_FILE"
+            # Format the hosts blocklist as hosts file (0.0.0.0 domain.com)
+            sed 's/^/0.0.0.0 /' "$DOMAINS_FILE"
         else
             cat << EOF
-! Title: Personal Blocklist (AdGuard/AdAway Format)
+! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
 ! Last updated: $timestamp
 ! Number of unique domains: $domain_count
-!
-! Compatible with AdGuard Android and AdAway
+! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
 
@@ -75,14 +75,14 @@ EOF
     log "$format format blocklist written to $output_file"
 }
 
-# Function to generate detailed statistics
+# Function to generate detailed statistics and append to log file
 generate_stats() {
     log "Generating detailed statistics..."
 
     {
+        echo
         echo "Blocklist Statistics"
         echo "===================="
-        echo
         echo "Total unique domains: $(wc -l < "$DOMAINS_FILE")"
         echo
         echo "Top 10 TLDs:"
@@ -127,7 +127,7 @@ main() {
     local -r domain_count=$(wc -l < "$DOMAINS_FILE")
     log "Unique domains extracted: $domain_count"
 
-    generate_blocklist "simple" "$OUTPUT_FILE_SIMPLE"
+    generate_blocklist "hosts" "$OUTPUT_FILE_HOSTS"
     generate_blocklist "adguard" "$OUTPUT_FILE_ADGUARD"
 
     generate_stats

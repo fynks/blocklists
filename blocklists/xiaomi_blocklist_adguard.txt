@@ -1,15 +1,15 @@
-! Title: Xiaomi Ads and Tracking Blocklist
-! Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-! Last updated: 2024-09-11 01:04:04 AM PKT
-! Number of unique domains: 359
-!
-! Sources:
-! - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
-! - https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-!
-! Maintained by @Fynks
-!
-! Blocklist format: ||example.com^
+# Title: Xiaomi Ads and Tracking Blocklist
+# Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
+# Last updated: 2024-09-11 10:12:07 AM PKT
+# Number of unique domains: 460
+#
+# Sources:
+# - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
+# - https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+# - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
+#
+#
+# Blocklist format: ||example.com^
 
 ||11-c3.bigdata.ctc.neo.xiaomi.com^
 ||3rdupgrade.pandora.xiaomi.com^
@@ -22,6 +22,7 @@
 ||ad.intl.xiaomi.com^
 ||ad.intl.xiaomi.com.edgesuite.net^
 ||ad.intl.xiaomi.com.ksyna.net^
+||ad.pandora.xiaomi.com^
 ||ad.quickapp.hybrid.xiaomi.com^
 ||adv.l7.34.sec.miui.com^
 ||adv.sec.intl.miui.com^
@@ -31,7 +32,10 @@
 ||analytics.ff.avast.sec.miui.com^
 ||api.accelerator.intl.miui.com^
 ||api.account.preview.n.xiaomi.net^
+||api.activity.browser.intl.miui.com^
+||api.ad.intl.xiaomi.com^
 ||api.ads.xiaomi.com^
+||api.ad.xiaomi.com^
 ||api.aurogon.intl.miui.com^
 ||api.bbs.miui.com^
 ||api.browser.intl.miui.com^
@@ -41,6 +45,7 @@
 ||api.competition.intl.miui.com^
 ||api.content.intl.miui.com^
 ||api.developer.xiaomi.com^
+||api.d.xiaomi.com^
 ||api.game.intl.miui.com^
 ||api.g.micloud.xiaomi.net^
 ||api.hybrid.xiaomi.com^
@@ -54,6 +59,7 @@
 ||api.sec.miui.com^
 ||api.setting.intl.miui.com^
 ||api.sms.intl.miui.com^
+||api.tw06.xlmc.sec.miui.com^
 ||api.vip.miui.com^
 ||api.xmpush.global.xiaomi.com^
 ||api.zhuti.xiaomi.com^
@@ -65,6 +71,7 @@
 ||appstore.pandora.xiaomi.com^
 ||assistant.miui.com^
 ||assistant.pandora.xiaomi.com^
+||a.stat.xiaomi.com^
 ||au.ff.avast.sec.miui.com^
 ||a.union.xiaomi.com^
 ||authbe.sec.intl.miui.com^
@@ -72,12 +79,14 @@
 ||auth.ff.avast.sec.miui.com^
 ||awssgp0-files.fds.api.xiaomi.com^
 ||awsusor0-cdn.fds-ssl.api.xiaomi.com^
+||bgp.data.game.xiaomi.com^
 ||bgp.fe01.c3.xiaomi.com^
 ||bgp.tv.pandora.xiaomi.com^
 ||bigdata-lbs-pri-c3.alb.xiaomi.com^
 ||bossadmin.pandora.xiaomi.com^
 ||box.pandora.xiaomi.com^
 ||browser.miui.com^
+||bsp.misc.pandora.xiaomi.com^
 ||bsp.sasdc.pandora.xiaomi.com^
 ||bss.pandora.xiaomi.com^
 ||bugreport.pt.xiaomi.com^
@@ -87,10 +96,15 @@
 ||c3mini.pandora.xiaomi.com^
 ||c4.pandora.xiaomi.com^
 ||callback.xmpush.xiaomi.com^
+||cc2.sys.intl.xiaomi.com^
 ||cc2.sys.miui.com^
+||cc.ad.intl.xiaomi.com^
+||ccc.sys.intl.xiaomi.com^
 ||ccc.sys.miui.com^
+||cc.sys.intl.xiaomi.com^
 ||cc.sys.miui.com^
 ||cdn1.static.home.miui.com^
+||cdn.ad.xiaomi.com^
 ||cdna.sec.miui.com^
 ||cdn.exp.xiaomi.com^
 ||cdn.fds.api.xiaomi.com^
@@ -99,12 +113,15 @@
 ||chong.sec.miui.com^
 ||cms.sec.miui.com^
 ||cnbj1.fds.api.xiaomi.com^
+||cnc.data.game.xiaomi.com^
 ||cn-register.xmpush.xiaomi.com^
 ||cn.register.xmpush.xiaomi.com^
 ||comc4l7.pandora.xiaomi.com^
 ||console.admin.xmpush.xiaomi.com^
 ||controller.india.xiaomi.com^
 ||cse.avlyun.sec.miui.com^
+||cupid.ad.xiaomi.com^
+||databi.ad.xiaomi.com^
 ||data.game.xiaomi.com^
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -112,12 +129,18 @@
 ||data.mistat.xiaomi.com^
 ||data.sec.intl.miui.com^
 ||data.sec.miui.com^
+||default.sdkconfig.ad.xiaomi.com^
+||default.tracking.miui.com^
 ||de.pandora.xiaomi.com^
 ||dev.staging.api.developer.n.xiaomi.com^
+||diagnosis.ad.xiaomi.com^
 ||drm.market.xiaomi.com^
 ||dvb.pandora.xiaomi.com^
 ||d.xiaomi.com^
+||e.ad.xiaomi.com^
+||emi-cube.ad.xiaomi.com^
 ||emq.xmpush.xiaomi.com^
+||etl.xlmc.sec.miui.com^
 ||events.miui.com^
 ||extranet.ap-southeast-1.miui-l7-feedback.d6ocem01vo.elb.xiaomi.com^
 ||extranet.ap-southeast-1.miui-l7-feedback.qkou0akepj.elb.xiaomi.com^
@@ -130,7 +153,9 @@
 ||extranet.c4.miui-l7-feedback.q2fo3bs76f.elb.xiaomi.com^
 ||extranet.eu-east-1.miui-l7-feedback.c7qiwffdmn.elb.xiaomi.com^
 ||extranet.eu-east-1.miui-l7-feedback.fvlyh0lisv.elb.xiaomi.com^
+||fcanr.tracking.miui.com^
 ||fe02.lg.xiaomi.com^
+||feedback.d.xiaomi.com^
 ||feedback.intl.miui.com^
 ||feedback.miui.com^
 ||file.cdn.mvideo.xiaomi.com^
@@ -139,39 +164,51 @@
 ||flash.sec.miui.com^
 ||flow.sec.miui.com^
 ||fr-api.xmpush.global.xiaomi.com^
+||fr.api.xmpush.global.xiaomi.com^
 ||fr.feedback.xmpush.global.xiaomi.com^
 ||fr-register.xmpush.global.xiaomi.com^
+||fr.register.xmpush.global.xiaomi.com^
 ||fr.resolver.msg.global.xiaomi.net^
 ||galleryapi.micloud.xiaomi.net^
 ||gallery.cdn.pandora.xiaomi.com^
+||game.ad.xiaomi.com^
 ||gamebox.sec.intl.miui.com^
 ||gamebox.sec.miui.com^
 ||geofence.sys.miui.com^
+||g.galleryapi.micloud.xiaomi.net^
 ||global-ad-extranet-pri-azams.alb.xiaomi.com^
 ||global-ad-extranet-pri-azpn.alb.xiaomi.com^
 ||global-ad-intl-pri-alisgp.alb.xiaomi.com^
 ||global.api.huangye.miui.com^
+||globalreport.ad.intl.xiaomi.com^
 ||globalvideo.cdn.pandora.intl.xiaomi.com^
 ||gstat.pandora.xiaomi.com^
 ||gtglobal.intl.miui.com^
 ||h5.app.intl.miui.com^
 ||h5-ru.video.intl.xiaomi.com^
+||hd.browser.miui.com^
 ||hd.xiaomi.com^
 ||heyue.xiaomi.com^
+||hk.mibi.xiaomi.com^
 ||hm.xiaomi.com^
 ||hook.gitv.pandora.xiaomi.com^
 ||hot.browser.intl.miui.com^
+||hot.browser.miui.com^
+||httpdns.browser.miui.com^
 ||huodong.xiaomi.com^
 ||huosai.xiaomi.com^
 ||hybrid.miui.com^
 ||i.api.xmpush.xiaomi.com^
 ||ident.mistat.xiaomi.com^
 ||idmb-api.xmpush.global.xiaomi.com^
+||idmb.api.xmpush.global.xiaomi.com^
 ||idmb.app.chat.global.xiaomi.net^
 ||idmb.feedback.xmpush.global.xiaomi.com^
+||idmb.register.xmpush.global.xiaomi.com^
 ||image.box.xiaomi.com^
 ||image.cdn.mvideo.xiaomi.com^
 ||image.cdn.pandora.xiaomi.com^
+||india.activity.browser.intl.miui.com^
 ||india.miui.com^
 ||inf.miui.com^
 ||info.analysis.kp.sec.miui.com^
@@ -190,17 +227,24 @@
 ||lg-bgp-misc.pandora.xiaomi.com^
 ||live.miphone.pandora.xiaomi.com^
 ||log-abroad.avlyun.sec.miui.com^
+||log.ad.xiaomi.com^
 ||log.avlyun.sec.intl.miui.com^
 ||log.pt.xiaomi.com^
 ||logs.n.xiaomi.com^
 ||logupdate.avlyun.sec.miui.com^
 ||lxcdn.dl.files.xiaomi.net^
+||maizhenapi.ad.xiaomi.com^
 ||mantual.pandora.xiaomi.com^
+||marketing.ad.xiaomi.com^
+||max.ad.xiaomi.com^
 ||mazu.sec.miui.com^
 ||m.beehive.in.intl.miui.com^
+||m.bss.pandora.xiaomi.com^
+||mcc.intl.inf.miui.com^
 ||mcc.miui.com^
 ||media.pre.pandora.xiaomi.com^
 ||metok.sys.miui.com^
+||m.hk.mibi.xiaomi.com^
 ||mi4crawler.pandora.xiaomi.com^
 ||mibi.api.xiaomi.com^
 ||mibi.xiaomi.com^
@@ -213,6 +257,10 @@
 ||mistat.india.xiaomi.com^
 ||mistat.intl.xiaomi.com^
 ||mistat.rus.xiaomi.com^
+||mitv.tracking.india.miui.com^
+||mitv.tracking.intl.miui.com^
+||mitv.tracking.miui.com^
+||mitv.tracking.rus.miui.com^
 ||miui-fxcse.avlyun.com^
 ||miui-l7-data-other-c3.pt.miui.com^
 ||miui-l7-data-other.pt.miui.com^
@@ -220,22 +268,37 @@
 ||miui.net^
 ||mlog.search.xiaomi.net^
 ||mob.api.xmpush.xiaomi.com^
+||mobile.mishop.pandora.xiaomi.com^
 ||mob.pandora.xiaomi.com^
 ||mob.tv.pandora.xiaomi.com^
 ||mon.be.xiaomi.com^
 ||monitor.pandora.xiaomi.com^
 ||monitor.scf.pt.xiaomi.com^
 ||mon.n.xiaomi.com^
+||mosapi.ad.intl.xiaomi.com^
+||mos-ortb-api.ad.intl.xiaomi.com^
 ||mqs-log.miui.com^
+||m.track.ad.xiaomi.com^
 ||music.xiaomi.com^
 ||m.zhuti.xiaomi.com^
+||native.feedback.miui.com^
+||nav.browser.miui.com^
 ||nav.sec.miui.com^
 ||netcheck.pandora.xiaomi.com^
 ||newsfeed.api.intl.miui.com^
 ||nginx.34.sec.miui.com^
+||n.notice.game.xiaomi.com^
 ||notice.game.xiaomi.com^
 ||o2o.api.xiaomi.com^
+||odml.ad.intl.xiaomi.com^
 ||odml.ad.intl.xiaomi.com.mgslb.com^
+||om.tracking.miui.com^
+||orig.hd.xiaomi.com^
+||orig.image.cdn.mvideo.xiaomi.com^
+||orig.image.cdn.pandora.xiaomi.com^
+||orig.mishop.cdn.pandora.xiaomi.com^
+||orig.package.box.xiaomi.com^
+||orig.sec-cdn.static.xiaomi.net^
 ||ota.cdn.pandora.xiaomi.com^
 ||ottl7-l2.pandora.xiaomi.com^
 ||package.box.xiaomi.com^
@@ -245,6 +308,7 @@
 ||port.sec.intl.miui.com^
 ||port.sec.miui.com^
 ||preload.xiaomi.com^
+||preview.bossadmin.pandora.xiaomi.com^
 ||preview.crm.sms.miui.com^
 ||privacy.api.intl.miui.com^
 ||privacy.miui.com^
@@ -258,36 +322,47 @@
 ||qiye.xiaomi.com^
 ||r.browser.intl.miui.com^
 ||r.browser.miui.com^
+||reader.browser.miui.com^
 ||register.xmpush.global.xiaomi.com^
 ||register.xmpush.xiaomi.com^
 ||report.n.xiaomi.com^
 ||resolver.mi.xiaomi.com^
+||router.tracking.miui.com^
 ||r.sg.sec.miui.com^
 ||rtmpott.pandora.xiaomi.com^
 ||ru-api.xmpush.global.xiaomi.com^
+||ru.api.xmpush.global.xiaomi.com^
 ||ru-feedback.xmpush.global.xiaomi.com^
 ||ru.feedback.xmpush.global.xiaomi.com^
 ||ru-register.xmpush.global.xiaomi.com^
+||ru.register.xmpush.global.xiaomi.com^
 ||rus.miui.com^
 ||ruvideo.cdn.pandora.intl.xiaomi.com^
 ||ru.video.intl.xiaomi.com^
+||sandbox.activity.browser.intl.miui.com^
 ||sandbox.xmpush.xiaomi.com^
 ||sdkconfig.ad.eu.xiaomi.com^
 ||sdkconfig.ad.india.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.rus.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
 ||search.miui.com^
 ||sec-cdn.static.intl.xiaomi.net^
 ||sec-cdn.static.xiaomi.net^
+||secode2.hd.xiaomi.com^
 ||sec.resource.xiaomi.net^
 ||secure.report.iss.xiaomi.com^
+||security.browser.miui.com^
 ||sentry.be.xiaomi.com^
 ||sentry.d.xiaomi.net^
 ||sentry.pay.xiaomi.com^
 ||sentry.sec.miui.com^
 ||sfsapi.micloud.xiaomi.net^
+||sgpapi.ad.intl.xiaomi.com^
 ||sgp-api.xmpush.global.xiaomi.com^
 ||shoes.app-xae.xiaomi.com^
 ||shop.pandora.xiaomi.com^
+||sjs.ptmi.gitv.pandora.xiaomi.com^
 ||smarthome.pandora.xiaomi.com^
 ||srv.greenguard.sec.miui.com^
 ||srv.sec.miui.com^
@@ -296,11 +371,16 @@
 ||staging-analyze.pt.xiaomi.com^
 ||staging.api.zhuti.n.xiaomi.com^
 ||staging.appapi.n.xiaomi.com^
+||staging.cname.ad.xiaomi.com^
+||staging-diagnosis.ad.xiaomi.com^
+||staging.hk.mibi.xiaomi.com^
 ||staging.stat.pt.xiaomi.com^
+||staging.tracking.miui.com^
 ||static.game.xiaomi.com^
 ||static.geek.miui.com^
 ||stat.miui.com^
 ||stat.pandora.xiaomi.com^
+||stats-fm.music.xiaomi.com^
 ||statusapi.micloud.xiaomi.net^
 ||stat.www.xiaomi.com^
 ||stat.xiaomi.com^
@@ -312,14 +392,23 @@
 ||t14.market.xiaomi.com^
 ||t15.market.xiaomi.com^
 ||t17.market.xiaomi.com^
+||t1.a.market.xiaomi.com^
 ||t1.market.xiaomi.com^
+||t2.a.market.xiaomi.com^
 ||t2.market.xiaomi.com^
+||t3.a.market.xiaomi.com^
 ||t3.market.xiaomi.com^
+||t4.a.market.xiaomi.com^
 ||t4.market.xiaomi.com^
+||t5.a.market.xiaomi.com^
 ||t5.market.xiaomi.com^
+||t6.a.market.xiaomi.com^
+||t7.a.market.xiaomi.com^
 ||t7.market.xiaomi.com^
 ||t.app.xiaomi.com^
+||test.ad.intl.xiaomi.com^
 ||test.admin.xmpush.xiaomi.com^
+||test.ad.xiaomi.com^
 ||test-api.xmpush.xiaomi.com^
 ||testit.miui.com^
 ||thm.market.xiaomi.com^
@@ -330,20 +419,25 @@
 ||tj1.staging.fintech.pt.xiaomi.com^
 ||tj1.staging.fund.pt.xiaomi.com^
 ||tj1.staging.ins.pt.xiaomi.com^
+||tj1.staging.mibi.xiaomi.com^
 ||tj1.staging.mifi.pt.xiaomi.com^
 ||tj1.staging.nfcpay.xiaomi.com^
 ||tj1.stagingouter.pay.xiaomi.com^
 ||tj1.staging.pay.xiaomi.com^
 ||tj1.test.pay.xiaomi.com^
+||track.ad.xiaomi.com^
 ||tracker.ai.xiaomi.com^
 ||tracker-preview.ai.xiaomi.com^
 ||tracker.xiaomixiaoai.com^
 ||tracking.eu.miui.com^
+||tracking.india.miui.com^
 ||tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com^
 ||tracking.intl.miui.com^
 ||tracking.*.miui.com^
 ||tracking.miui.com^
+||tracking.rus.miui.com^
 ||transfer.sec.miui.com^
+||t.track.ad.xiaomi.com^
 ||tv.app.migc.xiaomi.com^
 ||tvboss.pandora.xiaomi.com^
 ||tvepg.pandora.xiaomi.com^
@@ -355,18 +449,25 @@
 ||userid.xiaomi.com^
 ||user.pandora.xiaomi.com^
 ||us.mixin.api.files.xiaomi.com^
+||us.statusapi.micloud.xiaomi.net^
 ||video.market.xiaomi.com^
 ||vip-api.xmpush.global.xiaomi.com^
+||vip.api.xmpush.global.xiaomi.com^
 ||vip-api.xmpush.xiaomi.com^
 ||vip.api.xmpush.xiaomi.com^
 ||voip.game.xiaomi.com^
 ||wap.game.xiaomi.com^
+||wl.voip.game.xiaomi.com^
+||w.pandora.xiaomi.com^
 ||wtradv.market.xiaomi.com^
+||www.miui.net^
 ||xadx.file.market.xiaomi.com^
 ||! xiaomi^
 ||xiaomifood.cn^
 ||! xiaomi mi band app^
+||xiaomi.ovh^
 ||xiaomi-shop.shop^
 ||xiaomivietnam.xyz^
 ||xiazai.xiaomi.com^
 ||xlmc.sec.miui.com^
+||zeus.ad.xiaomi.com^

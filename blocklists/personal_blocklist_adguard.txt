@@ -1,9 +1,8 @@
-! Title: Personal Blocklist (AdGuard/AdAway Format)
+! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-09-11 12:54:02 AM PKT
+! Last updated: 2024-09-11 10:11:56 AM PKT
 ! Number of unique domains: 263
-!
-! Compatible with AdGuard Android and AdAway
+! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
 
