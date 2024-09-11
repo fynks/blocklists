@@ -1,6 +1,6 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2024-09-11 10:12:07 AM PKT
+# Last updated: 2024-09-11 10:22:55 AM PKT
 # Number of unique domains: 460
 #
 # Sources:

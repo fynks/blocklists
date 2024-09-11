@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2024-09-11 10:11:56 AM PKT
+# Last updated: 2024-09-11 10:23:13 AM PKT
 # Number of unique domains: 263
 #
 # Hosts file format: 0.0.0.0 example.com
