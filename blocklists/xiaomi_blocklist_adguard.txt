@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2024-09-11 11:05:49 AM PKT
-# Number of unique domains: 513
+# Last updated: 2024-10-12 10:35:29 AM PKT
+# Number of unique domains: 498
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -24,7 +24,6 @@
 ||ad.intl.xiaomi.com.edgesuite.net^
 ||ad.intl.xiaomi.com.ksyna.net^
 ||ad.mi.com^
-||ad.pandora.xiaomi.com^
 ||ad.quickapp.hybrid.xiaomi.com^
 ||ads.mi.com^
 ||adv.l7.34.sec.miui.com^
@@ -193,7 +192,6 @@
 ||global-ad-extranet-pri-azams.alb.xiaomi.com^
 ||global-ad-extranet-pri-azpn.alb.xiaomi.com^
 ||global-ad-intl-pri-alisgp.alb.xiaomi.com^
-||global.api.huangye.miui.com^
 ||globalreport.ad.intl.xiaomi.com^
 ||globalvideo.cdn.pandora.intl.xiaomi.com^
 ||gstat.pandora.xiaomi.com^
@@ -206,7 +204,6 @@
 ||hd.xiaomi.com^
 ||heyue.xiaomi.com^
 ||hk.mibi.xiaomi.com^
-||hm.xiaomi.com^
 ||hook.gitv.pandora.xiaomi.com^
 ||hot.browser.intl.miui.com^
 ||hot.browser.miui.com^
@@ -279,7 +276,6 @@
 ||mis.g.mi.com^
 ||mishop.cdn.pandora.xiaomi.com^
 ||mishop.pandora.xiaomi.com^
-||mistat.india.xiaomi.com^
 ||mistat.intl.xiaomi.com^
 ||mistat.rus.xiaomi.com^
 ||mitv.tracking.india.miui.com^
@@ -322,7 +318,6 @@
 ||notice.game.xiaomi.com^
 ||o2o.api.xiaomi.com^
 ||odml.ad.intl.xiaomi.com^
-||odml.ad.intl.xiaomi.com.mgslb.com^
 ||om.tracking.miui.com^
 ||openapi.vip.ptqy.gitv.tv^
 ||orig.hd.xiaomi.com^
@@ -344,7 +339,6 @@
 ||port.sec.intl.miui.com^
 ||port.sec.miui.com^
 ||preload.xiaomi.com^
-||preview.bossadmin.pandora.xiaomi.com^
 ||preview.crm.sms.miui.com^
 ||privacy.api.intl.miui.com^
 ||privacy.miui.com^
@@ -395,10 +389,8 @@
 ||secure.report.iss.xiaomi.com^
 ||security.browser.miui.com^
 ||sentry.be.xiaomi.com^
-||sentry.d.xiaomi.net^
 ||sentry.pay.xiaomi.com^
 ||sentry.sec.miui.com^
-||sfsapi.micloud.xiaomi.net^
 ||sgp.account.migc.g.mi.com^
 ||sgpapi.ad.intl.xiaomi.com^
 ||sgp-api.xmpush.global.xiaomi.com^
@@ -436,7 +428,6 @@
 ||streamback.ff.avast.sec.miui.com^
 ||sys.intl.xiaomi.com^
 ||sys.tv.india.xiaomi.com^
-||t14.market.xiaomi.com^
 ||t15.market.xiaomi.com^
 ||t17.market.xiaomi.com^
 ||t1.a.market.xiaomi.com^
@@ -477,7 +468,6 @@
 ||track.ad.xiaomi.com^
 ||tracker.ai.xiaomi.com^
 ||tracker-preview.ai.xiaomi.com^
-||tracker.xiaomixiaoai.com^
 ||tracking.eu.miui.com^
 ||tracking.india.miui.com^
 ||tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com^
@@ -493,13 +483,11 @@
 ||tvboss.pandora.xiaomi.com^
 ||tvepg.pandora.xiaomi.com^
 ||tvstat.pandora.xiaomi.com^
-||tz.sec.xiaomi.com^
 ||update.avlyun.sec.miui.com^
 ||upgrade.pandora.xiaomi.com^
 ||us.api.micloud.xiaomi.net^
 ||userid.xiaomi.com^
 ||user.pandora.xiaomi.com^
-||us.mixin.api.files.xiaomi.com^
 ||us.statusapi.micloud.xiaomi.net^
 ||video.kts.g.mi.com^
 ||video.market.xiaomi.com^
@@ -517,9 +505,6 @@
 ||www.rus-mi.com^
 ||www.traffic-media.co^
 ||xadx.file.market.xiaomi.com^
-||xiaomifood.cn^
-||xiaomi.ovh^
-||xiaomi-shop.shop^
 ||xiaomivietnam.xyz^
 ||xiazai.xiaomi.com^
 ||xlmc.sec.miui.com^
