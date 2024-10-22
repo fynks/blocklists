@@ -1,11 +1,15 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-10-12 10:34:12 AM PKT
-! Number of unique domains: 204
+! Last updated: 2024-10-22 01:15:10 PM PKT
+! Number of unique domains: 229
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
 
+||^
+||2gbelh-cdn-settings.appsflyersdk.com^
+||2gbelh-conversions.appsflyersdk.com^
+||2gbelh-launches.appsflyersdk.com^
 ||3s2ix7.tdum.alibaba.com^
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
@@ -33,6 +37,7 @@
 ||abroad.api.comm.intl.miui.com^
 ||acdn.adnxs.com^
 ||acjs.aliyun.com^
+||ad.doubleclick.net^
 ||ads-api.twitter.com^
 ||adsmetadata.mobileadexchange.net^
 ||adsmetadata.startappservice.com^
@@ -50,6 +55,7 @@
 ||api.howlapm.com^
 ||api.mixpanel.com^
 ||api.sec.miui.com^
+||api.statsig.com^
 ||api.taboola.com^
 ||api16-event-sg2.pangle.io^
 ||api2.branch.io^
@@ -77,8 +83,11 @@
 ||cdn.exp.xiaomi.com^
 ||cdn.hextom.com^
 ||cdn.logbase.io^
+||cdn.onesignal.com^
 ||cdn.polyfill.io^
+||cdn.raygun.io^
 ||cdn.taboola.com^
+||cdn4.buysellads.net^
 ||census-app.scorecardresearch.com^
 ||check.rayjump.com^
 ||cl.canva.com^
@@ -88,6 +97,7 @@
 ||configure.rayjump.com^
 ||configv2.unityads.unity3d.com^
 ||conversions.appsflyer.com^
+||crashlogs.whatsapp.net^
 ||crashlyticsreports-pa.googleapis.com^
 ||csp.withgoogle.com^
 ||d0m2z2.tdum.alibaba.com^
@@ -102,10 +112,12 @@
 ||ds60ti.tdum.alibaba.com^
 ||e0as5i.tdum.alibaba.com^
 ||eko443.tdum.alibaba.com^
+||explainplaysettwisting.com^
 ||f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net^
 ||f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net^
 ||f264cb70780-omkswsgt1726329075-sonar.xz.fbcdn.net^
 ||f765a5b3430-pcmzwufj1726898299-sonar.xy.fbcdn.net^
+||fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net^
 ||fchbhd.tdum.alibaba.com^
 ||fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net^
 ||fgndav.tdum.alibaba.com^
@@ -125,6 +137,7 @@
 ||geoip.businessinsider.com^
 ||ghyljj.tdum.alibaba.com^
 ||go.ezodn.com^
+||google-analytics.com^
 ||googleads.g.doubleclick.net^
 ||graph.instagram.com^
 ||gtglobal.intl.miui.com^
@@ -142,16 +155,21 @@
 ||jupiter.intl.sys.miui.com^
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
+||log16-normal-useast5.tiktokv.us^
 ||loox.io^
 ||mcc-intl.inf.miui.com^
 ||mcc.intl.inf.miui.com^
 ||mediation.adnxs.com^
 ||mobile.events.data.microsoft.com^
 ||mobile.useinsider.com^
+||mon-boot.tiktokv.com^
+||mon-va.tiktokv.com^
+||mon16-normal-useast5.tiktokv.us^
 ||monorail-edge.shopifysvc.com^
 ||mqs-log.miui.com^
 ||newsfeed.api.intl.miui.com^
 ||nexus-websocket-a.intercom.io^
+||o1158394.ingest.us.sentry.io^
 ||o13855.ingest.sentry.io^
 ||o2129.ingest.sentry.io^
 ||ogads-pa.clients6.google.com^
@@ -183,19 +201,25 @@
 ||ssl.google-analytics.com^
 ||star-randsrv.bsg.brave.com^
 ||static.ads-twitter.com^
+||static.airbridge.io^
 ||static.cloudflareinsights.com^
 ||static.doubleclick.net^
+||stats.indianpornempire.com^
 ||statsig.anthropic.com^
+||statsigapi.net^
 ||syndication.twitter.com^
 ||t1.market.xiaomi.com^
 ||telemetry.api.swiftkey.com^
 ||telemetry.canva.com^
+||testing.testing.com^
 ||tigger-citadel.touchtype-fluency.com^
 ||topdata.downloadatoz.com^
 ||tr-eu.adsmoloco.com^
 ||tr.snapchat.com^
 ||tracking.aws.judge.me^
+||tracking.feedpress.com^
 ||tracking.intl.miui.com^
+||tracking.leadspark.io^
 ||traffic-nts-ip-assoc.xy.fbcdn.net^
 ||traffic-nts-ip-assoc.xz.fbcdn.net^
 ||trk.storyly.io^
@@ -209,4 +233,5 @@
 ||www.googleadservices.com^
 ||www.googletagmanager.com^
 ||www.googletagservices.com^
+||xiaomipakistan.site^
 ||ynuf.aliapp.org^

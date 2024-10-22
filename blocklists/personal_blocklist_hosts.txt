@@ -1,10 +1,14 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2024-10-12 10:34:11 AM PKT
-# Number of unique domains: 204
+# Last updated: 2024-10-22 01:15:10 PM PKT
+# Number of unique domains: 229
 #
 # Hosts file format: 0.0.0.0 example.com
 
+0.0.0.0 
+0.0.0.0 2gbelh-cdn-settings.appsflyersdk.com
+0.0.0.0 2gbelh-conversions.appsflyersdk.com
+0.0.0.0 2gbelh-launches.appsflyersdk.com
 0.0.0.0 3s2ix7.tdum.alibaba.com
 0.0.0.0 3sjen3.tdum.alibaba.com
 0.0.0.0 3yflsc.tdum.alibaba.com
@@ -32,6 +36,7 @@
 0.0.0.0 abroad.api.comm.intl.miui.com
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 acjs.aliyun.com
+0.0.0.0 ad.doubleclick.net
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 adsmetadata.mobileadexchange.net
 0.0.0.0 adsmetadata.startappservice.com
@@ -49,6 +54,7 @@
 0.0.0.0 api.howlapm.com
 0.0.0.0 api.mixpanel.com
 0.0.0.0 api.sec.miui.com
+0.0.0.0 api.statsig.com
 0.0.0.0 api.taboola.com
 0.0.0.0 api16-event-sg2.pangle.io
 0.0.0.0 api2.branch.io
@@ -76,8 +82,11 @@
 0.0.0.0 cdn.exp.xiaomi.com
 0.0.0.0 cdn.hextom.com
 0.0.0.0 cdn.logbase.io
+0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.polyfill.io
+0.0.0.0 cdn.raygun.io
 0.0.0.0 cdn.taboola.com
+0.0.0.0 cdn4.buysellads.net
 0.0.0.0 census-app.scorecardresearch.com
 0.0.0.0 check.rayjump.com
 0.0.0.0 cl.canva.com
@@ -87,6 +96,7 @@
 0.0.0.0 configure.rayjump.com
 0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 conversions.appsflyer.com
+0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 d0m2z2.tdum.alibaba.com
@@ -101,10 +111,12 @@
 0.0.0.0 ds60ti.tdum.alibaba.com
 0.0.0.0 e0as5i.tdum.alibaba.com
 0.0.0.0 eko443.tdum.alibaba.com
+0.0.0.0 explainplaysettwisting.com
 0.0.0.0 f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net
 0.0.0.0 f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net
 0.0.0.0 f264cb70780-omkswsgt1726329075-sonar.xz.fbcdn.net
 0.0.0.0 f765a5b3430-pcmzwufj1726898299-sonar.xy.fbcdn.net
+0.0.0.0 fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net
 0.0.0.0 fchbhd.tdum.alibaba.com
 0.0.0.0 fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net
 0.0.0.0 fgndav.tdum.alibaba.com
@@ -124,6 +136,7 @@
 0.0.0.0 geoip.businessinsider.com
 0.0.0.0 ghyljj.tdum.alibaba.com
 0.0.0.0 go.ezodn.com
+0.0.0.0 google-analytics.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 graph.instagram.com
 0.0.0.0 gtglobal.intl.miui.com
@@ -141,16 +154,21 @@
 0.0.0.0 jupiter.intl.sys.miui.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 lazy.rayjump.com
+0.0.0.0 log16-normal-useast5.tiktokv.us
 0.0.0.0 loox.io
 0.0.0.0 mcc-intl.inf.miui.com
 0.0.0.0 mcc.intl.inf.miui.com
 0.0.0.0 mediation.adnxs.com
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.useinsider.com
+0.0.0.0 mon-boot.tiktokv.com
+0.0.0.0 mon-va.tiktokv.com
+0.0.0.0 mon16-normal-useast5.tiktokv.us
 0.0.0.0 monorail-edge.shopifysvc.com
 0.0.0.0 mqs-log.miui.com
 0.0.0.0 newsfeed.api.intl.miui.com
 0.0.0.0 nexus-websocket-a.intercom.io
+0.0.0.0 o1158394.ingest.us.sentry.io
 0.0.0.0 o13855.ingest.sentry.io
 0.0.0.0 o2129.ingest.sentry.io
 0.0.0.0 ogads-pa.clients6.google.com
@@ -182,19 +200,25 @@
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 star-randsrv.bsg.brave.com
 0.0.0.0 static.ads-twitter.com
+0.0.0.0 static.airbridge.io
 0.0.0.0 static.cloudflareinsights.com
 0.0.0.0 static.doubleclick.net
+0.0.0.0 stats.indianpornempire.com
 0.0.0.0 statsig.anthropic.com
+0.0.0.0 statsigapi.net
 0.0.0.0 syndication.twitter.com
 0.0.0.0 t1.market.xiaomi.com
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry.canva.com
+0.0.0.0 testing.testing.com
 0.0.0.0 tigger-citadel.touchtype-fluency.com
 0.0.0.0 topdata.downloadatoz.com
 0.0.0.0 tr-eu.adsmoloco.com
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tracking.aws.judge.me
+0.0.0.0 tracking.feedpress.com
 0.0.0.0 tracking.intl.miui.com
+0.0.0.0 tracking.leadspark.io
 0.0.0.0 traffic-nts-ip-assoc.xy.fbcdn.net
 0.0.0.0 traffic-nts-ip-assoc.xz.fbcdn.net
 0.0.0.0 trk.storyly.io
@@ -208,4 +232,5 @@
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
+0.0.0.0 xiaomipakistan.site
 0.0.0.0 ynuf.aliapp.org

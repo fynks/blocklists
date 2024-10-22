@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2024-10-12 10:35:29 AM PKT
-# Number of unique domains: 498
+# Last updated: 2024-10-22 01:16:35 PM PKT
+# Number of unique domains: 503
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -114,7 +114,6 @@
 ||cc.sys.intl.xiaomi.com^
 ||cc.sys.miui.com^
 ||cdn1.static.home.miui.com^
-||cdn.ad.xiaomi.com^
 ||cdna.sec.miui.com^
 ||cdn.exp.xiaomi.com^
 ||cdn.fds.api.xiaomi.com^
@@ -192,11 +191,11 @@
 ||global-ad-extranet-pri-azams.alb.xiaomi.com^
 ||global-ad-extranet-pri-azpn.alb.xiaomi.com^
 ||global-ad-intl-pri-alisgp.alb.xiaomi.com^
+||global.api.huangye.miui.com^
 ||globalreport.ad.intl.xiaomi.com^
 ||globalvideo.cdn.pandora.intl.xiaomi.com^
 ||gstat.pandora.xiaomi.com^
 ||gtglobal.intl.miui.com^
-||h5.app.intl.miui.com^
 ||h5-ru.video.intl.xiaomi.com^
 ||h5.tv.mi.com^
 ||hd.browser.miui.com^
@@ -276,6 +275,7 @@
 ||mis.g.mi.com^
 ||mishop.cdn.pandora.xiaomi.com^
 ||mishop.pandora.xiaomi.com^
+||mistat.india.xiaomi.com^
 ||mistat.intl.xiaomi.com^
 ||mistat.rus.xiaomi.com^
 ||mitv.tracking.india.miui.com^
@@ -311,13 +311,13 @@
 ||nav.browser.miui.com^
 ||nav.sec.miui.com^
 ||netcheck.pandora.xiaomi.com^
-||newsfeed.api.intl.miui.com^
 ||nginx.34.sec.miui.com^
 ||nl.rcd.ptqy.gitv.tv^
 ||n.notice.game.xiaomi.com^
 ||notice.game.xiaomi.com^
 ||o2o.api.xiaomi.com^
 ||odml.ad.intl.xiaomi.com^
+||odml.ad.intl.xiaomi.com.mgslb.com^
 ||om.tracking.miui.com^
 ||openapi.vip.ptqy.gitv.tv^
 ||orig.hd.xiaomi.com^
@@ -389,6 +389,7 @@
 ||secure.report.iss.xiaomi.com^
 ||security.browser.miui.com^
 ||sentry.be.xiaomi.com^
+||sentry.d.xiaomi.net^
 ||sentry.pay.xiaomi.com^
 ||sentry.sec.miui.com^
 ||sgp.account.migc.g.mi.com^
@@ -468,6 +469,7 @@
 ||track.ad.xiaomi.com^
 ||tracker.ai.xiaomi.com^
 ||tracker-preview.ai.xiaomi.com^
+||tracker.xiaomixiaoai.com^
 ||tracking.eu.miui.com^
 ||tracking.india.miui.com^
 ||tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com^
@@ -483,6 +485,7 @@
 ||tvboss.pandora.xiaomi.com^
 ||tvepg.pandora.xiaomi.com^
 ||tvstat.pandora.xiaomi.com^
+||tz.sec.xiaomi.com^
 ||update.avlyun.sec.miui.com^
 ||upgrade.pandora.xiaomi.com^
 ||us.api.micloud.xiaomi.net^
@@ -495,6 +498,7 @@
 ||vip.api.xmpush.global.xiaomi.com^
 ||vip-api.xmpush.xiaomi.com^
 ||vip.api.xmpush.xiaomi.com^
+||virus-engine.sec.miui.com^
 ||voip.game.xiaomi.com^
 ||wap.game.xiaomi.com^
 ||wl.voip.game.xiaomi.com^
@@ -505,6 +509,7 @@
 ||www.rus-mi.com^
 ||www.traffic-media.co^
 ||xadx.file.market.xiaomi.com^
+||xiaomio.com^
 ||xiaomivietnam.xyz^
 ||xiazai.xiaomi.com^
 ||xlmc.sec.miui.com^
