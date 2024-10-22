@@ -11,6 +11,7 @@ readonly OUTPUT_FILE_ADGUARD="${OUTPUT_DIR}/personal_blocklist_adguard.txt"
 readonly LOG_FILE="${LOGS_DIR}/personal_blocklist_generation.log"
 readonly TEMP_DIR=$(mktemp -d)
 readonly DOMAINS_FILE="${TEMP_DIR}/domains.txt"
+readonly COMBINED_DOMAINS_FILE="${TEMP_DIR}/combined_domains.txt"
 
 # Function to log messages
 log() {
@@ -123,6 +124,17 @@ main() {
     export -f process_chunk
     printf "%s\n" "${input_lines[@]}" | parallel --pipe -N1000 --block 1M process_chunk | \
         LC_ALL=C sort -u > "$DOMAINS_FILE"
+
+    # If the previous blocklist exists, append its domains to the new list
+    if [[ -f "$OUTPUT_FILE_HOSTS" ]]; then
+        log "Appending previous blocklist entries to new blocklist..."
+        grep -v '^#' "$OUTPUT_FILE_HOSTS" | awk '{print $2}' >> "$DOMAINS_FILE"
+    fi
+
+    # Remove duplicates from the combined list of previous and new domains
+    log "Removing duplicates from combined domains..."
+    LC_ALL=C sort -u "$DOMAINS_FILE" > "$COMBINED_DOMAINS_FILE"
+    mv "$COMBINED_DOMAINS_FILE" "$DOMAINS_FILE"  # Move the sorted list back to the main domains file
 
     local -r domain_count=$(wc -l < "$DOMAINS_FILE")
     log "Unique domains extracted: $domain_count"
