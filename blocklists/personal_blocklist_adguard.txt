@@ -1,6 +1,6 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-10-22 01:15:10 PM PKT
+! Last updated: 2024-10-22 01:48:14 PM PKT
 ! Number of unique domains: 229
 ! Compatible with AdGuard
 !
