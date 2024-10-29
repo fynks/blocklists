@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-10-22 01:48:14 PM PKT
-! Number of unique domains: 229
+! Last updated: 2024-10-29 05:56:32 PM PKT
+! Number of unique domains: 233
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -97,6 +97,7 @@
 ||configure.rayjump.com^
 ||configv2.unityads.unity3d.com^
 ||conversions.appsflyer.com^
+||cpm.adpluto.com^
 ||crashlogs.whatsapp.net^
 ||crashlyticsreports-pa.googleapis.com^
 ||csp.withgoogle.com^
@@ -105,6 +106,7 @@
 ||data.flurry.com^
 ||data.sec.intl.miui.com^
 ||data.sec.miui.com^
+||ddzk5l3bd.com^
 ||decide.mixpanel.com^
 ||device-api.asnapieu.com^
 ||dit.whatsapp.net^
@@ -180,6 +182,7 @@
 ||p8ly86-launches.appsflyersdk.com^
 ||pagead2.googlesyndication.com^
 ||pi.ias.xiaomi.com^
+||pixel.facebook.com^
 ||pok.mintegral.net^
 ||policy.rayjump.com^
 ||polyfill.io^
@@ -214,6 +217,7 @@
 ||testing.testing.com^
 ||tigger-citadel.touchtype-fluency.com^
 ||topdata.downloadatoz.com^
+||tpc.googlesyndication.com^
 ||tr-eu.adsmoloco.com^
 ||tr.snapchat.com^
 ||tracking.aws.judge.me^

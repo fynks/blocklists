@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2024-10-22 01:48:14 PM PKT
-# Number of unique domains: 229
+# Last updated: 2024-10-29 05:56:32 PM PKT
+# Number of unique domains: 233
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -96,6 +96,7 @@
 0.0.0.0 configure.rayjump.com
 0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 conversions.appsflyer.com
+0.0.0.0 cpm.adpluto.com
 0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 csp.withgoogle.com
@@ -104,6 +105,7 @@
 0.0.0.0 data.flurry.com
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
+0.0.0.0 ddzk5l3bd.com
 0.0.0.0 decide.mixpanel.com
 0.0.0.0 device-api.asnapieu.com
 0.0.0.0 dit.whatsapp.net
@@ -179,6 +181,7 @@
 0.0.0.0 p8ly86-launches.appsflyersdk.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pi.ias.xiaomi.com
+0.0.0.0 pixel.facebook.com
 0.0.0.0 pok.mintegral.net
 0.0.0.0 policy.rayjump.com
 0.0.0.0 polyfill.io
@@ -213,6 +216,7 @@
 0.0.0.0 testing.testing.com
 0.0.0.0 tigger-citadel.touchtype-fluency.com
 0.0.0.0 topdata.downloadatoz.com
+0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 tr-eu.adsmoloco.com
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tracking.aws.judge.me
