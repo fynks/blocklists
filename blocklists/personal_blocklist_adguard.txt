@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-10-29 05:56:32 PM PKT
-! Number of unique domains: 233
+! Last updated: 2024-11-07 11:44:21 AM PKT
+! Number of unique domains: 257
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -27,6 +27,8 @@
 ||5rnk40.tdum.alibaba.com^
 ||5yq8ge.tdum.alibaba.com^
 ||5yv4af.tdum.alibaba.com^
+||6915.eu-api.swrve.com^
+||6915.eu-content.swrve.com^
 ||7viywa.tdum.alibaba.com^
 ||81ar65.tdum.alibaba.com^
 ||85dhwr.tdum.alibaba.com^
@@ -38,11 +40,13 @@
 ||acdn.adnxs.com^
 ||acjs.aliyun.com^
 ||ad.doubleclick.net^
+||adashx.ut.daraz.com^
 ||ads-api.twitter.com^
 ||adsmetadata.mobileadexchange.net^
 ||adsmetadata.startappservice.com^
 ||adv.sec.intl.miui.com^
 ||alb.reddit.com^
+||amdc.lazada.com^
 ||analytics.githubassets.com^
 ||analytics.picsart.com^
 ||analytics.rayjump.com^
@@ -62,6 +66,7 @@
 ||api3.siftscience.com^
 ||app-analytics-v2.snapchat.com^
 ||app-measurement.com^
+||audid-api-sg.taobao.com^
 ||authbe.sec.intl.miui.com^
 ||awssgp0-files.fds.api.xiaomi.com^
 ||bdad.123pan.cn^
@@ -75,6 +80,7 @@
 ||berke.wikimoon.sale^
 ||bf99042ofw.bf.dynatrace.com^
 ||bo925b.tdum.alibaba.com^
+||browser-intake-datadoghq.com^
 ||browser.events.data.microsoft.com^
 ||business-api.tiktok.com^
 ||cby7o7.tdum.alibaba.com^
@@ -134,6 +140,8 @@
 ||fkvufv-register.appsflyersdk.com^
 ||flash.sec.intl.miui.com^
 ||footprints-pa.googleapis.com^
+||fresnel-events.vimeocdn.com^
+||fresnel.vimeocdn.com^
 ||g4yq0.tdum.alibaba.com^
 ||geller-pa.googleapis.com^
 ||geoip.businessinsider.com^
@@ -143,7 +151,9 @@
 ||googleads.g.doubleclick.net^
 ||graph.instagram.com^
 ||gtglobal.intl.miui.com^
+||h-adashx.ut.lazada.com^
 ||h5.app.intl.miui.com^
+||hudong.alicdn.com^
 ||id.google.com^
 ||images-dl.taboola.com^
 ||impression-asia.liftoff.io^
@@ -152,6 +162,9 @@
 ||infoevent.startappservice.com^
 ||injectshrslinkblog.com^
 ||intg.snapchat.com^
+||jmacs-m.lazada.sg^
+||jn8dkc-cdn-settings.appsflyersdk.com^
+||jn8dkc-conversions.appsflyersdk.com^
 ||js-agent.newrelic.com^
 ||js-eu1.hs-scripts.com^
 ||jupiter.intl.sys.miui.com^
@@ -159,6 +172,7 @@
 ||lazy.rayjump.com^
 ||log16-normal-useast5.tiktokv.us^
 ||loox.io^
+||matomo.openstreetmap.org^
 ||mcc-intl.inf.miui.com^
 ||mcc.intl.inf.miui.com^
 ||mediation.adnxs.com^
@@ -169,11 +183,13 @@
 ||mon16-normal-useast5.tiktokv.us^
 ||monorail-edge.shopifysvc.com^
 ||mqs-log.miui.com^
+||msgacs-m.lazada.sg^
 ||newsfeed.api.intl.miui.com^
 ||nexus-websocket-a.intercom.io^
 ||o1158394.ingest.us.sentry.io^
 ||o13855.ingest.sentry.io^
 ||o2129.ingest.sentry.io^
+||o33249.ingest.sentry.io^
 ||ogads-pa.clients6.google.com^
 ||omnisnippet1.com^
 ||p8ly86-cdn-settings.appsflyersdk.com^
@@ -183,11 +199,14 @@
 ||pagead2.googlesyndication.com^
 ||pi.ias.xiaomi.com^
 ||pixel.facebook.com^
+||pixel.roughgroup.com^
+||player-telemetry.vimeo.com^
 ||pok.mintegral.net^
 ||policy.rayjump.com^
 ||polyfill.io^
 ||privacy.api.intl.miui.com^
 ||prodregistryv2.org^
+||px-intl.ucweb.com^
 ||qcc.qualcomm.com^
 ||register.xmpush.global.xiaomi.com^
 ||remote-data.asnapieu.com^
@@ -198,6 +217,7 @@
 ||sdk.iad-01.braze.com^
 ||sdkconfig.ad.intl.xiaomi.com^
 ||seal.websecurity.norton.com^
+||sec.umeng.com^
 ||sessions.bugsnag.com^
 ||sil.appnext.com^
 ||sonar6.xy.fbcdn.net^
@@ -212,6 +232,7 @@
 ||statsigapi.net^
 ||syndication.twitter.com^
 ||t1.market.xiaomi.com^
+||talaria.online^
 ||telemetry.api.swiftkey.com^
 ||telemetry.canva.com^
 ||testing.testing.com^
@@ -228,6 +249,7 @@
 ||traffic-nts-ip-assoc.xz.fbcdn.net^
 ||trk.storyly.io^
 ||umini.shujupie.com^
+||umlazada.alibaba.com^
 ||us.galleryapi.micloud.xiaomi.net^
 ||us.statusapi.micloud.xiaomi.net^
 ||variations.brave.com^
@@ -238,4 +260,6 @@
 ||www.googletagmanager.com^
 ||www.googletagservices.com^
 ||xiaomipakistan.site^
+||xjp-jmacs.m.taobao.com^
+||xjp-msgacs.m.taobao.com^
 ||ynuf.aliapp.org^
