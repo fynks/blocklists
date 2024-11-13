@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2024-11-07 11:44:21 AM PKT
-# Number of unique domains: 257
+# Last updated: 2024-11-13 06:53:21 PM PKT
+# Number of unique domains: 266
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -41,6 +41,7 @@
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 adashx.ut.daraz.com
 0.0.0.0 ads-api.twitter.com
+0.0.0.0 ads.vk.com
 0.0.0.0 adsmetadata.mobileadexchange.net
 0.0.0.0 adsmetadata.startappservice.com
 0.0.0.0 adv.sec.intl.miui.com
@@ -51,6 +52,7 @@
 0.0.0.0 analytics.rayjump.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.us.tiktok.com
+0.0.0.0 anothereldestprogeny.com
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 api.aurogon.intl.miui.com
 0.0.0.0 api.comm.miui.com
@@ -78,8 +80,10 @@
 0.0.0.0 beacons5.gvt3.com
 0.0.0.0 berke.wikimoon.sale
 0.0.0.0 bf99042ofw.bf.dynatrace.com
+0.0.0.0 bloatingexpectantretinal.com
 0.0.0.0 bo925b.tdum.alibaba.com
 0.0.0.0 browser-intake-datadoghq.com
+0.0.0.0 browser-intake-us5-datadoghq.com
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 cby7o7.tdum.alibaba.com
@@ -175,6 +179,7 @@
 0.0.0.0 mcc-intl.inf.miui.com
 0.0.0.0 mcc.intl.inf.miui.com
 0.0.0.0 mediation.adnxs.com
+0.0.0.0 misc.api.snaptube.app
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.useinsider.com
 0.0.0.0 mon-boot.tiktokv.com
@@ -209,6 +214,7 @@
 0.0.0.0 qcc.qualcomm.com
 0.0.0.0 register.xmpush.global.xiaomi.com
 0.0.0.0 remote-data.asnapieu.com
+0.0.0.0 reports.proton.me
 0.0.0.0 req.startappservice.com
 0.0.0.0 s2s.adjust.com
 0.0.0.0 sc-static.net
@@ -217,8 +223,11 @@
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 seal.websecurity.norton.com
 0.0.0.0 sec.umeng.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 sensors.snaptube.app
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 sil.appnext.com
+0.0.0.0 snippet.maze.co
 0.0.0.0 sonar6.xy.fbcdn.net
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 star-randsrv.bsg.brave.com

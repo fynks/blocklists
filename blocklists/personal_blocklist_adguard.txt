@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-11-07 11:44:21 AM PKT
-! Number of unique domains: 257
+! Last updated: 2024-11-13 06:53:21 PM PKT
+! Number of unique domains: 266
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -42,6 +42,7 @@
 ||ad.doubleclick.net^
 ||adashx.ut.daraz.com^
 ||ads-api.twitter.com^
+||ads.vk.com^
 ||adsmetadata.mobileadexchange.net^
 ||adsmetadata.startappservice.com^
 ||adv.sec.intl.miui.com^
@@ -52,6 +53,7 @@
 ||analytics.rayjump.com^
 ||analytics.tiktok.com^
 ||analytics.us.tiktok.com^
+||anothereldestprogeny.com^
 ||api.ad.intl.xiaomi.com^
 ||api.aurogon.intl.miui.com^
 ||api.comm.miui.com^
@@ -79,8 +81,10 @@
 ||beacons5.gvt3.com^
 ||berke.wikimoon.sale^
 ||bf99042ofw.bf.dynatrace.com^
+||bloatingexpectantretinal.com^
 ||bo925b.tdum.alibaba.com^
 ||browser-intake-datadoghq.com^
+||browser-intake-us5-datadoghq.com^
 ||browser.events.data.microsoft.com^
 ||business-api.tiktok.com^
 ||cby7o7.tdum.alibaba.com^
@@ -176,6 +180,7 @@
 ||mcc-intl.inf.miui.com^
 ||mcc.intl.inf.miui.com^
 ||mediation.adnxs.com^
+||misc.api.snaptube.app^
 ||mobile.events.data.microsoft.com^
 ||mobile.useinsider.com^
 ||mon-boot.tiktokv.com^
@@ -210,6 +215,7 @@
 ||qcc.qualcomm.com^
 ||register.xmpush.global.xiaomi.com^
 ||remote-data.asnapieu.com^
+||reports.proton.me^
 ||req.startappservice.com^
 ||s2s.adjust.com^
 ||sc-static.net^
@@ -218,8 +224,11 @@
 ||sdkconfig.ad.intl.xiaomi.com^
 ||seal.websecurity.norton.com^
 ||sec.umeng.com^
+||securepubads.g.doubleclick.net^
+||sensors.snaptube.app^
 ||sessions.bugsnag.com^
 ||sil.appnext.com^
+||snippet.maze.co^
 ||sonar6.xy.fbcdn.net^
 ||ssl.google-analytics.com^
 ||star-randsrv.bsg.brave.com^
