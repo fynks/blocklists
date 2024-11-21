@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2024-11-13 06:53:21 PM PKT
-# Number of unique domains: 266
+# Last updated: 2024-11-21 12:52:48 PM PKT
+# Number of unique domains: 301
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -23,6 +23,7 @@
 0.0.0.0 54ty7j-conversions.appsflyersdk.com
 0.0.0.0 54ty7j-dlsdk.appsflyersdk.com
 0.0.0.0 54ty7j-launches.appsflyersdk.com
+0.0.0.0 5c88mn.tdum.alibaba.com
 0.0.0.0 5rnk40.tdum.alibaba.com
 0.0.0.0 5yq8ge.tdum.alibaba.com
 0.0.0.0 5yv4af.tdum.alibaba.com
@@ -38,12 +39,14 @@
 0.0.0.0 abroad.api.comm.intl.miui.com
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 acjs.aliyun.com
+0.0.0.0 acs.maribacaberita.com
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 adashx.ut.daraz.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads.vk.com
 0.0.0.0 adsmetadata.mobileadexchange.net
 0.0.0.0 adsmetadata.startappservice.com
+0.0.0.0 adtrack-intl.ucweb.com
 0.0.0.0 adv.sec.intl.miui.com
 0.0.0.0 alb.reddit.com
 0.0.0.0 amdc.lazada.com
@@ -65,8 +68,10 @@
 0.0.0.0 api16-event-sg2.pangle.io
 0.0.0.0 api2.branch.io
 0.0.0.0 api3.siftscience.com
+0.0.0.0 apiuccenter.ucweb.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app-measurement.com
+0.0.0.0 attr.union.ucweb.com
 0.0.0.0 audid-api-sg.taobao.com
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
@@ -110,6 +115,7 @@
 0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 csp.withgoogle.com
+0.0.0.0 cuttlela.ucweb.com
 0.0.0.0 d0m2z2.tdum.alibaba.com
 0.0.0.0 d26xw8rp6mlgfg.cloudfront.net
 0.0.0.0 data.flurry.com
@@ -123,6 +129,9 @@
 0.0.0.0 ds60ti.tdum.alibaba.com
 0.0.0.0 e0as5i.tdum.alibaba.com
 0.0.0.0 eko443.tdum.alibaba.com
+0.0.0.0 epwiy9-cdn-settings.appsflyersdk.com
+0.0.0.0 epwiy9-conversions.appsflyersdk.com
+0.0.0.0 events.statsigapi.net
 0.0.0.0 explainplaysettwisting.com
 0.0.0.0 f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net
 0.0.0.0 f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net
@@ -149,6 +158,9 @@
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 geoip.businessinsider.com
 0.0.0.0 ghyljj.tdum.alibaba.com
+0.0.0.0 gjapplog.ucweb.com
+0.0.0.0 gjtrack.ucweb.com
+0.0.0.0 glitter.services.disqus.com
 0.0.0.0 go.ezodn.com
 0.0.0.0 google-analytics.com
 0.0.0.0 googleads.g.doubleclick.net
@@ -157,23 +169,36 @@
 0.0.0.0 h-adashx.ut.lazada.com
 0.0.0.0 h5.app.intl.miui.com
 0.0.0.0 hudong.alicdn.com
+0.0.0.0 ichnaea-web.netflix.com
 0.0.0.0 id.google.com
+0.0.0.0 id.google.com.pk
 0.0.0.0 images-dl.taboola.com
 0.0.0.0 impression-asia.liftoff.io
 0.0.0.0 impression.appsflyer.com
 0.0.0.0 inapps.appsflyer.com
+0.0.0.0 indrive-api.exponea.com
 0.0.0.0 infoevent.startappservice.com
+0.0.0.0 ingesteer.services-prod.nsvcs.net
 0.0.0.0 injectshrslinkblog.com
+0.0.0.0 insight.ucweb.com
 0.0.0.0 intg.snapchat.com
 0.0.0.0 jmacs-m.lazada.sg
+0.0.0.0 jmacs.maribacaberita.com
 0.0.0.0 jn8dkc-cdn-settings.appsflyersdk.com
 0.0.0.0 jn8dkc-conversions.appsflyersdk.com
+0.0.0.0 jn8dkc-inapps.appsflyersdk.com
+0.0.0.0 jn8dkc-launches.appsflyersdk.com
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js-eu1.hs-scripts.com
+0.0.0.0 js.hs-analytics.net
+0.0.0.0 js.hs-banner.com
+0.0.0.0 js.hscollectedforms.net
+0.0.0.0 js.hubspot.com
 0.0.0.0 jupiter.intl.sys.miui.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 lazy.rayjump.com
 0.0.0.0 log16-normal-useast5.tiktokv.us
+0.0.0.0 logssug.ucweb.com
 0.0.0.0 loox.io
 0.0.0.0 matomo.openstreetmap.org
 0.0.0.0 mcc-intl.inf.miui.com
@@ -194,7 +219,10 @@
 0.0.0.0 o13855.ingest.sentry.io
 0.0.0.0 o2129.ingest.sentry.io
 0.0.0.0 o33249.ingest.sentry.io
+0.0.0.0 o4504039703314432.ingest.sentry.io
+0.0.0.0 o4505071687041024.ingest.sentry.io
 0.0.0.0 ogads-pa.clients6.google.com
+0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 omnisnippet1.com
 0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
 0.0.0.0 p8ly86-conversions.appsflyersdk.com
@@ -202,6 +230,7 @@
 0.0.0.0 p8ly86-launches.appsflyersdk.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pi.ias.xiaomi.com
+0.0.0.0 pixel-api.socialhead.io
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.roughgroup.com
 0.0.0.0 player-telemetry.vimeo.com
@@ -221,11 +250,13 @@
 0.0.0.0 sdk.beeketing.com
 0.0.0.0 sdk.iad-01.braze.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 sdkupgrade.insight.ucweb.com
 0.0.0.0 seal.websecurity.norton.com
 0.0.0.0 sec.umeng.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sensors.snaptube.app
 0.0.0.0 sessions.bugsnag.com
+0.0.0.0 sg.napi.ucweb.com
 0.0.0.0 sil.appnext.com
 0.0.0.0 snippet.maze.co
 0.0.0.0 sonar6.xy.fbcdn.net
@@ -256,10 +287,13 @@
 0.0.0.0 traffic-nts-ip-assoc.xy.fbcdn.net
 0.0.0.0 traffic-nts-ip-assoc.xz.fbcdn.net
 0.0.0.0 trk.storyly.io
+0.0.0.0 uc.telemetry.eyeo.com
+0.0.0.0 uc.ucweb.com
 0.0.0.0 umini.shujupie.com
 0.0.0.0 umlazada.alibaba.com
 0.0.0.0 us.galleryapi.micloud.xiaomi.net
 0.0.0.0 us.statusapi.micloud.xiaomi.net
+0.0.0.0 us.ynuf.aliapp.org
 0.0.0.0 variations.brave.com
 0.0.0.0 view.adjust.com
 0.0.0.0 w3-reporting.reddit.com
@@ -271,3 +305,4 @@
 0.0.0.0 xjp-jmacs.m.taobao.com
 0.0.0.0 xjp-msgacs.m.taobao.com
 0.0.0.0 ynuf.aliapp.org
+0.0.0.0 z-p4.graph.instagram.com

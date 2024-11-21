@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-11-13 06:53:21 PM PKT
-! Number of unique domains: 266
+! Last updated: 2024-11-21 12:52:48 PM PKT
+! Number of unique domains: 301
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -24,6 +24,7 @@
 ||54ty7j-conversions.appsflyersdk.com^
 ||54ty7j-dlsdk.appsflyersdk.com^
 ||54ty7j-launches.appsflyersdk.com^
+||5c88mn.tdum.alibaba.com^
 ||5rnk40.tdum.alibaba.com^
 ||5yq8ge.tdum.alibaba.com^
 ||5yv4af.tdum.alibaba.com^
@@ -39,12 +40,14 @@
 ||abroad.api.comm.intl.miui.com^
 ||acdn.adnxs.com^
 ||acjs.aliyun.com^
+||acs.maribacaberita.com^
 ||ad.doubleclick.net^
 ||adashx.ut.daraz.com^
 ||ads-api.twitter.com^
 ||ads.vk.com^
 ||adsmetadata.mobileadexchange.net^
 ||adsmetadata.startappservice.com^
+||adtrack-intl.ucweb.com^
 ||adv.sec.intl.miui.com^
 ||alb.reddit.com^
 ||amdc.lazada.com^
@@ -66,8 +69,10 @@
 ||api16-event-sg2.pangle.io^
 ||api2.branch.io^
 ||api3.siftscience.com^
+||apiuccenter.ucweb.com^
 ||app-analytics-v2.snapchat.com^
 ||app-measurement.com^
+||attr.union.ucweb.com^
 ||audid-api-sg.taobao.com^
 ||authbe.sec.intl.miui.com^
 ||awssgp0-files.fds.api.xiaomi.com^
@@ -111,6 +116,7 @@
 ||crashlogs.whatsapp.net^
 ||crashlyticsreports-pa.googleapis.com^
 ||csp.withgoogle.com^
+||cuttlela.ucweb.com^
 ||d0m2z2.tdum.alibaba.com^
 ||d26xw8rp6mlgfg.cloudfront.net^
 ||data.flurry.com^
@@ -124,6 +130,9 @@
 ||ds60ti.tdum.alibaba.com^
 ||e0as5i.tdum.alibaba.com^
 ||eko443.tdum.alibaba.com^
+||epwiy9-cdn-settings.appsflyersdk.com^
+||epwiy9-conversions.appsflyersdk.com^
+||events.statsigapi.net^
 ||explainplaysettwisting.com^
 ||f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net^
 ||f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net^
@@ -150,6 +159,9 @@
 ||geller-pa.googleapis.com^
 ||geoip.businessinsider.com^
 ||ghyljj.tdum.alibaba.com^
+||gjapplog.ucweb.com^
+||gjtrack.ucweb.com^
+||glitter.services.disqus.com^
 ||go.ezodn.com^
 ||google-analytics.com^
 ||googleads.g.doubleclick.net^
@@ -158,23 +170,36 @@
 ||h-adashx.ut.lazada.com^
 ||h5.app.intl.miui.com^
 ||hudong.alicdn.com^
+||ichnaea-web.netflix.com^
 ||id.google.com^
+||id.google.com.pk^
 ||images-dl.taboola.com^
 ||impression-asia.liftoff.io^
 ||impression.appsflyer.com^
 ||inapps.appsflyer.com^
+||indrive-api.exponea.com^
 ||infoevent.startappservice.com^
+||ingesteer.services-prod.nsvcs.net^
 ||injectshrslinkblog.com^
+||insight.ucweb.com^
 ||intg.snapchat.com^
 ||jmacs-m.lazada.sg^
+||jmacs.maribacaberita.com^
 ||jn8dkc-cdn-settings.appsflyersdk.com^
 ||jn8dkc-conversions.appsflyersdk.com^
+||jn8dkc-inapps.appsflyersdk.com^
+||jn8dkc-launches.appsflyersdk.com^
 ||js-agent.newrelic.com^
 ||js-eu1.hs-scripts.com^
+||js.hs-analytics.net^
+||js.hs-banner.com^
+||js.hscollectedforms.net^
+||js.hubspot.com^
 ||jupiter.intl.sys.miui.com^
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
 ||log16-normal-useast5.tiktokv.us^
+||logssug.ucweb.com^
 ||loox.io^
 ||matomo.openstreetmap.org^
 ||mcc-intl.inf.miui.com^
@@ -195,7 +220,10 @@
 ||o13855.ingest.sentry.io^
 ||o2129.ingest.sentry.io^
 ||o33249.ingest.sentry.io^
+||o4504039703314432.ingest.sentry.io^
+||o4505071687041024.ingest.sentry.io^
 ||ogads-pa.clients6.google.com^
+||ogads-pa.googleapis.com^
 ||omnisnippet1.com^
 ||p8ly86-cdn-settings.appsflyersdk.com^
 ||p8ly86-conversions.appsflyersdk.com^
@@ -203,6 +231,7 @@
 ||p8ly86-launches.appsflyersdk.com^
 ||pagead2.googlesyndication.com^
 ||pi.ias.xiaomi.com^
+||pixel-api.socialhead.io^
 ||pixel.facebook.com^
 ||pixel.roughgroup.com^
 ||player-telemetry.vimeo.com^
@@ -222,11 +251,13 @@
 ||sdk.beeketing.com^
 ||sdk.iad-01.braze.com^
 ||sdkconfig.ad.intl.xiaomi.com^
+||sdkupgrade.insight.ucweb.com^
 ||seal.websecurity.norton.com^
 ||sec.umeng.com^
 ||securepubads.g.doubleclick.net^
 ||sensors.snaptube.app^
 ||sessions.bugsnag.com^
+||sg.napi.ucweb.com^
 ||sil.appnext.com^
 ||snippet.maze.co^
 ||sonar6.xy.fbcdn.net^
@@ -257,10 +288,13 @@
 ||traffic-nts-ip-assoc.xy.fbcdn.net^
 ||traffic-nts-ip-assoc.xz.fbcdn.net^
 ||trk.storyly.io^
+||uc.telemetry.eyeo.com^
+||uc.ucweb.com^
 ||umini.shujupie.com^
 ||umlazada.alibaba.com^
 ||us.galleryapi.micloud.xiaomi.net^
 ||us.statusapi.micloud.xiaomi.net^
+||us.ynuf.aliapp.org^
 ||variations.brave.com^
 ||view.adjust.com^
 ||w3-reporting.reddit.com^
@@ -272,3 +306,4 @@
 ||xjp-jmacs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^
 ||ynuf.aliapp.org^
+||z-p4.graph.instagram.com^
