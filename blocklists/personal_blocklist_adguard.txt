@@ -1,15 +1,19 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-11-21 12:52:48 PM PKT
-! Number of unique domains: 301
+! Last updated: 2024-11-27 09:43:24 AM PKT
+! Number of unique domains: 316
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
 
 ||^
+||0.datadog.pool.ntp.org^
+||1.datadog.pool.ntp.org^
+||2.datadog.pool.ntp.org^
 ||2gbelh-cdn-settings.appsflyersdk.com^
 ||2gbelh-conversions.appsflyersdk.com^
 ||2gbelh-launches.appsflyersdk.com^
+||3.datadog.pool.ntp.org^
 ||3s2ix7.tdum.alibaba.com^
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
@@ -44,6 +48,7 @@
 ||ad.doubleclick.net^
 ||adashx.ut.daraz.com^
 ||ads-api.twitter.com^
+||ads-api.x.com^
 ||ads.vk.com^
 ||adsmetadata.mobileadexchange.net^
 ||adsmetadata.startappservice.com^
@@ -92,6 +97,7 @@
 ||browser-intake-us5-datadoghq.com^
 ||browser.events.data.microsoft.com^
 ||business-api.tiktok.com^
+||campaign-content.swrve.com^
 ||cby7o7.tdum.alibaba.com^
 ||cdn-settings.appsflyersdk.com^
 ||cdn.branch.io^
@@ -105,6 +111,7 @@
 ||cdn4.buysellads.net^
 ||census-app.scorecardresearch.com^
 ||check.rayjump.com^
+||chimpstatic.com^
 ||cl.canva.com^
 ||clienttracing-pa.googleapis.com^
 ||cnbj1.fds.api.xiaomi.com^
@@ -133,6 +140,7 @@
 ||epwiy9-cdn-settings.appsflyersdk.com^
 ||epwiy9-conversions.appsflyersdk.com^
 ||events.statsigapi.net^
+||evsw-zfdmag.one^
 ||explainplaysettwisting.com^
 ||f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net^
 ||f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net^
@@ -189,6 +197,7 @@
 ||jn8dkc-conversions.appsflyersdk.com^
 ||jn8dkc-inapps.appsflyersdk.com^
 ||jn8dkc-launches.appsflyersdk.com^
+||jpmkbcgx-o.buzz^
 ||js-agent.newrelic.com^
 ||js-eu1.hs-scripts.com^
 ||js.hs-analytics.net^
@@ -210,6 +219,7 @@
 ||mobile.useinsider.com^
 ||mon-boot.tiktokv.com^
 ||mon-va.tiktokv.com^
+||mon.tiktokv.com^
 ||mon16-normal-useast5.tiktokv.us^
 ||monorail-edge.shopifysvc.com^
 ||mqs-log.miui.com^
@@ -217,8 +227,10 @@
 ||newsfeed.api.intl.miui.com^
 ||nexus-websocket-a.intercom.io^
 ||o1158394.ingest.us.sentry.io^
+||o1220489.ingest.sentry.io^
 ||o13855.ingest.sentry.io^
 ||o2129.ingest.sentry.io^
+||o22381.ingest.us.sentry.io^
 ||o33249.ingest.sentry.io^
 ||o4504039703314432.ingest.sentry.io^
 ||o4505071687041024.ingest.sentry.io^
@@ -230,7 +242,9 @@
 ||p8ly86-inapps.appsflyersdk.com^
 ||p8ly86-launches.appsflyersdk.com^
 ||pagead2.googlesyndication.com^
+||pcdn.dengage.com^
 ||pi.ias.xiaomi.com^
+||pixee.gropulse.com^
 ||pixel-api.socialhead.io^
 ||pixel.facebook.com^
 ||pixel.roughgroup.com^
@@ -290,6 +304,7 @@
 ||trk.storyly.io^
 ||uc.telemetry.eyeo.com^
 ||uc.ucweb.com^
+||umami.manjaro.org^
 ||umini.shujupie.com^
 ||umlazada.alibaba.com^
 ||us.galleryapi.micloud.xiaomi.net^
