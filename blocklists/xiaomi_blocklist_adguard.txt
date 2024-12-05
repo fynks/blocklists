@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2024-11-27 09:43:52 AM PKT
-# Number of unique domains: 501
+# Last updated: 2024-12-05 12:19:08 PM PKT
+# Number of unique domains: 502
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -340,7 +340,6 @@
 ||port.sec.miui.com^
 ||preload.xiaomi.com^
 ||preview.crm.sms.miui.com^
-||preview-tracking.miui.com^
 ||privacy.miui.com^
 ||protect.dev.sec.intl.miui.com^
 ||protect.dev.sec.miui.com^
@@ -484,6 +483,7 @@
 ||tv.app.migc.xiaomi.com^
 ||tvboss.pandora.xiaomi.com^
 ||tvepg.pandora.xiaomi.com^
+||tvmgr.pandora.xiaomi.com^
 ||tvstat.pandora.xiaomi.com^
 ||tz.sec.xiaomi.com^
 ||update.avlyun.sec.miui.com^
@@ -508,6 +508,7 @@
 ||www.rus-mi.com^
 ||www.traffic-media.co^
 ||xadx.file.market.xiaomi.com^
+||xiaomii.net^
 ||xiaomivietnam.xyz^
 ||xiazai.xiaomi.com^
 ||xlmc.sec.miui.com^

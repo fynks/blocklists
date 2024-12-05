@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2024-11-27 09:43:24 AM PKT
-# Number of unique domains: 316
+# Last updated: 2024-12-05 12:19:20 PM PKT
+# Number of unique domains: 331
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -100,8 +100,10 @@
 0.0.0.0 cby7o7.tdum.alibaba.com
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 cdn.branch.io
+0.0.0.0 cdn.concert.io
 0.0.0.0 cdn.exp.xiaomi.com
 0.0.0.0 cdn.hextom.com
+0.0.0.0 cdn.inspectlet.com
 0.0.0.0 cdn.logbase.io
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.polyfill.io
@@ -114,6 +116,7 @@
 0.0.0.0 cl.canva.com
 0.0.0.0 clienttracing-pa.googleapis.com
 0.0.0.0 cnbj1.fds.api.xiaomi.com
+0.0.0.0 collector-pxljub4etb.perimeterx.net
 0.0.0.0 collector.github.com
 0.0.0.0 configure.rayjump.com
 0.0.0.0 configv2.unityads.unity3d.com
@@ -121,6 +124,7 @@
 0.0.0.0 cpm.adpluto.com
 0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 crashlyticsreports-pa.googleapis.com
+0.0.0.0 csp.godaddy.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 cuttlela.ucweb.com
 0.0.0.0 d0m2z2.tdum.alibaba.com
@@ -145,6 +149,7 @@
 0.0.0.0 f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net
 0.0.0.0 f264cb70780-omkswsgt1726329075-sonar.xz.fbcdn.net
 0.0.0.0 f765a5b3430-pcmzwufj1726898299-sonar.xy.fbcdn.net
+0.0.0.0 f9bc57c2c80-hqjviaos1733150352-sonar.xz.fbcdn.net
 0.0.0.0 fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net
 0.0.0.0 fchbhd.tdum.alibaba.com
 0.0.0.0 fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net
@@ -159,6 +164,7 @@
 0.0.0.0 fkvufv-launches.appsflyersdk.com
 0.0.0.0 fkvufv-register.appsflyersdk.com
 0.0.0.0 flash.sec.intl.miui.com
+0.0.0.0 fls-na.amazon.com
 0.0.0.0 footprints-pa.googleapis.com
 0.0.0.0 fresnel-events.vimeocdn.com
 0.0.0.0 fresnel.vimeocdn.com
@@ -176,6 +182,7 @@
 0.0.0.0 gtglobal.intl.miui.com
 0.0.0.0 h-adashx.ut.lazada.com
 0.0.0.0 h5.app.intl.miui.com
+0.0.0.0 hn.inspectlet.com
 0.0.0.0 hudong.alicdn.com
 0.0.0.0 ichnaea-web.netflix.com
 0.0.0.0 id.google.com
@@ -190,6 +197,7 @@
 0.0.0.0 injectshrslinkblog.com
 0.0.0.0 insight.ucweb.com
 0.0.0.0 intg.snapchat.com
+0.0.0.0 jeestauglahity.net
 0.0.0.0 jmacs-m.lazada.sg
 0.0.0.0 jmacs.maribacaberita.com
 0.0.0.0 jn8dkc-cdn-settings.appsflyersdk.com
@@ -207,6 +215,7 @@
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 lazy.rayjump.com
 0.0.0.0 log16-normal-useast5.tiktokv.us
+0.0.0.0 logging.g.sst.secureserver.net
 0.0.0.0 logssug.ucweb.com
 0.0.0.0 loox.io
 0.0.0.0 matomo.openstreetmap.org
@@ -231,8 +240,10 @@
 0.0.0.0 o2129.ingest.sentry.io
 0.0.0.0 o22381.ingest.us.sentry.io
 0.0.0.0 o33249.ingest.sentry.io
+0.0.0.0 o416616.ingest.us.sentry.io
 0.0.0.0 o4504039703314432.ingest.sentry.io
 0.0.0.0 o4505071687041024.ingest.sentry.io
+0.0.0.0 o516780.ingest.sentry.io
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 omnisnippet1.com
@@ -242,6 +253,7 @@
 0.0.0.0 p8ly86-launches.appsflyersdk.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pcdn.dengage.com
+0.0.0.0 perseus-productanalytics.deliveryhero.net
 0.0.0.0 pi.ias.xiaomi.com
 0.0.0.0 pixee.gropulse.com
 0.0.0.0 pixel-api.socialhead.io
@@ -280,6 +292,7 @@
 0.0.0.0 static.airbridge.io
 0.0.0.0 static.cloudflareinsights.com
 0.0.0.0 static.doubleclick.net
+0.0.0.0 static.fd-api.com
 0.0.0.0 stats.indianpornempire.com
 0.0.0.0 statsig.anthropic.com
 0.0.0.0 statsigapi.net
@@ -309,6 +322,7 @@
 0.0.0.0 us.galleryapi.micloud.xiaomi.net
 0.0.0.0 us.statusapi.micloud.xiaomi.net
 0.0.0.0 us.ynuf.aliapp.org
+0.0.0.0 use.hetzner.com
 0.0.0.0 variations.brave.com
 0.0.0.0 view.adjust.com
 0.0.0.0 w3-reporting.reddit.com
@@ -319,5 +333,6 @@
 0.0.0.0 xiaomipakistan.site
 0.0.0.0 xjp-jmacs.m.taobao.com
 0.0.0.0 xjp-msgacs.m.taobao.com
+0.0.0.0 xml-v4.ngcluster-a.online
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 z-p4.graph.instagram.com
