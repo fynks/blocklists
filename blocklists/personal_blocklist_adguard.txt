@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-12-05 12:19:20 PM PKT
-! Number of unique domains: 331
+! Last updated: 2024-12-11 10:01:38 AM PKT
+! Number of unique domains: 336
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -14,6 +14,7 @@
 ||2gbelh-conversions.appsflyersdk.com^
 ||2gbelh-launches.appsflyersdk.com^
 ||3.datadog.pool.ntp.org^
+||3dmret.tdum.alibaba.com^
 ||3s2ix7.tdum.alibaba.com^
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
@@ -37,6 +38,7 @@
 ||7viywa.tdum.alibaba.com^
 ||81ar65.tdum.alibaba.com^
 ||85dhwr.tdum.alibaba.com^
+||9ehu1c.tdum.alibaba.com^
 ||9jp8hz.tdum.alibaba.com^
 ||9zuqbz.tdum.alibaba.com^
 ||a.tampermonkey.net^
@@ -93,6 +95,7 @@
 ||bf99042ofw.bf.dynatrace.com^
 ||bloatingexpectantretinal.com^
 ||bo925b.tdum.alibaba.com^
+||bot1ty.tdum.alibaba.com^
 ||browser-intake-datadoghq.com^
 ||browser-intake-us5-datadoghq.com^
 ||browser.events.data.microsoft.com^
@@ -299,6 +302,7 @@
 ||statsigapi.net^
 ||syndication.twitter.com^
 ||t1.market.xiaomi.com^
+||tagdelivery.mayoclinic.org^
 ||talaria.online^
 ||telemetry.api.swiftkey.com^
 ||telemetry.canva.com^
@@ -331,6 +335,7 @@
 ||www.googleadservices.com^
 ||www.googletagmanager.com^
 ||www.googletagservices.com^
+||www.inboxdollars.com^
 ||xiaomipakistan.site^
 ||xjp-jmacs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^

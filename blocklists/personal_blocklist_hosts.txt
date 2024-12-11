@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2024-12-05 12:19:20 PM PKT
-# Number of unique domains: 331
+# Last updated: 2024-12-11 10:01:38 AM PKT
+# Number of unique domains: 336
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -13,6 +13,7 @@
 0.0.0.0 2gbelh-conversions.appsflyersdk.com
 0.0.0.0 2gbelh-launches.appsflyersdk.com
 0.0.0.0 3.datadog.pool.ntp.org
+0.0.0.0 3dmret.tdum.alibaba.com
 0.0.0.0 3s2ix7.tdum.alibaba.com
 0.0.0.0 3sjen3.tdum.alibaba.com
 0.0.0.0 3yflsc.tdum.alibaba.com
@@ -36,6 +37,7 @@
 0.0.0.0 7viywa.tdum.alibaba.com
 0.0.0.0 81ar65.tdum.alibaba.com
 0.0.0.0 85dhwr.tdum.alibaba.com
+0.0.0.0 9ehu1c.tdum.alibaba.com
 0.0.0.0 9jp8hz.tdum.alibaba.com
 0.0.0.0 9zuqbz.tdum.alibaba.com
 0.0.0.0 a.tampermonkey.net
@@ -92,6 +94,7 @@
 0.0.0.0 bf99042ofw.bf.dynatrace.com
 0.0.0.0 bloatingexpectantretinal.com
 0.0.0.0 bo925b.tdum.alibaba.com
+0.0.0.0 bot1ty.tdum.alibaba.com
 0.0.0.0 browser-intake-datadoghq.com
 0.0.0.0 browser-intake-us5-datadoghq.com
 0.0.0.0 browser.events.data.microsoft.com
@@ -298,6 +301,7 @@
 0.0.0.0 statsigapi.net
 0.0.0.0 syndication.twitter.com
 0.0.0.0 t1.market.xiaomi.com
+0.0.0.0 tagdelivery.mayoclinic.org
 0.0.0.0 talaria.online
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry.canva.com
@@ -330,6 +334,7 @@
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
+0.0.0.0 www.inboxdollars.com
 0.0.0.0 xiaomipakistan.site
 0.0.0.0 xjp-jmacs.m.taobao.com
 0.0.0.0 xjp-msgacs.m.taobao.com
