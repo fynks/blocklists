@@ -2,7 +2,6 @@
 
 set -euo pipefail
 
-# Configuration
 declare -A PATHS
 PATHS=(
     [INPUT_FILE]="input.json"
@@ -16,14 +15,12 @@ PATHS[LOG_FILE]="${PATHS[LOGS_DIR]}/personal_blocklist_generation.log"
 readonly TEMP_DIR=$(mktemp -d)
 trap 'rm -rf "$TEMP_DIR"' EXIT
 
-# Function to log messages
 log() {
     local timestamp
     timestamp=$(TZ="Asia/Karachi" date +"%Y-%m-%d %I:%M:%S %p")
     printf "[%s] %s\n" "$timestamp" "$1" | tee -a "${PATHS[LOG_FILE]}"
 }
 
-# Function to check dependencies
 check_dependencies() {
     local -r deps=("jq" "parallel")
     for dep in "${deps[@]}"; do
@@ -34,12 +31,10 @@ check_dependencies() {
     done
 }
 
-# Function to process a chunk of the file
 process_chunk() {
     jq -r 'select(.status == "REQUEST_BLOCKED" and .device == "Phone") | .domain'
 }
 
-# Function to generate blocklist
 generate_blocklist() {
     local -r format="$1"
     local -r output_file="$2"
@@ -74,7 +69,6 @@ generate_blocklist() {
     log "$format format blocklist written to $output_file"
 }
 
-# Function to generate detailed statistics and append to log file
 generate_stats() {
     local -r domains_file="$1"
     log "Generating detailed statistics..."
@@ -95,11 +89,8 @@ generate_stats() {
     log "Detailed statistics appended to log file"
 }
 
-# Main execution
 main() {
-    # Ensure logs directory exists
     mkdir -p "${PATHS[LOGS_DIR]}"
-    # Clear previous log file
     : > "${PATHS[LOG_FILE]}"
 
     check_dependencies
@@ -118,20 +109,17 @@ main() {
     < "${PATHS[INPUT_FILE]}" parallel --pipe -N1000 --block 1M process_chunk | \
         LC_ALL=C sort -u > "$TEMP_DIR/domains.txt"
 
-    # If the previous blocklist exists, append its domains to the new list
     if [[ -f "${PATHS[OUTPUT_FILE_HOSTS]}" ]]; then
         log "Appending previous blocklist entries to new blocklist..."
         grep -v '^#' "${PATHS[OUTPUT_FILE_HOSTS]}" | awk '{print $2}' >> "$TEMP_DIR/domains.txt"
     fi
 
-    # Remove duplicates from the combined list of previous and new domains
     log "Removing duplicates from combined domains..."
     LC_ALL=C sort -u "$TEMP_DIR/domains.txt" > "$TEMP_DIR/combined_domains.txt"
 
     local -r domain_count=$(wc -l < "$TEMP_DIR/combined_domains.txt")
     log "Unique domains extracted: $domain_count"
 
-    # Generate blocklists in parallel
     generate_blocklist "hosts" "${PATHS[OUTPUT_FILE_HOSTS]}" "$domain_count" < "$TEMP_DIR/combined_domains.txt" &
     generate_blocklist "adguard" "${PATHS[OUTPUT_FILE_ADGUARD]}" "$domain_count" < "$TEMP_DIR/combined_domains.txt" &
     wait
