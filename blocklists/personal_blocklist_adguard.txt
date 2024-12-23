@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-12-11 10:01:38 AM PKT
-! Number of unique domains: 336
+! Last updated: 2024-12-23 01:23:41 PM PKT
+! Number of unique domains: 354
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -58,6 +58,7 @@
 ||adv.sec.intl.miui.com^
 ||alb.reddit.com^
 ||amdc.lazada.com^
+||analytics.ahrefs.com^
 ||analytics.githubassets.com^
 ||analytics.picsart.com^
 ||analytics.rayjump.com^
@@ -71,6 +72,7 @@
 ||api.howlapm.com^
 ||api.mixpanel.com^
 ||api.sec.miui.com^
+||api.sprig.com^
 ||api.statsig.com^
 ||api.taboola.com^
 ||api16-event-sg2.pangle.io^
@@ -79,6 +81,7 @@
 ||apiuccenter.ucweb.com^
 ||app-analytics-v2.snapchat.com^
 ||app-measurement.com^
+||at.cbsi.com^
 ||attr.union.ucweb.com^
 ||audid-api-sg.taobao.com^
 ||authbe.sec.intl.miui.com^
@@ -96,6 +99,7 @@
 ||bloatingexpectantretinal.com^
 ||bo925b.tdum.alibaba.com^
 ||bot1ty.tdum.alibaba.com^
+||brand-sdk.kmsmep.com^
 ||browser-intake-datadoghq.com^
 ||browser-intake-us5-datadoghq.com^
 ||browser.events.data.microsoft.com^
@@ -155,6 +159,7 @@
 ||f765a5b3430-pcmzwufj1726898299-sonar.xy.fbcdn.net^
 ||f9bc57c2c80-hqjviaos1733150352-sonar.xz.fbcdn.net^
 ||fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net^
+||fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net^
 ||fchbhd.tdum.alibaba.com^
 ||fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net^
 ||fgndav.tdum.alibaba.com^
@@ -172,6 +177,7 @@
 ||footprints-pa.googleapis.com^
 ||fresnel-events.vimeocdn.com^
 ||fresnel.vimeocdn.com^
+||freyr.futurecdn.net^
 ||g4yq0.tdum.alibaba.com^
 ||geller-pa.googleapis.com^
 ||geoip.businessinsider.com^
@@ -194,6 +200,7 @@
 ||images-dl.taboola.com^
 ||impression-asia.liftoff.io^
 ||impression.appsflyer.com^
+||improving.duckduckgo.com^
 ||inapps.appsflyer.com^
 ||indrive-api.exponea.com^
 ||infoevent.startappservice.com^
@@ -201,6 +208,7 @@
 ||injectshrslinkblog.com^
 ||insight.ucweb.com^
 ||intg.snapchat.com^
+||iso-stats.cachyos.org^
 ||jeestauglahity.net^
 ||jmacs-m.lazada.sg^
 ||jmacs.maribacaberita.com^
@@ -213,8 +221,10 @@
 ||js-eu1.hs-scripts.com^
 ||js.hs-analytics.net^
 ||js.hs-banner.com^
+||js.hs-scripts.com^
 ||js.hscollectedforms.net^
 ||js.hubspot.com^
+||js.qualified.com^
 ||jupiter.intl.sys.miui.com^
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
@@ -247,14 +257,18 @@
 ||o416616.ingest.us.sentry.io^
 ||o4504039703314432.ingest.sentry.io^
 ||o4505071687041024.ingest.sentry.io^
+||o476415.ingest.sentry.io^
 ||o516780.ingest.sentry.io^
 ||ogads-pa.clients6.google.com^
 ||ogads-pa.googleapis.com^
 ||omnisnippet1.com^
+||p3a-creative.brave.com^
+||p3a-json.brave.com^
 ||p8ly86-cdn-settings.appsflyersdk.com^
 ||p8ly86-conversions.appsflyersdk.com^
 ||p8ly86-inapps.appsflyersdk.com^
 ||p8ly86-launches.appsflyersdk.com^
+||p8ly86-register.appsflyersdk.com^
 ||pagead2.googlesyndication.com^
 ||pcdn.dengage.com^
 ||perseus-productanalytics.deliveryhero.net^
@@ -263,6 +277,7 @@
 ||pixel-api.socialhead.io^
 ||pixel.facebook.com^
 ||pixel.roughgroup.com^
+||plausible.io^
 ||player-telemetry.vimeo.com^
 ||pok.mintegral.net^
 ||policy.rayjump.com^
@@ -271,12 +286,14 @@
 ||prodregistryv2.org^
 ||px-intl.ucweb.com^
 ||qcc.qualcomm.com^
+||realtime.ably.io^
 ||register.xmpush.global.xiaomi.com^
 ||remote-data.asnapieu.com^
 ||reports.proton.me^
 ||req.startappservice.com^
 ||s2s.adjust.com^
 ||sc-static.net^
+||sdk-api-v1.singular.net^
 ||sdk.beeketing.com^
 ||sdk.iad-01.braze.com^
 ||sdkconfig.ad.intl.xiaomi.com^
@@ -327,6 +344,7 @@
 ||us.galleryapi.micloud.xiaomi.net^
 ||us.statusapi.micloud.xiaomi.net^
 ||us.ynuf.aliapp.org^
+||usage-ping.brave.com^
 ||use.hetzner.com^
 ||variations.brave.com^
 ||view.adjust.com^

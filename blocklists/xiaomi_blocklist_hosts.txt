@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2024-12-11 10:01:53 AM PKT
-# Number of unique domains: 505
+# Last updated: 2024-12-23 01:24:19 PM PKT
+# Number of unique domains: 485
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -12,7 +12,6 @@
 # Hosts file format: 0.0.0.0 example.com
 
 0.0.0.0 11-c3.bigdata.ctc.neo.xiaomi.com
-0.0.0.0 3rdupgrade.pandora.xiaomi.com
 0.0.0.0 5-c3.bigdata.ctc.neo.xiaomi.com
 0.0.0.0 a0.app.xiaomi.com
 0.0.0.0 abroad.api.comm.intl.miui.com
@@ -78,7 +77,6 @@
 0.0.0.0 appstore.pandora.xiaomi.com
 0.0.0.0 appstore.ptmi.gitv.tv
 0.0.0.0 assistant.miui.com
-0.0.0.0 assistant.pandora.xiaomi.com
 0.0.0.0 a.stat.xiaomi.com
 0.0.0.0 au.ff.avast.sec.miui.com
 0.0.0.0 a.union.mi.com
@@ -191,7 +189,6 @@
 0.0.0.0 global-ad-extranet-pri-azams.alb.xiaomi.com
 0.0.0.0 global-ad-extranet-pri-azpn.alb.xiaomi.com
 0.0.0.0 global-ad-intl-pri-alisgp.alb.xiaomi.com
-0.0.0.0 global.api.huangye.miui.com
 0.0.0.0 globalreport.ad.intl.xiaomi.com
 0.0.0.0 globalvideo.cdn.pandora.intl.xiaomi.com
 0.0.0.0 gstat.pandora.xiaomi.com
@@ -207,7 +204,6 @@
 0.0.0.0 hot.browser.intl.miui.com
 0.0.0.0 hot.browser.miui.com
 0.0.0.0 httpdns.browser.miui.com
-0.0.0.0 huodong.xiaomi.com
 0.0.0.0 huosai.xiaomi.com
 0.0.0.0 hybrid.miui.com
 0.0.0.0 i.api.xmpush.xiaomi.com
@@ -226,7 +222,6 @@
 0.0.0.0 india.miui.com
 0.0.0.0 inf.miui.com
 0.0.0.0 info.analysis.kp.sec.miui.com
-0.0.0.0 info.sec.miui.com
 0.0.0.0 in-miuilog.sms.intl.xiaomi.com
 0.0.0.0 in-protect-dev.sec.intl.miui.com
 0.0.0.0 intl.up.w.xk.miui.com
@@ -275,17 +270,14 @@
 0.0.0.0 mis.g.mi.com
 0.0.0.0 mishop.cdn.pandora.xiaomi.com
 0.0.0.0 mishop.pandora.xiaomi.com
-0.0.0.0 mistat.india.xiaomi.com
 0.0.0.0 mistat.intl.xiaomi.com
 0.0.0.0 mistat.rus.xiaomi.com
 0.0.0.0 mitv.tracking.india.miui.com
 0.0.0.0 mitv.tracking.intl.miui.com
 0.0.0.0 mitv.tracking.miui.com
 0.0.0.0 mitv.tracking.rus.miui.com
-0.0.0.0 miui-fxcse.avlyun.com
 0.0.0.0 miui-l7-data-other-c3.pt.miui.com
 0.0.0.0 miui-l7-data-other.pt.miui.com
-0.0.0.0 miuilog.update.avlyun.com
 0.0.0.0 miui.net
 0.0.0.0 mixer.cupid.ptqy.gitv.tv
 0.0.0.0 mlog.search.xiaomi.net
@@ -317,7 +309,6 @@
 0.0.0.0 notice.game.xiaomi.com
 0.0.0.0 o2o.api.xiaomi.com
 0.0.0.0 odml.ad.intl.xiaomi.com
-0.0.0.0 odml.ad.intl.xiaomi.com.mgslb.com
 0.0.0.0 om.tracking.miui.com
 0.0.0.0 openapi.vip.ptqy.gitv.tv
 0.0.0.0 orig.hd.xiaomi.com
@@ -367,7 +358,6 @@
 0.0.0.0 ru.feedback.xmpush.global.xiaomi.com
 0.0.0.0 ru-register.xmpush.global.xiaomi.com
 0.0.0.0 ru.register.xmpush.global.xiaomi.com
-0.0.0.0 rus-mi.com
 0.0.0.0 rus.miui.com
 0.0.0.0 ruvideo.cdn.pandora.intl.xiaomi.com
 0.0.0.0 ru.video.intl.xiaomi.com
@@ -388,7 +378,6 @@
 0.0.0.0 secure.report.iss.xiaomi.com
 0.0.0.0 security.browser.miui.com
 0.0.0.0 sentry.be.xiaomi.com
-0.0.0.0 sentry.d.xiaomi.net
 0.0.0.0 sentry.pay.xiaomi.com
 0.0.0.0 sentry.sec.miui.com
 0.0.0.0 sgp.account.migc.g.mi.com
@@ -468,10 +457,8 @@
 0.0.0.0 track.ad.xiaomi.com
 0.0.0.0 tracker.ai.xiaomi.com
 0.0.0.0 tracker-preview.ai.xiaomi.com
-0.0.0.0 tracker.xiaomixiaoai.com
 0.0.0.0 tracking.eu.miui.com
 0.0.0.0 tracking.india.miui.com
-0.0.0.0 tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.*.miui.com
 0.0.0.0 tracking.miui.com
@@ -483,9 +470,7 @@
 0.0.0.0 tv.app.migc.xiaomi.com
 0.0.0.0 tvboss.pandora.xiaomi.com
 0.0.0.0 tvepg.pandora.xiaomi.com
-0.0.0.0 tvmgr.pandora.xiaomi.com
 0.0.0.0 tvstat.pandora.xiaomi.com
-0.0.0.0 tz.sec.xiaomi.com
 0.0.0.0 update.avlyun.sec.miui.com
 0.0.0.0 upgrade.pandora.xiaomi.com
 0.0.0.0 us.api.micloud.xiaomi.net
@@ -505,14 +490,9 @@
 0.0.0.0 wtradv.market.xiaomi.com
 0.0.0.0 www.kuyun.com
 0.0.0.0 www.miui.net
-0.0.0.0 www.rus-mi.com
 0.0.0.0 www.traffic-media.co
 0.0.0.0 xadx.file.market.xiaomi.com
-0.0.0.0 xiaomid.cn
-0.0.0.0 xiaomii.net
-0.0.0.0 xiaomir.cn
 0.0.0.0 xiaomivietnam.xyz
-0.0.0.0 xiaomiy.cn
 0.0.0.0 xiazai.xiaomi.com
 0.0.0.0 xlmc.sec.miui.com
 0.0.0.0 zeus.ad.xiaomi.com
