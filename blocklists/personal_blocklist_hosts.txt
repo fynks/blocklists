@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2024-12-23 01:39:14 PM PKT
-# Number of unique domains: 354
+# Last updated: 2025-01-08 09:22:11 AM PKT
+# Number of unique domains: 366
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -115,6 +115,7 @@
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.polyfill.io
 0.0.0.0 cdn.raygun.io
+0.0.0.0 cdn.skypack.dev
 0.0.0.0 cdn.taboola.com
 0.0.0.0 cdn4.buysellads.net
 0.0.0.0 census-app.scorecardresearch.com
@@ -162,6 +163,7 @@
 0.0.0.0 fchbhd.tdum.alibaba.com
 0.0.0.0 fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net
 0.0.0.0 fgndav.tdum.alibaba.com
+0.0.0.0 findapi.micloud.xiaomi.net
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
@@ -218,6 +220,7 @@
 0.0.0.0 jpmkbcgx-o.buzz
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js-eu1.hs-scripts.com
+0.0.0.0 js-na1.hs-scripts.com
 0.0.0.0 js.hs-analytics.net
 0.0.0.0 js.hs-banner.com
 0.0.0.0 js.hs-scripts.com
@@ -231,12 +234,14 @@
 0.0.0.0 logging.g.sst.secureserver.net
 0.0.0.0 logssug.ucweb.com
 0.0.0.0 loox.io
+0.0.0.0 magiskmanager.com
 0.0.0.0 matomo.openstreetmap.org
 0.0.0.0 mcc-intl.inf.miui.com
 0.0.0.0 mcc.intl.inf.miui.com
 0.0.0.0 mediation.adnxs.com
 0.0.0.0 misc.api.snaptube.app
 0.0.0.0 mobile.events.data.microsoft.com
+0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 mobile.useinsider.com
 0.0.0.0 mon-boot.tiktokv.com
 0.0.0.0 mon-va.tiktokv.com
@@ -245,8 +250,10 @@
 0.0.0.0 monorail-edge.shopifysvc.com
 0.0.0.0 mqs-log.miui.com
 0.0.0.0 msgacs-m.lazada.sg
+0.0.0.0 mssdk-sg.tiktok.com
 0.0.0.0 newsfeed.api.intl.miui.com
 0.0.0.0 nexus-websocket-a.intercom.io
+0.0.0.0 nitroscripts.com
 0.0.0.0 o1158394.ingest.us.sentry.io
 0.0.0.0 o1220489.ingest.sentry.io
 0.0.0.0 o13855.ingest.sentry.io
@@ -274,8 +281,10 @@
 0.0.0.0 pi.ias.xiaomi.com
 0.0.0.0 pixee.gropulse.com
 0.0.0.0 pixel-api.socialhead.io
+0.0.0.0 pixel-config.reddit.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.roughgroup.com
+0.0.0.0 pla.atlasos.net
 0.0.0.0 plausible.io
 0.0.0.0 player-telemetry.vimeo.com
 0.0.0.0 pok.mintegral.net
@@ -296,11 +305,14 @@
 0.0.0.0 sdk.beeketing.com
 0.0.0.0 sdk.iad-01.braze.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdkupgrade.insight.ucweb.com
 0.0.0.0 seal.websecurity.norton.com
 0.0.0.0 sec.umeng.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sensors.snaptube.app
+0.0.0.0 sentry-reporter.ente.io
+0.0.0.0 sentry.ente.io
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 sg.napi.ucweb.com
 0.0.0.0 sil.appnext.com

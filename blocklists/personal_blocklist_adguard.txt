@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2024-12-23 01:39:14 PM PKT
-! Number of unique domains: 354
+! Last updated: 2025-01-08 09:22:11 AM PKT
+! Number of unique domains: 366
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -116,6 +116,7 @@
 ||cdn.onesignal.com^
 ||cdn.polyfill.io^
 ||cdn.raygun.io^
+||cdn.skypack.dev^
 ||cdn.taboola.com^
 ||cdn4.buysellads.net^
 ||census-app.scorecardresearch.com^
@@ -163,6 +164,7 @@
 ||fchbhd.tdum.alibaba.com^
 ||fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net^
 ||fgndav.tdum.alibaba.com^
+||findapi.micloud.xiaomi.net^
 ||firebase-settings.crashlytics.com^
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
@@ -219,6 +221,7 @@
 ||jpmkbcgx-o.buzz^
 ||js-agent.newrelic.com^
 ||js-eu1.hs-scripts.com^
+||js-na1.hs-scripts.com^
 ||js.hs-analytics.net^
 ||js.hs-banner.com^
 ||js.hs-scripts.com^
@@ -232,12 +235,14 @@
 ||logging.g.sst.secureserver.net^
 ||logssug.ucweb.com^
 ||loox.io^
+||magiskmanager.com^
 ||matomo.openstreetmap.org^
 ||mcc-intl.inf.miui.com^
 ||mcc.intl.inf.miui.com^
 ||mediation.adnxs.com^
 ||misc.api.snaptube.app^
 ||mobile.events.data.microsoft.com^
+||mobile.pipe.aria.microsoft.com^
 ||mobile.useinsider.com^
 ||mon-boot.tiktokv.com^
 ||mon-va.tiktokv.com^
@@ -246,8 +251,10 @@
 ||monorail-edge.shopifysvc.com^
 ||mqs-log.miui.com^
 ||msgacs-m.lazada.sg^
+||mssdk-sg.tiktok.com^
 ||newsfeed.api.intl.miui.com^
 ||nexus-websocket-a.intercom.io^
+||nitroscripts.com^
 ||o1158394.ingest.us.sentry.io^
 ||o1220489.ingest.sentry.io^
 ||o13855.ingest.sentry.io^
@@ -275,8 +282,10 @@
 ||pi.ias.xiaomi.com^
 ||pixee.gropulse.com^
 ||pixel-api.socialhead.io^
+||pixel-config.reddit.com^
 ||pixel.facebook.com^
 ||pixel.roughgroup.com^
+||pla.atlasos.net^
 ||plausible.io^
 ||player-telemetry.vimeo.com^
 ||pok.mintegral.net^
@@ -297,11 +306,14 @@
 ||sdk.beeketing.com^
 ||sdk.iad-01.braze.com^
 ||sdkconfig.ad.intl.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
 ||sdkupgrade.insight.ucweb.com^
 ||seal.websecurity.norton.com^
 ||sec.umeng.com^
 ||securepubads.g.doubleclick.net^
 ||sensors.snaptube.app^
+||sentry-reporter.ente.io^
+||sentry.ente.io^
 ||sessions.bugsnag.com^
 ||sg.napi.ucweb.com^
 ||sil.appnext.com^
