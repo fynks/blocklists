@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-01-08 09:22:11 AM PKT
-# Number of unique domains: 366
+# Last updated: 2025-01-14 10:57:16 AM PKT
+# Number of unique domains: 378
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -17,6 +17,7 @@
 0.0.0.0 3s2ix7.tdum.alibaba.com
 0.0.0.0 3sjen3.tdum.alibaba.com
 0.0.0.0 3yflsc.tdum.alibaba.com
+0.0.0.0 4c4cc75a16ed.cdn4.forter.com
 0.0.0.0 4ng01p-cdn-settings.appsflyersdk.com
 0.0.0.0 4ng01p-conversions.appsflyersdk.com
 0.0.0.0 4ng01p-inapps.appsflyersdk.com
@@ -117,7 +118,11 @@
 0.0.0.0 cdn.raygun.io
 0.0.0.0 cdn.skypack.dev
 0.0.0.0 cdn.taboola.com
+0.0.0.0 cdn0.forter.com
+0.0.0.0 cdn123.forter.com
+0.0.0.0 cdn3.forter.com
 0.0.0.0 cdn4.buysellads.net
+0.0.0.0 cdn9.forter.com
 0.0.0.0 census-app.scorecardresearch.com
 0.0.0.0 check.rayjump.com
 0.0.0.0 chimpstatic.com
@@ -137,6 +142,7 @@
 0.0.0.0 cuttlela.ucweb.com
 0.0.0.0 d0m2z2.tdum.alibaba.com
 0.0.0.0 d26xw8rp6mlgfg.cloudfront.net
+0.0.0.0 d2o5idwacg3gyw.cloudfront.net
 0.0.0.0 data.flurry.com
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
@@ -162,6 +168,7 @@
 0.0.0.0 fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net
 0.0.0.0 fchbhd.tdum.alibaba.com
 0.0.0.0 fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net
+0.0.0.0 ff9ed87672884a24b97c63c6edc7b9ae-4c4cc75a16ed.cdn.forter.com
 0.0.0.0 fgndav.tdum.alibaba.com
 0.0.0.0 findapi.micloud.xiaomi.net
 0.0.0.0 firebase-settings.crashlytics.com
@@ -304,6 +311,7 @@
 0.0.0.0 sdk-api-v1.singular.net
 0.0.0.0 sdk.beeketing.com
 0.0.0.0 sdk.iad-01.braze.com
+0.0.0.0 sdk.iad-05.braze.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdkupgrade.insight.ucweb.com
@@ -315,6 +323,7 @@
 0.0.0.0 sentry.ente.io
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 sg.napi.ucweb.com
+0.0.0.0 shasta-collector-production.upwork.com
 0.0.0.0 sil.appnext.com
 0.0.0.0 snippet.maze.co
 0.0.0.0 sonar6.xy.fbcdn.net
@@ -330,6 +339,7 @@
 0.0.0.0 statsigapi.net
 0.0.0.0 syndication.twitter.com
 0.0.0.0 t1.market.xiaomi.com
+0.0.0.0 tag.trovo-tag.com
 0.0.0.0 tagdelivery.mayoclinic.org
 0.0.0.0 talaria.online
 0.0.0.0 telemetry.api.swiftkey.com
@@ -359,6 +369,7 @@
 0.0.0.0 use.hetzner.com
 0.0.0.0 variations.brave.com
 0.0.0.0 view.adjust.com
+0.0.0.0 w.usabilla.com
 0.0.0.0 w3-reporting.reddit.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
@@ -371,3 +382,4 @@
 0.0.0.0 xml-v4.ngcluster-a.online
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 z-p4.graph.instagram.com
+0.0.0.0 zn0izjiulta2j2t4o-upwork.siteintercept.qualtrics.com

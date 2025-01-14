@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-01-08 09:22:11 AM PKT
-! Number of unique domains: 366
+! Last updated: 2025-01-14 10:57:16 AM PKT
+! Number of unique domains: 378
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -18,6 +18,7 @@
 ||3s2ix7.tdum.alibaba.com^
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
+||4c4cc75a16ed.cdn4.forter.com^
 ||4ng01p-cdn-settings.appsflyersdk.com^
 ||4ng01p-conversions.appsflyersdk.com^
 ||4ng01p-inapps.appsflyersdk.com^
@@ -118,7 +119,11 @@
 ||cdn.raygun.io^
 ||cdn.skypack.dev^
 ||cdn.taboola.com^
+||cdn0.forter.com^
+||cdn123.forter.com^
+||cdn3.forter.com^
 ||cdn4.buysellads.net^
+||cdn9.forter.com^
 ||census-app.scorecardresearch.com^
 ||check.rayjump.com^
 ||chimpstatic.com^
@@ -138,6 +143,7 @@
 ||cuttlela.ucweb.com^
 ||d0m2z2.tdum.alibaba.com^
 ||d26xw8rp6mlgfg.cloudfront.net^
+||d2o5idwacg3gyw.cloudfront.net^
 ||data.flurry.com^
 ||data.sec.intl.miui.com^
 ||data.sec.miui.com^
@@ -163,6 +169,7 @@
 ||fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net^
 ||fchbhd.tdum.alibaba.com^
 ||fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net^
+||ff9ed87672884a24b97c63c6edc7b9ae-4c4cc75a16ed.cdn.forter.com^
 ||fgndav.tdum.alibaba.com^
 ||findapi.micloud.xiaomi.net^
 ||firebase-settings.crashlytics.com^
@@ -305,6 +312,7 @@
 ||sdk-api-v1.singular.net^
 ||sdk.beeketing.com^
 ||sdk.iad-01.braze.com^
+||sdk.iad-05.braze.com^
 ||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
 ||sdkupgrade.insight.ucweb.com^
@@ -316,6 +324,7 @@
 ||sentry.ente.io^
 ||sessions.bugsnag.com^
 ||sg.napi.ucweb.com^
+||shasta-collector-production.upwork.com^
 ||sil.appnext.com^
 ||snippet.maze.co^
 ||sonar6.xy.fbcdn.net^
@@ -331,6 +340,7 @@
 ||statsigapi.net^
 ||syndication.twitter.com^
 ||t1.market.xiaomi.com^
+||tag.trovo-tag.com^
 ||tagdelivery.mayoclinic.org^
 ||talaria.online^
 ||telemetry.api.swiftkey.com^
@@ -360,6 +370,7 @@
 ||use.hetzner.com^
 ||variations.brave.com^
 ||view.adjust.com^
+||w.usabilla.com^
 ||w3-reporting.reddit.com^
 ||www.google-analytics.com^
 ||www.googleadservices.com^
@@ -372,3 +383,4 @@
 ||xml-v4.ngcluster-a.online^
 ||ynuf.aliapp.org^
 ||z-p4.graph.instagram.com^
+||zn0izjiulta2j2t4o-upwork.siteintercept.qualtrics.com^
