@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-01-14 10:57:16 AM PKT
-# Number of unique domains: 378
+# Last updated: 2025-01-22 09:55:28 AM PKT
+# Number of unique domains: 415
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -43,18 +43,24 @@
 0.0.0.0 9zuqbz.tdum.alibaba.com
 0.0.0.0 a.tampermonkey.net
 0.0.0.0 a9yqt0.tdum.alibaba.com
+0.0.0.0 ab.advertiserurl.com
 0.0.0.0 abroad.api.comm.intl.miui.com
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 acjs.aliyun.com
 0.0.0.0 acs.maribacaberita.com
+0.0.0.0 ad.22betpartners.com
 0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad.zanox.com
 0.0.0.0 adashx.ut.daraz.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.x.com
+0.0.0.0 ads.betfair.com
 0.0.0.0 ads.vk.com
+0.0.0.0 adsapi.snapchat.com
 0.0.0.0 adsmetadata.mobileadexchange.net
 0.0.0.0 adsmetadata.startappservice.com
 0.0.0.0 adtrack-intl.ucweb.com
+0.0.0.0 adultfriendfinder.com
 0.0.0.0 adv.sec.intl.miui.com
 0.0.0.0 alb.reddit.com
 0.0.0.0 amdc.lazada.com
@@ -65,12 +71,14 @@
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.us.tiktok.com
 0.0.0.0 anothereldestprogeny.com
+0.0.0.0 ap.octopuspop.com
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 api.aurogon.intl.miui.com
 0.0.0.0 api.comm.miui.com
 0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.howlapm.com
 0.0.0.0 api.mixpanel.com
+0.0.0.0 api.onesignal.com
 0.0.0.0 api.sec.miui.com
 0.0.0.0 api.sprig.com
 0.0.0.0 api.statsig.com
@@ -81,11 +89,13 @@
 0.0.0.0 apiuccenter.ucweb.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app-measurement.com
+0.0.0.0 assets.context.ly
 0.0.0.0 at.cbsi.com
 0.0.0.0 attr.union.ucweb.com
 0.0.0.0 audid-api-sg.taobao.com
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
+0.0.0.0 b.px-cdn.net
 0.0.0.0 bdad.123pan.cn
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
@@ -104,6 +114,7 @@
 0.0.0.0 browser-intake-us5-datadoghq.com
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 business-api.tiktok.com
+0.0.0.0 c27.smaato.net
 0.0.0.0 campaign-content.swrve.com
 0.0.0.0 cby7o7.tdum.alibaba.com
 0.0.0.0 cdn-settings.appsflyersdk.com
@@ -113,6 +124,7 @@
 0.0.0.0 cdn.hextom.com
 0.0.0.0 cdn.inspectlet.com
 0.0.0.0 cdn.logbase.io
+0.0.0.0 cdn.moengage.com
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.polyfill.io
 0.0.0.0 cdn.raygun.io
@@ -128,6 +140,7 @@
 0.0.0.0 chimpstatic.com
 0.0.0.0 cl.canva.com
 0.0.0.0 clienttracing-pa.googleapis.com
+0.0.0.0 clk.mobgold.com
 0.0.0.0 cnbj1.fds.api.xiaomi.com
 0.0.0.0 collector-pxljub4etb.perimeterx.net
 0.0.0.0 collector.github.com
@@ -196,6 +209,7 @@
 0.0.0.0 go.ezodn.com
 0.0.0.0 google-analytics.com
 0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 graph-fallback.instagram.com
 0.0.0.0 graph.instagram.com
 0.0.0.0 gtglobal.intl.miui.com
 0.0.0.0 h-adashx.ut.lazada.com
@@ -209,6 +223,7 @@
 0.0.0.0 impression-asia.liftoff.io
 0.0.0.0 impression.appsflyer.com
 0.0.0.0 improving.duckduckgo.com
+0.0.0.0 in.appcenter.ms
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 indrive-api.exponea.com
 0.0.0.0 infoevent.startappservice.com
@@ -216,6 +231,8 @@
 0.0.0.0 injectshrslinkblog.com
 0.0.0.0 insight.ucweb.com
 0.0.0.0 intg.snapchat.com
+0.0.0.0 ipify4.pling.com
+0.0.0.0 ipify6.pling.com
 0.0.0.0 iso-stats.cachyos.org
 0.0.0.0 jeestauglahity.net
 0.0.0.0 jmacs-m.lazada.sg
@@ -237,6 +254,8 @@
 0.0.0.0 jupiter.intl.sys.miui.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 lazy.rayjump.com
+0.0.0.0 li.blogtrottr.com
+0.0.0.0 liteanalytics.com
 0.0.0.0 log16-normal-useast5.tiktokv.us
 0.0.0.0 logging.g.sst.secureserver.net
 0.0.0.0 logssug.ucweb.com
@@ -245,6 +264,7 @@
 0.0.0.0 matomo.openstreetmap.org
 0.0.0.0 mcc-intl.inf.miui.com
 0.0.0.0 mcc.intl.inf.miui.com
+0.0.0.0 mediaserver.entainpartners.com
 0.0.0.0 mediation.adnxs.com
 0.0.0.0 misc.api.snaptube.app
 0.0.0.0 mobile.events.data.microsoft.com
@@ -275,6 +295,8 @@
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 omnisnippet1.com
+0.0.0.0 orange-dc.lazada.com
+0.0.0.0 ossgw.alicdn.com
 0.0.0.0 p3a-creative.brave.com
 0.0.0.0 p3a-json.brave.com
 0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
@@ -286,12 +308,14 @@
 0.0.0.0 pcdn.dengage.com
 0.0.0.0 perseus-productanalytics.deliveryhero.net
 0.0.0.0 pi.ias.xiaomi.com
+0.0.0.0 pik.pling.com
 0.0.0.0 pixee.gropulse.com
 0.0.0.0 pixel-api.socialhead.io
 0.0.0.0 pixel-config.reddit.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.roughgroup.com
 0.0.0.0 pla.atlasos.net
+0.0.0.0 plausible.freeyourmusic.com
 0.0.0.0 plausible.io
 0.0.0.0 player-telemetry.vimeo.com
 0.0.0.0 pok.mintegral.net
@@ -302,12 +326,14 @@
 0.0.0.0 px-intl.ucweb.com
 0.0.0.0 qcc.qualcomm.com
 0.0.0.0 realtime.ably.io
+0.0.0.0 region1.google-analytics.com
 0.0.0.0 register.xmpush.global.xiaomi.com
 0.0.0.0 remote-data.asnapieu.com
 0.0.0.0 reports.proton.me
 0.0.0.0 req.startappservice.com
 0.0.0.0 s2s.adjust.com
 0.0.0.0 sc-static.net
+0.0.0.0 sdk-02.moengage.com
 0.0.0.0 sdk-api-v1.singular.net
 0.0.0.0 sdk.beeketing.com
 0.0.0.0 sdk.iad-01.braze.com
@@ -334,11 +360,15 @@
 0.0.0.0 static.cloudflareinsights.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.fd-api.com
+0.0.0.0 static.fleshlight.com
 0.0.0.0 stats.indianpornempire.com
+0.0.0.0 stats.wp.com
 0.0.0.0 statsig.anthropic.com
 0.0.0.0 statsigapi.net
+0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 syndication.twitter.com
 0.0.0.0 t1.market.xiaomi.com
+0.0.0.0 tag.aftvnews.com
 0.0.0.0 tag.trovo-tag.com
 0.0.0.0 tagdelivery.mayoclinic.org
 0.0.0.0 talaria.online
@@ -350,6 +380,7 @@
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 tr-eu.adsmoloco.com
 0.0.0.0 tr.snapchat.com
+0.0.0.0 track.fiverr.com
 0.0.0.0 tracking.aws.judge.me
 0.0.0.0 tracking.feedpress.com
 0.0.0.0 tracking.intl.miui.com
@@ -369,13 +400,19 @@
 0.0.0.0 use.hetzner.com
 0.0.0.0 variations.brave.com
 0.0.0.0 view.adjust.com
+0.0.0.0 vulpix.bet
 0.0.0.0 w.usabilla.com
 0.0.0.0 w3-reporting.reddit.com
+0.0.0.0 wct.link
+0.0.0.0 wd.sharethis.com
+0.0.0.0 www.endorico.com
+0.0.0.0 www.friendlyduck.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
 0.0.0.0 www.inboxdollars.com
+0.0.0.0 www.liveadexchanger.com
 0.0.0.0 xiaomipakistan.site
 0.0.0.0 xjp-jmacs.m.taobao.com
 0.0.0.0 xjp-msgacs.m.taobao.com

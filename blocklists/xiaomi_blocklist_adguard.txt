@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-01-14 10:57:34 AM PKT
-# Number of unique domains: 555
+# Last updated: 2025-01-22 09:55:48 AM PKT
+# Number of unique domains: 567
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -18,7 +18,6 @@
 ||abroad.api.comm.intl.miui.com^
 ||abtest.mistat.xiaomi.com^
 ||account.migc.g.mi.com^
-||account-xiaomi.ru^
 ||activity.browser.intl.miui.com^
 ||activity.hybrid.xiaomi.com^
 ||ad.intl.xiaomi.com^
@@ -106,6 +105,7 @@
 ||c3mini.pandora.xiaomi.com^
 ||c4.pandora.xiaomi.com^
 ||callback.xmpush.xiaomi.com^
+||casaxiaomi.es^
 ||cc2.sys.intl.xiaomi.com^
 ||cc2.sys.miui.com^
 ||cc.ad.intl.xiaomi.com^
@@ -121,6 +121,7 @@
 ||cdn.fds-ssl.api.xiaomi.com^
 ||child.sec.miui.com^
 ||chong.sec.miui.com^
+||cloudxiaomi.com^
 ||cms.sec.miui.com^
 ||cnbj1.fds.api.xiaomi.com^
 ||cnc.data.game.xiaomi.com^
@@ -195,6 +196,8 @@
 ||global.api.huangye.miui.com^
 ||globalreport.ad.intl.xiaomi.com^
 ||globalvideo.cdn.pandora.intl.xiaomi.com^
+||gmxiaomi.com^
+||gonyequbohetanxxiaomiqinwu.top^
 ||gstat.pandora.xiaomi.com^
 ||gtglobal.intl.miui.com^
 ||h5-ru.video.intl.xiaomi.com^
@@ -208,7 +211,6 @@
 ||hot.browser.intl.miui.com^
 ||hot.browser.miui.com^
 ||httpdns.browser.miui.com^
-||huanxibohetanxxiaomiqinwu.top^
 ||huodong.xiaomi.com^
 ||huosai.xiaomi.com^
 ||hybrid.miui.com^
@@ -284,7 +286,6 @@
 ||mitv.tracking.intl.miui.com^
 ||mitv.tracking.miui.com^
 ||mitv.tracking.rus.miui.com^
-||miui-account.help^
 ||miui-fxcse.avlyun.com^
 ||miui-l7-data-other-c3.pt.miui.com^
 ||miui-l7-data-other.pt.miui.com^
@@ -315,7 +316,6 @@
 ||nav.browser.miui.com^
 ||nav.sec.miui.com^
 ||netcheck.pandora.xiaomi.com^
-||nextgenxiaomi.com^
 ||nginx.34.sec.miui.com^
 ||nl.rcd.ptqy.gitv.tv^
 ||n.notice.game.xiaomi.com^
@@ -374,6 +374,8 @@
 ||ru.register.xmpush.global.xiaomi.com^
 ||rus-mi.com^
 ||rus.miui.com^
+||russiaxiaomi.online^
+||russiaxiaomi.ru^
 ||ruvideo.cdn.pandora.intl.xiaomi.com^
 ||ru.video.intl.xiaomi.com^
 ||sandbox.activity.browser.intl.miui.com^
@@ -513,56 +515,66 @@
 ||www.rus-mi.com^
 ||www.traffic-media.co^
 ||xadx.file.market.xiaomi.com^
+||xianxiaomi.fun^
+||xiaomi123.xyz^
 ||xiaomi13.pro^
+||xiaomi5.cyou^
+||xiaomi5.top^
 ||xiaomi7.one^
 ||xiaomiadbdrivers.com^
+||xiaomian023.com^
 ||xiaomianao.top^
-||xiaomiao8.top^
-||xiaomibrofficial.com^
-||xiaomibuy.com^
-||xiaomibuy.net^
+||xiaomiangiang.vn^
+||xiaomianpeixun.com^
+||xiaomianpx.cn^
+||xiaomiao321.top^
 ||xiaomi-ca.com^
 ||xiaomi.cam^
-||xiaomi-cloud.live^
 ||xiaomicun.com^
-||xiaomidejia.com^
+||xiaomidashenglam.com^
+||xiaomidreame.vn^
 ||xiaomi-ega.buzz^
-||xiaomifinding.info^
 ||xiaomifood.cn^
-||xiaomihumanoid.com^
-||xiaomihyperos.xyz^
-||xiaomi-info-support.info^
+||xiaomifoods.com^
+||xiaomifoods.ru^
+||xiaomi-group.cyou^
+||xiaomi-group.top^
+||xiaomihyper.net^
+||xiaomijiao3313.com^
+||xiaomijiao.vip^
 ||xiaomi-li.com^
-||xiaomilk.asia^
+||xiaomiliu.cn^
 ||xiaomi-lockin.ru^
 ||xiaomimert.com^
-||xiaomimiart.com^
-||xiaomimwc2025.com^
+||xiaomimuc.com^
+||xiaomi.name^
 ||xiaomingz.com^
-||xiaomin.info^
 ||xiaomin.love^
 ||xiaominvest.store^
-||xiaomi-search.info^
-||xiaomishop.net^
+||xiaominxia.com^
+||xiaomiquan.xyz^
+||xiaomiscan.net^
+||xiaomiservice.online^
 ||xiaomi-shop.shop^
-||xiaomishop.top^
 ||xiaomisi.com^
-||xiaomis.top^
-||xiaomi-su7-parts.com^
-||xiaomi-su88.buzz^
-||xiaomisu9.com^
-||xiaomisufu.buzz^
+||xiaomispeedtoolpro.com^
+||xiaomistore.ca^
+||xiaomisummit2025.com^
 ||xiaomitao5.com^
+||xiaomi-taxi.buzz^
 ||xiaomitechno.com^
-||xiaomitek.com^
-||xiaomiunlocktool.com^
+||xiaomitizi.cc^
+||xiaomi-tn.com^
 ||xiaomiusbdriver.com^
+||xiaomiveziri.com^
 ||xiaomivietnam.xyz^
 ||xiaomiviettri.store^
-||xiaomiw.cc^
-||xiaomiya.xyz^
+||xiaomiwelt.com^
+||xiaomizaixian.cn^
+||xiaomizhou.com.cn^
+||xiaoxiaomishu.com^
 ||xiazai.xiaomi.com^
-||xinxiaomi.com^
 ||xlmc.sec.miui.com^
 ||zeus.ad.xiaomi.com^
+||zhenhebohetanxxiaomiqinwu.top^
 ||zhenxiaomi.com^

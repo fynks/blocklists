@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-01-14 10:57:16 AM PKT
-! Number of unique domains: 378
+! Last updated: 2025-01-22 09:55:28 AM PKT
+! Number of unique domains: 415
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -44,18 +44,24 @@
 ||9zuqbz.tdum.alibaba.com^
 ||a.tampermonkey.net^
 ||a9yqt0.tdum.alibaba.com^
+||ab.advertiserurl.com^
 ||abroad.api.comm.intl.miui.com^
 ||acdn.adnxs.com^
 ||acjs.aliyun.com^
 ||acs.maribacaberita.com^
+||ad.22betpartners.com^
 ||ad.doubleclick.net^
+||ad.zanox.com^
 ||adashx.ut.daraz.com^
 ||ads-api.twitter.com^
 ||ads-api.x.com^
+||ads.betfair.com^
 ||ads.vk.com^
+||adsapi.snapchat.com^
 ||adsmetadata.mobileadexchange.net^
 ||adsmetadata.startappservice.com^
 ||adtrack-intl.ucweb.com^
+||adultfriendfinder.com^
 ||adv.sec.intl.miui.com^
 ||alb.reddit.com^
 ||amdc.lazada.com^
@@ -66,12 +72,14 @@
 ||analytics.tiktok.com^
 ||analytics.us.tiktok.com^
 ||anothereldestprogeny.com^
+||ap.octopuspop.com^
 ||api.ad.intl.xiaomi.com^
 ||api.aurogon.intl.miui.com^
 ||api.comm.miui.com^
 ||api.g.micloud.xiaomi.net^
 ||api.howlapm.com^
 ||api.mixpanel.com^
+||api.onesignal.com^
 ||api.sec.miui.com^
 ||api.sprig.com^
 ||api.statsig.com^
@@ -82,11 +90,13 @@
 ||apiuccenter.ucweb.com^
 ||app-analytics-v2.snapchat.com^
 ||app-measurement.com^
+||assets.context.ly^
 ||at.cbsi.com^
 ||attr.union.ucweb.com^
 ||audid-api-sg.taobao.com^
 ||authbe.sec.intl.miui.com^
 ||awssgp0-files.fds.api.xiaomi.com^
+||b.px-cdn.net^
 ||bdad.123pan.cn^
 ||beacons.gcp.gvt2.com^
 ||beacons.gvt2.com^
@@ -105,6 +115,7 @@
 ||browser-intake-us5-datadoghq.com^
 ||browser.events.data.microsoft.com^
 ||business-api.tiktok.com^
+||c27.smaato.net^
 ||campaign-content.swrve.com^
 ||cby7o7.tdum.alibaba.com^
 ||cdn-settings.appsflyersdk.com^
@@ -114,6 +125,7 @@
 ||cdn.hextom.com^
 ||cdn.inspectlet.com^
 ||cdn.logbase.io^
+||cdn.moengage.com^
 ||cdn.onesignal.com^
 ||cdn.polyfill.io^
 ||cdn.raygun.io^
@@ -129,6 +141,7 @@
 ||chimpstatic.com^
 ||cl.canva.com^
 ||clienttracing-pa.googleapis.com^
+||clk.mobgold.com^
 ||cnbj1.fds.api.xiaomi.com^
 ||collector-pxljub4etb.perimeterx.net^
 ||collector.github.com^
@@ -197,6 +210,7 @@
 ||go.ezodn.com^
 ||google-analytics.com^
 ||googleads.g.doubleclick.net^
+||graph-fallback.instagram.com^
 ||graph.instagram.com^
 ||gtglobal.intl.miui.com^
 ||h-adashx.ut.lazada.com^
@@ -210,6 +224,7 @@
 ||impression-asia.liftoff.io^
 ||impression.appsflyer.com^
 ||improving.duckduckgo.com^
+||in.appcenter.ms^
 ||inapps.appsflyer.com^
 ||indrive-api.exponea.com^
 ||infoevent.startappservice.com^
@@ -217,6 +232,8 @@
 ||injectshrslinkblog.com^
 ||insight.ucweb.com^
 ||intg.snapchat.com^
+||ipify4.pling.com^
+||ipify6.pling.com^
 ||iso-stats.cachyos.org^
 ||jeestauglahity.net^
 ||jmacs-m.lazada.sg^
@@ -238,6 +255,8 @@
 ||jupiter.intl.sys.miui.com^
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
+||li.blogtrottr.com^
+||liteanalytics.com^
 ||log16-normal-useast5.tiktokv.us^
 ||logging.g.sst.secureserver.net^
 ||logssug.ucweb.com^
@@ -246,6 +265,7 @@
 ||matomo.openstreetmap.org^
 ||mcc-intl.inf.miui.com^
 ||mcc.intl.inf.miui.com^
+||mediaserver.entainpartners.com^
 ||mediation.adnxs.com^
 ||misc.api.snaptube.app^
 ||mobile.events.data.microsoft.com^
@@ -276,6 +296,8 @@
 ||ogads-pa.clients6.google.com^
 ||ogads-pa.googleapis.com^
 ||omnisnippet1.com^
+||orange-dc.lazada.com^
+||ossgw.alicdn.com^
 ||p3a-creative.brave.com^
 ||p3a-json.brave.com^
 ||p8ly86-cdn-settings.appsflyersdk.com^
@@ -287,12 +309,14 @@
 ||pcdn.dengage.com^
 ||perseus-productanalytics.deliveryhero.net^
 ||pi.ias.xiaomi.com^
+||pik.pling.com^
 ||pixee.gropulse.com^
 ||pixel-api.socialhead.io^
 ||pixel-config.reddit.com^
 ||pixel.facebook.com^
 ||pixel.roughgroup.com^
 ||pla.atlasos.net^
+||plausible.freeyourmusic.com^
 ||plausible.io^
 ||player-telemetry.vimeo.com^
 ||pok.mintegral.net^
@@ -303,12 +327,14 @@
 ||px-intl.ucweb.com^
 ||qcc.qualcomm.com^
 ||realtime.ably.io^
+||region1.google-analytics.com^
 ||register.xmpush.global.xiaomi.com^
 ||remote-data.asnapieu.com^
 ||reports.proton.me^
 ||req.startappservice.com^
 ||s2s.adjust.com^
 ||sc-static.net^
+||sdk-02.moengage.com^
 ||sdk-api-v1.singular.net^
 ||sdk.beeketing.com^
 ||sdk.iad-01.braze.com^
@@ -335,11 +361,15 @@
 ||static.cloudflareinsights.com^
 ||static.doubleclick.net^
 ||static.fd-api.com^
+||static.fleshlight.com^
 ||stats.indianpornempire.com^
+||stats.wp.com^
 ||statsig.anthropic.com^
 ||statsigapi.net^
+||syndication.exdynsrv.com^
 ||syndication.twitter.com^
 ||t1.market.xiaomi.com^
+||tag.aftvnews.com^
 ||tag.trovo-tag.com^
 ||tagdelivery.mayoclinic.org^
 ||talaria.online^
@@ -351,6 +381,7 @@
 ||tpc.googlesyndication.com^
 ||tr-eu.adsmoloco.com^
 ||tr.snapchat.com^
+||track.fiverr.com^
 ||tracking.aws.judge.me^
 ||tracking.feedpress.com^
 ||tracking.intl.miui.com^
@@ -370,13 +401,19 @@
 ||use.hetzner.com^
 ||variations.brave.com^
 ||view.adjust.com^
+||vulpix.bet^
 ||w.usabilla.com^
 ||w3-reporting.reddit.com^
+||wct.link^
+||wd.sharethis.com^
+||www.endorico.com^
+||www.friendlyduck.com^
 ||www.google-analytics.com^
 ||www.googleadservices.com^
 ||www.googletagmanager.com^
 ||www.googletagservices.com^
 ||www.inboxdollars.com^
+||www.liveadexchanger.com^
 ||xiaomipakistan.site^
 ||xjp-jmacs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^
