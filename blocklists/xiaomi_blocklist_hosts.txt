@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-01-22 09:55:48 AM PKT
-# Number of unique domains: 567
+# Last updated: 2025-04-08 01:17:02 PM PKT
+# Number of unique domains: 499
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -12,7 +12,6 @@
 # Hosts file format: 0.0.0.0 example.com
 
 0.0.0.0 11-c3.bigdata.ctc.neo.xiaomi.com
-0.0.0.0 3rdupgrade.pandora.xiaomi.com
 0.0.0.0 5-c3.bigdata.ctc.neo.xiaomi.com
 0.0.0.0 a0.app.xiaomi.com
 0.0.0.0 abroad.api.comm.intl.miui.com
@@ -56,6 +55,7 @@
 0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.hybrid.xiaomi.com
 0.0.0.0 api.installer.xiaomi.com
+0.0.0.0 api.jr.mi.com
 0.0.0.0 api.launcher.intl.miui.com
 0.0.0.0 api.mintbrs.intl.miui.com
 0.0.0.0 api.miui.security.xiaomi.com
@@ -68,16 +68,14 @@
 0.0.0.0 api.tw06.xlmc.sec.miui.com
 0.0.0.0 api.vip.miui.com
 0.0.0.0 api.xmpush.global.xiaomi.com
-0.0.0.0 api.zhuti.xiaomi.com
 0.0.0.0 apkrep.ff.avast.sec.miui.com
+0.0.0.0 apm-rum-ind.inf.miui.com
 0.0.0.0 app.greengurad.sec.miui.com
 0.0.0.0 app.migc.g.mi.com
 0.0.0.0 app.miui.com
 0.0.0.0 appstore.cdn.pandora.xiaomi.com
 0.0.0.0 appstore.pandora.xiaomi.com
 0.0.0.0 appstore.ptmi.gitv.tv
-0.0.0.0 assistant.miui.com
-0.0.0.0 assistant.pandora.xiaomi.com
 0.0.0.0 a.stat.xiaomi.com
 0.0.0.0 au.ff.avast.sec.miui.com
 0.0.0.0 a.union.mi.com
@@ -105,7 +103,6 @@
 0.0.0.0 c3mini.pandora.xiaomi.com
 0.0.0.0 c4.pandora.xiaomi.com
 0.0.0.0 callback.xmpush.xiaomi.com
-0.0.0.0 casaxiaomi.es
 0.0.0.0 cc2.sys.intl.xiaomi.com
 0.0.0.0 cc2.sys.miui.com
 0.0.0.0 cc.ad.intl.xiaomi.com
@@ -114,19 +111,15 @@
 0.0.0.0 cc.sys.intl.xiaomi.com
 0.0.0.0 cc.sys.miui.com
 0.0.0.0 cdn1.static.home.miui.com
-0.0.0.0 cdn.ad.xiaomi.com
 0.0.0.0 cdna.sec.miui.com
 0.0.0.0 cdn.exp.xiaomi.com
 0.0.0.0 cdn.fds.api.xiaomi.com
 0.0.0.0 cdn.fds-ssl.api.xiaomi.com
 0.0.0.0 child.sec.miui.com
 0.0.0.0 chong.sec.miui.com
-0.0.0.0 cloudxiaomi.com
 0.0.0.0 cms.sec.miui.com
 0.0.0.0 cnbj1.fds.api.xiaomi.com
 0.0.0.0 cnc.data.game.xiaomi.com
-0.0.0.0 cn-register.xmpush.xiaomi.com
-0.0.0.0 cn.register.xmpush.xiaomi.com
 0.0.0.0 comc4l7.pandora.xiaomi.com
 0.0.0.0 config.kuyun.com
 0.0.0.0 console.admin.xmpush.xiaomi.com
@@ -142,7 +135,6 @@
 0.0.0.0 data.mistat.xiaomi.com
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
-0.0.0.0 default.sdkconfig.ad.xiaomi.com
 0.0.0.0 default.tracking.miui.com
 0.0.0.0 de.pandora.xiaomi.com
 0.0.0.0 dev.staging.api.developer.n.xiaomi.com
@@ -152,6 +144,7 @@
 0.0.0.0 dvb.pandora.xiaomi.com
 0.0.0.0 d.xiaomi.com
 0.0.0.0 e.ad.xiaomi.com
+0.0.0.0 e.mi.com
 0.0.0.0 emi-cube.ad.xiaomi.com
 0.0.0.0 emq.xmpush.xiaomi.com
 0.0.0.0 etl.xlmc.sec.miui.com
@@ -196,8 +189,6 @@
 0.0.0.0 global.api.huangye.miui.com
 0.0.0.0 globalreport.ad.intl.xiaomi.com
 0.0.0.0 globalvideo.cdn.pandora.intl.xiaomi.com
-0.0.0.0 gmxiaomi.com
-0.0.0.0 gonyequbohetanxxiaomiqinwu.top
 0.0.0.0 gstat.pandora.xiaomi.com
 0.0.0.0 gtglobal.intl.miui.com
 0.0.0.0 h5-ru.video.intl.xiaomi.com
@@ -211,11 +202,9 @@
 0.0.0.0 hot.browser.intl.miui.com
 0.0.0.0 hot.browser.miui.com
 0.0.0.0 httpdns.browser.miui.com
-0.0.0.0 huodong.xiaomi.com
 0.0.0.0 huosai.xiaomi.com
 0.0.0.0 hybrid.miui.com
 0.0.0.0 i.api.xmpush.xiaomi.com
-0.0.0.0 ident.mistat.xiaomi.com
 0.0.0.0 idmb-api.xmpush.global.xiaomi.com
 0.0.0.0 idmb.api.xmpush.global.xiaomi.com
 0.0.0.0 idmb.app.chat.global.xiaomi.net
@@ -230,7 +219,6 @@
 0.0.0.0 india.miui.com
 0.0.0.0 inf.miui.com
 0.0.0.0 info.analysis.kp.sec.miui.com
-0.0.0.0 info.sec.miui.com
 0.0.0.0 in-miuilog.sms.intl.xiaomi.com
 0.0.0.0 in-protect-dev.sec.intl.miui.com
 0.0.0.0 intl.up.w.xk.miui.com
@@ -280,8 +268,15 @@
 0.0.0.0 mishop.cdn.pandora.xiaomi.com
 0.0.0.0 mishop.pandora.xiaomi.com
 0.0.0.0 mistat.india.xiaomi.com
+0.0.0.0 mistat.india.xiaomi.com.edgesuite.net
+0.0.0.0 mistat.india.xiaomi.com.ksyna.net
 0.0.0.0 mistat.intl.xiaomi.com
+0.0.0.0 mistat.intl.xiaomi.com.edgesuite.net
+0.0.0.0 mistat.intl.xiaomi.com.ksyna.net
 0.0.0.0 mistat.rus.xiaomi.com
+0.0.0.0 mistat.rus.xiaomi.com.edgesuite.net
+0.0.0.0 mistat.rus.xiaomi.com.ksyna.net
+0.0.0.0 mistat.xiaomi.com.download.ks-cdn.com
 0.0.0.0 mitv.tracking.india.miui.com
 0.0.0.0 mitv.tracking.intl.miui.com
 0.0.0.0 mitv.tracking.miui.com
@@ -294,7 +289,6 @@
 0.0.0.0 mixer.cupid.ptqy.gitv.tv
 0.0.0.0 mlog.search.xiaomi.net
 0.0.0.0 mob.api.xmpush.xiaomi.com
-0.0.0.0 mobile.mishop.pandora.xiaomi.com
 0.0.0.0 mob.pandora.xiaomi.com
 0.0.0.0 mob.tv.pandora.xiaomi.com
 0.0.0.0 mon.be.xiaomi.com
@@ -308,10 +302,7 @@
 0.0.0.0 msga.ptqy.gitv.tv
 0.0.0.0 msg.ptqy.gitv.tv
 0.0.0.0 msg.video.ptqy.gitv.tv
-0.0.0.0 msxiaomi.com
 0.0.0.0 m.track.ad.xiaomi.com
-0.0.0.0 music.xiaomi.com
-0.0.0.0 m.zhuti.xiaomi.com
 0.0.0.0 native.feedback.miui.com
 0.0.0.0 nav.browser.miui.com
 0.0.0.0 nav.sec.miui.com
@@ -345,7 +336,6 @@
 0.0.0.0 port.sec.miui.com
 0.0.0.0 preload.xiaomi.com
 0.0.0.0 preview.crm.sms.miui.com
-0.0.0.0 privacy.api.intl.miui.com
 0.0.0.0 privacy.miui.com
 0.0.0.0 protect.dev.sec.intl.miui.com
 0.0.0.0 protect.dev.sec.miui.com
@@ -372,10 +362,7 @@
 0.0.0.0 ru.feedback.xmpush.global.xiaomi.com
 0.0.0.0 ru-register.xmpush.global.xiaomi.com
 0.0.0.0 ru.register.xmpush.global.xiaomi.com
-0.0.0.0 rus-mi.com
 0.0.0.0 rus.miui.com
-0.0.0.0 russiaxiaomi.online
-0.0.0.0 russiaxiaomi.ru
 0.0.0.0 ruvideo.cdn.pandora.intl.xiaomi.com
 0.0.0.0 ru.video.intl.xiaomi.com
 0.0.0.0 sandbox.activity.browser.intl.miui.com
@@ -459,7 +446,6 @@
 0.0.0.0 test-api.xmpush.xiaomi.com
 0.0.0.0 testit.miui.com
 0.0.0.0 thm.market.xiaomi.com
-0.0.0.0 thuthuatxiaomi.com
 0.0.0.0 time.video.ptqy.gitv.tv
 0.0.0.0 tj1.master.pt.xiaomi.com
 0.0.0.0 tj1-new.scf.pt.xiaomi.com
@@ -491,7 +477,6 @@
 0.0.0.0 tv.app.migc.xiaomi.com
 0.0.0.0 tvboss.pandora.xiaomi.com
 0.0.0.0 tvepg.pandora.xiaomi.com
-0.0.0.0 tvstat.pandora.xiaomi.com
 0.0.0.0 tz.sec.xiaomi.com
 0.0.0.0 update.avlyun.sec.miui.com
 0.0.0.0 upgrade.pandora.xiaomi.com
@@ -512,69 +497,16 @@
 0.0.0.0 wtradv.market.xiaomi.com
 0.0.0.0 www.kuyun.com
 0.0.0.0 www.miui.net
-0.0.0.0 www.rus-mi.com
 0.0.0.0 www.traffic-media.co
 0.0.0.0 xadx.file.market.xiaomi.com
-0.0.0.0 xianxiaomi.fun
-0.0.0.0 xiaomi123.xyz
-0.0.0.0 xiaomi13.pro
-0.0.0.0 xiaomi5.cyou
-0.0.0.0 xiaomi5.top
-0.0.0.0 xiaomi7.one
-0.0.0.0 xiaomiadbdrivers.com
-0.0.0.0 xiaomian023.com
-0.0.0.0 xiaomianao.top
-0.0.0.0 xiaomiangiang.vn
-0.0.0.0 xiaomianpeixun.com
-0.0.0.0 xiaomianpx.cn
-0.0.0.0 xiaomiao321.top
-0.0.0.0 xiaomi-ca.com
-0.0.0.0 xiaomi.cam
-0.0.0.0 xiaomicun.com
-0.0.0.0 xiaomidashenglam.com
-0.0.0.0 xiaomidreame.vn
-0.0.0.0 xiaomi-ega.buzz
 0.0.0.0 xiaomifood.cn
-0.0.0.0 xiaomifoods.com
-0.0.0.0 xiaomifoods.ru
-0.0.0.0 xiaomi-group.cyou
-0.0.0.0 xiaomi-group.top
-0.0.0.0 xiaomihyper.net
-0.0.0.0 xiaomijiao3313.com
-0.0.0.0 xiaomijiao.vip
-0.0.0.0 xiaomi-li.com
-0.0.0.0 xiaomiliu.cn
-0.0.0.0 xiaomi-lockin.ru
-0.0.0.0 xiaomimert.com
-0.0.0.0 xiaomimuc.com
-0.0.0.0 xiaomi.name
+0.0.0.0 xiaomi.lol
 0.0.0.0 xiaomingz.com
-0.0.0.0 xiaomin.love
-0.0.0.0 xiaominvest.store
-0.0.0.0 xiaominxia.com
-0.0.0.0 xiaomiquan.xyz
-0.0.0.0 xiaomiscan.net
-0.0.0.0 xiaomiservice.online
 0.0.0.0 xiaomi-shop.shop
-0.0.0.0 xiaomisi.com
-0.0.0.0 xiaomispeedtoolpro.com
-0.0.0.0 xiaomistore.ca
-0.0.0.0 xiaomisummit2025.com
-0.0.0.0 xiaomitao5.com
-0.0.0.0 xiaomi-taxi.buzz
-0.0.0.0 xiaomitechno.com
-0.0.0.0 xiaomitizi.cc
-0.0.0.0 xiaomi-tn.com
-0.0.0.0 xiaomiusbdriver.com
-0.0.0.0 xiaomiveziri.com
+0.0.0.0 xiaomi-sync.com
 0.0.0.0 xiaomivietnam.xyz
-0.0.0.0 xiaomiviettri.store
-0.0.0.0 xiaomiwelt.com
-0.0.0.0 xiaomizaixian.cn
-0.0.0.0 xiaomizhou.com.cn
+0.0.0.0 xiaomiy.com
 0.0.0.0 xiaoxiaomishu.com
 0.0.0.0 xiazai.xiaomi.com
 0.0.0.0 xlmc.sec.miui.com
 0.0.0.0 zeus.ad.xiaomi.com
-0.0.0.0 zhenhebohetanxxiaomiqinwu.top
-0.0.0.0 zhenxiaomi.com

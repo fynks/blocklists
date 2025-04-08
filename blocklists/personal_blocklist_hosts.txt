@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-01-22 09:55:28 AM PKT
-# Number of unique domains: 415
+# Last updated: 2025-04-08 01:16:40 PM PKT
+# Number of unique domains: 478
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -35,6 +35,7 @@
 0.0.0.0 5yv4af.tdum.alibaba.com
 0.0.0.0 6915.eu-api.swrve.com
 0.0.0.0 6915.eu-content.swrve.com
+0.0.0.0 6915.eu-identity.swrve.com
 0.0.0.0 7viywa.tdum.alibaba.com
 0.0.0.0 81ar65.tdum.alibaba.com
 0.0.0.0 85dhwr.tdum.alibaba.com
@@ -52,6 +53,9 @@
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 ad.zanox.com
 0.0.0.0 adashx.ut.daraz.com
+0.0.0.0 adobe.tt.omtrdc.net
+0.0.0.0 adobecorp.data.adobedc.net
+0.0.0.0 adobecorp.sc.omtrdc.net
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.x.com
 0.0.0.0 ads.betfair.com
@@ -72,9 +76,12 @@
 0.0.0.0 analytics.us.tiktok.com
 0.0.0.0 anothereldestprogeny.com
 0.0.0.0 ap.octopuspop.com
+0.0.0.0 api-ad-adapter.wps.com
+0.0.0.0 api-fp-retry-bj.fengkongcloud.com
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 api.aurogon.intl.miui.com
 0.0.0.0 api.comm.miui.com
+0.0.0.0 api.config-security.com
 0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.howlapm.com
 0.0.0.0 api.mixpanel.com
@@ -87,6 +94,7 @@
 0.0.0.0 api2.branch.io
 0.0.0.0 api3.siftscience.com
 0.0.0.0 apiuccenter.ucweb.com
+0.0.0.0 apmplus.volces.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app-measurement.com
 0.0.0.0 assets.context.ly
@@ -114,13 +122,21 @@
 0.0.0.0 browser-intake-us5-datadoghq.com
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 business-api.tiktok.com
+0.0.0.0 c.statcounter.com
 0.0.0.0 c27.smaato.net
 0.0.0.0 campaign-content.swrve.com
+0.0.0.0 canekilttantrum.com
+0.0.0.0 carinus.iad-03.braze.com
 0.0.0.0 cby7o7.tdum.alibaba.com
+0.0.0.0 cc-api-data.adobe.io
+0.0.0.0 cdn-bundler.nice-team.net
 0.0.0.0 cdn-settings.appsflyersdk.com
+0.0.0.0 cdn.appdynamics.com
+0.0.0.0 cdn.autoketing.org
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.concert.io
 0.0.0.0 cdn.exp.xiaomi.com
+0.0.0.0 cdn.hengam.io
 0.0.0.0 cdn.hextom.com
 0.0.0.0 cdn.inspectlet.com
 0.0.0.0 cdn.logbase.io
@@ -132,6 +148,7 @@
 0.0.0.0 cdn.taboola.com
 0.0.0.0 cdn0.forter.com
 0.0.0.0 cdn123.forter.com
+0.0.0.0 cdn2.hextom.com
 0.0.0.0 cdn3.forter.com
 0.0.0.0 cdn4.buysellads.net
 0.0.0.0 cdn9.forter.com
@@ -144,6 +161,7 @@
 0.0.0.0 cnbj1.fds.api.xiaomi.com
 0.0.0.0 collector-pxljub4etb.perimeterx.net
 0.0.0.0 collector.github.com
+0.0.0.0 conf.config-security.com
 0.0.0.0 configure.rayjump.com
 0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 conversions.appsflyer.com
@@ -153,31 +171,45 @@
 0.0.0.0 csp.godaddy.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 cuttlela.ucweb.com
+0.0.0.0 cy.annussleys.com
 0.0.0.0 d0m2z2.tdum.alibaba.com
 0.0.0.0 d26xw8rp6mlgfg.cloudfront.net
 0.0.0.0 d2o5idwacg3gyw.cloudfront.net
 0.0.0.0 data.flurry.com
+0.0.0.0 data.mistat.intl.xiaomi.com
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
+0.0.0.0 dc-genai-access-provisioning-api.adobe.io
 0.0.0.0 ddzk5l3bd.com
 0.0.0.0 decide.mixpanel.com
+0.0.0.0 dev.visualwebsiteoptimizer.com
 0.0.0.0 device-api.asnapieu.com
 0.0.0.0 dit.whatsapp.net
+0.0.0.0 dj1d6o6ftflzi.cloudfront.net
 0.0.0.0 dl20f2.tdum.alibaba.com
+0.0.0.0 dpm.demdex.net
 0.0.0.0 ds60ti.tdum.alibaba.com
+0.0.0.0 dz.mmstat.com
 0.0.0.0 e0as5i.tdum.alibaba.com
 0.0.0.0 eko443.tdum.alibaba.com
 0.0.0.0 epwiy9-cdn-settings.appsflyersdk.com
 0.0.0.0 epwiy9-conversions.appsflyersdk.com
+0.0.0.0 euc1-turn.fpjs.io
 0.0.0.0 events.statsigapi.net
 0.0.0.0 evsw-zfdmag.one
+0.0.0.0 evt.ilovepdf.com
 0.0.0.0 explainplaysettwisting.com
 0.0.0.0 f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net
 0.0.0.0 f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net
 0.0.0.0 f264cb70780-omkswsgt1726329075-sonar.xz.fbcdn.net
+0.0.0.0 f6ba9f90630-ejdxnvaq1743405772-sonar.xy.fbcdn.net
 0.0.0.0 f765a5b3430-pcmzwufj1726898299-sonar.xy.fbcdn.net
 0.0.0.0 f9bc57c2c80-hqjviaos1733150352-sonar.xz.fbcdn.net
+0.0.0.0 fa0e1226030-gusmjjip1742407303-sonar.xy.fbcdn.net
 0.0.0.0 fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net
+0.0.0.0 faisalmovers.com
+0.0.0.0 fast.a.klaviyo.com
+0.0.0.0 fc2yri.tdum.alibaba.com
 0.0.0.0 fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net
 0.0.0.0 fchbhd.tdum.alibaba.com
 0.0.0.0 fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net
@@ -196,10 +228,14 @@
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 fls-na.amazon.com
 0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 fourier.alibaba.com
+0.0.0.0 fourier.taobao.com
+0.0.0.0 fp-it.fengkongcloud.com
 0.0.0.0 fresnel-events.vimeocdn.com
 0.0.0.0 fresnel.vimeocdn.com
 0.0.0.0 freyr.futurecdn.net
 0.0.0.0 g4yq0.tdum.alibaba.com
+0.0.0.0 gator.volces.com
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 geoip.businessinsider.com
 0.0.0.0 ghyljj.tdum.alibaba.com
@@ -211,11 +247,20 @@
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 graph-fallback.instagram.com
 0.0.0.0 graph.instagram.com
+0.0.0.0 greenanalytics.autos
+0.0.0.0 grs.dbankcloud.asia
+0.0.0.0 grs.dbankcloud.cn
+0.0.0.0 grs.dbankcloud.com
+0.0.0.0 grs.dbankcloud.eu
+0.0.0.0 grs.platform.dbankcloud.ru
 0.0.0.0 gtglobal.intl.miui.com
+0.0.0.0 h-adashx.ut.daraz.com
 0.0.0.0 h-adashx.ut.lazada.com
 0.0.0.0 h5.app.intl.miui.com
+0.0.0.0 headway-widget.net
 0.0.0.0 hn.inspectlet.com
 0.0.0.0 hudong.alicdn.com
+0.0.0.0 hz-telemetry.adobe.io
 0.0.0.0 ichnaea-web.netflix.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
@@ -237,6 +282,7 @@
 0.0.0.0 jeestauglahity.net
 0.0.0.0 jmacs-m.lazada.sg
 0.0.0.0 jmacs.maribacaberita.com
+0.0.0.0 jn8dkc-attr.appsflyersdk.com
 0.0.0.0 jn8dkc-cdn-settings.appsflyersdk.com
 0.0.0.0 jn8dkc-conversions.appsflyersdk.com
 0.0.0.0 jn8dkc-inapps.appsflyersdk.com
@@ -259,6 +305,7 @@
 0.0.0.0 log16-normal-useast5.tiktokv.us
 0.0.0.0 logging.g.sst.secureserver.net
 0.0.0.0 logssug.ucweb.com
+0.0.0.0 looker.com
 0.0.0.0 loox.io
 0.0.0.0 magiskmanager.com
 0.0.0.0 matomo.openstreetmap.org
@@ -281,6 +328,8 @@
 0.0.0.0 newsfeed.api.intl.miui.com
 0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 nitroscripts.com
+0.0.0.0 notifications.payhelm.com
+0.0.0.0 nu.wolfmandiked.com
 0.0.0.0 o1158394.ingest.us.sentry.io
 0.0.0.0 o1220489.ingest.sentry.io
 0.0.0.0 o13855.ingest.sentry.io
@@ -307,6 +356,8 @@
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pcdn.dengage.com
 0.0.0.0 perseus-productanalytics.deliveryhero.net
+0.0.0.0 persona-etl.wps.com
+0.0.0.0 ph.ente.io
 0.0.0.0 pi.ias.xiaomi.com
 0.0.0.0 pik.pling.com
 0.0.0.0 pixee.gropulse.com
@@ -315,22 +366,27 @@
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.roughgroup.com
 0.0.0.0 pla.atlasos.net
+0.0.0.0 platform.stumbleupon.com
 0.0.0.0 plausible.freeyourmusic.com
 0.0.0.0 plausible.io
 0.0.0.0 player-telemetry.vimeo.com
+0.0.0.0 plugin-server.wps.com
 0.0.0.0 pok.mintegral.net
 0.0.0.0 policy.rayjump.com
 0.0.0.0 polyfill.io
 0.0.0.0 privacy.api.intl.miui.com
 0.0.0.0 prodregistryv2.org
+0.0.0.0 public.profitwell.com
 0.0.0.0 px-intl.ucweb.com
 0.0.0.0 qcc.qualcomm.com
 0.0.0.0 realtime.ably.io
 0.0.0.0 region1.google-analytics.com
 0.0.0.0 register.xmpush.global.xiaomi.com
+0.0.0.0 related.queryly.com
 0.0.0.0 remote-data.asnapieu.com
 0.0.0.0 reports.proton.me
 0.0.0.0 req.startappservice.com
+0.0.0.0 retcode-sg-lazada.arms.aliyuncs.com
 0.0.0.0 s2s.adjust.com
 0.0.0.0 sc-static.net
 0.0.0.0 sdk-02.moengage.com
@@ -353,6 +409,7 @@
 0.0.0.0 sil.appnext.com
 0.0.0.0 snippet.maze.co
 0.0.0.0 sonar6.xy.fbcdn.net
+0.0.0.0 spm.hextom.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 star-randsrv.bsg.brave.com
 0.0.0.0 static.ads-twitter.com
@@ -361,6 +418,7 @@
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.fd-api.com
 0.0.0.0 static.fleshlight.com
+0.0.0.0 stats.fluorescent.co
 0.0.0.0 stats.indianpornempire.com
 0.0.0.0 stats.wp.com
 0.0.0.0 statsig.anthropic.com
@@ -375,6 +433,7 @@
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry.canva.com
 0.0.0.0 testing.testing.com
+0.0.0.0 thread.spicegems.org
 0.0.0.0 tigger-citadel.touchtype-fluency.com
 0.0.0.0 topdata.downloadatoz.com
 0.0.0.0 tpc.googlesyndication.com
@@ -382,6 +441,7 @@
 0.0.0.0 tr.snapchat.com
 0.0.0.0 track.fiverr.com
 0.0.0.0 tracking.aws.judge.me
+0.0.0.0 tracking.bi.uizard.io
 0.0.0.0 tracking.feedpress.com
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.leadspark.io
@@ -390,6 +450,7 @@
 0.0.0.0 trk.storyly.io
 0.0.0.0 uc.telemetry.eyeo.com
 0.0.0.0 uc.ucweb.com
+0.0.0.0 um.tetelsillers.com
 0.0.0.0 umami.manjaro.org
 0.0.0.0 umini.shujupie.com
 0.0.0.0 umlazada.alibaba.com
@@ -404,7 +465,9 @@
 0.0.0.0 w.usabilla.com
 0.0.0.0 w3-reporting.reddit.com
 0.0.0.0 wct.link
+0.0.0.0 wct.softonic.com
 0.0.0.0 wd.sharethis.com
+0.0.0.0 www.clarity.ms
 0.0.0.0 www.endorico.com
 0.0.0.0 www.friendlyduck.com
 0.0.0.0 www.google-analytics.com
