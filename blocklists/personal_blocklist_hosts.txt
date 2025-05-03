@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-04-08 01:16:40 PM PKT
-# Number of unique domains: 478
+# Last updated: 2025-05-03 10:36:01 AM PKT
+# Number of unique domains: 513
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -33,6 +33,7 @@
 0.0.0.0 5rnk40.tdum.alibaba.com
 0.0.0.0 5yq8ge.tdum.alibaba.com
 0.0.0.0 5yv4af.tdum.alibaba.com
+0.0.0.0 60beoj.tdum.alibaba.com
 0.0.0.0 6915.eu-api.swrve.com
 0.0.0.0 6915.eu-content.swrve.com
 0.0.0.0 6915.eu-identity.swrve.com
@@ -74,6 +75,7 @@
 0.0.0.0 analytics.rayjump.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.us.tiktok.com
+0.0.0.0 analyze-82dfgsi2.m-w.com
 0.0.0.0 anothereldestprogeny.com
 0.0.0.0 ap.octopuspop.com
 0.0.0.0 api-ad-adapter.wps.com
@@ -84,6 +86,7 @@
 0.0.0.0 api.config-security.com
 0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.howlapm.com
+0.0.0.0 api.ipinfo.be
 0.0.0.0 api.mixpanel.com
 0.0.0.0 api.onesignal.com
 0.0.0.0 api.sec.miui.com
@@ -98,6 +101,7 @@
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app-measurement.com
 0.0.0.0 assets.context.ly
+0.0.0.0 assets1.adroll.com
 0.0.0.0 at.cbsi.com
 0.0.0.0 attr.union.ucweb.com
 0.0.0.0 audid-api-sg.taobao.com
@@ -113,7 +117,9 @@
 0.0.0.0 beacons5.gvt2.com
 0.0.0.0 beacons5.gvt3.com
 0.0.0.0 berke.wikimoon.sale
+0.0.0.0 beyondwickedmapping.org
 0.0.0.0 bf99042ofw.bf.dynatrace.com
+0.0.0.0 bizosama.com
 0.0.0.0 bloatingexpectantretinal.com
 0.0.0.0 bo925b.tdum.alibaba.com
 0.0.0.0 bot1ty.tdum.alibaba.com
@@ -159,6 +165,7 @@
 0.0.0.0 clienttracing-pa.googleapis.com
 0.0.0.0 clk.mobgold.com
 0.0.0.0 cnbj1.fds.api.xiaomi.com
+0.0.0.0 collector-pxljub4etb.cl6.px-cloud.net
 0.0.0.0 collector-pxljub4etb.perimeterx.net
 0.0.0.0 collector.github.com
 0.0.0.0 conf.config-security.com
@@ -173,6 +180,7 @@
 0.0.0.0 cuttlela.ucweb.com
 0.0.0.0 cy.annussleys.com
 0.0.0.0 d0m2z2.tdum.alibaba.com
+0.0.0.0 d1bxh8uas1mnw7.cloudfront.net
 0.0.0.0 d26xw8rp6mlgfg.cloudfront.net
 0.0.0.0 d2o5idwacg3gyw.cloudfront.net
 0.0.0.0 data.flurry.com
@@ -192,6 +200,7 @@
 0.0.0.0 dz.mmstat.com
 0.0.0.0 e0as5i.tdum.alibaba.com
 0.0.0.0 eko443.tdum.alibaba.com
+0.0.0.0 encyclopaediabritann.tt.omtrdc.net
 0.0.0.0 epwiy9-cdn-settings.appsflyersdk.com
 0.0.0.0 epwiy9-conversions.appsflyersdk.com
 0.0.0.0 euc1-turn.fpjs.io
@@ -203,7 +212,9 @@
 0.0.0.0 f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net
 0.0.0.0 f264cb70780-omkswsgt1726329075-sonar.xz.fbcdn.net
 0.0.0.0 f6ba9f90630-ejdxnvaq1743405772-sonar.xy.fbcdn.net
+0.0.0.0 f6f70237080-pxkcaouj1744644330-sonar.xz.fbcdn.net
 0.0.0.0 f765a5b3430-pcmzwufj1726898299-sonar.xy.fbcdn.net
+0.0.0.0 f7dd0854780-zqzcbmgs1744473812-sonar.xz.fbcdn.net
 0.0.0.0 f9bc57c2c80-hqjviaos1733150352-sonar.xz.fbcdn.net
 0.0.0.0 fa0e1226030-gusmjjip1742407303-sonar.xy.fbcdn.net
 0.0.0.0 fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net
@@ -212,9 +223,13 @@
 0.0.0.0 fc2yri.tdum.alibaba.com
 0.0.0.0 fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net
 0.0.0.0 fchbhd.tdum.alibaba.com
+0.0.0.0 fe5d2ad8930-hfiooopi1744922240-sonar.xy.fbcdn.net
+0.0.0.0 featureassets.org
 0.0.0.0 fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net
+0.0.0.0 federatedcompute-pa.googleapis.com
 0.0.0.0 ff9ed87672884a24b97c63c6edc7b9ae-4c4cc75a16ed.cdn.forter.com
 0.0.0.0 fgndav.tdum.alibaba.com
+0.0.0.0 files.waifu.cat
 0.0.0.0 findapi.micloud.xiaomi.net
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
@@ -234,6 +249,7 @@
 0.0.0.0 fresnel-events.vimeocdn.com
 0.0.0.0 fresnel.vimeocdn.com
 0.0.0.0 freyr.futurecdn.net
+0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 g4yq0.tdum.alibaba.com
 0.0.0.0 gator.volces.com
 0.0.0.0 geller-pa.googleapis.com
@@ -243,9 +259,12 @@
 0.0.0.0 gjtrack.ucweb.com
 0.0.0.0 glitter.services.disqus.com
 0.0.0.0 go.ezodn.com
+0.0.0.0 go.xliirdr.com
+0.0.0.0 go.xxxiijmp.com
 0.0.0.0 google-analytics.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 graph-fallback.instagram.com
+0.0.0.0 graph.facebook.com
 0.0.0.0 graph.instagram.com
 0.0.0.0 greenanalytics.autos
 0.0.0.0 grs.dbankcloud.asia
@@ -264,6 +283,7 @@
 0.0.0.0 ichnaea-web.netflix.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
+0.0.0.0 ilia.proxy.chickenkiller.com
 0.0.0.0 images-dl.taboola.com
 0.0.0.0 impression-asia.liftoff.io
 0.0.0.0 impression.appsflyer.com
@@ -279,6 +299,7 @@
 0.0.0.0 ipify4.pling.com
 0.0.0.0 ipify6.pling.com
 0.0.0.0 iso-stats.cachyos.org
+0.0.0.0 jd.rodlikemortal.com
 0.0.0.0 jeestauglahity.net
 0.0.0.0 jmacs-m.lazada.sg
 0.0.0.0 jmacs.maribacaberita.com
@@ -291,6 +312,7 @@
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js-eu1.hs-scripts.com
 0.0.0.0 js-na1.hs-scripts.com
+0.0.0.0 js.appboycdn.com
 0.0.0.0 js.hs-analytics.net
 0.0.0.0 js.hs-banner.com
 0.0.0.0 js.hs-scripts.com
@@ -308,11 +330,13 @@
 0.0.0.0 looker.com
 0.0.0.0 loox.io
 0.0.0.0 magiskmanager.com
+0.0.0.0 masahub2.com
 0.0.0.0 matomo.openstreetmap.org
 0.0.0.0 mcc-intl.inf.miui.com
 0.0.0.0 mcc.intl.inf.miui.com
 0.0.0.0 mediaserver.entainpartners.com
 0.0.0.0 mediation.adnxs.com
+0.0.0.0 mediocre-hire.pro
 0.0.0.0 misc.api.snaptube.app
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
@@ -345,6 +369,9 @@
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 omnisnippet1.com
 0.0.0.0 orange-dc.lazada.com
+0.0.0.0 osamagenius.com
+0.0.0.0 osamahit.com
+0.0.0.0 osamapk.com
 0.0.0.0 ossgw.alicdn.com
 0.0.0.0 p3a-creative.brave.com
 0.0.0.0 p3a-json.brave.com
@@ -371,6 +398,7 @@
 0.0.0.0 plausible.io
 0.0.0.0 player-telemetry.vimeo.com
 0.0.0.0 plugin-server.wps.com
+0.0.0.0 plx.tik.porn
 0.0.0.0 pok.mintegral.net
 0.0.0.0 policy.rayjump.com
 0.0.0.0 polyfill.io
@@ -380,6 +408,7 @@
 0.0.0.0 px-intl.ucweb.com
 0.0.0.0 qcc.qualcomm.com
 0.0.0.0 realtime.ably.io
+0.0.0.0 realtime.services.disqus.com
 0.0.0.0 region1.google-analytics.com
 0.0.0.0 register.xmpush.global.xiaomi.com
 0.0.0.0 related.queryly.com
@@ -389,6 +418,7 @@
 0.0.0.0 retcode-sg-lazada.arms.aliyuncs.com
 0.0.0.0 s2s.adjust.com
 0.0.0.0 sc-static.net
+0.0.0.0 scripts.dkmedia.now.sh
 0.0.0.0 sdk-02.moengage.com
 0.0.0.0 sdk-api-v1.singular.net
 0.0.0.0 sdk.beeketing.com
@@ -404,12 +434,14 @@
 0.0.0.0 sentry-reporter.ente.io
 0.0.0.0 sentry.ente.io
 0.0.0.0 sessions.bugsnag.com
+0.0.0.0 sg.mmstat.com
 0.0.0.0 sg.napi.ucweb.com
 0.0.0.0 shasta-collector-production.upwork.com
 0.0.0.0 sil.appnext.com
 0.0.0.0 snippet.maze.co
 0.0.0.0 sonar6.xy.fbcdn.net
 0.0.0.0 spm.hextom.com
+0.0.0.0 ss3.4sqi.net
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 star-randsrv.bsg.brave.com
 0.0.0.0 static.ads-twitter.com
@@ -420,12 +452,14 @@
 0.0.0.0 static.fleshlight.com
 0.0.0.0 stats.fluorescent.co
 0.0.0.0 stats.indianpornempire.com
+0.0.0.0 stats.slashed.cloud
 0.0.0.0 stats.wp.com
 0.0.0.0 statsig.anthropic.com
 0.0.0.0 statsigapi.net
 0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 syndication.twitter.com
 0.0.0.0 t1.market.xiaomi.com
+0.0.0.0 t3760571.beget.tech
 0.0.0.0 tag.aftvnews.com
 0.0.0.0 tag.trovo-tag.com
 0.0.0.0 tagdelivery.mayoclinic.org
@@ -468,6 +502,7 @@
 0.0.0.0 wct.softonic.com
 0.0.0.0 wd.sharethis.com
 0.0.0.0 www.clarity.ms
+0.0.0.0 www.effectiveratecpm.com
 0.0.0.0 www.endorico.com
 0.0.0.0 www.friendlyduck.com
 0.0.0.0 www.google-analytics.com

@@ -1,6 +1,6 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-04-08 01:17:02 PM PKT
+# Last updated: 2025-05-03 10:35:49 AM PKT
 # Number of unique domains: 499
 #
 # Sources:
@@ -123,6 +123,7 @@
 0.0.0.0 comc4l7.pandora.xiaomi.com
 0.0.0.0 config.kuyun.com
 0.0.0.0 console.admin.xmpush.xiaomi.com
+0.0.0.0 contactxiaomi.fr
 0.0.0.0 controller.india.xiaomi.com
 0.0.0.0 cse.avlyun.sec.miui.com
 0.0.0.0 cupid.ad.xiaomi.com
@@ -163,7 +164,6 @@
 0.0.0.0 fcanr.tracking.miui.com
 0.0.0.0 fe02.lg.xiaomi.com
 0.0.0.0 feedback.d.xiaomi.com
-0.0.0.0 feedback.intl.miui.com
 0.0.0.0 feedback.miui.com
 0.0.0.0 file.cdn.mvideo.xiaomi.com
 0.0.0.0 findapi.micloud.xiaomi.net
@@ -446,6 +446,7 @@
 0.0.0.0 test-api.xmpush.xiaomi.com
 0.0.0.0 testit.miui.com
 0.0.0.0 thm.market.xiaomi.com
+0.0.0.0 thuthuatxiaomi.com
 0.0.0.0 time.video.ptqy.gitv.tv
 0.0.0.0 tj1.master.pt.xiaomi.com
 0.0.0.0 tj1-new.scf.pt.xiaomi.com
@@ -484,6 +485,7 @@
 0.0.0.0 userid.xiaomi.com
 0.0.0.0 user.pandora.xiaomi.com
 0.0.0.0 us.statusapi.micloud.xiaomi.net
+0.0.0.0 utiq.mundoxiaomi.com
 0.0.0.0 video.kts.g.mi.com
 0.0.0.0 video.market.xiaomi.com
 0.0.0.0 vip-api.xmpush.global.xiaomi.com
@@ -500,12 +502,10 @@
 0.0.0.0 www.traffic-media.co
 0.0.0.0 xadx.file.market.xiaomi.com
 0.0.0.0 xiaomifood.cn
-0.0.0.0 xiaomi.lol
+0.0.0.0 xiaomi-location.com
 0.0.0.0 xiaomingz.com
 0.0.0.0 xiaomi-shop.shop
-0.0.0.0 xiaomi-sync.com
 0.0.0.0 xiaomivietnam.xyz
-0.0.0.0 xiaomiy.com
 0.0.0.0 xiaoxiaomishu.com
 0.0.0.0 xiazai.xiaomi.com
 0.0.0.0 xlmc.sec.miui.com
