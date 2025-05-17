@@ -1,19 +1,22 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-05-03 10:36:01 AM PKT
-# Number of unique domains: 513
+# Last updated: 2025-05-17 12:17:44 PM PKT
+# Number of unique domains: 542
 #
 # Hosts file format: 0.0.0.0 example.com
 
 0.0.0.0 
 0.0.0.0 0.datadog.pool.ntp.org
 0.0.0.0 1.datadog.pool.ntp.org
+0.0.0.0 186htf.tdum.alibaba.com
 0.0.0.0 2.datadog.pool.ntp.org
+0.0.0.0 207yse.tdum.alibaba.com
 0.0.0.0 2gbelh-cdn-settings.appsflyersdk.com
 0.0.0.0 2gbelh-conversions.appsflyersdk.com
 0.0.0.0 2gbelh-launches.appsflyersdk.com
 0.0.0.0 3.datadog.pool.ntp.org
 0.0.0.0 3dmret.tdum.alibaba.com
+0.0.0.0 3f89hr.tdum.alibaba.com
 0.0.0.0 3s2ix7.tdum.alibaba.com
 0.0.0.0 3sjen3.tdum.alibaba.com
 0.0.0.0 3yflsc.tdum.alibaba.com
@@ -30,6 +33,7 @@
 0.0.0.0 54ty7j-dlsdk.appsflyersdk.com
 0.0.0.0 54ty7j-launches.appsflyersdk.com
 0.0.0.0 5c88mn.tdum.alibaba.com
+0.0.0.0 5h69il.tdum.alibaba.com
 0.0.0.0 5rnk40.tdum.alibaba.com
 0.0.0.0 5yq8ge.tdum.alibaba.com
 0.0.0.0 5yv4af.tdum.alibaba.com
@@ -40,8 +44,10 @@
 0.0.0.0 7viywa.tdum.alibaba.com
 0.0.0.0 81ar65.tdum.alibaba.com
 0.0.0.0 85dhwr.tdum.alibaba.com
+0.0.0.0 926yur.tdum.alibaba.com
 0.0.0.0 9ehu1c.tdum.alibaba.com
 0.0.0.0 9jp8hz.tdum.alibaba.com
+0.0.0.0 9zu9eo.tdum.alibaba.com
 0.0.0.0 9zuqbz.tdum.alibaba.com
 0.0.0.0 a.tampermonkey.net
 0.0.0.0 a9yqt0.tdum.alibaba.com
@@ -50,6 +56,7 @@
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 acjs.aliyun.com
 0.0.0.0 acs.maribacaberita.com
+0.0.0.0 acscdn.com
 0.0.0.0 ad.22betpartners.com
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 ad.zanox.com
@@ -79,8 +86,10 @@
 0.0.0.0 anothereldestprogeny.com
 0.0.0.0 ap.octopuspop.com
 0.0.0.0 api-ad-adapter.wps.com
+0.0.0.0 api-bdc.net
 0.0.0.0 api-fp-retry-bj.fengkongcloud.com
 0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 api.allorigins.win
 0.0.0.0 api.aurogon.intl.miui.com
 0.0.0.0 api.comm.miui.com
 0.0.0.0 api.config-security.com
@@ -100,6 +109,9 @@
 0.0.0.0 apmplus.volces.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app-measurement.com
+0.0.0.0 app.adjust.com
+0.0.0.0 app.adjust.net.in
+0.0.0.0 app.adjust.world
 0.0.0.0 assets.context.ly
 0.0.0.0 assets1.adroll.com
 0.0.0.0 at.cbsi.com
@@ -108,6 +120,7 @@
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
 0.0.0.0 b.px-cdn.net
+0.0.0.0 b53d1.tdum.alibaba.com
 0.0.0.0 bdad.123pan.cn
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
@@ -129,7 +142,9 @@
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 c.statcounter.com
+0.0.0.0 c1jktt.tdum.alibaba.com
 0.0.0.0 c27.smaato.net
+0.0.0.0 c6zlc7.tdum.alibaba.com
 0.0.0.0 campaign-content.swrve.com
 0.0.0.0 canekilttantrum.com
 0.0.0.0 carinus.iad-03.braze.com
@@ -190,6 +205,7 @@
 0.0.0.0 dc-genai-access-provisioning-api.adobe.io
 0.0.0.0 ddzk5l3bd.com
 0.0.0.0 decide.mixpanel.com
+0.0.0.0 decimalcursor.com
 0.0.0.0 dev.visualwebsiteoptimizer.com
 0.0.0.0 device-api.asnapieu.com
 0.0.0.0 dit.whatsapp.net
@@ -199,10 +215,12 @@
 0.0.0.0 ds60ti.tdum.alibaba.com
 0.0.0.0 dz.mmstat.com
 0.0.0.0 e0as5i.tdum.alibaba.com
+0.0.0.0 ebi5pn.tdum.alibaba.com
 0.0.0.0 eko443.tdum.alibaba.com
 0.0.0.0 encyclopaediabritann.tt.omtrdc.net
 0.0.0.0 epwiy9-cdn-settings.appsflyersdk.com
 0.0.0.0 epwiy9-conversions.appsflyersdk.com
+0.0.0.0 essential-apps-analytics.herokuapp.com
 0.0.0.0 euc1-turn.fpjs.io
 0.0.0.0 events.statsigapi.net
 0.0.0.0 evsw-zfdmag.one
@@ -252,6 +270,7 @@
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 g4yq0.tdum.alibaba.com
 0.0.0.0 gator.volces.com
+0.0.0.0 gcq844.tdum.alibaba.com
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 geoip.businessinsider.com
 0.0.0.0 ghyljj.tdum.alibaba.com
@@ -323,6 +342,7 @@
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 lazy.rayjump.com
 0.0.0.0 li.blogtrottr.com
+0.0.0.0 li.protechts.net
 0.0.0.0 liteanalytics.com
 0.0.0.0 log16-normal-useast5.tiktokv.us
 0.0.0.0 logging.g.sst.secureserver.net
@@ -373,6 +393,8 @@
 0.0.0.0 osamahit.com
 0.0.0.0 osamapk.com
 0.0.0.0 ossgw.alicdn.com
+0.0.0.0 p.controld.com
+0.0.0.0 p.typekit.net
 0.0.0.0 p3a-creative.brave.com
 0.0.0.0 p3a-json.brave.com
 0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
@@ -397,6 +419,7 @@
 0.0.0.0 plausible.freeyourmusic.com
 0.0.0.0 plausible.io
 0.0.0.0 player-telemetry.vimeo.com
+0.0.0.0 player.urdupoint.com
 0.0.0.0 plugin-server.wps.com
 0.0.0.0 plx.tik.porn
 0.0.0.0 pok.mintegral.net
@@ -428,6 +451,7 @@
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdkupgrade.insight.ucweb.com
 0.0.0.0 seal.websecurity.norton.com
+0.0.0.0 search.olxpk.net
 0.0.0.0 sec.umeng.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sensors.snaptube.app
@@ -438,11 +462,13 @@
 0.0.0.0 sg.napi.ucweb.com
 0.0.0.0 shasta-collector-production.upwork.com
 0.0.0.0 sil.appnext.com
+0.0.0.0 snap.licdn.com
 0.0.0.0 snippet.maze.co
 0.0.0.0 sonar6.xy.fbcdn.net
 0.0.0.0 spm.hextom.com
 0.0.0.0 ss3.4sqi.net
 0.0.0.0 ssl.google-analytics.com
+0.0.0.0 sstats.adobe.com
 0.0.0.0 star-randsrv.bsg.brave.com
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 static.airbridge.io
@@ -458,6 +484,7 @@
 0.0.0.0 statsigapi.net
 0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 syndication.twitter.com
+0.0.0.0 t.contentsquare.net
 0.0.0.0 t1.market.xiaomi.com
 0.0.0.0 t3760571.beget.tech
 0.0.0.0 tag.aftvnews.com
@@ -474,6 +501,7 @@
 0.0.0.0 tr-eu.adsmoloco.com
 0.0.0.0 tr.snapchat.com
 0.0.0.0 track.fiverr.com
+0.0.0.0 track.pstmrk.it
 0.0.0.0 tracking.aws.judge.me
 0.0.0.0 tracking.bi.uizard.io
 0.0.0.0 tracking.feedpress.com
@@ -517,4 +545,5 @@
 0.0.0.0 xml-v4.ngcluster-a.online
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 z-p4.graph.instagram.com
+0.0.0.0 z-p42.graph.instagram.com
 0.0.0.0 zn0izjiulta2j2t4o-upwork.siteintercept.qualtrics.com

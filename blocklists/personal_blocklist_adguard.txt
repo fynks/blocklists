@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-05-03 10:36:01 AM PKT
-! Number of unique domains: 513
+! Last updated: 2025-05-17 12:17:44 PM PKT
+! Number of unique domains: 542
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -9,12 +9,15 @@
 ||^
 ||0.datadog.pool.ntp.org^
 ||1.datadog.pool.ntp.org^
+||186htf.tdum.alibaba.com^
 ||2.datadog.pool.ntp.org^
+||207yse.tdum.alibaba.com^
 ||2gbelh-cdn-settings.appsflyersdk.com^
 ||2gbelh-conversions.appsflyersdk.com^
 ||2gbelh-launches.appsflyersdk.com^
 ||3.datadog.pool.ntp.org^
 ||3dmret.tdum.alibaba.com^
+||3f89hr.tdum.alibaba.com^
 ||3s2ix7.tdum.alibaba.com^
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
@@ -31,6 +34,7 @@
 ||54ty7j-dlsdk.appsflyersdk.com^
 ||54ty7j-launches.appsflyersdk.com^
 ||5c88mn.tdum.alibaba.com^
+||5h69il.tdum.alibaba.com^
 ||5rnk40.tdum.alibaba.com^
 ||5yq8ge.tdum.alibaba.com^
 ||5yv4af.tdum.alibaba.com^
@@ -41,8 +45,10 @@
 ||7viywa.tdum.alibaba.com^
 ||81ar65.tdum.alibaba.com^
 ||85dhwr.tdum.alibaba.com^
+||926yur.tdum.alibaba.com^
 ||9ehu1c.tdum.alibaba.com^
 ||9jp8hz.tdum.alibaba.com^
+||9zu9eo.tdum.alibaba.com^
 ||9zuqbz.tdum.alibaba.com^
 ||a.tampermonkey.net^
 ||a9yqt0.tdum.alibaba.com^
@@ -51,6 +57,7 @@
 ||acdn.adnxs.com^
 ||acjs.aliyun.com^
 ||acs.maribacaberita.com^
+||acscdn.com^
 ||ad.22betpartners.com^
 ||ad.doubleclick.net^
 ||ad.zanox.com^
@@ -80,8 +87,10 @@
 ||anothereldestprogeny.com^
 ||ap.octopuspop.com^
 ||api-ad-adapter.wps.com^
+||api-bdc.net^
 ||api-fp-retry-bj.fengkongcloud.com^
 ||api.ad.intl.xiaomi.com^
+||api.allorigins.win^
 ||api.aurogon.intl.miui.com^
 ||api.comm.miui.com^
 ||api.config-security.com^
@@ -101,6 +110,9 @@
 ||apmplus.volces.com^
 ||app-analytics-v2.snapchat.com^
 ||app-measurement.com^
+||app.adjust.com^
+||app.adjust.net.in^
+||app.adjust.world^
 ||assets.context.ly^
 ||assets1.adroll.com^
 ||at.cbsi.com^
@@ -109,6 +121,7 @@
 ||authbe.sec.intl.miui.com^
 ||awssgp0-files.fds.api.xiaomi.com^
 ||b.px-cdn.net^
+||b53d1.tdum.alibaba.com^
 ||bdad.123pan.cn^
 ||beacons.gcp.gvt2.com^
 ||beacons.gvt2.com^
@@ -130,7 +143,9 @@
 ||browser.events.data.microsoft.com^
 ||business-api.tiktok.com^
 ||c.statcounter.com^
+||c1jktt.tdum.alibaba.com^
 ||c27.smaato.net^
+||c6zlc7.tdum.alibaba.com^
 ||campaign-content.swrve.com^
 ||canekilttantrum.com^
 ||carinus.iad-03.braze.com^
@@ -191,6 +206,7 @@
 ||dc-genai-access-provisioning-api.adobe.io^
 ||ddzk5l3bd.com^
 ||decide.mixpanel.com^
+||decimalcursor.com^
 ||dev.visualwebsiteoptimizer.com^
 ||device-api.asnapieu.com^
 ||dit.whatsapp.net^
@@ -200,10 +216,12 @@
 ||ds60ti.tdum.alibaba.com^
 ||dz.mmstat.com^
 ||e0as5i.tdum.alibaba.com^
+||ebi5pn.tdum.alibaba.com^
 ||eko443.tdum.alibaba.com^
 ||encyclopaediabritann.tt.omtrdc.net^
 ||epwiy9-cdn-settings.appsflyersdk.com^
 ||epwiy9-conversions.appsflyersdk.com^
+||essential-apps-analytics.herokuapp.com^
 ||euc1-turn.fpjs.io^
 ||events.statsigapi.net^
 ||evsw-zfdmag.one^
@@ -253,6 +271,7 @@
 ||fundingchoicesmessages.google.com^
 ||g4yq0.tdum.alibaba.com^
 ||gator.volces.com^
+||gcq844.tdum.alibaba.com^
 ||geller-pa.googleapis.com^
 ||geoip.businessinsider.com^
 ||ghyljj.tdum.alibaba.com^
@@ -324,6 +343,7 @@
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
 ||li.blogtrottr.com^
+||li.protechts.net^
 ||liteanalytics.com^
 ||log16-normal-useast5.tiktokv.us^
 ||logging.g.sst.secureserver.net^
@@ -374,6 +394,8 @@
 ||osamahit.com^
 ||osamapk.com^
 ||ossgw.alicdn.com^
+||p.controld.com^
+||p.typekit.net^
 ||p3a-creative.brave.com^
 ||p3a-json.brave.com^
 ||p8ly86-cdn-settings.appsflyersdk.com^
@@ -398,6 +420,7 @@
 ||plausible.freeyourmusic.com^
 ||plausible.io^
 ||player-telemetry.vimeo.com^
+||player.urdupoint.com^
 ||plugin-server.wps.com^
 ||plx.tik.porn^
 ||pok.mintegral.net^
@@ -429,6 +452,7 @@
 ||sdkconfig.ad.xiaomi.com^
 ||sdkupgrade.insight.ucweb.com^
 ||seal.websecurity.norton.com^
+||search.olxpk.net^
 ||sec.umeng.com^
 ||securepubads.g.doubleclick.net^
 ||sensors.snaptube.app^
@@ -439,11 +463,13 @@
 ||sg.napi.ucweb.com^
 ||shasta-collector-production.upwork.com^
 ||sil.appnext.com^
+||snap.licdn.com^
 ||snippet.maze.co^
 ||sonar6.xy.fbcdn.net^
 ||spm.hextom.com^
 ||ss3.4sqi.net^
 ||ssl.google-analytics.com^
+||sstats.adobe.com^
 ||star-randsrv.bsg.brave.com^
 ||static.ads-twitter.com^
 ||static.airbridge.io^
@@ -459,6 +485,7 @@
 ||statsigapi.net^
 ||syndication.exdynsrv.com^
 ||syndication.twitter.com^
+||t.contentsquare.net^
 ||t1.market.xiaomi.com^
 ||t3760571.beget.tech^
 ||tag.aftvnews.com^
@@ -475,6 +502,7 @@
 ||tr-eu.adsmoloco.com^
 ||tr.snapchat.com^
 ||track.fiverr.com^
+||track.pstmrk.it^
 ||tracking.aws.judge.me^
 ||tracking.bi.uizard.io^
 ||tracking.feedpress.com^
@@ -518,4 +546,5 @@
 ||xml-v4.ngcluster-a.online^
 ||ynuf.aliapp.org^
 ||z-p4.graph.instagram.com^
+||z-p42.graph.instagram.com^
 ||zn0izjiulta2j2t4o-upwork.siteintercept.qualtrics.com^

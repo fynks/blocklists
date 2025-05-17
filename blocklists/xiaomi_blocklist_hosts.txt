@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-05-03 10:35:49 AM PKT
-# Number of unique domains: 499
+# Last updated: 2025-05-17 12:18:02 PM PKT
+# Number of unique domains: 505
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -32,6 +32,7 @@
 0.0.0.0 adx.tv.mi.com
 0.0.0.0 a.hl.mi.com
 0.0.0.0 a.market.xiaomi.com
+0.0.0.0 ams-tracking.api.intl.miui.com
 0.0.0.0 analytics.ff.avast.sec.miui.com
 0.0.0.0 api.accelerator.intl.miui.com
 0.0.0.0 api.account.preview.n.xiaomi.net
@@ -39,6 +40,7 @@
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 api.ads.xiaomi.com
 0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 api.ad.xiaomi.com.edgesuite.net
 0.0.0.0 api.aurogon.intl.miui.com
 0.0.0.0 api.bbs.miui.com
 0.0.0.0 api.browser.intl.miui.com
@@ -363,6 +365,7 @@
 0.0.0.0 ru-register.xmpush.global.xiaomi.com
 0.0.0.0 ru.register.xmpush.global.xiaomi.com
 0.0.0.0 rus.miui.com
+0.0.0.0 ru-tracking.api.intl.miui.com
 0.0.0.0 ruvideo.cdn.pandora.intl.xiaomi.com
 0.0.0.0 ru.video.intl.xiaomi.com
 0.0.0.0 sandbox.activity.browser.intl.miui.com
@@ -388,6 +391,7 @@
 0.0.0.0 sgp.account.migc.g.mi.com
 0.0.0.0 sgpapi.ad.intl.xiaomi.com
 0.0.0.0 sgp-api.xmpush.global.xiaomi.com
+0.0.0.0 sgp-tracking.api.intl.miui.com
 0.0.0.0 shoes.app-xae.xiaomi.com
 0.0.0.0 shop.pandora.xiaomi.com
 0.0.0.0 si.ptqy.gitv.tv
@@ -467,6 +471,7 @@
 0.0.0.0 tracker.xiaomixiaoai.com
 0.0.0.0 tracking.eu.miui.com
 0.0.0.0 tracking.india.miui.com
+0.0.0.0 tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.*.miui.com
 0.0.0.0 tracking.miui.com
@@ -485,7 +490,6 @@
 0.0.0.0 userid.xiaomi.com
 0.0.0.0 user.pandora.xiaomi.com
 0.0.0.0 us.statusapi.micloud.xiaomi.net
-0.0.0.0 utiq.mundoxiaomi.com
 0.0.0.0 video.kts.g.mi.com
 0.0.0.0 video.market.xiaomi.com
 0.0.0.0 vip-api.xmpush.global.xiaomi.com
@@ -501,11 +505,13 @@
 0.0.0.0 www.miui.net
 0.0.0.0 www.traffic-media.co
 0.0.0.0 xadx.file.market.xiaomi.com
-0.0.0.0 xiaomifood.cn
-0.0.0.0 xiaomi-location.com
+0.0.0.0 xiaomi-account.support
 0.0.0.0 xiaomingz.com
+0.0.0.0 xiaomisft.com
 0.0.0.0 xiaomi-shop.shop
 0.0.0.0 xiaomivietnam.xyz
+0.0.0.0 xiaomi-zoom.online
+0.0.0.0 xiaomi-zoom.ru
 0.0.0.0 xiaoxiaomishu.com
 0.0.0.0 xiazai.xiaomi.com
 0.0.0.0 xlmc.sec.miui.com
