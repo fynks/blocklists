@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-05-17 12:17:44 PM PKT
-! Number of unique domains: 542
+! Last updated: 2025-06-11 08:13:07 PM PKT
+! Number of unique domains: 648
 ! Compatible with AdGuard
 !
 ! Blocklist format: ||example.com^
@@ -16,8 +16,10 @@
 ||2gbelh-conversions.appsflyersdk.com^
 ||2gbelh-launches.appsflyersdk.com^
 ||3.datadog.pool.ntp.org^
+||362vx4.tdum.alibaba.com^
 ||3dmret.tdum.alibaba.com^
 ||3f89hr.tdum.alibaba.com^
+||3fm8vv.tdum.alibaba.com^
 ||3s2ix7.tdum.alibaba.com^
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
@@ -26,6 +28,7 @@
 ||4ng01p-conversions.appsflyersdk.com^
 ||4ng01p-inapps.appsflyersdk.com^
 ||4ng01p-launches.appsflyersdk.com^
+||4ony3o.tdum.alibaba.com^
 ||4reqrm.tdum.alibaba.com^
 ||53uhwp.tdum.alibaba.com^
 ||54ty7j-attr.appsflyersdk.com^
@@ -42,6 +45,8 @@
 ||6915.eu-api.swrve.com^
 ||6915.eu-content.swrve.com^
 ||6915.eu-identity.swrve.com^
+||6dpfps.tdum.alibaba.com^
+||7bcvxi.tdum.alibaba.com^
 ||7viywa.tdum.alibaba.com^
 ||81ar65.tdum.alibaba.com^
 ||85dhwr.tdum.alibaba.com^
@@ -54,6 +59,7 @@
 ||a9yqt0.tdum.alibaba.com^
 ||ab.advertiserurl.com^
 ||abroad.api.comm.intl.miui.com^
+||accscdn.m.taobao.com^
 ||acdn.adnxs.com^
 ||acjs.aliyun.com^
 ||acs.maribacaberita.com^
@@ -62,9 +68,11 @@
 ||ad.doubleclick.net^
 ||ad.zanox.com^
 ||adashx.ut.daraz.com^
+||addthis.com^
 ||adobe.tt.omtrdc.net^
 ||adobecorp.data.adobedc.net^
 ||adobecorp.sc.omtrdc.net^
+||adobedc.demdex.net^
 ||ads-api.twitter.com^
 ||ads-api.x.com^
 ||ads.betfair.com^
@@ -76,6 +84,7 @@
 ||adultfriendfinder.com^
 ||adv.sec.intl.miui.com^
 ||alb.reddit.com^
+||amazonwebservicesinc.tt.omtrdc.net^
 ||amdc.lazada.com^
 ||analytics.ahrefs.com^
 ||analytics.githubassets.com^
@@ -94,10 +103,13 @@
 ||api.aurogon.intl.miui.com^
 ||api.comm.miui.com^
 ||api.config-security.com^
+||api.eu-west-1.aiv-delivery.net^
 ||api.g.micloud.xiaomi.net^
+||api.game-sdk.com^
 ||api.howlapm.com^
 ||api.ipinfo.be^
 ||api.mixpanel.com^
+||api.omappapi.com^
 ||api.onesignal.com^
 ||api.sec.miui.com^
 ||api.sprig.com^
@@ -111,6 +123,7 @@
 ||app-analytics-v2.snapchat.com^
 ||app-measurement.com^
 ||app.adjust.com^
+||app.adjust.io^
 ||app.adjust.net.in^
 ||app.adjust.world^
 ||assets.context.ly^
@@ -149,14 +162,17 @@
 ||campaign-content.swrve.com^
 ||canekilttantrum.com^
 ||carinus.iad-03.braze.com^
+||cb029c3dc1b34e36a6c23beb2821526a-4c4cc75a16ed.cdn.forter.com^
 ||cby7o7.tdum.alibaba.com^
 ||cc-api-data.adobe.io^
 ||cdn-bundler.nice-team.net^
 ||cdn-settings.appsflyersdk.com^
 ||cdn.appdynamics.com^
+||cdn.appsflyer.com^
 ||cdn.autoketing.org^
 ||cdn.branch.io^
 ||cdn.concert.io^
+||cdn.conversiontracking.com^
 ||cdn.exp.xiaomi.com^
 ||cdn.hengam.io^
 ||cdn.hextom.com^
@@ -168,6 +184,7 @@
 ||cdn.raygun.io^
 ||cdn.skypack.dev^
 ||cdn.taboola.com^
+||cdn.tagcommander.com^
 ||cdn0.forter.com^
 ||cdn123.forter.com^
 ||cdn2.hextom.com^
@@ -175,6 +192,7 @@
 ||cdn4.buysellads.net^
 ||cdn9.forter.com^
 ||census-app.scorecardresearch.com^
+||chatbot-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev^
 ||check.rayjump.com^
 ||chimpstatic.com^
 ||cl.canva.com^
@@ -184,11 +202,14 @@
 ||collector-pxljub4etb.cl6.px-cloud.net^
 ||collector-pxljub4etb.perimeterx.net^
 ||collector.github.com^
+||combine.asnapieu.com^
 ||conf.config-security.com^
 ||configure.rayjump.com^
 ||configv2.unityads.unity3d.com^
+||conn-check.icg-in.com^
 ||conversions.appsflyer.com^
 ||cpm.adpluto.com^
+||crabtelegramdistracted.com^
 ||crashlogs.whatsapp.net^
 ||crashlyticsreports-pa.googleapis.com^
 ||csp.godaddy.com^
@@ -199,10 +220,12 @@
 ||d1bxh8uas1mnw7.cloudfront.net^
 ||d26xw8rp6mlgfg.cloudfront.net^
 ||d2o5idwacg3gyw.cloudfront.net^
+||data-fb7f8b3ae8.heise.de^
 ||data.flurry.com^
 ||data.mistat.intl.xiaomi.com^
 ||data.sec.intl.miui.com^
 ||data.sec.miui.com^
+||db7q4jg5rkhk8.cloudfront.net^
 ||dc-genai-access-provisioning-api.adobe.io^
 ||ddzk5l3bd.com^
 ||decide.mixpanel.com^
@@ -214,11 +237,26 @@
 ||dl20f2.tdum.alibaba.com^
 ||dpm.demdex.net^
 ||ds60ti.tdum.alibaba.com^
+||dv9cjr-attr.appsflyersdk.com^
+||dv9cjr-cdn-settings.appsflyersdk.com^
+||dv9cjr-conversions.appsflyersdk.com^
+||dv9cjr-launches.appsflyersdk.com^
 ||dz.mmstat.com^
 ||e0as5i.tdum.alibaba.com^
+||e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com^
+||ea.pstmrk.it^
 ||ebi5pn.tdum.alibaba.com^
+||edge.adobedc.net^
+||efamlz.tdum.alibaba.com^
 ||eko443.tdum.alibaba.com^
+||el4s9q.tdum.alibaba.com^
 ||encyclopaediabritann.tt.omtrdc.net^
+||engagements.appsflyer.com^
+||epelyz-cdn-settings.appsflyersdk.com^
+||epelyz-conversions.appsflyersdk.com^
+||epelyz-dlsdk.appsflyersdk.com^
+||epelyz-inapps.appsflyersdk.com^
+||epelyz-register.appsflyersdk.com^
 ||epwiy9-cdn-settings.appsflyersdk.com^
 ||epwiy9-conversions.appsflyersdk.com^
 ||essential-apps-analytics.herokuapp.com^
@@ -239,6 +277,8 @@
 ||fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net^
 ||faisalmovers.com^
 ||fast.a.klaviyo.com^
+||fb788ee3e13c37e386c4fc5c50068dbd4f2d37ac192335d0d1dfd07cb52635b.us-east-1.prod.service.minerva.devices.a2z.com^
+||fc1tn.baidu.com^
 ||fc2yri.tdum.alibaba.com^
 ||fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net^
 ||fchbhd.tdum.alibaba.com^
@@ -260,6 +300,8 @@
 ||fkvufv-launches.appsflyersdk.com^
 ||fkvufv-register.appsflyersdk.com^
 ||flash.sec.intl.miui.com^
+||fls-eu.amazon.co.uk^
+||fls-eu.amazon.com^
 ||fls-na.amazon.com^
 ||footprints-pa.googleapis.com^
 ||fourier.alibaba.com^
@@ -273,11 +315,17 @@
 ||gator.volces.com^
 ||gcq844.tdum.alibaba.com^
 ||geller-pa.googleapis.com^
+||geo.justwatch.com^
+||geo.yahoo.com^
 ||geoip.businessinsider.com^
+||gfhnmb.tdum.alibaba.com^
 ||ghyljj.tdum.alibaba.com^
+||gips1.baidu.com^
+||gips2.baidu.com^
 ||gjapplog.ucweb.com^
 ||gjtrack.ucweb.com^
 ||glitter.services.disqus.com^
+||gm.mmstat.com^
 ||go.ezodn.com^
 ||go.xliirdr.com^
 ||go.xxxiijmp.com^
@@ -300,6 +348,7 @@
 ||hn.inspectlet.com^
 ||hudong.alicdn.com^
 ||hz-telemetry.adobe.io^
+||i.isnssdk.com^
 ||ichnaea-web.netflix.com^
 ||id.google.com^
 ||id.google.com.pk^
@@ -316,6 +365,7 @@
 ||injectshrslinkblog.com^
 ||insight.ucweb.com^
 ||intg.snapchat.com^
+||ip2c.org^
 ||ipify4.pling.com^
 ||ipify6.pling.com^
 ||iso-stats.cachyos.org^
@@ -338,6 +388,7 @@
 ||js.hs-scripts.com^
 ||js.hscollectedforms.net^
 ||js.hubspot.com^
+||js.monitor.azure.com^
 ||js.qualified.com^
 ||jupiter.intl.sys.miui.com^
 ||launches.appsflyer.com^
@@ -345,16 +396,19 @@
 ||li.blogtrottr.com^
 ||li.protechts.net^
 ||liteanalytics.com^
+||log16-normal-alisg.tiktokv.com^
 ||log16-normal-useast5.tiktokv.us^
 ||logging.g.sst.secureserver.net^
 ||logssug.ucweb.com^
 ||looker.com^
 ||loox.io^
+||mads.amazon-adsystem.com^
 ||magiskmanager.com^
 ||masahub2.com^
 ||matomo.openstreetmap.org^
 ||mcc-intl.inf.miui.com^
 ||mcc.intl.inf.miui.com^
+||mcs-sg.tiktokv.com^
 ||mediaserver.entainpartners.com^
 ||mediation.adnxs.com^
 ||mediocre-hire.pro^
@@ -364,10 +418,12 @@
 ||mobile.useinsider.com^
 ||mon-boot.tiktokv.com^
 ||mon-va.tiktokv.com^
+||mon.isnssdk.com^
 ||mon.tiktokv.com^
 ||mon16-normal-useast5.tiktokv.us^
 ||monorail-edge.shopifysvc.com^
 ||mqs-log.miui.com^
+||ms.bdstatic.com^
 ||msgacs-m.lazada.sg^
 ||mssdk-sg.tiktok.com^
 ||newsfeed.api.intl.miui.com^
@@ -386,6 +442,7 @@
 ||o4505071687041024.ingest.sentry.io^
 ||o476415.ingest.sentry.io^
 ||o516780.ingest.sentry.io^
+||o516780.ingest.us.sentry.io^
 ||ogads-pa.clients6.google.com^
 ||ogads-pa.googleapis.com^
 ||omnisnippet1.com^
@@ -396,6 +453,7 @@
 ||ossgw.alicdn.com^
 ||p.controld.com^
 ||p.typekit.net^
+||p21-ad-sg.ibyteimg.com^
 ||p3a-creative.brave.com^
 ||p3a-json.brave.com^
 ||p8ly86-cdn-settings.appsflyersdk.com^
@@ -409,6 +467,7 @@
 ||persona-etl.wps.com^
 ||ph.ente.io^
 ||pi.ias.xiaomi.com^
+||pig.redact.dev^
 ||pik.pling.com^
 ||pixee.gropulse.com^
 ||pixel-api.socialhead.io^
@@ -430,7 +489,9 @@
 ||prodregistryv2.org^
 ||public.profitwell.com^
 ||px-intl.ucweb.com^
+||q3ban.tdum.alibaba.com^
 ||qcc.qualcomm.com^
+||r.wdfl.co^
 ||realtime.ably.io^
 ||realtime.services.disqus.com^
 ||region1.google-analytics.com^
@@ -440,6 +501,7 @@
 ||reports.proton.me^
 ||req.startappservice.com^
 ||retcode-sg-lazada.arms.aliyuncs.com^
+||rum-cdn.perfops.net^
 ||s2s.adjust.com^
 ||sc-static.net^
 ||scripts.dkmedia.now.sh^
@@ -458,6 +520,11 @@
 ||sensors.snaptube.app^
 ||sentry-reporter.ente.io^
 ||sentry.ente.io^
+||service1.us.incognia.com^
+||service2.icg-in.com^
+||service2.us.incognia.com^
+||service4.icg-in.com^
+||service4.us.incognia.com^
 ||sessions.bugsnag.com^
 ||sg.mmstat.com^
 ||sg.napi.ucweb.com^
@@ -466,11 +533,14 @@
 ||snap.licdn.com^
 ||snippet.maze.co^
 ||sonar6.xy.fbcdn.net^
+||sp1.baidu.com^
+||sparrow.cloudflare.com^
 ||spm.hextom.com^
 ||ss3.4sqi.net^
 ||ssl.google-analytics.com^
 ||sstats.adobe.com^
 ||star-randsrv.bsg.brave.com^
+||static-eu.cleverpush.com^
 ||static.ads-twitter.com^
 ||static.airbridge.io^
 ||static.cloudflareinsights.com^
@@ -478,6 +548,7 @@
 ||static.fd-api.com^
 ||static.fleshlight.com^
 ||stats.fluorescent.co^
+||stats.g.doubleclick.net^
 ||stats.indianpornempire.com^
 ||stats.slashed.cloud^
 ||stats.wp.com^
@@ -494,15 +565,41 @@
 ||talaria.online^
 ||telemetry.api.swiftkey.com^
 ||telemetry.canva.com^
+||test-4j1cfh261s.null-addr.net^
+||test-4xcjj4irw6m.null-addr.org^
+||test-7qrox6bh5ch.null-addr.org^
+||test-aa5prjsb0cv.null-addr.net^
+||test-ai6antet24i.null-addr.org^
+||test-ayvkmty13gb.null-addr.org^
+||test-byxr16nt83u.null-addr.net^
+||test-cltxsvqxogp.null-addr.net^
+||test-ewfddznqp.null-addr.org^
+||test-fu5zzt483oc.null-addr.net^
+||test-j84db3ghkdb.null-addr.org^
+||test-kiicap80ceg.null-addr.org^
+||test-otzb99gxx7k.null-addr.net^
+||test-p8qssfg5gmr.null-addr.org^
+||test-phkukbb4qyj.null-addr.net^
+||test-qf5vmbnl8v.null-addr.net^
+||test-ssuupk55hvf.null-addr.org^
+||test-v1hxj1vkiu.null-addr.net^
+||test-vfvk1rb1uzo.null-addr.org^
+||test-vv5vb2n8ux.null-addr.org^
+||test-w00524w208b.null-addr.net^
+||test-xi9p4ajw1qb.null-addr.net^
+||test-y35tk659ip.null-addr.net^
+||test-yxle2ibcpj.null-addr.org^
 ||testing.testing.com^
 ||thread.spicegems.org^
 ||tigger-citadel.touchtype-fluency.com^
+||tiktok.adsmeasurement.com^
 ||topdata.downloadatoz.com^
 ||tpc.googlesyndication.com^
 ||tr-eu.adsmoloco.com^
 ||tr.snapchat.com^
 ||track.fiverr.com^
 ||track.pstmrk.it^
+||tracking-api.g2.com^
 ||tracking.aws.judge.me^
 ||tracking.bi.uizard.io^
 ||tracking.feedpress.com^
@@ -511,12 +608,15 @@
 ||traffic-nts-ip-assoc.xy.fbcdn.net^
 ||traffic-nts-ip-assoc.xz.fbcdn.net^
 ||trk.storyly.io^
+||tzm.px-cloud.net^
 ||uc.telemetry.eyeo.com^
 ||uc.ucweb.com^
 ||um.tetelsillers.com^
 ||umami.manjaro.org^
 ||umini.shujupie.com^
 ||umlazada.alibaba.com^
+||unagi-na.amazon.com^
+||unagi.amazon.com^
 ||us.galleryapi.micloud.xiaomi.net^
 ||us.statusapi.micloud.xiaomi.net^
 ||us.ynuf.aliapp.org^
@@ -530,6 +630,10 @@
 ||wct.link^
 ||wct.softonic.com^
 ||wd.sharethis.com^
+||westerndigital.tt.omtrdc.net^
+||widgetlogic.org^
+||www.1377x.to^
+||www.addtoany.com^
 ||www.clarity.ms^
 ||www.effectiveratecpm.com^
 ||www.endorico.com^
@@ -539,7 +643,9 @@
 ||www.googletagmanager.com^
 ||www.googletagservices.com^
 ||www.inboxdollars.com^
+||www.iplocate.io^
 ||www.liveadexchanger.com^
+||www.shareaholic.com^
 ||xiaomipakistan.site^
 ||xjp-jmacs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^

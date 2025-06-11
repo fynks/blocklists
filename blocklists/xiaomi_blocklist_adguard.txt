@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-05-17 12:18:02 PM PKT
-# Number of unique domains: 505
+# Last updated: 2025-06-11 08:13:01 PM PKT
+# Number of unique domains: 507
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -31,6 +31,7 @@
 ||ad.xiaomi.com^
 ||adx.tv.mi.com^
 ||a.hl.mi.com^
+||alisgp-sentry.d.xiaomi.net^
 ||a.market.xiaomi.com^
 ||ams-tracking.api.intl.miui.com^
 ||analytics.ff.avast.sec.miui.com^
@@ -125,7 +126,6 @@
 ||comc4l7.pandora.xiaomi.com^
 ||config.kuyun.com^
 ||console.admin.xmpush.xiaomi.com^
-||contactxiaomi.fr^
 ||controller.india.xiaomi.com^
 ||cse.avlyun.sec.miui.com^
 ||cupid.ad.xiaomi.com^
@@ -193,6 +193,7 @@
 ||globalvideo.cdn.pandora.intl.xiaomi.com^
 ||gstat.pandora.xiaomi.com^
 ||gtglobal.intl.miui.com^
+||h4g3z1-native.xiaomi.web.app^
 ||h5-ru.video.intl.xiaomi.com^
 ||h5.tv.mi.com^
 ||hd.browser.miui.com^
@@ -313,6 +314,7 @@
 ||nl.rcd.ptqy.gitv.tv^
 ||n.notice.game.xiaomi.com^
 ||notice.game.xiaomi.com^
+||notify.sec.miui.com^
 ||o2o.api.xiaomi.com^
 ||odml.ad.intl.xiaomi.com^
 ||odml.ad.intl.xiaomi.com.mgslb.com^
@@ -348,9 +350,11 @@
 ||puma-api.ptqy.gitv.tv^
 ||p.www.xiaomi.com^
 ||qiye.xiaomi.com^
+||rayaxiaomi.com^
 ||r.browser.intl.miui.com^
 ||r.browser.miui.com^
 ||reader.browser.miui.com^
+||redirect.pandora.xiaomi.com^
 ||register.xmpush.global.xiaomi.com^
 ||report.n.xiaomi.com^
 ||resolver.gslb.mi-idc.com^
@@ -409,6 +413,7 @@
 ||staging.cname.ad.xiaomi.com^
 ||staging-diagnosis.ad.xiaomi.com^
 ||staging.hk.mibi.xiaomi.com^
+||staging-notify.sec.miui.com^
 ||staging.stat.pt.xiaomi.com^
 ||staging.tracking.miui.com^
 ||static.game.xiaomi.com^
@@ -488,8 +493,8 @@
 ||upgrade.pandora.xiaomi.com^
 ||us.api.micloud.xiaomi.net^
 ||userid.xiaomi.com^
-||user.pandora.xiaomi.com^
 ||us.statusapi.micloud.xiaomi.net^
+||utiq.mundoxiaomi.com^
 ||video.kts.g.mi.com^
 ||video.market.xiaomi.com^
 ||vip-api.xmpush.global.xiaomi.com^
@@ -505,14 +510,11 @@
 ||www.miui.net^
 ||www.traffic-media.co^
 ||xadx.file.market.xiaomi.com^
-||xiaomi-account.support^
+||xiaomifood.cn^
 ||xiaomingz.com^
-||xiaomisft.com^
+||xiaomipolygon.net^
 ||xiaomi-shop.shop^
 ||xiaomivietnam.xyz^
-||xiaomi-zoom.online^
-||xiaomi-zoom.ru^
-||xiaoxiaomishu.com^
 ||xiazai.xiaomi.com^
 ||xlmc.sec.miui.com^
 ||zeus.ad.xiaomi.com^
