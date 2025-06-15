@@ -58,7 +58,7 @@ generate_blocklist() {
 # Description: Domains blocked based on personal preferences
 # Last updated: $timestamp
 # Number of unique domains: $domain_count
-# Homepage: https://github.com/$(basename "$(dirname "$(pwd)")")/blocklists
+# Homepage: https://github.com/fynks/blocklists
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -70,7 +70,7 @@ EOF
 ! Description: Domains blocked based on personal preferences
 ! Last updated: $timestamp
 ! Number of unique domains: $domain_count
-! Homepage: https://github.com/$(basename "$(dirname "$(pwd)")")/blocklists
+! Homepage: https://github.com/fynks/blocklists
 ! Compatible with AdGuard, uBlock Origin, Pi-hole
 !
 ! Blocklist format: ||example.com^
