@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-06-15 01:23:09 PM PKT
-# Number of unique domains: 647
+# Last updated: 2025-06-16 11:00:30 AM PKT
+# Number of unique domains: 670
 # Homepage: https://github.com/fynks/blocklists
 #
 # Hosts file format: 0.0.0.0 example.com
@@ -82,10 +82,12 @@
 0.0.0.0 adtrack-intl.ucweb.com
 0.0.0.0 adultfriendfinder.com
 0.0.0.0 adv.sec.intl.miui.com
+0.0.0.0 ak.sail-horizon.com
 0.0.0.0 alb.reddit.com
 0.0.0.0 amazonwebservicesinc.tt.omtrdc.net
 0.0.0.0 amdc.lazada.com
 0.0.0.0 analytics.ahrefs.com
+0.0.0.0 analytics.authoritymedia.com
 0.0.0.0 analytics.githubassets.com
 0.0.0.0 analytics.picsart.com
 0.0.0.0 analytics.rayjump.com
@@ -125,6 +127,7 @@
 0.0.0.0 app.adjust.io
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
+0.0.0.0 appsgrowthpromo-pa.clients6.google.com
 0.0.0.0 assets.context.ly
 0.0.0.0 assets1.adroll.com
 0.0.0.0 at.cbsi.com
@@ -148,6 +151,7 @@
 0.0.0.0 bizosama.com
 0.0.0.0 bloatingexpectantretinal.com
 0.0.0.0 bo925b.tdum.alibaba.com
+0.0.0.0 boobausauhipsa.net
 0.0.0.0 bot1ty.tdum.alibaba.com
 0.0.0.0 brand-sdk.kmsmep.com
 0.0.0.0 browser-intake-datadoghq.com
@@ -164,7 +168,10 @@
 0.0.0.0 cb029c3dc1b34e36a6c23beb2821526a-4c4cc75a16ed.cdn.forter.com
 0.0.0.0 cby7o7.tdum.alibaba.com
 0.0.0.0 cc-api-data.adobe.io
+0.0.0.0 cc.garlicice.store
 0.0.0.0 cdn-bundler.nice-team.net
+0.0.0.0 cdn-fc.com
+0.0.0.0 cdn-magiclinks.trackonomics.net
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 cdn.appdynamics.com
 0.0.0.0 cdn.appsflyer.com
@@ -176,6 +183,7 @@
 0.0.0.0 cdn.hengam.io
 0.0.0.0 cdn.hextom.com
 0.0.0.0 cdn.inspectlet.com
+0.0.0.0 cdn.intergient.com
 0.0.0.0 cdn.logbase.io
 0.0.0.0 cdn.moengage.com
 0.0.0.0 cdn.onesignal.com
@@ -213,6 +221,7 @@
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 csp.godaddy.com
 0.0.0.0 csp.withgoogle.com
+0.0.0.0 ct.pinterest.com
 0.0.0.0 cuttlela.ucweb.com
 0.0.0.0 cy.annussleys.com
 0.0.0.0 d0m2z2.tdum.alibaba.com
@@ -220,6 +229,7 @@
 0.0.0.0 d26xw8rp6mlgfg.cloudfront.net
 0.0.0.0 d2o5idwacg3gyw.cloudfront.net
 0.0.0.0 data-fb7f8b3ae8.heise.de
+0.0.0.0 data-ingestion.flowgpt.com
 0.0.0.0 data.flurry.com
 0.0.0.0 data.mistat.intl.xiaomi.com
 0.0.0.0 data.sec.intl.miui.com
@@ -348,6 +358,7 @@
 0.0.0.0 hudong.alicdn.com
 0.0.0.0 hz-telemetry.adobe.io
 0.0.0.0 i.isnssdk.com
+0.0.0.0 i.viafoura.co
 0.0.0.0 ichnaea-web.netflix.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
@@ -398,6 +409,7 @@
 0.0.0.0 log16-normal-alisg.tiktokv.com
 0.0.0.0 log16-normal-useast5.tiktokv.us
 0.0.0.0 logging.g.sst.secureserver.net
+0.0.0.0 logs.browser-intake-datadoghq.com
 0.0.0.0 logssug.ucweb.com
 0.0.0.0 looker.com
 0.0.0.0 loox.io
@@ -448,6 +460,7 @@
 0.0.0.0 orange-dc.lazada.com
 0.0.0.0 osamagenius.com
 0.0.0.0 osamahit.com
+0.0.0.0 osamanamana.com
 0.0.0.0 osamapk.com
 0.0.0.0 ossgw.alicdn.com
 0.0.0.0 p.controld.com
@@ -491,6 +504,7 @@
 0.0.0.0 q3ban.tdum.alibaba.com
 0.0.0.0 qcc.qualcomm.com
 0.0.0.0 r.wdfl.co
+0.0.0.0 raine.accuweather.com
 0.0.0.0 realtime.ably.io
 0.0.0.0 realtime.services.disqus.com
 0.0.0.0 region1.google-analytics.com
@@ -519,6 +533,7 @@
 0.0.0.0 sensors.snaptube.app
 0.0.0.0 sentry-reporter.ente.io
 0.0.0.0 sentry.ente.io
+0.0.0.0 sentry.io
 0.0.0.0 service1.us.incognia.com
 0.0.0.0 service2.icg-in.com
 0.0.0.0 service2.us.incognia.com
@@ -530,7 +545,9 @@
 0.0.0.0 shasta-collector-production.upwork.com
 0.0.0.0 sil.appnext.com
 0.0.0.0 snap.licdn.com
+0.0.0.0 snippet.affilimate.io
 0.0.0.0 snippet.maze.co
+0.0.0.0 sofire.terabox.com
 0.0.0.0 sonar6.xy.fbcdn.net
 0.0.0.0 sp1.baidu.com
 0.0.0.0 sparrow.cloudflare.com
@@ -546,6 +563,7 @@
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.fd-api.com
 0.0.0.0 static.fleshlight.com
+0.0.0.0 static.narrativ.com
 0.0.0.0 stats.fluorescent.co
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 stats.indianpornempire.com
@@ -590,6 +608,7 @@
 0.0.0.0 test-yxle2ibcpj.null-addr.org
 0.0.0.0 testing.testing.com
 0.0.0.0 thread.spicegems.org
+0.0.0.0 tianji.flowgpt.com
 0.0.0.0 tigger-citadel.touchtype-fluency.com
 0.0.0.0 tiktok.adsmeasurement.com
 0.0.0.0 topdata.downloadatoz.com
@@ -629,6 +648,7 @@
 0.0.0.0 wct.link
 0.0.0.0 wct.softonic.com
 0.0.0.0 wd.sharethis.com
+0.0.0.0 weblog.rclone.org
 0.0.0.0 westerndigital.tt.omtrdc.net
 0.0.0.0 widgetlogic.org
 0.0.0.0 www.1377x.to
@@ -639,12 +659,15 @@
 0.0.0.0 www.friendlyduck.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
+0.0.0.0 www.googleoptimize.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
 0.0.0.0 www.inboxdollars.com
 0.0.0.0 www.iplocate.io
 0.0.0.0 www.liveadexchanger.com
 0.0.0.0 www.shareaholic.com
+0.0.0.0 x3x3x.xyz
+0.0.0.0 xdisplay.site
 0.0.0.0 xiaomipakistan.site
 0.0.0.0 xjp-jmacs.m.taobao.com
 0.0.0.0 xjp-msgacs.m.taobao.com

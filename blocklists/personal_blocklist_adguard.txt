@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-06-15 01:23:09 PM PKT
-! Number of unique domains: 647
+! Last updated: 2025-06-16 11:00:30 AM PKT
+! Number of unique domains: 670
 ! Homepage: https://github.com/fynks/blocklists
 ! Compatible with AdGuard, uBlock Origin, Pi-hole
 !
@@ -83,10 +83,12 @@
 ||adtrack-intl.ucweb.com^
 ||adultfriendfinder.com^
 ||adv.sec.intl.miui.com^
+||ak.sail-horizon.com^
 ||alb.reddit.com^
 ||amazonwebservicesinc.tt.omtrdc.net^
 ||amdc.lazada.com^
 ||analytics.ahrefs.com^
+||analytics.authoritymedia.com^
 ||analytics.githubassets.com^
 ||analytics.picsart.com^
 ||analytics.rayjump.com^
@@ -126,6 +128,7 @@
 ||app.adjust.io^
 ||app.adjust.net.in^
 ||app.adjust.world^
+||appsgrowthpromo-pa.clients6.google.com^
 ||assets.context.ly^
 ||assets1.adroll.com^
 ||at.cbsi.com^
@@ -149,6 +152,7 @@
 ||bizosama.com^
 ||bloatingexpectantretinal.com^
 ||bo925b.tdum.alibaba.com^
+||boobausauhipsa.net^
 ||bot1ty.tdum.alibaba.com^
 ||brand-sdk.kmsmep.com^
 ||browser-intake-datadoghq.com^
@@ -165,7 +169,10 @@
 ||cb029c3dc1b34e36a6c23beb2821526a-4c4cc75a16ed.cdn.forter.com^
 ||cby7o7.tdum.alibaba.com^
 ||cc-api-data.adobe.io^
+||cc.garlicice.store^
 ||cdn-bundler.nice-team.net^
+||cdn-fc.com^
+||cdn-magiclinks.trackonomics.net^
 ||cdn-settings.appsflyersdk.com^
 ||cdn.appdynamics.com^
 ||cdn.appsflyer.com^
@@ -177,6 +184,7 @@
 ||cdn.hengam.io^
 ||cdn.hextom.com^
 ||cdn.inspectlet.com^
+||cdn.intergient.com^
 ||cdn.logbase.io^
 ||cdn.moengage.com^
 ||cdn.onesignal.com^
@@ -214,6 +222,7 @@
 ||crashlyticsreports-pa.googleapis.com^
 ||csp.godaddy.com^
 ||csp.withgoogle.com^
+||ct.pinterest.com^
 ||cuttlela.ucweb.com^
 ||cy.annussleys.com^
 ||d0m2z2.tdum.alibaba.com^
@@ -221,6 +230,7 @@
 ||d26xw8rp6mlgfg.cloudfront.net^
 ||d2o5idwacg3gyw.cloudfront.net^
 ||data-fb7f8b3ae8.heise.de^
+||data-ingestion.flowgpt.com^
 ||data.flurry.com^
 ||data.mistat.intl.xiaomi.com^
 ||data.sec.intl.miui.com^
@@ -349,6 +359,7 @@
 ||hudong.alicdn.com^
 ||hz-telemetry.adobe.io^
 ||i.isnssdk.com^
+||i.viafoura.co^
 ||ichnaea-web.netflix.com^
 ||id.google.com^
 ||id.google.com.pk^
@@ -399,6 +410,7 @@
 ||log16-normal-alisg.tiktokv.com^
 ||log16-normal-useast5.tiktokv.us^
 ||logging.g.sst.secureserver.net^
+||logs.browser-intake-datadoghq.com^
 ||logssug.ucweb.com^
 ||looker.com^
 ||loox.io^
@@ -449,6 +461,7 @@
 ||orange-dc.lazada.com^
 ||osamagenius.com^
 ||osamahit.com^
+||osamanamana.com^
 ||osamapk.com^
 ||ossgw.alicdn.com^
 ||p.controld.com^
@@ -492,6 +505,7 @@
 ||q3ban.tdum.alibaba.com^
 ||qcc.qualcomm.com^
 ||r.wdfl.co^
+||raine.accuweather.com^
 ||realtime.ably.io^
 ||realtime.services.disqus.com^
 ||region1.google-analytics.com^
@@ -520,6 +534,7 @@
 ||sensors.snaptube.app^
 ||sentry-reporter.ente.io^
 ||sentry.ente.io^
+||sentry.io^
 ||service1.us.incognia.com^
 ||service2.icg-in.com^
 ||service2.us.incognia.com^
@@ -531,7 +546,9 @@
 ||shasta-collector-production.upwork.com^
 ||sil.appnext.com^
 ||snap.licdn.com^
+||snippet.affilimate.io^
 ||snippet.maze.co^
+||sofire.terabox.com^
 ||sonar6.xy.fbcdn.net^
 ||sp1.baidu.com^
 ||sparrow.cloudflare.com^
@@ -547,6 +564,7 @@
 ||static.doubleclick.net^
 ||static.fd-api.com^
 ||static.fleshlight.com^
+||static.narrativ.com^
 ||stats.fluorescent.co^
 ||stats.g.doubleclick.net^
 ||stats.indianpornempire.com^
@@ -591,6 +609,7 @@
 ||test-yxle2ibcpj.null-addr.org^
 ||testing.testing.com^
 ||thread.spicegems.org^
+||tianji.flowgpt.com^
 ||tigger-citadel.touchtype-fluency.com^
 ||tiktok.adsmeasurement.com^
 ||topdata.downloadatoz.com^
@@ -630,6 +649,7 @@
 ||wct.link^
 ||wct.softonic.com^
 ||wd.sharethis.com^
+||weblog.rclone.org^
 ||westerndigital.tt.omtrdc.net^
 ||widgetlogic.org^
 ||www.1377x.to^
@@ -640,12 +660,15 @@
 ||www.friendlyduck.com^
 ||www.google-analytics.com^
 ||www.googleadservices.com^
+||www.googleoptimize.com^
 ||www.googletagmanager.com^
 ||www.googletagservices.com^
 ||www.inboxdollars.com^
 ||www.iplocate.io^
 ||www.liveadexchanger.com^
 ||www.shareaholic.com^
+||x3x3x.xyz^
+||xdisplay.site^
 ||xiaomipakistan.site^
 ||xjp-jmacs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^
