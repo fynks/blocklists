@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-06-16 11:01:44 AM PKT
-# Number of unique domains: 504
+# Last updated: 2025-06-28 10:52:57 AM PKT
+# Number of unique domains: 508
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -19,6 +19,7 @@
 ||account.migc.g.mi.com^
 ||activity.browser.intl.miui.com^
 ||activity.hybrid.xiaomi.com^
+||ad-intl-pri-ksmos-epc.alb.xiaomi.com^
 ||ad.intl.xiaomi.com^
 ||ad.intl.xiaomi.com.edgesuite.net^
 ||ad.intl.xiaomi.com.ksyna.net^
@@ -29,6 +30,7 @@
 ||adv.sec.intl.miui.com^
 ||adv.sec.miui.com^
 ||ad.xiaomi.com^
+||ad.xiaomi.com.edgesuite.net^
 ||adx.tv.mi.com^
 ||a.hl.mi.com^
 ||alisgp-sentry.d.xiaomi.net^
@@ -41,11 +43,11 @@
 ||api.ad.intl.xiaomi.com^
 ||api.ads.xiaomi.com^
 ||api.ad.xiaomi.com^
-||api.ad.xiaomi.com.edgesuite.net^
 ||api.aurogon.intl.miui.com^
 ||api.bbs.miui.com^
 ||api.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
+||api.calendar.intl.miui.com^
 ||api.collect.data.intl.miui.com^
 ||api.comm.miui.com^
 ||api.competition.intl.miui.com^
@@ -433,6 +435,7 @@
 ||t15.market.xiaomi.com^
 ||t17.market.xiaomi.com^
 ||t1.a.market.xiaomi.com^
+||t1.a.market.xiaomi.com.m.alikunlun.com^
 ||t1.market.xiaomi.com^
 ||t2.a.market.xiaomi.com^
 ||t2.market.xiaomi.com^
@@ -509,6 +512,7 @@
 ||www.traffic-media.co^
 ||xadx.file.market.xiaomi.com^
 ||xiaomifood.cn^
+||xiaomihome.shop^
 ||xiaomingz.com^
 ||xiaomi-shop.shop^
 ||xiaomivietnam.xyz^
