@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-06-16 11:00:30 AM PKT
-! Number of unique domains: 670
+! Last updated: 2025-06-28 10:51:56 AM PKT
+! Number of unique domains: 739
 ! Homepage: https://github.com/fynks/blocklists
 ! Compatible with AdGuard, uBlock Origin, Pi-hole
 !
@@ -55,7 +55,10 @@
 ||9jp8hz.tdum.alibaba.com^
 ||9zu9eo.tdum.alibaba.com^
 ||9zuqbz.tdum.alibaba.com^
+||a.cdnpure.com^
+||a.realsrv.com^
 ||a.tampermonkey.net^
+||a1b.net^
 ||a9yqt0.tdum.alibaba.com^
 ||ab.advertiserurl.com^
 ||abroad.api.comm.intl.miui.com^
@@ -64,6 +67,7 @@
 ||acjs.aliyun.com^
 ||acs.maribacaberita.com^
 ||acscdn.com^
+||ad-delivery.net^
 ||ad.22betpartners.com^
 ||ad.doubleclick.net^
 ||ad.zanox.com^
@@ -76,6 +80,7 @@
 ||ads-api.twitter.com^
 ||ads-api.x.com^
 ||ads.betfair.com^
+||ads.digitalpoint.com^
 ||ads.vk.com^
 ||adsapi.snapchat.com^
 ||adsmetadata.mobileadexchange.net^
@@ -114,6 +119,7 @@
 ||api.omappapi.com^
 ||api.onesignal.com^
 ||api.sec.miui.com^
+||api.segment.io^
 ||api.sprig.com^
 ||api.statsig.com^
 ||api.taboola.com^
@@ -128,6 +134,7 @@
 ||app.adjust.io^
 ||app.adjust.net.in^
 ||app.adjust.world^
+||app.partnerboost.com^
 ||appsgrowthpromo-pa.clients6.google.com^
 ||assets.context.ly^
 ||assets1.adroll.com^
@@ -135,6 +142,7 @@
 ||attr.union.ucweb.com^
 ||audid-api-sg.taobao.com^
 ||authbe.sec.intl.miui.com^
+||automate-frontend.linksynergy.com^
 ||awssgp0-files.fds.api.xiaomi.com^
 ||b.px-cdn.net^
 ||b53d1.tdum.alibaba.com^
@@ -153,12 +161,14 @@
 ||bloatingexpectantretinal.com^
 ||bo925b.tdum.alibaba.com^
 ||boobausauhipsa.net^
+||bordeaux.futurecdn.net^
 ||bot1ty.tdum.alibaba.com^
 ||brand-sdk.kmsmep.com^
 ||browser-intake-datadoghq.com^
 ||browser-intake-us5-datadoghq.com^
 ||browser.events.data.microsoft.com^
 ||business-api.tiktok.com^
+||c.bing.com^
 ||c.statcounter.com^
 ||c1jktt.tdum.alibaba.com^
 ||c27.smaato.net^
@@ -166,6 +176,7 @@
 ||campaign-content.swrve.com^
 ||canekilttantrum.com^
 ||carinus.iad-03.braze.com^
+||cb.snoozyhayride.com^
 ||cb029c3dc1b34e36a6c23beb2821526a-4c4cc75a16ed.cdn.forter.com^
 ||cby7o7.tdum.alibaba.com^
 ||cc-api-data.adobe.io^
@@ -174,12 +185,14 @@
 ||cdn-fc.com^
 ||cdn-magiclinks.trackonomics.net^
 ||cdn-settings.appsflyersdk.com^
+||cdn.adsninja.ca^
 ||cdn.appdynamics.com^
 ||cdn.appsflyer.com^
 ||cdn.autoketing.org^
 ||cdn.branch.io^
 ||cdn.concert.io^
 ||cdn.conversiontracking.com^
+||cdn.convertbox.com^
 ||cdn.exp.xiaomi.com^
 ||cdn.hengam.io^
 ||cdn.hextom.com^
@@ -188,8 +201,11 @@
 ||cdn.logbase.io^
 ||cdn.moengage.com^
 ||cdn.onesignal.com^
+||cdn.p-n.io^
 ||cdn.polyfill.io^
 ||cdn.raygun.io^
+||cdn.segment.com^
+||cdn.sentinelpro.com^
 ||cdn.skypack.dev^
 ||cdn.taboola.com^
 ||cdn.tagcommander.com^
@@ -200,6 +216,7 @@
 ||cdn4.buysellads.net^
 ||cdn9.forter.com^
 ||census-app.scorecardresearch.com^
+||champagne.futurecdn.net^
 ||chatbot-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev^
 ||check.rayjump.com^
 ||chimpstatic.com^
@@ -209,12 +226,15 @@
 ||cnbj1.fds.api.xiaomi.com^
 ||collector-pxljub4etb.cl6.px-cloud.net^
 ||collector-pxljub4etb.perimeterx.net^
+||collector-pxsw1vemrh.px-cloud.net^
 ||collector.github.com^
 ||combine.asnapieu.com^
 ||conf.config-security.com^
 ||configure.rayjump.com^
 ||configv2.unityads.unity3d.com^
 ||conn-check.icg-in.com^
+||content-analyticsadmin.googleapis.com^
+||content-analyticsdata.googleapis.com^
 ||conversions.appsflyer.com^
 ||cpm.adpluto.com^
 ||crabtelegramdistracted.com^
@@ -225,10 +245,13 @@
 ||ct.pinterest.com^
 ||cuttlela.ucweb.com^
 ||cy.annussleys.com^
+||d0dh.com^
 ||d0m2z2.tdum.alibaba.com^
 ||d1bxh8uas1mnw7.cloudfront.net^
 ||d26xw8rp6mlgfg.cloudfront.net^
 ||d2o5idwacg3gyw.cloudfront.net^
+||d35xxde4fgg0cx.cloudfront.net^
+||dap.digitalgov.gov^
 ||data-fb7f8b3ae8.heise.de^
 ||data-ingestion.flowgpt.com^
 ||data.flurry.com^
@@ -242,6 +265,7 @@
 ||decimalcursor.com^
 ||dev.visualwebsiteoptimizer.com^
 ||device-api.asnapieu.com^
+||devnull.perfops.net^
 ||dit.whatsapp.net^
 ||dj1d6o6ftflzi.cloudfront.net^
 ||dl20f2.tdum.alibaba.com^
@@ -256,6 +280,7 @@
 ||e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com^
 ||ea.pstmrk.it^
 ||ebi5pn.tdum.alibaba.com^
+||ecvjrxlrql.com^
 ||edge.adobedc.net^
 ||efamlz.tdum.alibaba.com^
 ||eko443.tdum.alibaba.com^
@@ -269,12 +294,15 @@
 ||epelyz-register.appsflyersdk.com^
 ||epwiy9-cdn-settings.appsflyersdk.com^
 ||epwiy9-conversions.appsflyersdk.com^
+||error-tracking.reddit.com^
 ||essential-apps-analytics.herokuapp.com^
 ||euc1-turn.fpjs.io^
+||events.mapbox.com^
 ||events.statsigapi.net^
 ||evsw-zfdmag.one^
 ||evt.ilovepdf.com^
 ||explainplaysettwisting.com^
+||ezoicanalytics.com^
 ||f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net^
 ||f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net^
 ||f264cb70780-omkswsgt1726329075-sonar.xz.fbcdn.net^
@@ -286,6 +314,7 @@
 ||fa0e1226030-gusmjjip1742407303-sonar.xy.fbcdn.net^
 ||fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net^
 ||faisalmovers.com^
+||faithfuldifficulty.com^
 ||fast.a.klaviyo.com^
 ||fb788ee3e13c37e386c4fc5c50068dbd4f2d37ac192335d0d1dfd07cb52635b.us-east-1.prod.service.minerva.devices.a2z.com^
 ||fc1tn.baidu.com^
@@ -314,6 +343,7 @@
 ||fls-eu.amazon.com^
 ||fls-na.amazon.com^
 ||footprints-pa.googleapis.com^
+||forge.speedtest.cn^
 ||fourier.alibaba.com^
 ||fourier.taobao.com^
 ||fp-it.fengkongcloud.com^
@@ -354,7 +384,9 @@
 ||h-adashx.ut.daraz.com^
 ||h-adashx.ut.lazada.com^
 ||h5.app.intl.miui.com^
+||hawk.tomsguide.com^
 ||headway-widget.net^
+||help.maze.co^
 ||hn.inspectlet.com^
 ||hudong.alicdn.com^
 ||hz-telemetry.adobe.io^
@@ -363,6 +395,7 @@
 ||ichnaea-web.netflix.com^
 ||id.google.com^
 ||id.google.com.pk^
+||id.rlcdn.com^
 ||ilia.proxy.chickenkiller.com^
 ||images-dl.taboola.com^
 ||impression-asia.liftoff.io^
@@ -379,6 +412,7 @@
 ||ip2c.org^
 ||ipify4.pling.com^
 ||ipify6.pling.com^
+||ipwho.is^
 ||iso-stats.cachyos.org^
 ||jd.rodlikemortal.com^
 ||jeestauglahity.net^
@@ -394,16 +428,24 @@
 ||js-eu1.hs-scripts.com^
 ||js-na1.hs-scripts.com^
 ||js.appboycdn.com^
+||js.cdn.applicationinsights.io^
+||js.cdn.monitor.azure.com^
 ||js.hs-analytics.net^
 ||js.hs-banner.com^
 ||js.hs-scripts.com^
 ||js.hscollectedforms.net^
 ||js.hubspot.com^
+||js.hubspotfeedback.com^
 ||js.monitor.azure.com^
 ||js.qualified.com^
+||js0.cdn.applicationinsights.io^
+||js0.cdn.monitor.azure.com^
+||js2.cdn.applicationinsights.io^
+||js2.cdn.monitor.azure.com^
 ||jupiter.intl.sys.miui.com^
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
+||lby2kd27c.com^
 ||li.blogtrottr.com^
 ||li.protechts.net^
 ||liteanalytics.com^
@@ -414,6 +456,7 @@
 ||logssug.ucweb.com^
 ||looker.com^
 ||loox.io^
+||lv.greylaganteact.com^
 ||mads.amazon-adsystem.com^
 ||magiskmanager.com^
 ||masahub2.com^
@@ -435,14 +478,17 @@
 ||mon16-normal-useast5.tiktokv.us^
 ||monorail-edge.shopifysvc.com^
 ||mqs-log.miui.com^
+||mrepo.org^
 ||ms.bdstatic.com^
 ||msgacs-m.lazada.sg^
 ||mssdk-sg.tiktok.com^
 ||newsfeed.api.intl.miui.com^
 ||nexus-websocket-a.intercom.io^
 ||nitroscripts.com^
+||no-track.as93.net^
 ||notifications.payhelm.com^
 ||nu.wolfmandiked.com^
+||numbers.mailbox.org^
 ||o1158394.ingest.us.sentry.io^
 ||o1220489.ingest.sentry.io^
 ||o13855.ingest.sentry.io^
@@ -450,14 +496,18 @@
 ||o22381.ingest.us.sentry.io^
 ||o33249.ingest.sentry.io^
 ||o416616.ingest.us.sentry.io^
+||o418887.ingest.sentry.io^
 ||o4504039703314432.ingest.sentry.io^
 ||o4505071687041024.ingest.sentry.io^
 ||o476415.ingest.sentry.io^
 ||o516780.ingest.sentry.io^
 ||o516780.ingest.us.sentry.io^
+||obus-in.dc.heytapmobile.com^
+||obus-jssdk-in.heytapmobile.com^
 ||ogads-pa.clients6.google.com^
 ||ogads-pa.googleapis.com^
 ||omnisnippet1.com^
+||open-api.spot.im^
 ||orange-dc.lazada.com^
 ||osamagenius.com^
 ||osamahit.com^
@@ -504,18 +554,22 @@
 ||px-intl.ucweb.com^
 ||q3ban.tdum.alibaba.com^
 ||qcc.qualcomm.com^
+||r.cdnpure.com^
 ||r.wdfl.co^
 ||raine.accuweather.com^
 ||realtime.ably.io^
 ||realtime.services.disqus.com^
+||receivefreesms.co.uk^
 ||region1.google-analytics.com^
 ||register.xmpush.global.xiaomi.com^
 ||related.queryly.com^
 ||remote-data.asnapieu.com^
+||remote-data.urbanairship.com^
 ||reports.proton.me^
 ||req.startappservice.com^
 ||retcode-sg-lazada.arms.aliyuncs.com^
 ||rum-cdn.perfops.net^
+||s111.twilightparadox.com^
 ||s2s.adjust.com^
 ||sc-static.net^
 ||scripts.dkmedia.now.sh^
@@ -530,6 +584,8 @@
 ||seal.websecurity.norton.com^
 ||search.olxpk.net^
 ||sec.umeng.com^
+||secria.me^
+||secure.statcounter.com^
 ||securepubads.g.doubleclick.net^
 ||sensors.snaptube.app^
 ||sentry-reporter.ente.io^
@@ -544,6 +600,7 @@
 ||sg.mmstat.com^
 ||sg.napi.ucweb.com^
 ||shasta-collector-production.upwork.com^
+||shynet.rmrm.io^
 ||sil.appnext.com^
 ||snap.licdn.com^
 ||snippet.affilimate.io^
@@ -553,6 +610,7 @@
 ||sp1.baidu.com^
 ||sparrow.cloudflare.com^
 ||spm.hextom.com^
+||sponsors.vuejs.org^
 ||ss3.4sqi.net^
 ||ssl.google-analytics.com^
 ||sstats.adobe.com^
@@ -564,6 +622,7 @@
 ||static.doubleclick.net^
 ||static.fd-api.com^
 ||static.fleshlight.com^
+||static.getclicky.com^
 ||static.narrativ.com^
 ||stats.fluorescent.co^
 ||stats.g.doubleclick.net^
@@ -644,6 +703,7 @@
 ||variations.brave.com^
 ||view.adjust.com^
 ||vulpix.bet^
+||w.chatlio.com^
 ||w.usabilla.com^
 ||w3-reporting.reddit.com^
 ||wct.link^
@@ -652,12 +712,15 @@
 ||weblog.rclone.org^
 ||westerndigital.tt.omtrdc.net^
 ||widgetlogic.org^
+||wr.tammarsayyid.com^
 ||www.1377x.to^
 ||www.addtoany.com^
+||www.adjust.com^
 ||www.clarity.ms^
 ||www.effectiveratecpm.com^
 ||www.endorico.com^
 ||www.friendlyduck.com^
+||www.goatcounter.com^
 ||www.google-analytics.com^
 ||www.googleadservices.com^
 ||www.googleoptimize.com^
@@ -667,13 +730,19 @@
 ||www.iplocate.io^
 ||www.liveadexchanger.com^
 ||www.shareaholic.com^
+||www3.doubleclick.net^
+||x.co^
+||x.dpstatic.com^
 ||x3x3x.xyz^
 ||xdisplay.site^
 ||xiaomipakistan.site^
 ||xjp-jmacs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^
 ||xml-v4.ngcluster-a.online^
+||xp.atlassian.com^
+||xxid.atl-paas.net^
 ||ynuf.aliapp.org^
+||yourdomain.com^
 ||z-p4.graph.instagram.com^
 ||z-p42.graph.instagram.com^
 ||zn0izjiulta2j2t4o-upwork.siteintercept.qualtrics.com^
