@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-06-28 10:51:56 AM PKT
-! Number of unique domains: 739
+! Last updated: 2025-07-13 10:50:20 AM PKT
+! Number of unique domains: 779
 ! Homepage: https://github.com/fynks/blocklists
 ! Compatible with AdGuard, uBlock Origin, Pi-hole
 !
@@ -38,6 +38,7 @@
 ||54ty7j-launches.appsflyersdk.com^
 ||5c88mn.tdum.alibaba.com^
 ||5h69il.tdum.alibaba.com^
+||5hheh.tdum.alibaba.com^
 ||5rnk40.tdum.alibaba.com^
 ||5yq8ge.tdum.alibaba.com^
 ||5yv4af.tdum.alibaba.com^
@@ -60,7 +61,9 @@
 ||a.tampermonkey.net^
 ||a1b.net^
 ||a9yqt0.tdum.alibaba.com^
+||aa.online-metrix.net^
 ||ab.advertiserurl.com^
+||aboveaveragefinallycast.com^
 ||abroad.api.comm.intl.miui.com^
 ||accscdn.m.taobao.com^
 ||acdn.adnxs.com^
@@ -108,7 +111,9 @@
 ||api.ad.intl.xiaomi.com^
 ||api.allorigins.win^
 ||api.aurogon.intl.miui.com^
+||api.brs.intl.miui.com^
 ||api.comm.miui.com^
+||api.competition.intl.miui.com^
 ||api.config-security.com^
 ||api.eu-west-1.aiv-delivery.net^
 ||api.g.micloud.xiaomi.net^
@@ -135,7 +140,11 @@
 ||app.adjust.net.in^
 ||app.adjust.world^
 ||app.partnerboost.com^
+||app.posthog.com^
+||applog.uc.cn^
 ||appsgrowthpromo-pa.clients6.google.com^
+||arclight.vimeo.com^
+||assets.churnkey.co^
 ||assets.context.ly^
 ||assets1.adroll.com^
 ||at.cbsi.com^
@@ -168,6 +177,7 @@
 ||browser-intake-us5-datadoghq.com^
 ||browser.events.data.microsoft.com^
 ||business-api.tiktok.com^
+||c.amazon-adsystem.com^
 ||c.bing.com^
 ||c.statcounter.com^
 ||c1jktt.tdum.alibaba.com^
@@ -190,9 +200,12 @@
 ||cdn.appsflyer.com^
 ||cdn.autoketing.org^
 ||cdn.branch.io^
+||cdn.carbonads.com^
 ||cdn.concert.io^
 ||cdn.conversiontracking.com^
 ||cdn.convertbox.com^
+||cdn.databuddy.cc^
+||cdn.delve.co^
 ||cdn.exp.xiaomi.com^
 ||cdn.hengam.io^
 ||cdn.hextom.com^
@@ -204,6 +217,7 @@
 ||cdn.p-n.io^
 ||cdn.polyfill.io^
 ||cdn.raygun.io^
+||cdn.requestmetrics.com^
 ||cdn.segment.com^
 ||cdn.sentinelpro.com^
 ||cdn.skypack.dev^
@@ -233,6 +247,7 @@
 ||configure.rayjump.com^
 ||configv2.unityads.unity3d.com^
 ||conn-check.icg-in.com^
+||connect.facebook.net^
 ||content-analyticsadmin.googleapis.com^
 ||content-analyticsdata.googleapis.com^
 ||conversions.appsflyer.com^
@@ -250,6 +265,7 @@
 ||d1bxh8uas1mnw7.cloudfront.net^
 ||d26xw8rp6mlgfg.cloudfront.net^
 ||d2o5idwacg3gyw.cloudfront.net^
+||d34r8q7sht0t9k.cloudfront.net^
 ||d35xxde4fgg0cx.cloudfront.net^
 ||dap.digitalgov.gov^
 ||data-fb7f8b3ae8.heise.de^
@@ -283,6 +299,7 @@
 ||ecvjrxlrql.com^
 ||edge.adobedc.net^
 ||efamlz.tdum.alibaba.com^
+||ej.reatushaithal.com^
 ||eko443.tdum.alibaba.com^
 ||el4s9q.tdum.alibaba.com^
 ||encyclopaediabritann.tt.omtrdc.net^
@@ -296,7 +313,9 @@
 ||epwiy9-conversions.appsflyersdk.com^
 ||error-tracking.reddit.com^
 ||essential-apps-analytics.herokuapp.com^
+||eu-pcdn.dengage.com^
 ||euc1-turn.fpjs.io^
+||event-store.sitebehaviour.com^
 ||events.mapbox.com^
 ||events.statsigapi.net^
 ||evsw-zfdmag.one^
@@ -347,6 +366,7 @@
 ||fourier.alibaba.com^
 ||fourier.taobao.com^
 ||fp-it.fengkongcloud.com^
+||freezer.sakion.top^
 ||fresnel-events.vimeocdn.com^
 ||fresnel.vimeocdn.com^
 ||freyr.futurecdn.net^
@@ -398,6 +418,7 @@
 ||id.rlcdn.com^
 ||ilia.proxy.chickenkiller.com^
 ||images-dl.taboola.com^
+||imgbb.top^
 ||impression-asia.liftoff.io^
 ||impression.appsflyer.com^
 ||improving.duckduckgo.com^
@@ -413,6 +434,7 @@
 ||ipify4.pling.com^
 ||ipify6.pling.com^
 ||ipwho.is^
+||ir-sdk.dun.163.com^
 ||iso-stats.cachyos.org^
 ||jd.rodlikemortal.com^
 ||jeestauglahity.net^
@@ -443,9 +465,11 @@
 ||js2.cdn.applicationinsights.io^
 ||js2.cdn.monitor.azure.com^
 ||jupiter.intl.sys.miui.com^
+||kjtmcaqwjgatx.xyz^
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
 ||lby2kd27c.com^
+||lf3-data.volccdn.com^
 ||li.blogtrottr.com^
 ||li.protechts.net^
 ||liteanalytics.com^
@@ -461,9 +485,11 @@
 ||magiskmanager.com^
 ||masahub2.com^
 ||matomo.openstreetmap.org^
+||mc.yandex.ru^
 ||mcc-intl.inf.miui.com^
 ||mcc.intl.inf.miui.com^
 ||mcs-sg.tiktokv.com^
+||md-a-s.apptimize.eu^
 ||mediaserver.entainpartners.com^
 ||mediation.adnxs.com^
 ||mediocre-hire.pro^
@@ -471,6 +497,7 @@
 ||mobile.events.data.microsoft.com^
 ||mobile.pipe.aria.microsoft.com^
 ||mobile.useinsider.com^
+||mobileanalytics.us-east-1.amazonaws.com^
 ||mon-boot.tiktokv.com^
 ||mon-va.tiktokv.com^
 ||mon.isnssdk.com^
@@ -482,6 +509,8 @@
 ||ms.bdstatic.com^
 ||msgacs-m.lazada.sg^
 ||mssdk-sg.tiktok.com^
+||multi-pixels.com^
+||newrotatormarch23.bid^
 ||newsfeed.api.intl.miui.com^
 ||nexus-websocket-a.intercom.io^
 ||nitroscripts.com^
@@ -499,14 +528,17 @@
 ||o418887.ingest.sentry.io^
 ||o4504039703314432.ingest.sentry.io^
 ||o4505071687041024.ingest.sentry.io^
+||o4508134825000960.ingest.us.sentry.io^
 ||o476415.ingest.sentry.io^
 ||o516780.ingest.sentry.io^
 ||o516780.ingest.us.sentry.io^
+||o64374.ingest.sentry.io^
 ||obus-in.dc.heytapmobile.com^
 ||obus-jssdk-in.heytapmobile.com^
 ||ogads-pa.clients6.google.com^
 ||ogads-pa.googleapis.com^
 ||omnisnippet1.com^
+||only-d-ui6vgpagbv7qedtelwevpehklbks2njm-1752345098373.nstool.netease.com^
 ||open-api.spot.im^
 ||orange-dc.lazada.com^
 ||osamagenius.com^
@@ -554,6 +586,7 @@
 ||px-intl.ucweb.com^
 ||q3ban.tdum.alibaba.com^
 ||qcc.qualcomm.com^
+||qu.tollboagane.com^
 ||r.cdnpure.com^
 ||r.wdfl.co^
 ||raine.accuweather.com^
@@ -597,6 +630,7 @@
 ||service4.icg-in.com^
 ||service4.us.incognia.com^
 ||sessions.bugsnag.com^
+||sg-live.slatic.net^
 ||sg.mmstat.com^
 ||sg.napi.ucweb.com^
 ||shasta-collector-production.upwork.com^
@@ -631,11 +665,13 @@
 ||stats.wp.com^
 ||statsig.anthropic.com^
 ||statsigapi.net^
+||stpd.cloud^
 ||syndication.exdynsrv.com^
 ||syndication.twitter.com^
 ||t.contentsquare.net^
 ||t1.market.xiaomi.com^
 ||t3760571.beget.tech^
+||tab.volces.com^
 ||tag.aftvnews.com^
 ||tag.trovo-tag.com^
 ||tagdelivery.mayoclinic.org^
@@ -685,6 +721,7 @@
 ||tracking.leadspark.io^
 ||traffic-nts-ip-assoc.xy.fbcdn.net^
 ||traffic-nts-ip-assoc.xz.fbcdn.net^
+||tralut.chatpdf.com^
 ||trk.storyly.io^
 ||tzm.px-cloud.net^
 ||uc.telemetry.eyeo.com^
@@ -696,6 +733,7 @@
 ||unagi-na.amazon.com^
 ||unagi.amazon.com^
 ||us.galleryapi.micloud.xiaomi.net^
+||us.i.posthog.com^
 ||us.statusapi.micloud.xiaomi.net^
 ||us.ynuf.aliapp.org^
 ||usage-ping.brave.com^
@@ -711,6 +749,7 @@
 ||wd.sharethis.com^
 ||weblog.rclone.org^
 ||westerndigital.tt.omtrdc.net^
+||widget.senja.io^
 ||widgetlogic.org^
 ||wr.tammarsayyid.com^
 ||www.1377x.to^
@@ -729,6 +768,7 @@
 ||www.inboxdollars.com^
 ||www.iplocate.io^
 ||www.liveadexchanger.com^
+||www.profitablecpmrate.com^
 ||www.shareaholic.com^
 ||www3.doubleclick.net^
 ||x.co^
