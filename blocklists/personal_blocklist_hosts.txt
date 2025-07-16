@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-07-13 10:50:20 AM PKT
-# Number of unique domains: 779
+# Last updated: 2025-07-16 09:12:39 AM PKT
+# Number of unique domains: 781
 # Homepage: https://github.com/fynks/blocklists
 #
 # Hosts file format: 0.0.0.0 example.com
@@ -11,6 +11,7 @@
 0.0.0.0 186htf.tdum.alibaba.com
 0.0.0.0 2.datadog.pool.ntp.org
 0.0.0.0 207yse.tdum.alibaba.com
+0.0.0.0 2fwx2m.tdum.alibaba.com
 0.0.0.0 2gbelh-cdn-settings.appsflyersdk.com
 0.0.0.0 2gbelh-conversions.appsflyersdk.com
 0.0.0.0 2gbelh-launches.appsflyersdk.com
@@ -262,6 +263,7 @@
 0.0.0.0 d0dh.com
 0.0.0.0 d0m2z2.tdum.alibaba.com
 0.0.0.0 d1bxh8uas1mnw7.cloudfront.net
+0.0.0.0 d1tru86qrby720.cloudfront.net
 0.0.0.0 d26xw8rp6mlgfg.cloudfront.net
 0.0.0.0 d2o5idwacg3gyw.cloudfront.net
 0.0.0.0 d34r8q7sht0t9k.cloudfront.net

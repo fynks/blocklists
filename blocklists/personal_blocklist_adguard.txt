@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-07-13 10:50:20 AM PKT
-! Number of unique domains: 779
+! Last updated: 2025-07-16 09:12:39 AM PKT
+! Number of unique domains: 781
 ! Homepage: https://github.com/fynks/blocklists
 ! Compatible with AdGuard, uBlock Origin, Pi-hole
 !
@@ -12,6 +12,7 @@
 ||186htf.tdum.alibaba.com^
 ||2.datadog.pool.ntp.org^
 ||207yse.tdum.alibaba.com^
+||2fwx2m.tdum.alibaba.com^
 ||2gbelh-cdn-settings.appsflyersdk.com^
 ||2gbelh-conversions.appsflyersdk.com^
 ||2gbelh-launches.appsflyersdk.com^
@@ -263,6 +264,7 @@
 ||d0dh.com^
 ||d0m2z2.tdum.alibaba.com^
 ||d1bxh8uas1mnw7.cloudfront.net^
+||d1tru86qrby720.cloudfront.net^
 ||d26xw8rp6mlgfg.cloudfront.net^
 ||d2o5idwacg3gyw.cloudfront.net^
 ||d34r8q7sht0t9k.cloudfront.net^
