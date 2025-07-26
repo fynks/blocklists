@@ -1,13 +1,14 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-07-16 09:12:39 AM PKT
-# Number of unique domains: 781
+# Last updated: 2025-07-26 07:56:10 PM PKT
+# Number of unique domains: 796
 # Homepage: https://github.com/fynks/blocklists
 #
 # Hosts file format: 0.0.0.0 example.com
 
 0.0.0.0 0.datadog.pool.ntp.org
 0.0.0.0 1.datadog.pool.ntp.org
+0.0.0.0 13jyve.tdum.alibaba.com
 0.0.0.0 186htf.tdum.alibaba.com
 0.0.0.0 2.datadog.pool.ntp.org
 0.0.0.0 207yse.tdum.alibaba.com
@@ -23,6 +24,7 @@
 0.0.0.0 3s2ix7.tdum.alibaba.com
 0.0.0.0 3sjen3.tdum.alibaba.com
 0.0.0.0 3yflsc.tdum.alibaba.com
+0.0.0.0 48g0zj.tdum.alibaba.com
 0.0.0.0 4c4cc75a16ed.cdn4.forter.com
 0.0.0.0 4ng01p-cdn-settings.appsflyersdk.com
 0.0.0.0 4ng01p-conversions.appsflyersdk.com
@@ -48,7 +50,9 @@
 0.0.0.0 6915.eu-identity.swrve.com
 0.0.0.0 6dpfps.tdum.alibaba.com
 0.0.0.0 7bcvxi.tdum.alibaba.com
+0.0.0.0 7e8xer.tdum.alibaba.com
 0.0.0.0 7viywa.tdum.alibaba.com
+0.0.0.0 7xs601.tdum.alibaba.com
 0.0.0.0 81ar65.tdum.alibaba.com
 0.0.0.0 85dhwr.tdum.alibaba.com
 0.0.0.0 926yur.tdum.alibaba.com
@@ -91,6 +95,7 @@
 0.0.0.0 adtrack-intl.ucweb.com
 0.0.0.0 adultfriendfinder.com
 0.0.0.0 adv.sec.intl.miui.com
+0.0.0.0 ae.mmstat.com
 0.0.0.0 ak.sail-horizon.com
 0.0.0.0 alb.reddit.com
 0.0.0.0 amazonwebservicesinc.tt.omtrdc.net
@@ -225,6 +230,7 @@
 0.0.0.0 cdn.tagcommander.com
 0.0.0.0 cdn0.forter.com
 0.0.0.0 cdn123.forter.com
+0.0.0.0 cdn2.forter.com
 0.0.0.0 cdn2.hextom.com
 0.0.0.0 cdn3.forter.com
 0.0.0.0 cdn4.buysellads.net
@@ -305,6 +311,7 @@
 0.0.0.0 el4s9q.tdum.alibaba.com
 0.0.0.0 encyclopaediabritann.tt.omtrdc.net
 0.0.0.0 engagements.appsflyer.com
+0.0.0.0 entitlements.jwplayer.com
 0.0.0.0 epelyz-cdn-settings.appsflyersdk.com
 0.0.0.0 epelyz-conversions.appsflyersdk.com
 0.0.0.0 epelyz-dlsdk.appsflyersdk.com
@@ -339,6 +346,7 @@
 0.0.0.0 fb788ee3e13c37e386c4fc5c50068dbd4f2d37ac192335d0d1dfd07cb52635b.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 fc1tn.baidu.com
 0.0.0.0 fc2yri.tdum.alibaba.com
+0.0.0.0 fc7698c1280-xkxyytuk1752653253-sonar.xz.fbcdn.net
 0.0.0.0 fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net
 0.0.0.0 fchbhd.tdum.alibaba.com
 0.0.0.0 fe5d2ad8930-hfiooopi1744922240-sonar.xy.fbcdn.net
@@ -570,6 +578,7 @@
 0.0.0.0 pixel-config.reddit.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.roughgroup.com
+0.0.0.0 pl.ventunotech.com
 0.0.0.0 pla.atlasos.net
 0.0.0.0 platform.stumbleupon.com
 0.0.0.0 plausible.freeyourmusic.com
@@ -601,7 +610,9 @@
 0.0.0.0 remote-data.urbanairship.com
 0.0.0.0 reports.proton.me
 0.0.0.0 req.startappservice.com
+0.0.0.0 reqstat.api.mega.co.nz
 0.0.0.0 retcode-sg-lazada.arms.aliyuncs.com
+0.0.0.0 rss.oneindia.com
 0.0.0.0 rum-cdn.perfops.net
 0.0.0.0 s111.twilightparadox.com
 0.0.0.0 s2s.adjust.com
@@ -724,6 +735,7 @@
 0.0.0.0 traffic-nts-ip-assoc.xz.fbcdn.net
 0.0.0.0 tralut.chatpdf.com
 0.0.0.0 trk.storyly.io
+0.0.0.0 tt.culinar9sync.com
 0.0.0.0 tzm.px-cloud.net
 0.0.0.0 uc.telemetry.eyeo.com
 0.0.0.0 uc.ucweb.com
@@ -737,6 +749,8 @@
 0.0.0.0 us.i.posthog.com
 0.0.0.0 us.statusapi.micloud.xiaomi.net
 0.0.0.0 us.ynuf.aliapp.org
+0.0.0.0 us1-spiky.clevertap-prod.com
+0.0.0.0 us1.clevertap-prod.com
 0.0.0.0 usage-ping.brave.com
 0.0.0.0 use.hetzner.com
 0.0.0.0 variations.brave.com
@@ -782,6 +796,7 @@
 0.0.0.0 xml-v4.ngcluster-a.online
 0.0.0.0 xp.atlassian.com
 0.0.0.0 xxid.atl-paas.net
+0.0.0.0 yijxujolpfvold.com
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 yourdomain.com
 0.0.0.0 z-p4.graph.instagram.com

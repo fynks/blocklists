@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-07-16 09:12:39 AM PKT
-! Number of unique domains: 781
+! Last updated: 2025-07-26 07:56:10 PM PKT
+! Number of unique domains: 796
 ! Homepage: https://github.com/fynks/blocklists
 ! Compatible with AdGuard, uBlock Origin, Pi-hole
 !
@@ -9,6 +9,7 @@
 
 ||0.datadog.pool.ntp.org^
 ||1.datadog.pool.ntp.org^
+||13jyve.tdum.alibaba.com^
 ||186htf.tdum.alibaba.com^
 ||2.datadog.pool.ntp.org^
 ||207yse.tdum.alibaba.com^
@@ -24,6 +25,7 @@
 ||3s2ix7.tdum.alibaba.com^
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
+||48g0zj.tdum.alibaba.com^
 ||4c4cc75a16ed.cdn4.forter.com^
 ||4ng01p-cdn-settings.appsflyersdk.com^
 ||4ng01p-conversions.appsflyersdk.com^
@@ -49,7 +51,9 @@
 ||6915.eu-identity.swrve.com^
 ||6dpfps.tdum.alibaba.com^
 ||7bcvxi.tdum.alibaba.com^
+||7e8xer.tdum.alibaba.com^
 ||7viywa.tdum.alibaba.com^
+||7xs601.tdum.alibaba.com^
 ||81ar65.tdum.alibaba.com^
 ||85dhwr.tdum.alibaba.com^
 ||926yur.tdum.alibaba.com^
@@ -92,6 +96,7 @@
 ||adtrack-intl.ucweb.com^
 ||adultfriendfinder.com^
 ||adv.sec.intl.miui.com^
+||ae.mmstat.com^
 ||ak.sail-horizon.com^
 ||alb.reddit.com^
 ||amazonwebservicesinc.tt.omtrdc.net^
@@ -226,6 +231,7 @@
 ||cdn.tagcommander.com^
 ||cdn0.forter.com^
 ||cdn123.forter.com^
+||cdn2.forter.com^
 ||cdn2.hextom.com^
 ||cdn3.forter.com^
 ||cdn4.buysellads.net^
@@ -306,6 +312,7 @@
 ||el4s9q.tdum.alibaba.com^
 ||encyclopaediabritann.tt.omtrdc.net^
 ||engagements.appsflyer.com^
+||entitlements.jwplayer.com^
 ||epelyz-cdn-settings.appsflyersdk.com^
 ||epelyz-conversions.appsflyersdk.com^
 ||epelyz-dlsdk.appsflyersdk.com^
@@ -340,6 +347,7 @@
 ||fb788ee3e13c37e386c4fc5c50068dbd4f2d37ac192335d0d1dfd07cb52635b.us-east-1.prod.service.minerva.devices.a2z.com^
 ||fc1tn.baidu.com^
 ||fc2yri.tdum.alibaba.com^
+||fc7698c1280-xkxyytuk1752653253-sonar.xz.fbcdn.net^
 ||fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net^
 ||fchbhd.tdum.alibaba.com^
 ||fe5d2ad8930-hfiooopi1744922240-sonar.xy.fbcdn.net^
@@ -571,6 +579,7 @@
 ||pixel-config.reddit.com^
 ||pixel.facebook.com^
 ||pixel.roughgroup.com^
+||pl.ventunotech.com^
 ||pla.atlasos.net^
 ||platform.stumbleupon.com^
 ||plausible.freeyourmusic.com^
@@ -602,7 +611,9 @@
 ||remote-data.urbanairship.com^
 ||reports.proton.me^
 ||req.startappservice.com^
+||reqstat.api.mega.co.nz^
 ||retcode-sg-lazada.arms.aliyuncs.com^
+||rss.oneindia.com^
 ||rum-cdn.perfops.net^
 ||s111.twilightparadox.com^
 ||s2s.adjust.com^
@@ -725,6 +736,7 @@
 ||traffic-nts-ip-assoc.xz.fbcdn.net^
 ||tralut.chatpdf.com^
 ||trk.storyly.io^
+||tt.culinar9sync.com^
 ||tzm.px-cloud.net^
 ||uc.telemetry.eyeo.com^
 ||uc.ucweb.com^
@@ -738,6 +750,8 @@
 ||us.i.posthog.com^
 ||us.statusapi.micloud.xiaomi.net^
 ||us.ynuf.aliapp.org^
+||us1-spiky.clevertap-prod.com^
+||us1.clevertap-prod.com^
 ||usage-ping.brave.com^
 ||use.hetzner.com^
 ||variations.brave.com^
@@ -783,6 +797,7 @@
 ||xml-v4.ngcluster-a.online^
 ||xp.atlassian.com^
 ||xxid.atl-paas.net^
+||yijxujolpfvold.com^
 ||ynuf.aliapp.org^
 ||yourdomain.com^
 ||z-p4.graph.instagram.com^
