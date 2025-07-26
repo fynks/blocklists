@@ -10,11 +10,15 @@ readonly OUTPUT_FILE_XIAOMI_ADGUARD="${OUTPUT_DIR}/xiaomi_blocklist_adguard.txt"
 readonly OUTPUT_FILE_XIAOMI_HOSTS="${OUTPUT_DIR}/xiaomi_blocklist_hosts.txt"
 readonly LOG_FILE="${LOGS_DIR}/xiaomi_blocklist_generation.log"
 readonly TEMP_DIR=$(mktemp -d)
-readonly FILTER_KEYWORDS=("xiaomi" "miui")
+readonly FILTER_KEYWORDS=("xiaomi" "miui" "hyperos" "micloud")
 readonly XIAOMI_SPECIFIC_URL="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt"
 readonly DOMAIN_LIST_URLS=(
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt"
     "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+    "https://someonewhocares.org/hosts/zero/hosts"
+    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt"
+    "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt"
 )
 
 trap 'rm -rf "$TEMP_DIR"' EXIT
@@ -58,7 +62,12 @@ fetch_and_filter() {
     local output_file="$2"
     log "Fetching domain list from $url"
 
-    if ! curl -s --max-time 30 --retry 3 "$url" | grep -E "$(IFS='|'; echo "${FILTER_KEYWORDS[*]}")" | grep -v '^[#!]' | sed 's/^||//;s/\^$//' > "$output_file"; then
+    if ! curl -s --max-time 30 --retry 3 "$url" | \
+        grep -E "$(IFS='|'; echo "${FILTER_KEYWORDS[*]}")" | \
+        grep -v '^[#!]' | \
+        grep -v '^\$app=' | \
+        sed 's/^||//;s/\^$//' | \
+        grep -E '^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$' > "$output_file"; then
         log "Error: Failed to fetch domain list from $url"
         return 1
     fi
@@ -68,7 +77,11 @@ fetch_xiaomi_specific() {
     local output_file="$1"
     log "Fetching all domains from Xiaomi-specific URL: $XIAOMI_SPECIFIC_URL"
 
-    if ! curl -s --max-time 30 --retry 3 "$XIAOMI_SPECIFIC_URL" | grep -v '^[#!]' | sed 's/^||//;s/\^$//' > "$output_file"; then
+    if ! curl -s --max-time 30 --retry 3 "$XIAOMI_SPECIFIC_URL" | \
+        grep -v '^[#!]' | \
+        grep -v '^\$app=' | \
+        sed 's/^||//;s/\^$//' | \
+        grep -E '^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$' > "$output_file"; then
         log "Error: Failed to fetch domain list from $XIAOMI_SPECIFIC_URL"
         return 1
     fi

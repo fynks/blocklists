@@ -1,12 +1,16 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-07-26 07:56:03 PM PKT
-# Number of unique domains: 526
+# Last updated: 2025-07-26 08:07:15 PM PKT
+# Number of unique domains: 528
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
 # - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
 # - https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+# - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+# - https://someonewhocares.org/hosts/zero/hosts
+# - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt
+# - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
 #
 #
 # Hosts file format: 0.0.0.0 example.com
@@ -190,9 +194,11 @@
 0.0.0.0 global-ad-extranet-pri-azams.alb.xiaomi.com
 0.0.0.0 global-ad-extranet-pri-azpn.alb.xiaomi.com
 0.0.0.0 global-ad-intl-pri-alisgp.alb.xiaomi.com
+0.0.0.0 globalapi.ad.xiaomi.com
 0.0.0.0 global.api.huangye.miui.com
 0.0.0.0 globalreport.ad.intl.xiaomi.com
 0.0.0.0 globalvideo.cdn.pandora.intl.xiaomi.com
+0.0.0.0 gmicloud.ca
 0.0.0.0 gstat.pandora.xiaomi.com
 0.0.0.0 gtglobal.intl.miui.com
 0.0.0.0 h4g3z1-native.xiaomi.web.app
@@ -400,6 +406,7 @@
 0.0.0.0 sgp-tracking.api.intl.miui.com
 0.0.0.0 shoes.app-xae.xiaomi.com
 0.0.0.0 shop.pandora.xiaomi.com
+0.0.0.0 simicloud.com
 0.0.0.0 si.ptqy.gitv.tv
 0.0.0.0 site.e.mi.com
 0.0.0.0 sjs.ptmi.gitv.pandora.xiaomi.com
@@ -480,7 +487,6 @@
 0.0.0.0 tracking.india.miui.com
 0.0.0.0 tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com
 0.0.0.0 tracking.intl.miui.com
-0.0.0.0 tracking.*.miui.com
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 traffic-media.co
