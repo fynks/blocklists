@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-07-26 08:07:15 PM PKT
-# Number of unique domains: 528
+# Last updated: 2025-08-06 09:56:21 AM PKT
+# Number of unique domains: 518
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -23,7 +23,6 @@
 0.0.0.0 account.migc.g.mi.com
 0.0.0.0 activity.browser.intl.miui.com
 0.0.0.0 activity.hybrid.xiaomi.com
-0.0.0.0 ad-intl-pri-ksmos-epc.alb.xiaomi.com
 0.0.0.0 ad.intl.xiaomi.com
 0.0.0.0 ad.intl.xiaomi.com.edgesuite.net
 0.0.0.0 ad.intl.xiaomi.com.ksyna.net
@@ -34,7 +33,6 @@
 0.0.0.0 adv.sec.intl.miui.com
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 ad.xiaomi.com
-0.0.0.0 ad.xiaomi.com.edgesuite.net
 0.0.0.0 adx.tv.mi.com
 0.0.0.0 a.hl.mi.com
 0.0.0.0 alisgp-sentry.d.xiaomi.net
@@ -47,6 +45,7 @@
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 api.ads.xiaomi.com
 0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 api.ad.xiaomi.com.edgesuite.net
 0.0.0.0 api.aurogon.intl.miui.com
 0.0.0.0 api.bbs.miui.com
 0.0.0.0 api.browser.intl.miui.com
@@ -175,6 +174,7 @@
 0.0.0.0 feedback.miui.com
 0.0.0.0 file.cdn.mvideo.xiaomi.com
 0.0.0.0 findapi.micloud.xiaomi.net
+0.0.0.0 find.api.micloud.xiaomi.net.iberostar.com
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 flash.sec.miui.com
 0.0.0.0 flow.sec.miui.com
@@ -443,7 +443,6 @@
 0.0.0.0 t15.market.xiaomi.com
 0.0.0.0 t17.market.xiaomi.com
 0.0.0.0 t1.a.market.xiaomi.com
-0.0.0.0 t1.a.market.xiaomi.com.m.alikunlun.com
 0.0.0.0 t1.market.xiaomi.com
 0.0.0.0 t2.a.market.xiaomi.com
 0.0.0.0 t2.market.xiaomi.com
@@ -500,7 +499,9 @@
 0.0.0.0 update.avlyun.sec.miui.com
 0.0.0.0 upgrade.pandora.xiaomi.com
 0.0.0.0 us.api.micloud.xiaomi.net
+0.0.0.0 us.appbackupapi.micloud.xiaomi.net.iberostar.com
 0.0.0.0 userid.xiaomi.com
+0.0.0.0 us.pdc.micloud.xiaomi.net.iberostar.com
 0.0.0.0 us.statusapi.micloud.xiaomi.net
 0.0.0.0 utiq.mundoxiaomi.com
 0.0.0.0 video.kts.g.mi.com
@@ -518,25 +519,14 @@
 0.0.0.0 www.miui.net
 0.0.0.0 www.traffic-media.co
 0.0.0.0 xadx.file.market.xiaomi.com
-0.0.0.0 xiaomi168xadan.com
 0.0.0.0 xiaomialimiicinburdangiris.cfd
 0.0.0.0 xiaomialimiicinburdangiris.click
-0.0.0.0 xiaomialimiicinburdangiris.my
-0.0.0.0 xiaomialimlarburadangiris.baby
 0.0.0.0 xiaomialimlarburadangiris.help
-0.0.0.0 xiaomialimlarburadangiris.icu
-0.0.0.0 xiaomialimlarburadangiris.mom
-0.0.0.0 xiaomialimlarburadangiris.my
-0.0.0.0 xiaomialimlarburadangiris.sbs
 0.0.0.0 xiaomifirsatgirisleriburada.cfd
 0.0.0.0 xiaomifirsatgirisleriburada.icu
-0.0.0.0 xiaomifirsatgirisleriburada.my
-0.0.0.0 xiaomifirsatgirisleriburada.sbs
 0.0.0.0 xiaomifood.cn
 0.0.0.0 xiaomihome.shop
-0.0.0.0 xiaomi.mom
 0.0.0.0 xiaomingz.com
-0.0.0.0 xiaominiu.com
 0.0.0.0 xiaomi-shop.shop
 0.0.0.0 xiaomivietnam.xyz
 0.0.0.0 xiaoxiaomishu.com

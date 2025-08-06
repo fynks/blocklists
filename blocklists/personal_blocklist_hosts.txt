@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-07-26 07:56:10 PM PKT
-# Number of unique domains: 796
+# Last updated: 2025-08-06 09:56:07 AM PKT
+# Number of unique domains: 829
 # Homepage: https://github.com/fynks/blocklists
 #
 # Hosts file format: 0.0.0.0 example.com
@@ -107,6 +107,7 @@
 0.0.0.0 analytics.rayjump.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.us.tiktok.com
+0.0.0.0 analytics.wildlifestudios.com
 0.0.0.0 analyze-82dfgsi2.m-w.com
 0.0.0.0 anothereldestprogeny.com
 0.0.0.0 ap.octopuspop.com
@@ -128,6 +129,7 @@
 0.0.0.0 api.mixpanel.com
 0.0.0.0 api.omappapi.com
 0.0.0.0 api.onesignal.com
+0.0.0.0 api.sec.intl.miui.com
 0.0.0.0 api.sec.miui.com
 0.0.0.0 api.segment.io
 0.0.0.0 api.sprig.com
@@ -177,6 +179,7 @@
 0.0.0.0 boobausauhipsa.net
 0.0.0.0 bordeaux.futurecdn.net
 0.0.0.0 bot1ty.tdum.alibaba.com
+0.0.0.0 brahe.apptimize.eu
 0.0.0.0 brand-sdk.kmsmep.com
 0.0.0.0 browser-intake-datadoghq.com
 0.0.0.0 browser-intake-us5-datadoghq.com
@@ -209,6 +212,7 @@
 0.0.0.0 cdn.concert.io
 0.0.0.0 cdn.conversiontracking.com
 0.0.0.0 cdn.convertbox.com
+0.0.0.0 cdn.cookielaw.org
 0.0.0.0 cdn.databuddy.cc
 0.0.0.0 cdn.delve.co
 0.0.0.0 cdn.exp.xiaomi.com
@@ -220,7 +224,9 @@
 0.0.0.0 cdn.moengage.com
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.p-n.io
+0.0.0.0 cdn.pendo.io
 0.0.0.0 cdn.polyfill.io
+0.0.0.0 cdn.prod.metrics.imdb.com
 0.0.0.0 cdn.raygun.io
 0.0.0.0 cdn.requestmetrics.com
 0.0.0.0 cdn.segment.com
@@ -248,6 +254,7 @@
 0.0.0.0 collector-pxljub4etb.perimeterx.net
 0.0.0.0 collector-pxsw1vemrh.px-cloud.net
 0.0.0.0 collector.github.com
+0.0.0.0 collector.wdp.brave.com
 0.0.0.0 combine.asnapieu.com
 0.0.0.0 conf.config-security.com
 0.0.0.0 configure.rayjump.com
@@ -292,6 +299,7 @@
 0.0.0.0 dit.whatsapp.net
 0.0.0.0 dj1d6o6ftflzi.cloudfront.net
 0.0.0.0 dl20f2.tdum.alibaba.com
+0.0.0.0 dna8twue3dlxq.cloudfront.net
 0.0.0.0 dpm.demdex.net
 0.0.0.0 ds60ti.tdum.alibaba.com
 0.0.0.0 dv9cjr-attr.appsflyersdk.com
@@ -360,6 +368,7 @@
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
+0.0.0.0 firstosama.com
 0.0.0.0 fkvufv-cdn-settings.appsflyersdk.com
 0.0.0.0 fkvufv-conversions.appsflyersdk.com
 0.0.0.0 fkvufv-dlsdk.appsflyersdk.com
@@ -394,6 +403,7 @@
 0.0.0.0 gjapplog.ucweb.com
 0.0.0.0 gjtrack.ucweb.com
 0.0.0.0 glitter.services.disqus.com
+0.0.0.0 global.dev.cftls.t.co
 0.0.0.0 gm.mmstat.com
 0.0.0.0 go.ezodn.com
 0.0.0.0 go.xliirdr.com
@@ -419,6 +429,7 @@
 0.0.0.0 hn.inspectlet.com
 0.0.0.0 hudong.alicdn.com
 0.0.0.0 hz-telemetry.adobe.io
+0.0.0.0 i-sdk.mediation.unity3d.com
 0.0.0.0 i.isnssdk.com
 0.0.0.0 i.viafoura.co
 0.0.0.0 ichnaea-web.netflix.com
@@ -482,6 +493,7 @@
 0.0.0.0 li.blogtrottr.com
 0.0.0.0 li.protechts.net
 0.0.0.0 liteanalytics.com
+0.0.0.0 locationhistory-pa.googleapis.com
 0.0.0.0 log16-normal-alisg.tiktokv.com
 0.0.0.0 log16-normal-useast5.tiktokv.us
 0.0.0.0 logging.g.sst.secureserver.net
@@ -498,6 +510,7 @@
 0.0.0.0 mcc-intl.inf.miui.com
 0.0.0.0 mcc.intl.inf.miui.com
 0.0.0.0 mcs-sg.tiktokv.com
+0.0.0.0 md-a-c.apptimize.eu
 0.0.0.0 md-a-s.apptimize.eu
 0.0.0.0 mediaserver.entainpartners.com
 0.0.0.0 mediation.adnxs.com
@@ -519,6 +532,7 @@
 0.0.0.0 msgacs-m.lazada.sg
 0.0.0.0 mssdk-sg.tiktok.com
 0.0.0.0 multi-pixels.com
+0.0.0.0 new-user-data-api.fungames-forfree.com
 0.0.0.0 newrotatormarch23.bid
 0.0.0.0 newsfeed.api.intl.miui.com
 0.0.0.0 nexus-websocket-a.intercom.io
@@ -549,8 +563,11 @@
 0.0.0.0 omnisnippet1.com
 0.0.0.0 only-d-ui6vgpagbv7qedtelwevpehklbks2njm-1752345098373.nstool.netease.com
 0.0.0.0 open-api.spot.im
+0.0.0.0 opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
 0.0.0.0 orange-dc.lazada.com
+0.0.0.0 osamadada.com
 0.0.0.0 osamagenius.com
+0.0.0.0 osamaglow.com
 0.0.0.0 osamahit.com
 0.0.0.0 osamanamana.com
 0.0.0.0 osamapk.com
@@ -566,6 +583,8 @@
 0.0.0.0 p8ly86-launches.appsflyersdk.com
 0.0.0.0 p8ly86-register.appsflyersdk.com
 0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 parking.bodiscdn.com
+0.0.0.0 paxsenix.alwaysdata.net
 0.0.0.0 pcdn.dengage.com
 0.0.0.0 perseus-productanalytics.deliveryhero.net
 0.0.0.0 persona-etl.wps.com
@@ -580,6 +599,7 @@
 0.0.0.0 pixel.roughgroup.com
 0.0.0.0 pl.ventunotech.com
 0.0.0.0 pla.atlasos.net
+0.0.0.0 platform-api.sharethis.com
 0.0.0.0 platform.stumbleupon.com
 0.0.0.0 plausible.freeyourmusic.com
 0.0.0.0 plausible.io
@@ -597,6 +617,7 @@
 0.0.0.0 q3ban.tdum.alibaba.com
 0.0.0.0 qcc.qualcomm.com
 0.0.0.0 qu.tollboagane.com
+0.0.0.0 quorum.wdp.brave.com
 0.0.0.0 r.cdnpure.com
 0.0.0.0 r.wdfl.co
 0.0.0.0 raine.accuweather.com
@@ -614,6 +635,7 @@
 0.0.0.0 retcode-sg-lazada.arms.aliyuncs.com
 0.0.0.0 rss.oneindia.com
 0.0.0.0 rum-cdn.perfops.net
+0.0.0.0 s.axon.ai
 0.0.0.0 s111.twilightparadox.com
 0.0.0.0 s2s.adjust.com
 0.0.0.0 sc-static.net
@@ -623,16 +645,19 @@
 0.0.0.0 sdk.beeketing.com
 0.0.0.0 sdk.iad-01.braze.com
 0.0.0.0 sdk.iad-05.braze.com
+0.0.0.0 sdk.postscript.io
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdkupgrade.insight.ucweb.com
 0.0.0.0 seal.websecurity.norton.com
 0.0.0.0 search.olxpk.net
+0.0.0.0 searchlabspartnerservice-pa.googleapis.com
 0.0.0.0 sec.umeng.com
 0.0.0.0 secria.me
 0.0.0.0 secure.statcounter.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sensors.snaptube.app
+0.0.0.0 sentry-new.protontech.ch
 0.0.0.0 sentry-reporter.ente.io
 0.0.0.0 sentry.ente.io
 0.0.0.0 sentry.io
@@ -651,6 +676,7 @@
 0.0.0.0 snap.licdn.com
 0.0.0.0 snippet.affilimate.io
 0.0.0.0 snippet.maze.co
+0.0.0.0 socialtrafenet.com
 0.0.0.0 sofire.terabox.com
 0.0.0.0 sonar6.xy.fbcdn.net
 0.0.0.0 sp1.baidu.com
@@ -669,6 +695,7 @@
 0.0.0.0 static.fd-api.com
 0.0.0.0 static.fleshlight.com
 0.0.0.0 static.getclicky.com
+0.0.0.0 static.hotjar.com
 0.0.0.0 static.narrativ.com
 0.0.0.0 stats.fluorescent.co
 0.0.0.0 stats.g.doubleclick.net
@@ -680,6 +707,7 @@
 0.0.0.0 stpd.cloud
 0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 syndication.twitter.com
+0.0.0.0 t.co
 0.0.0.0 t.contentsquare.net
 0.0.0.0 t1.market.xiaomi.com
 0.0.0.0 t3760571.beget.tech
@@ -752,6 +780,7 @@
 0.0.0.0 us1-spiky.clevertap-prod.com
 0.0.0.0 us1.clevertap-prod.com
 0.0.0.0 usage-ping.brave.com
+0.0.0.0 usage.hookvip.top
 0.0.0.0 use.hetzner.com
 0.0.0.0 variations.brave.com
 0.0.0.0 view.adjust.com
@@ -766,6 +795,7 @@
 0.0.0.0 westerndigital.tt.omtrdc.net
 0.0.0.0 widget.senja.io
 0.0.0.0 widgetlogic.org
+0.0.0.0 wl.spotify.com
 0.0.0.0 wr.tammarsayyid.com
 0.0.0.0 www.1377x.to
 0.0.0.0 www.addtoany.com
@@ -783,8 +813,10 @@
 0.0.0.0 www.inboxdollars.com
 0.0.0.0 www.iplocate.io
 0.0.0.0 www.liveadexchanger.com
+0.0.0.0 www.powr.io
 0.0.0.0 www.profitablecpmrate.com
 0.0.0.0 www.shareaholic.com
+0.0.0.0 www.sjwoe.com
 0.0.0.0 www3.doubleclick.net
 0.0.0.0 x.co
 0.0.0.0 x.dpstatic.com
@@ -793,6 +825,7 @@
 0.0.0.0 xiaomipakistan.site
 0.0.0.0 xjp-jmacs.m.taobao.com
 0.0.0.0 xjp-msgacs.m.taobao.com
+0.0.0.0 xjrreecpgepx.com
 0.0.0.0 xml-v4.ngcluster-a.online
 0.0.0.0 xp.atlassian.com
 0.0.0.0 xxid.atl-paas.net

@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-07-26 08:07:15 PM PKT
-# Number of unique domains: 528
+# Last updated: 2025-08-06 09:56:21 AM PKT
+# Number of unique domains: 518
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -23,7 +23,6 @@
 ||account.migc.g.mi.com^
 ||activity.browser.intl.miui.com^
 ||activity.hybrid.xiaomi.com^
-||ad-intl-pri-ksmos-epc.alb.xiaomi.com^
 ||ad.intl.xiaomi.com^
 ||ad.intl.xiaomi.com.edgesuite.net^
 ||ad.intl.xiaomi.com.ksyna.net^
@@ -34,7 +33,6 @@
 ||adv.sec.intl.miui.com^
 ||adv.sec.miui.com^
 ||ad.xiaomi.com^
-||ad.xiaomi.com.edgesuite.net^
 ||adx.tv.mi.com^
 ||a.hl.mi.com^
 ||alisgp-sentry.d.xiaomi.net^
@@ -47,6 +45,7 @@
 ||api.ad.intl.xiaomi.com^
 ||api.ads.xiaomi.com^
 ||api.ad.xiaomi.com^
+||api.ad.xiaomi.com.edgesuite.net^
 ||api.aurogon.intl.miui.com^
 ||api.bbs.miui.com^
 ||api.browser.intl.miui.com^
@@ -175,6 +174,7 @@
 ||feedback.miui.com^
 ||file.cdn.mvideo.xiaomi.com^
 ||findapi.micloud.xiaomi.net^
+||find.api.micloud.xiaomi.net.iberostar.com^
 ||flash.sec.intl.miui.com^
 ||flash.sec.miui.com^
 ||flow.sec.miui.com^
@@ -443,7 +443,6 @@
 ||t15.market.xiaomi.com^
 ||t17.market.xiaomi.com^
 ||t1.a.market.xiaomi.com^
-||t1.a.market.xiaomi.com.m.alikunlun.com^
 ||t1.market.xiaomi.com^
 ||t2.a.market.xiaomi.com^
 ||t2.market.xiaomi.com^
@@ -500,7 +499,9 @@
 ||update.avlyun.sec.miui.com^
 ||upgrade.pandora.xiaomi.com^
 ||us.api.micloud.xiaomi.net^
+||us.appbackupapi.micloud.xiaomi.net.iberostar.com^
 ||userid.xiaomi.com^
+||us.pdc.micloud.xiaomi.net.iberostar.com^
 ||us.statusapi.micloud.xiaomi.net^
 ||utiq.mundoxiaomi.com^
 ||video.kts.g.mi.com^
@@ -518,25 +519,14 @@
 ||www.miui.net^
 ||www.traffic-media.co^
 ||xadx.file.market.xiaomi.com^
-||xiaomi168xadan.com^
 ||xiaomialimiicinburdangiris.cfd^
 ||xiaomialimiicinburdangiris.click^
-||xiaomialimiicinburdangiris.my^
-||xiaomialimlarburadangiris.baby^
 ||xiaomialimlarburadangiris.help^
-||xiaomialimlarburadangiris.icu^
-||xiaomialimlarburadangiris.mom^
-||xiaomialimlarburadangiris.my^
-||xiaomialimlarburadangiris.sbs^
 ||xiaomifirsatgirisleriburada.cfd^
 ||xiaomifirsatgirisleriburada.icu^
-||xiaomifirsatgirisleriburada.my^
-||xiaomifirsatgirisleriburada.sbs^
 ||xiaomifood.cn^
 ||xiaomihome.shop^
-||xiaomi.mom^
 ||xiaomingz.com^
-||xiaominiu.com^
 ||xiaomi-shop.shop^
 ||xiaomivietnam.xyz^
 ||xiaoxiaomishu.com^

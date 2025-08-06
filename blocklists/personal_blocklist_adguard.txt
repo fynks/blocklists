@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-07-26 07:56:10 PM PKT
-! Number of unique domains: 796
+! Last updated: 2025-08-06 09:56:07 AM PKT
+! Number of unique domains: 829
 ! Homepage: https://github.com/fynks/blocklists
 ! Compatible with AdGuard, uBlock Origin, Pi-hole
 !
@@ -108,6 +108,7 @@
 ||analytics.rayjump.com^
 ||analytics.tiktok.com^
 ||analytics.us.tiktok.com^
+||analytics.wildlifestudios.com^
 ||analyze-82dfgsi2.m-w.com^
 ||anothereldestprogeny.com^
 ||ap.octopuspop.com^
@@ -129,6 +130,7 @@
 ||api.mixpanel.com^
 ||api.omappapi.com^
 ||api.onesignal.com^
+||api.sec.intl.miui.com^
 ||api.sec.miui.com^
 ||api.segment.io^
 ||api.sprig.com^
@@ -178,6 +180,7 @@
 ||boobausauhipsa.net^
 ||bordeaux.futurecdn.net^
 ||bot1ty.tdum.alibaba.com^
+||brahe.apptimize.eu^
 ||brand-sdk.kmsmep.com^
 ||browser-intake-datadoghq.com^
 ||browser-intake-us5-datadoghq.com^
@@ -210,6 +213,7 @@
 ||cdn.concert.io^
 ||cdn.conversiontracking.com^
 ||cdn.convertbox.com^
+||cdn.cookielaw.org^
 ||cdn.databuddy.cc^
 ||cdn.delve.co^
 ||cdn.exp.xiaomi.com^
@@ -221,7 +225,9 @@
 ||cdn.moengage.com^
 ||cdn.onesignal.com^
 ||cdn.p-n.io^
+||cdn.pendo.io^
 ||cdn.polyfill.io^
+||cdn.prod.metrics.imdb.com^
 ||cdn.raygun.io^
 ||cdn.requestmetrics.com^
 ||cdn.segment.com^
@@ -249,6 +255,7 @@
 ||collector-pxljub4etb.perimeterx.net^
 ||collector-pxsw1vemrh.px-cloud.net^
 ||collector.github.com^
+||collector.wdp.brave.com^
 ||combine.asnapieu.com^
 ||conf.config-security.com^
 ||configure.rayjump.com^
@@ -293,6 +300,7 @@
 ||dit.whatsapp.net^
 ||dj1d6o6ftflzi.cloudfront.net^
 ||dl20f2.tdum.alibaba.com^
+||dna8twue3dlxq.cloudfront.net^
 ||dpm.demdex.net^
 ||ds60ti.tdum.alibaba.com^
 ||dv9cjr-attr.appsflyersdk.com^
@@ -361,6 +369,7 @@
 ||firebase-settings.crashlytics.com^
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
+||firstosama.com^
 ||fkvufv-cdn-settings.appsflyersdk.com^
 ||fkvufv-conversions.appsflyersdk.com^
 ||fkvufv-dlsdk.appsflyersdk.com^
@@ -395,6 +404,7 @@
 ||gjapplog.ucweb.com^
 ||gjtrack.ucweb.com^
 ||glitter.services.disqus.com^
+||global.dev.cftls.t.co^
 ||gm.mmstat.com^
 ||go.ezodn.com^
 ||go.xliirdr.com^
@@ -420,6 +430,7 @@
 ||hn.inspectlet.com^
 ||hudong.alicdn.com^
 ||hz-telemetry.adobe.io^
+||i-sdk.mediation.unity3d.com^
 ||i.isnssdk.com^
 ||i.viafoura.co^
 ||ichnaea-web.netflix.com^
@@ -483,6 +494,7 @@
 ||li.blogtrottr.com^
 ||li.protechts.net^
 ||liteanalytics.com^
+||locationhistory-pa.googleapis.com^
 ||log16-normal-alisg.tiktokv.com^
 ||log16-normal-useast5.tiktokv.us^
 ||logging.g.sst.secureserver.net^
@@ -499,6 +511,7 @@
 ||mcc-intl.inf.miui.com^
 ||mcc.intl.inf.miui.com^
 ||mcs-sg.tiktokv.com^
+||md-a-c.apptimize.eu^
 ||md-a-s.apptimize.eu^
 ||mediaserver.entainpartners.com^
 ||mediation.adnxs.com^
@@ -520,6 +533,7 @@
 ||msgacs-m.lazada.sg^
 ||mssdk-sg.tiktok.com^
 ||multi-pixels.com^
+||new-user-data-api.fungames-forfree.com^
 ||newrotatormarch23.bid^
 ||newsfeed.api.intl.miui.com^
 ||nexus-websocket-a.intercom.io^
@@ -550,8 +564,11 @@
 ||omnisnippet1.com^
 ||only-d-ui6vgpagbv7qedtelwevpehklbks2njm-1752345098373.nstool.netease.com^
 ||open-api.spot.im^
+||opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io^
 ||orange-dc.lazada.com^
+||osamadada.com^
 ||osamagenius.com^
+||osamaglow.com^
 ||osamahit.com^
 ||osamanamana.com^
 ||osamapk.com^
@@ -567,6 +584,8 @@
 ||p8ly86-launches.appsflyersdk.com^
 ||p8ly86-register.appsflyersdk.com^
 ||pagead2.googlesyndication.com^
+||parking.bodiscdn.com^
+||paxsenix.alwaysdata.net^
 ||pcdn.dengage.com^
 ||perseus-productanalytics.deliveryhero.net^
 ||persona-etl.wps.com^
@@ -581,6 +600,7 @@
 ||pixel.roughgroup.com^
 ||pl.ventunotech.com^
 ||pla.atlasos.net^
+||platform-api.sharethis.com^
 ||platform.stumbleupon.com^
 ||plausible.freeyourmusic.com^
 ||plausible.io^
@@ -598,6 +618,7 @@
 ||q3ban.tdum.alibaba.com^
 ||qcc.qualcomm.com^
 ||qu.tollboagane.com^
+||quorum.wdp.brave.com^
 ||r.cdnpure.com^
 ||r.wdfl.co^
 ||raine.accuweather.com^
@@ -615,6 +636,7 @@
 ||retcode-sg-lazada.arms.aliyuncs.com^
 ||rss.oneindia.com^
 ||rum-cdn.perfops.net^
+||s.axon.ai^
 ||s111.twilightparadox.com^
 ||s2s.adjust.com^
 ||sc-static.net^
@@ -624,16 +646,19 @@
 ||sdk.beeketing.com^
 ||sdk.iad-01.braze.com^
 ||sdk.iad-05.braze.com^
+||sdk.postscript.io^
 ||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
 ||sdkupgrade.insight.ucweb.com^
 ||seal.websecurity.norton.com^
 ||search.olxpk.net^
+||searchlabspartnerservice-pa.googleapis.com^
 ||sec.umeng.com^
 ||secria.me^
 ||secure.statcounter.com^
 ||securepubads.g.doubleclick.net^
 ||sensors.snaptube.app^
+||sentry-new.protontech.ch^
 ||sentry-reporter.ente.io^
 ||sentry.ente.io^
 ||sentry.io^
@@ -652,6 +677,7 @@
 ||snap.licdn.com^
 ||snippet.affilimate.io^
 ||snippet.maze.co^
+||socialtrafenet.com^
 ||sofire.terabox.com^
 ||sonar6.xy.fbcdn.net^
 ||sp1.baidu.com^
@@ -670,6 +696,7 @@
 ||static.fd-api.com^
 ||static.fleshlight.com^
 ||static.getclicky.com^
+||static.hotjar.com^
 ||static.narrativ.com^
 ||stats.fluorescent.co^
 ||stats.g.doubleclick.net^
@@ -681,6 +708,7 @@
 ||stpd.cloud^
 ||syndication.exdynsrv.com^
 ||syndication.twitter.com^
+||t.co^
 ||t.contentsquare.net^
 ||t1.market.xiaomi.com^
 ||t3760571.beget.tech^
@@ -753,6 +781,7 @@
 ||us1-spiky.clevertap-prod.com^
 ||us1.clevertap-prod.com^
 ||usage-ping.brave.com^
+||usage.hookvip.top^
 ||use.hetzner.com^
 ||variations.brave.com^
 ||view.adjust.com^
@@ -767,6 +796,7 @@
 ||westerndigital.tt.omtrdc.net^
 ||widget.senja.io^
 ||widgetlogic.org^
+||wl.spotify.com^
 ||wr.tammarsayyid.com^
 ||www.1377x.to^
 ||www.addtoany.com^
@@ -784,8 +814,10 @@
 ||www.inboxdollars.com^
 ||www.iplocate.io^
 ||www.liveadexchanger.com^
+||www.powr.io^
 ||www.profitablecpmrate.com^
 ||www.shareaholic.com^
+||www.sjwoe.com^
 ||www3.doubleclick.net^
 ||x.co^
 ||x.dpstatic.com^
@@ -794,6 +826,7 @@
 ||xiaomipakistan.site^
 ||xjp-jmacs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^
+||xjrreecpgepx.com^
 ||xml-v4.ngcluster-a.online^
 ||xp.atlassian.com^
 ||xxid.atl-paas.net^
