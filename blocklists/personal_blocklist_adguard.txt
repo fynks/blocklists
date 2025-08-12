@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-08-06 09:56:07 AM PKT
-! Number of unique domains: 829
+! Last updated: 2025-08-12 09:38:24 AM PKT
+! Number of unique domains: 841
 ! Homepage: https://github.com/fynks/blocklists
 ! Compatible with AdGuard, uBlock Origin, Pi-hole
 !
@@ -73,6 +73,7 @@
 ||accscdn.m.taobao.com^
 ||acdn.adnxs.com^
 ||acjs.aliyun.com^
+||acs.m.taobao.com^
 ||acs.maribacaberita.com^
 ||acscdn.com^
 ||ad-delivery.net^
@@ -89,6 +90,7 @@
 ||ads-api.x.com^
 ||ads.betfair.com^
 ||ads.digitalpoint.com^
+||ads.twitter.com^
 ||ads.vk.com^
 ||adsapi.snapchat.com^
 ||adsmetadata.mobileadexchange.net^
@@ -107,8 +109,10 @@
 ||analytics.picsart.com^
 ||analytics.rayjump.com^
 ||analytics.tiktok.com^
+||analytics.twitter.com^
 ||analytics.us.tiktok.com^
 ||analytics.wildlifestudios.com^
+||analytics.x.com^
 ||analyze-82dfgsi2.m-w.com^
 ||anothereldestprogeny.com^
 ||ap.octopuspop.com^
@@ -152,6 +156,8 @@
 ||applog.uc.cn^
 ||appsgrowthpromo-pa.clients6.google.com^
 ||arclight.vimeo.com^
+||arms-retcode.aliyuncs.com^
+||assets-jpcust.jwpsrv.com^
 ||assets.churnkey.co^
 ||assets.context.ly^
 ||assets1.adroll.com^
@@ -235,6 +241,7 @@
 ||cdn.skypack.dev^
 ||cdn.taboola.com^
 ||cdn.tagcommander.com^
+||cdn.tinypass.com^
 ||cdn0.forter.com^
 ||cdn123.forter.com^
 ||cdn2.forter.com^
@@ -318,6 +325,7 @@
 ||ej.reatushaithal.com^
 ||eko443.tdum.alibaba.com^
 ||el4s9q.tdum.alibaba.com^
+||email-link.adtidy.org^
 ||encyclopaediabritann.tt.omtrdc.net^
 ||engagements.appsflyer.com^
 ||entitlements.jwplayer.com^
@@ -397,7 +405,10 @@
 ||geo.justwatch.com^
 ||geo.yahoo.com^
 ||geoip.businessinsider.com^
+||geolocation.onetrust.com^
 ||gfhnmb.tdum.alibaba.com^
+||gh.ddlc.top^
+||ghproxy.cxkpro.top^
 ||ghyljj.tdum.alibaba.com^
 ||gips1.baidu.com^
 ||gips2.baidu.com^
@@ -533,6 +544,7 @@
 ||msgacs-m.lazada.sg^
 ||mssdk-sg.tiktok.com^
 ||multi-pixels.com^
+||mum.alibabachengdun.com^
 ||new-user-data-api.fungames-forfree.com^
 ||newrotatormarch23.bid^
 ||newsfeed.api.intl.miui.com^

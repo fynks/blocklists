@@ -1,14 +1,12 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-08-06 09:56:21 AM PKT
-# Number of unique domains: 518
+# Last updated: 2025-08-12 09:43:54 AM PKT
+# Number of unique domains: 510
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
 # - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
 # - https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-# - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-# - https://someonewhocares.org/hosts/zero/hosts
 # - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt
 # - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
 #
@@ -23,6 +21,7 @@
 ||account.migc.g.mi.com^
 ||activity.browser.intl.miui.com^
 ||activity.hybrid.xiaomi.com^
+||ad-intl-pri-ksmos-epc.alb.xiaomi.com^
 ||ad.intl.xiaomi.com^
 ||ad.intl.xiaomi.com.edgesuite.net^
 ||ad.intl.xiaomi.com.ksyna.net^
@@ -33,6 +32,7 @@
 ||adv.sec.intl.miui.com^
 ||adv.sec.miui.com^
 ||ad.xiaomi.com^
+||ad.xiaomi.com.edgesuite.net^
 ||adx.tv.mi.com^
 ||a.hl.mi.com^
 ||alisgp-sentry.d.xiaomi.net^
@@ -45,7 +45,6 @@
 ||api.ad.intl.xiaomi.com^
 ||api.ads.xiaomi.com^
 ||api.ad.xiaomi.com^
-||api.ad.xiaomi.com.edgesuite.net^
 ||api.aurogon.intl.miui.com^
 ||api.bbs.miui.com^
 ||api.browser.intl.miui.com^
@@ -125,6 +124,7 @@
 ||cdn.fds-ssl.api.xiaomi.com^
 ||child.sec.miui.com^
 ||chong.sec.miui.com^
+||cms.browser.intl.miui.com^
 ||cms.sec.miui.com^
 ||cnbj1.fds.api.xiaomi.com^
 ||cnc.data.game.xiaomi.com^
@@ -174,7 +174,6 @@
 ||feedback.miui.com^
 ||file.cdn.mvideo.xiaomi.com^
 ||findapi.micloud.xiaomi.net^
-||find.api.micloud.xiaomi.net.iberostar.com^
 ||flash.sec.intl.miui.com^
 ||flash.sec.miui.com^
 ||flow.sec.miui.com^
@@ -184,13 +183,11 @@
 ||fr-register.xmpush.global.xiaomi.com^
 ||fr.register.xmpush.global.xiaomi.com^
 ||fr.resolver.msg.global.xiaomi.net^
-||galleryapi.micloud.xiaomi.net^
 ||gallery.cdn.pandora.xiaomi.com^
 ||game.ad.xiaomi.com^
 ||gamebox.sec.intl.miui.com^
 ||gamebox.sec.miui.com^
 ||geofence.sys.miui.com^
-||g.galleryapi.micloud.xiaomi.net^
 ||global-ad-extranet-pri-azams.alb.xiaomi.com^
 ||global-ad-extranet-pri-azpn.alb.xiaomi.com^
 ||global-ad-intl-pri-alisgp.alb.xiaomi.com^
@@ -499,9 +496,7 @@
 ||update.avlyun.sec.miui.com^
 ||upgrade.pandora.xiaomi.com^
 ||us.api.micloud.xiaomi.net^
-||us.appbackupapi.micloud.xiaomi.net.iberostar.com^
 ||userid.xiaomi.com^
-||us.pdc.micloud.xiaomi.net.iberostar.com^
 ||us.statusapi.micloud.xiaomi.net^
 ||utiq.mundoxiaomi.com^
 ||video.kts.g.mi.com^
@@ -519,11 +514,6 @@
 ||www.miui.net^
 ||www.traffic-media.co^
 ||xadx.file.market.xiaomi.com^
-||xiaomialimiicinburdangiris.cfd^
-||xiaomialimiicinburdangiris.click^
-||xiaomialimlarburadangiris.help^
-||xiaomifirsatgirisleriburada.cfd^
-||xiaomifirsatgirisleriburada.icu^
 ||xiaomifood.cn^
 ||xiaomihome.shop^
 ||xiaomingz.com^

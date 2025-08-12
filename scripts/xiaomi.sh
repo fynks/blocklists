@@ -15,8 +15,6 @@ readonly XIAOMI_SPECIFIC_URL="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@
 readonly DOMAIN_LIST_URLS=(
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt"
     "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
-    "https://someonewhocares.org/hosts/zero/hosts"
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt"
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt"
 )

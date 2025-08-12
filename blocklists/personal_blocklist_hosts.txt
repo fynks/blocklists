@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-08-06 09:56:07 AM PKT
-# Number of unique domains: 829
+# Last updated: 2025-08-12 09:38:24 AM PKT
+# Number of unique domains: 841
 # Homepage: https://github.com/fynks/blocklists
 #
 # Hosts file format: 0.0.0.0 example.com
@@ -72,6 +72,7 @@
 0.0.0.0 accscdn.m.taobao.com
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 acjs.aliyun.com
+0.0.0.0 acs.m.taobao.com
 0.0.0.0 acs.maribacaberita.com
 0.0.0.0 acscdn.com
 0.0.0.0 ad-delivery.net
@@ -88,6 +89,7 @@
 0.0.0.0 ads-api.x.com
 0.0.0.0 ads.betfair.com
 0.0.0.0 ads.digitalpoint.com
+0.0.0.0 ads.twitter.com
 0.0.0.0 ads.vk.com
 0.0.0.0 adsapi.snapchat.com
 0.0.0.0 adsmetadata.mobileadexchange.net
@@ -106,8 +108,10 @@
 0.0.0.0 analytics.picsart.com
 0.0.0.0 analytics.rayjump.com
 0.0.0.0 analytics.tiktok.com
+0.0.0.0 analytics.twitter.com
 0.0.0.0 analytics.us.tiktok.com
 0.0.0.0 analytics.wildlifestudios.com
+0.0.0.0 analytics.x.com
 0.0.0.0 analyze-82dfgsi2.m-w.com
 0.0.0.0 anothereldestprogeny.com
 0.0.0.0 ap.octopuspop.com
@@ -151,6 +155,8 @@
 0.0.0.0 applog.uc.cn
 0.0.0.0 appsgrowthpromo-pa.clients6.google.com
 0.0.0.0 arclight.vimeo.com
+0.0.0.0 arms-retcode.aliyuncs.com
+0.0.0.0 assets-jpcust.jwpsrv.com
 0.0.0.0 assets.churnkey.co
 0.0.0.0 assets.context.ly
 0.0.0.0 assets1.adroll.com
@@ -234,6 +240,7 @@
 0.0.0.0 cdn.skypack.dev
 0.0.0.0 cdn.taboola.com
 0.0.0.0 cdn.tagcommander.com
+0.0.0.0 cdn.tinypass.com
 0.0.0.0 cdn0.forter.com
 0.0.0.0 cdn123.forter.com
 0.0.0.0 cdn2.forter.com
@@ -317,6 +324,7 @@
 0.0.0.0 ej.reatushaithal.com
 0.0.0.0 eko443.tdum.alibaba.com
 0.0.0.0 el4s9q.tdum.alibaba.com
+0.0.0.0 email-link.adtidy.org
 0.0.0.0 encyclopaediabritann.tt.omtrdc.net
 0.0.0.0 engagements.appsflyer.com
 0.0.0.0 entitlements.jwplayer.com
@@ -396,7 +404,10 @@
 0.0.0.0 geo.justwatch.com
 0.0.0.0 geo.yahoo.com
 0.0.0.0 geoip.businessinsider.com
+0.0.0.0 geolocation.onetrust.com
 0.0.0.0 gfhnmb.tdum.alibaba.com
+0.0.0.0 gh.ddlc.top
+0.0.0.0 ghproxy.cxkpro.top
 0.0.0.0 ghyljj.tdum.alibaba.com
 0.0.0.0 gips1.baidu.com
 0.0.0.0 gips2.baidu.com
@@ -532,6 +543,7 @@
 0.0.0.0 msgacs-m.lazada.sg
 0.0.0.0 mssdk-sg.tiktok.com
 0.0.0.0 multi-pixels.com
+0.0.0.0 mum.alibabachengdun.com
 0.0.0.0 new-user-data-api.fungames-forfree.com
 0.0.0.0 newrotatormarch23.bid
 0.0.0.0 newsfeed.api.intl.miui.com
