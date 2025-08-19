@@ -1,9 +1,9 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-08-12 09:38:24 AM PKT
+! Last updated: 2025-08-19 11:55:01 AM PKT
 ! Number of unique domains: 841
 ! Homepage: https://github.com/fynks/blocklists
-! Compatible with AdGuard, uBlock Origin, Pi-hole
+! License: MIT
 !
 ! Blocklist format: ||example.com^
 
