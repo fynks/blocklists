@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-08-12 09:43:54 AM PKT
-# Number of unique domains: 510
+# Last updated: 2025-08-20 10:08:13 AM PKT
+# Number of unique domains: 512
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -174,6 +174,7 @@
 0.0.0.0 feedback.miui.com
 0.0.0.0 file.cdn.mvideo.xiaomi.com
 0.0.0.0 findapi.micloud.xiaomi.net
+0.0.0.0 find.api.micloud.xiaomi.net.iberostar.com
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 flash.sec.miui.com
 0.0.0.0 flow.sec.miui.com
@@ -192,7 +193,6 @@
 0.0.0.0 global-ad-extranet-pri-azpn.alb.xiaomi.com
 0.0.0.0 global-ad-intl-pri-alisgp.alb.xiaomi.com
 0.0.0.0 globalapi.ad.xiaomi.com
-0.0.0.0 global.api.huangye.miui.com
 0.0.0.0 globalreport.ad.intl.xiaomi.com
 0.0.0.0 globalvideo.cdn.pandora.intl.xiaomi.com
 0.0.0.0 gmicloud.ca
@@ -496,7 +496,9 @@
 0.0.0.0 update.avlyun.sec.miui.com
 0.0.0.0 upgrade.pandora.xiaomi.com
 0.0.0.0 us.api.micloud.xiaomi.net
+0.0.0.0 us.appbackupapi.micloud.xiaomi.net.iberostar.com
 0.0.0.0 userid.xiaomi.com
+0.0.0.0 us.micardapi.micloud.xiaomi.net.iberostar.com
 0.0.0.0 us.statusapi.micloud.xiaomi.net
 0.0.0.0 utiq.mundoxiaomi.com
 0.0.0.0 video.kts.g.mi.com
