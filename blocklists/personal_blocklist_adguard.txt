@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-08-20 10:07:06 AM PKT
-! Number of unique domains: 882
+! Last updated: 2025-08-24 09:43:02 AM PKT
+! Number of unique domains: 892
 ! Homepage: https://github.com/fynks/blocklists
 ! License: MIT
 !
@@ -271,6 +271,8 @@
 ||clienttracing-pa.googleapis.com^
 ||clk.mobgold.com^
 ||cnbj1.fds.api.xiaomi.com^
+||cnlogs.umeng.com^
+||cnlogs.umengcloud.com^
 ||collector-pxljub4etb.cl6.px-cloud.net^
 ||collector-pxljub4etb.perimeterx.net^
 ||collector-pxsw1vemrh.px-cloud.net^
@@ -351,6 +353,7 @@
 ||epelyz-register.appsflyersdk.com^
 ||epwiy9-cdn-settings.appsflyersdk.com^
 ||epwiy9-conversions.appsflyersdk.com^
+||errlog.umeng.com^
 ||error-report.com^
 ||error-tracking.reddit.com^
 ||essential-apps-analytics.herokuapp.com^
@@ -573,6 +576,7 @@
 ||nexus-websocket-a.intercom.io^
 ||nitroscripts.com^
 ||no-track.as93.net^
+||normalplayer.top^
 ||notifications.payhelm.com^
 ||nowosama.com^
 ||nu.wolfmandiked.com^
@@ -612,6 +616,7 @@
 ||osamanamana.com^
 ||osamapk.com^
 ||ossgw.alicdn.com^
+||out.normalplayer.top^
 ||p.controld.com^
 ||p.typekit.net^
 ||p21-ad-sg.ibyteimg.com^
@@ -677,6 +682,7 @@
 ||reports.proton.me^
 ||req.startappservice.com^
 ||reqstat.api.mega.co.nz^
+||resolve.umeng.com^
 ||retcode-sg-lazada.arms.aliyuncs.com^
 ||rss.oneindia.com^
 ||rum-cdn.perfops.net^
@@ -842,6 +848,7 @@
 ||wct.link^
 ||wct.softonic.com^
 ||wd.sharethis.com^
+||web.normalplayer.top^
 ||weblog.rclone.org^
 ||westerndigital.tt.omtrdc.net^
 ||widget.senja.io^
@@ -866,9 +873,12 @@
 ||www.liveadexchanger.com^
 ||www.powr.io^
 ||www.profitablecpmrate.com^
+||www.pushbullet.com^
 ||www.shareaholic.com^
 ||www.sjwoe.com^
 ||www3.doubleclick.net^
+||wxi5my.cdn-settings.appsflyersdk.com^
+||wxi5my.register.appsflyersdk.com^
 ||x.co^
 ||x.dpstatic.com^
 ||x3x3x.xyz^

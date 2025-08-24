@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-08-20 10:07:06 AM PKT
-# Number of unique domains: 882
+# Last updated: 2025-08-24 09:43:02 AM PKT
+# Number of unique domains: 892
 # Homepage: https://github.com/fynks/blocklists
 # License: MIT
 # This blocklist is provided free of charge and without warranty.
@@ -273,6 +273,8 @@
 0.0.0.0 clienttracing-pa.googleapis.com
 0.0.0.0 clk.mobgold.com
 0.0.0.0 cnbj1.fds.api.xiaomi.com
+0.0.0.0 cnlogs.umeng.com
+0.0.0.0 cnlogs.umengcloud.com
 0.0.0.0 collector-pxljub4etb.cl6.px-cloud.net
 0.0.0.0 collector-pxljub4etb.perimeterx.net
 0.0.0.0 collector-pxsw1vemrh.px-cloud.net
@@ -353,6 +355,7 @@
 0.0.0.0 epelyz-register.appsflyersdk.com
 0.0.0.0 epwiy9-cdn-settings.appsflyersdk.com
 0.0.0.0 epwiy9-conversions.appsflyersdk.com
+0.0.0.0 errlog.umeng.com
 0.0.0.0 error-report.com
 0.0.0.0 error-tracking.reddit.com
 0.0.0.0 essential-apps-analytics.herokuapp.com
@@ -575,6 +578,7 @@
 0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 nitroscripts.com
 0.0.0.0 no-track.as93.net
+0.0.0.0 normalplayer.top
 0.0.0.0 notifications.payhelm.com
 0.0.0.0 nowosama.com
 0.0.0.0 nu.wolfmandiked.com
@@ -614,6 +618,7 @@
 0.0.0.0 osamanamana.com
 0.0.0.0 osamapk.com
 0.0.0.0 ossgw.alicdn.com
+0.0.0.0 out.normalplayer.top
 0.0.0.0 p.controld.com
 0.0.0.0 p.typekit.net
 0.0.0.0 p21-ad-sg.ibyteimg.com
@@ -679,6 +684,7 @@
 0.0.0.0 reports.proton.me
 0.0.0.0 req.startappservice.com
 0.0.0.0 reqstat.api.mega.co.nz
+0.0.0.0 resolve.umeng.com
 0.0.0.0 retcode-sg-lazada.arms.aliyuncs.com
 0.0.0.0 rss.oneindia.com
 0.0.0.0 rum-cdn.perfops.net
@@ -844,6 +850,7 @@
 0.0.0.0 wct.link
 0.0.0.0 wct.softonic.com
 0.0.0.0 wd.sharethis.com
+0.0.0.0 web.normalplayer.top
 0.0.0.0 weblog.rclone.org
 0.0.0.0 westerndigital.tt.omtrdc.net
 0.0.0.0 widget.senja.io
@@ -868,9 +875,12 @@
 0.0.0.0 www.liveadexchanger.com
 0.0.0.0 www.powr.io
 0.0.0.0 www.profitablecpmrate.com
+0.0.0.0 www.pushbullet.com
 0.0.0.0 www.shareaholic.com
 0.0.0.0 www.sjwoe.com
 0.0.0.0 www3.doubleclick.net
+0.0.0.0 wxi5my.cdn-settings.appsflyersdk.com
+0.0.0.0 wxi5my.register.appsflyersdk.com
 0.0.0.0 x.co
 0.0.0.0 x.dpstatic.com
 0.0.0.0 x3x3x.xyz
