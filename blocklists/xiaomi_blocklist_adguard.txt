@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-08-24 09:43:17 AM PKT
-# Number of unique domains: 510
+# Last updated: 2025-08-29 06:56:23 PM PKT
+# Number of unique domains: 513
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -64,6 +64,7 @@
 ||api.installer.xiaomi.com^
 ||api.jr.mi.com^
 ||api.launcher.intl.miui.com^
+||api.micloud.xiaomi.net^
 ||api.mintbrs.intl.miui.com^
 ||api.miui.security.xiaomi.com^
 ||api.muc.intl.miui.com^
@@ -77,6 +78,7 @@
 ||api.xmpush.global.xiaomi.com^
 ||apkrep.ff.avast.sec.miui.com^
 ||apm-rum-ind.inf.miui.com^
+||app.chat.global.xiaomi.net.iberostar.com^
 ||app.greengurad.sec.miui.com^
 ||app.migc.g.mi.com^
 ||app.miui.com^
@@ -172,8 +174,8 @@
 ||feedback.d.xiaomi.com^
 ||feedback.miui.com^
 ||file.cdn.mvideo.xiaomi.com^
+||find.api.micloud.xiaomi.net^
 ||findapi.micloud.xiaomi.net^
-||find.api.micloud.xiaomi.net.iberostar.com^
 ||flash.sec.intl.miui.com^
 ||flash.sec.miui.com^
 ||flow.sec.miui.com^
@@ -363,6 +365,7 @@
 ||report.n.xiaomi.com^
 ||resolver.gslb.mi-idc.com^
 ||resolver.mi.xiaomi.com^
+||resolver.msg.global.xiaomi.net.iberostar.com^
 ||router.tracking.miui.com^
 ||r.sg.sec.miui.com^
 ||rtmpott.pandora.xiaomi.com^
@@ -496,7 +499,7 @@
 ||us.api.micloud.xiaomi.net^
 ||us.appbackupapi.micloud.xiaomi.net.iberostar.com^
 ||userid.xiaomi.com^
-||us.micardapi.micloud.xiaomi.net.iberostar.com^
+||us.noteapi.micloud.xiaomi.net.iberostar.com^
 ||us.statusapi.micloud.xiaomi.net^
 ||utiq.mundoxiaomi.com^
 ||video.kts.g.mi.com^
