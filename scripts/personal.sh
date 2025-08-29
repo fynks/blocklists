@@ -5,7 +5,7 @@ set -euo pipefail
 # Configuration
 declare -A PATHS
 PATHS=(
-    [INPUT_FILE]="input.json"
+    [INPUT_FILE]="dns_query_logs.json"
     [OUTPUT_DIR]="../blocklists"
     [LOGS_DIR]="../.logs"
 )
