@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-08-24 09:43:02 AM PKT
-! Number of unique domains: 892
+! Last updated: 2025-08-29 06:54:59 PM PKT
+! Number of unique domains: 897
 ! Homepage: https://github.com/fynks/blocklists
 ! License: MIT
 !
@@ -394,6 +394,7 @@
 ||ff9ed87672884a24b97c63c6edc7b9ae-4c4cc75a16ed.cdn.forter.com^
 ||fgndav.tdum.alibaba.com^
 ||files.waifu.cat^
+||find.api.micloud.xiaomi.net^
 ||findapi.micloud.xiaomi.net^
 ||firebase-settings.crashlytics.com^
 ||firebaselogging-pa.googleapis.com^
@@ -425,6 +426,7 @@
 ||gcq844.tdum.alibaba.com^
 ||geller-pa.googleapis.com^
 ||geo.justwatch.com^
+||geo.wpforms.com^
 ||geo.yahoo.com^
 ||geoip.businessinsider.com^
 ||geolocation.onetrust.com^
@@ -673,6 +675,7 @@
 ||realtime.ably.io^
 ||realtime.services.disqus.com^
 ||receivefreesms.co.uk^
+||refpa426945.one^
 ||region1.google-analytics.com^
 ||register.xmpush.global.xiaomi.com^
 ||related.queryly.com^
@@ -769,6 +772,7 @@
 ||tag.trovo-tag.com^
 ||tagdelivery.mayoclinic.org^
 ||talaria.online^
+||target.microsoft.com^
 ||telemetry.api.swiftkey.com^
 ||telemetry.canva.com^
 ||test-4j1cfh261s.null-addr.net^
@@ -868,6 +872,7 @@
 ||www.googleoptimize.com^
 ||www.googletagmanager.com^
 ||www.googletagservices.com^
+||www.hugedomains.com^
 ||www.inboxdollars.com^
 ||www.iplocate.io^
 ||www.liveadexchanger.com^

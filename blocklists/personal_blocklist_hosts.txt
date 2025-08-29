@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-08-24 09:43:02 AM PKT
-# Number of unique domains: 892
+# Last updated: 2025-08-29 06:54:59 PM PKT
+# Number of unique domains: 897
 # Homepage: https://github.com/fynks/blocklists
 # License: MIT
 # This blocklist is provided free of charge and without warranty.
@@ -396,6 +396,7 @@
 0.0.0.0 ff9ed87672884a24b97c63c6edc7b9ae-4c4cc75a16ed.cdn.forter.com
 0.0.0.0 fgndav.tdum.alibaba.com
 0.0.0.0 files.waifu.cat
+0.0.0.0 find.api.micloud.xiaomi.net
 0.0.0.0 findapi.micloud.xiaomi.net
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
@@ -427,6 +428,7 @@
 0.0.0.0 gcq844.tdum.alibaba.com
 0.0.0.0 geller-pa.googleapis.com
 0.0.0.0 geo.justwatch.com
+0.0.0.0 geo.wpforms.com
 0.0.0.0 geo.yahoo.com
 0.0.0.0 geoip.businessinsider.com
 0.0.0.0 geolocation.onetrust.com
@@ -675,6 +677,7 @@
 0.0.0.0 realtime.ably.io
 0.0.0.0 realtime.services.disqus.com
 0.0.0.0 receivefreesms.co.uk
+0.0.0.0 refpa426945.one
 0.0.0.0 region1.google-analytics.com
 0.0.0.0 register.xmpush.global.xiaomi.com
 0.0.0.0 related.queryly.com
@@ -771,6 +774,7 @@
 0.0.0.0 tag.trovo-tag.com
 0.0.0.0 tagdelivery.mayoclinic.org
 0.0.0.0 talaria.online
+0.0.0.0 target.microsoft.com
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry.canva.com
 0.0.0.0 test-4j1cfh261s.null-addr.net
@@ -870,6 +874,7 @@
 0.0.0.0 www.googleoptimize.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.googletagservices.com
+0.0.0.0 www.hugedomains.com
 0.0.0.0 www.inboxdollars.com
 0.0.0.0 www.iplocate.io
 0.0.0.0 www.liveadexchanger.com
