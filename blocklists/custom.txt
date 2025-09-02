@@ -1,0 +1,13 @@
+! Title: Custom Blocklist
+! Description: Based on personal preferences
+! Last updated: 2025-09-02 6:41:59 PM PKT
+! Homepage: https://github.com/fynks/blocklists
+! License: MIT
+!
+
+! Reddit
+www.reddit.com###advertise-button
+www.reddit.com,sh.reddit.com##award-button
+www.reddit.com##.promotedlink
+www.reddit.com##.premium-banner-outer
+www.reddit.com##[data-testid="give-award-button"]
