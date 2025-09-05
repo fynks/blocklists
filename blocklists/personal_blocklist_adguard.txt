@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-08-29 06:54:59 PM PKT
-! Number of unique domains: 897
+! Last updated: 2025-09-05 09:22:09 AM PKT
+! Number of unique domains: 905
 ! Homepage: https://github.com/fynks/blocklists
 ! License: MIT
 !
@@ -119,6 +119,7 @@
 ||analytics.us.tiktok.com^
 ||analytics.wildlifestudios.com^
 ||analytics.x.com^
+||analytics.yeet.su^
 ||analyze-82dfgsi2.m-w.com^
 ||anothereldestprogeny.com^
 ||ap.octopuspop.com^
@@ -168,6 +169,7 @@
 ||assets-jpcust.jwpsrv.com^
 ||assets.churnkey.co^
 ||assets.context.ly^
+||assets.mintegral.com^
 ||assets1.adroll.com^
 ||at.cbsi.com^
 ||attr.union.ucweb.com^
@@ -267,6 +269,7 @@
 ||check.rayjump.com^
 ||chimpstatic.com^
 ||cl.canva.com^
+||click.redditmail.com^
 ||client-analytics.braintreegateway.com^
 ||clienttracing-pa.googleapis.com^
 ||clk.mobgold.com^
@@ -332,6 +335,7 @@
 ||dv9cjr-conversions.appsflyersdk.com^
 ||dv9cjr-launches.appsflyersdk.com^
 ||dz.mmstat.com^
+||e.customeriomail.com^
 ||e0as5i.tdum.alibaba.com^
 ||e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com^
 ||ea.pstmrk.it^
@@ -730,8 +734,10 @@
 ||snap.licdn.com^
 ||snippet.affilimate.io^
 ||snippet.maze.co^
+||snssdk1233.onelink.me^
 ||socialnettraffic.com^
 ||socialtrafenet.com^
+||socket.streamable.com^
 ||sofire.terabox.com^
 ||sonar6.xy.fbcdn.net^
 ||sp1.baidu.com^
@@ -743,6 +749,7 @@
 ||ssl.google-analytics.com^
 ||sstats.adobe.com^
 ||star-randsrv.bsg.brave.com^
+||startup.mobile.yandex.net^
 ||static-eu.cleverpush.com^
 ||static.ads-twitter.com^
 ||static.airbridge.io^
@@ -876,6 +883,7 @@
 ||www.inboxdollars.com^
 ||www.iplocate.io^
 ||www.liveadexchanger.com^
+||www.magiskmodule.com^
 ||www.powr.io^
 ||www.profitablecpmrate.com^
 ||www.pushbullet.com^

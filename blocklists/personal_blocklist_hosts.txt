@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-08-29 06:54:59 PM PKT
-# Number of unique domains: 897
+# Last updated: 2025-09-05 09:22:09 AM PKT
+# Number of unique domains: 905
 # Homepage: https://github.com/fynks/blocklists
 # License: MIT
 # This blocklist is provided free of charge and without warranty.
@@ -121,6 +121,7 @@
 0.0.0.0 analytics.us.tiktok.com
 0.0.0.0 analytics.wildlifestudios.com
 0.0.0.0 analytics.x.com
+0.0.0.0 analytics.yeet.su
 0.0.0.0 analyze-82dfgsi2.m-w.com
 0.0.0.0 anothereldestprogeny.com
 0.0.0.0 ap.octopuspop.com
@@ -170,6 +171,7 @@
 0.0.0.0 assets-jpcust.jwpsrv.com
 0.0.0.0 assets.churnkey.co
 0.0.0.0 assets.context.ly
+0.0.0.0 assets.mintegral.com
 0.0.0.0 assets1.adroll.com
 0.0.0.0 at.cbsi.com
 0.0.0.0 attr.union.ucweb.com
@@ -269,6 +271,7 @@
 0.0.0.0 check.rayjump.com
 0.0.0.0 chimpstatic.com
 0.0.0.0 cl.canva.com
+0.0.0.0 click.redditmail.com
 0.0.0.0 client-analytics.braintreegateway.com
 0.0.0.0 clienttracing-pa.googleapis.com
 0.0.0.0 clk.mobgold.com
@@ -334,6 +337,7 @@
 0.0.0.0 dv9cjr-conversions.appsflyersdk.com
 0.0.0.0 dv9cjr-launches.appsflyersdk.com
 0.0.0.0 dz.mmstat.com
+0.0.0.0 e.customeriomail.com
 0.0.0.0 e0as5i.tdum.alibaba.com
 0.0.0.0 e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 ea.pstmrk.it
@@ -732,8 +736,10 @@
 0.0.0.0 snap.licdn.com
 0.0.0.0 snippet.affilimate.io
 0.0.0.0 snippet.maze.co
+0.0.0.0 snssdk1233.onelink.me
 0.0.0.0 socialnettraffic.com
 0.0.0.0 socialtrafenet.com
+0.0.0.0 socket.streamable.com
 0.0.0.0 sofire.terabox.com
 0.0.0.0 sonar6.xy.fbcdn.net
 0.0.0.0 sp1.baidu.com
@@ -745,6 +751,7 @@
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 sstats.adobe.com
 0.0.0.0 star-randsrv.bsg.brave.com
+0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 static-eu.cleverpush.com
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 static.airbridge.io
@@ -878,6 +885,7 @@
 0.0.0.0 www.inboxdollars.com
 0.0.0.0 www.iplocate.io
 0.0.0.0 www.liveadexchanger.com
+0.0.0.0 www.magiskmodule.com
 0.0.0.0 www.powr.io
 0.0.0.0 www.profitablecpmrate.com
 0.0.0.0 www.pushbullet.com
