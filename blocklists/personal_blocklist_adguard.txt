@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-09-05 09:22:09 AM PKT
-! Number of unique domains: 905
+! Last updated: 2025-09-09 08:07:52 AM PKT
+! Number of unique domains: 955
 ! Homepage: https://github.com/fynks/blocklists
 ! License: MIT
 !
@@ -27,6 +27,48 @@
 ||3yflsc.tdum.alibaba.com^
 ||48g0zj.tdum.alibaba.com^
 ||4c4cc75a16ed.cdn4.forter.com^
+||4egr6tu425rgdrnkfxi6hrwukasv6fa7zumamhiy2467c4de2b6639d0am1.e.aa.online-metrix.net^
+||4egr6tu42enmegvtlf7n2d3xpjrc5qjftcrg5smj461d5ee28e0a08f7am1.e.aa.online-metrix.net^
+||4egr6tu44j7rsgmji6zxm6wgzvdba7vhluun7khrc045276439139c88am1.e.aa.online-metrix.net^
+||4egr6tu44uzofwuv27mxgsykskgdy6jtnd6fyxcya9627a3bcb563dedam1.e.aa.online-metrix.net^
+||4egr6tu466mnp3ae6prdg3nkq3lnaqbhsollfbzm759faa465a7b6689am1.e.aa.online-metrix.net^
+||4egr6tu46r3ao2ka7lk6vzcr2ucu7ghgfg7b4j4gc82797ff4d0e6f25am1.e.aa.online-metrix.net^
+||4egr6tu46vfzwqoexnowy4g2mnowkltqrj3h5ju739dafac09fcec159am1.e.aa.online-metrix.net^
+||4egr6tu476eswukthq7g2mgrst465yhtswrooywvad89f37e1f2eea54am1.e.aa.online-metrix.net^
+||4egr6tu4aadypjvu6z3cgxskxe5w7ua3fd65re2o9848d164f9f4184fam1.e.aa.online-metrix.net^
+||4egr6tu4alm4ywdypruuo6sfasy7xxwcnvc6mz6r0a5148dd46f58eb4am1.e.aa.online-metrix.net^
+||4egr6tu4b6d25y3rbpixniw2yrvdwk3d7ncv7kb5003eb990973c48b5am1.e.aa.online-metrix.net^
+||4egr6tu4cd7e6spfq73pxeirjtro2jplha6xsgmofca259b6247cd6cbam1.e.aa.online-metrix.net^
+||4egr6tu4d4lbxgwi2m6p6fd6zawi6hgyleou7o4k4a31df0e8f49b5b9am1.e.aa.online-metrix.net^
+||4egr6tu4fgvibtngx7xost4cunlnvq7ezyv6n2dkb717a471e6fb0c44am1.e.aa.online-metrix.net^
+||4egr6tu4gao4gpqezbvfb3bpshan4j7glswsrgd45796a5891b966807am1.e.aa.online-metrix.net^
+||4egr6tu4go7i3652st25jnsbeskp4y5ua3zegrbk8cb4f2f90597b874am1.e.aa.online-metrix.net^
+||4egr6tu4i26ibdxk5dodwsexyobn7ocihkejklutdbf37f0ae296f5f0am1.e.aa.online-metrix.net^
+||4egr6tu4iae34zpv5gbg5wv7pl3soembmlc7bti660578ada9489f6eaam1.e.aa.online-metrix.net^
+||4egr6tu4ipibtoq33u2koawx47snbxlndipinmwh1277e911fb2ca94bam1.e.aa.online-metrix.net^
+||4egr6tu4jkojscyi2minluvp3ymg4nc3phpaqnpa280912ed4942bb16am1.e.aa.online-metrix.net^
+||4egr6tu4jqqvrh3giwqi2ykwnpwjqsnrahtyga638ce45e6269f0f49fam1.e.aa.online-metrix.net^
+||4egr6tu4knjjgwqq5ffxdwnom53mcbc3ut3j422vfd9b05c04b1c8d7eam1.e.aa.online-metrix.net^
+||4egr6tu4krov36dsoq7apnyojynb32bwv6xxuvbl4d04fce96dc5fab4am1.e.aa.online-metrix.net^
+||4egr6tu4ktuocvoxmyam2ndtqsmshdki7vtgrnkn957dc02381b73740am1.e.aa.online-metrix.net^
+||4egr6tu4l4glomeu2pdtikv6fprxyuasycvrvkxo2e09099b8d81dab9am1.e.aa.online-metrix.net^
+||4egr6tu4li3gfihwjihstz5zg6mni35vtgk63xka5462b1cf9e9b8d93am1.e.aa.online-metrix.net^
+||4egr6tu4lzjq4fian3zta7jhmd5ee6fmohif2xbb52c3fc8fa4d96086am1.e.aa.online-metrix.net^
+||4egr6tu4myebgszk6knoyhd5p6blr3v4sn5y4qjf197f1f893de23bf8am1.e.aa.online-metrix.net^
+||4egr6tu4nddgnkszadiplpmixneb6ds6zmnou3pwbe5e743130cbe04eam1.e.aa.online-metrix.net^
+||4egr6tu4ns26yqlktq46ju77xj45aqzr6ecnaekt578a69b0aac0f8c8am1.e.aa.online-metrix.net^
+||4egr6tu4nsdbex5suukpxkymoit3wbobxbebgwhrb60d6058831f780bam1.e.aa.online-metrix.net^
+||4egr6tu4o43xpxvsrnfmlmken7q6ayddpvcalqjpf333546d546b6286am1.e.aa.online-metrix.net^
+||4egr6tu4oe73fqdhnqglgki4zq6n3vbaqcr4g27y3f928f4083aa3600am1.e.aa.online-metrix.net^
+||4egr6tu4ozyorrsgmssmcaz7jo5t6gutelpak2nt5b55f34666598650am1.e.aa.online-metrix.net^
+||4egr6tu4pcxhas2xo2vg53lmdatevwuk2cgog5e2cc9b27f61734fc6dam1.e.aa.online-metrix.net^
+||4egr6tu4qo2bzl4fvztll36jjx6o3ffj4gkmp6hwece984f98bc559b1am1.e.aa.online-metrix.net^
+||4egr6tu4rw3adbndeov3oylevismbh2vzy6ityeec6b5648a1af87d94am1.e.aa.online-metrix.net^
+||4egr6tu4tepslyvcqnwgevau75n2q3qugybc3zjpe2492de5624b6232am1.e.aa.online-metrix.net^
+||4egr6tu4ur2e4ea3x6s53vx6y3qyrw3r3swxtfpx067988e3b65beae0am1.e.aa.online-metrix.net^
+||4egr6tu4wgivi2pupqs6gysdhkwhkyvnpx5ul6p3b2f57f374928027eam1.e.aa.online-metrix.net^
+||4egr6tu4yqbgx2nnw3bzi3yuxhmjxe3qr4gz4vvp9d17751bc74b794fam1.e.aa.online-metrix.net^
+||4egr6tu4zby3ozm45jok3fqeijoyboitaujl27tk6d989b7f6e1f05b0am1.e.aa.online-metrix.net^
 ||4ng01p-attr.appsflyersdk.com^
 ||4ng01p-cdn-settings.appsflyersdk.com^
 ||4ng01p-conversions.appsflyersdk.com^
@@ -361,6 +403,7 @@
 ||error-report.com^
 ||error-tracking.reddit.com^
 ||essential-apps-analytics.herokuapp.com^
+||eu-aa.online-metrix.net^
 ||eu-pcdn.dengage.com^
 ||euc1-turn.fpjs.io^
 ||event-store.sitebehaviour.com^
@@ -462,7 +505,9 @@
 ||gtglobal.intl.miui.com^
 ||h-adashx.ut.daraz.com^
 ||h-adashx.ut.lazada.com^
+||h.online-metrix.net^
 ||h5.app.intl.miui.com^
+||h64.online-metrix.net^
 ||hawk.tomsguide.com^
 ||headway-widget.net^
 ||help.maze.co^
@@ -703,6 +748,7 @@
 ||sdk.beeketing.com^
 ||sdk.iad-01.braze.com^
 ||sdk.iad-05.braze.com^
+||sdk.iad-07.braze.com^
 ||sdk.postscript.io^
 ||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
@@ -729,6 +775,7 @@
 ||sg.mmstat.com^
 ||sg.napi.ucweb.com^
 ||shasta-collector-production.upwork.com^
+||shopify-gtm-suite.getelevar.com^
 ||shynet.rmrm.io^
 ||sil.appnext.com^
 ||snap.licdn.com^
@@ -746,6 +793,7 @@
 ||sponsors.vuejs.org^
 ||sq.brieryardish.com^
 ||ss3.4sqi.net^
+||ssgtm-sbyzlt5hyq-ey.a.run.app^
 ||ssl.google-analytics.com^
 ||sstats.adobe.com^
 ||star-randsrv.bsg.brave.com^
@@ -818,6 +866,7 @@
 ||tr.snapchat.com^
 ||track.fiverr.com^
 ||track.pstmrk.it^
+||track.sweetanalytics.com^
 ||tracking-api.g2.com^
 ||tracking.aws.judge.me^
 ||tracking.bi.uizard.io^
@@ -909,6 +958,7 @@
 ||z-p4.graph.instagram.com^
 ||z-p42.graph.instagram.com^
 ||zn0izjiulta2j2t4o-upwork.siteintercept.qualtrics.com^
+||zncviucggbawcrwdo-payoneer.siteintercept.qualtrics.com^
 ||zxu2vu.cdn-settings.appsflyersdk.com^
 ||zxu2vu.conversions.appsflyersdk.com^
 ||zxu2vu.dlsdk.appsflyersdk.com^
