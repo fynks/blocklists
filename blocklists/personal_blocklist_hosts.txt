@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-09-09 08:07:52 AM PKT
-# Number of unique domains: 955
+# Last updated: 2025-09-12 11:45:08 AM PKT
+# Number of unique domains: 973
 # Homepage: https://github.com/fynks/blocklists
 # License: MIT
 # This blocklist is provided free of charge and without warranty.
@@ -30,6 +30,7 @@
 0.0.0.0 48g0zj.tdum.alibaba.com
 0.0.0.0 4c4cc75a16ed.cdn4.forter.com
 0.0.0.0 4egr6tu425rgdrnkfxi6hrwukasv6fa7zumamhiy2467c4de2b6639d0am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu42dbylxxprgvnufyt4hhe6km4wrtspwbq8aa86f414babe1fbam1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu42enmegvtlf7n2d3xpjrc5qjftcrg5smj461d5ee28e0a08f7am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu44j7rsgmji6zxm6wgzvdba7vhluun7khrc045276439139c88am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu44uzofwuv27mxgsykskgdy6jtnd6fyxcya9627a3bcb563dedam1.e.aa.online-metrix.net
@@ -39,10 +40,14 @@
 0.0.0.0 4egr6tu476eswukthq7g2mgrst465yhtswrooywvad89f37e1f2eea54am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4aadypjvu6z3cgxskxe5w7ua3fd65re2o9848d164f9f4184fam1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4alm4ywdypruuo6sfasy7xxwcnvc6mz6r0a5148dd46f58eb4am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4aszwigeriozzqx26r7puxr6aqky5wn6y79708d167e3d66e5am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4b2ivtd7o4qi5gwvu5w7totmin3q63673d9cebca358fbf336am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4b6d25y3rbpixniw2yrvdwk3d7ncv7kb5003eb990973c48b5am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4cd7e6spfq73pxeirjtro2jplha6xsgmofca259b6247cd6cbam1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4d4lbxgwi2m6p6fd6zawi6hgyleou7o4k4a31df0e8f49b5b9am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4d6gigthgtr6ugtr37tfbhp2enijtqfijcf3eca82a2300f10am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4fgvibtngx7xost4cunlnvq7ezyv6n2dkb717a471e6fb0c44am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4fl54oddcb6kwawkvt6n5k6vvxyv3yept4bd00cea71f4e0f6am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4gao4gpqezbvfb3bpshan4j7glswsrgd45796a5891b966807am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4go7i3652st25jnsbeskp4y5ua3zegrbk8cb4f2f90597b874am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4i26ibdxk5dodwsexyobn7ocihkejklutdbf37f0ae296f5f0am1.e.aa.online-metrix.net
@@ -65,9 +70,14 @@
 0.0.0.0 4egr6tu4ozyorrsgmssmcaz7jo5t6gutelpak2nt5b55f34666598650am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4pcxhas2xo2vg53lmdatevwuk2cgog5e2cc9b27f61734fc6dam1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4qo2bzl4fvztll36jjx6o3ffj4gkmp6hwece984f98bc559b1am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4rglsk2rx2woovmnkxgbq7bat44inq6qxd76176485286f366am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4rralviqlkk4h3iyhekloef7thjyh26yj541d3589bc17bfa7am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4rw3adbndeov3oylevismbh2vzy6ityeec6b5648a1af87d94am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4tepslyvcqnwgevau75n2q3qugybc3zjpe2492de5624b6232am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4u7j53nugkghlopz7aqlor73bvufkg2bl6fe616ab7bdaa7a0am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4ur2e4ea3x6s53vx6y3qyrw3r3swxtfpx067988e3b65beae0am1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4uztmvzkjozhka72o42fleyq7ijwinqwa15ef37f48973102bam1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4vwwwcs3m55kiqksxbpxhtyessp6oq3az2fc91069fda9d8d3am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4wgivi2pupqs6gysdhkwhkyvnpx5ul6p3b2f57f374928027eam1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4yqbgx2nnw3bzi3yuxhmjxe3qr4gz4vvp9d17751bc74b794fam1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu4zby3ozm45jok3fqeijoyboitaujl27tk6d989b7f6e1f05b0am1.e.aa.online-metrix.net
@@ -98,6 +108,10 @@
 0.0.0.0 6dpfps.tdum.alibaba.com
 0.0.0.0 7bcvxi.tdum.alibaba.com
 0.0.0.0 7e8xer.tdum.alibaba.com
+0.0.0.0 7o3c9y.attr.appsflyersdk.com
+0.0.0.0 7o3c9y.cdn-settings.appsflyersdk.com
+0.0.0.0 7o3c9y.conversions.appsflyersdk.com
+0.0.0.0 7o3c9y.dlsdk.appsflyersdk.com
 0.0.0.0 7viywa.tdum.alibaba.com
 0.0.0.0 7xs601.tdum.alibaba.com
 0.0.0.0 81ar65.tdum.alibaba.com
@@ -263,6 +277,7 @@
 0.0.0.0 cby7o7.tdum.alibaba.com
 0.0.0.0 cc-api-data.adobe.io
 0.0.0.0 cc.garlicice.store
+0.0.0.0 cd.connatix.com
 0.0.0.0 cdn-bundler.nice-team.net
 0.0.0.0 cdn-fc.com
 0.0.0.0 cdn-magiclinks.trackonomics.net
@@ -603,6 +618,7 @@
 0.0.0.0 mediaserver.entainpartners.com
 0.0.0.0 mediation.adnxs.com
 0.0.0.0 mediocre-hire.pro
+0.0.0.0 metrics.tacit.dk
 0.0.0.0 misc.api.snaptube.app
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
@@ -652,6 +668,7 @@
 0.0.0.0 o64374.ingest.sentry.io
 0.0.0.0 obus-in.dc.heytapmobile.com
 0.0.0.0 obus-jssdk-in.heytapmobile.com
+0.0.0.0 ofs.jzxfa.top
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 omnisnippet1.com
@@ -938,6 +955,7 @@
 0.0.0.0 www.powr.io
 0.0.0.0 www.profitablecpmrate.com
 0.0.0.0 www.pushbullet.com
+0.0.0.0 www.revenuecpmgate.com
 0.0.0.0 www.shareaholic.com
 0.0.0.0 www.sjwoe.com
 0.0.0.0 www3.doubleclick.net
