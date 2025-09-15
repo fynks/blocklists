@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-09-12 11:45:08 AM PKT
-# Number of unique domains: 973
+# Last updated: 2025-09-15 08:27:10 AM PKT
+# Number of unique domains: 981
 # Homepage: https://github.com/fynks/blocklists
 # License: MIT
 # This blocklist is provided free of charge and without warranty.
@@ -123,6 +123,7 @@
 0.0.0.0 9zuqbz.tdum.alibaba.com
 0.0.0.0 a.aomeisoftware.com
 0.0.0.0 a.cdnpure.com
+0.0.0.0 a.klaviyo.com
 0.0.0.0 a.realsrv.com
 0.0.0.0 a.tampermonkey.net
 0.0.0.0 a1b.net
@@ -153,6 +154,7 @@
 0.0.0.0 ads-api.x.com
 0.0.0.0 ads.betfair.com
 0.0.0.0 ads.digitalpoint.com
+0.0.0.0 ads.funmora.com
 0.0.0.0 ads.twitter.com
 0.0.0.0 ads.vk.com
 0.0.0.0 adsapi.snapchat.com
@@ -431,6 +433,7 @@
 0.0.0.0 evsw-zfdmag.one
 0.0.0.0 evt.ilovepdf.com
 0.0.0.0 explainplaysettwisting.com
+0.0.0.0 external-preview.redd.it
 0.0.0.0 ezoicanalytics.com
 0.0.0.0 f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net
 0.0.0.0 f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net
@@ -451,6 +454,7 @@
 0.0.0.0 fc7698c1280-xkxyytuk1752653253-sonar.xz.fbcdn.net
 0.0.0.0 fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net
 0.0.0.0 fchbhd.tdum.alibaba.com
+0.0.0.0 fd23d9b0630-oqgiantx1757820448-sonar.xy.fbcdn.net
 0.0.0.0 fe5d2ad8930-hfiooopi1744922240-sonar.xy.fbcdn.net
 0.0.0.0 featureassets.org
 0.0.0.0 fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net
@@ -742,6 +746,7 @@
 0.0.0.0 raine.accuweather.com
 0.0.0.0 realtime.ably.io
 0.0.0.0 realtime.services.disqus.com
+0.0.0.0 rec.deezer.com
 0.0.0.0 receivefreesms.co.uk
 0.0.0.0 refpa426945.one
 0.0.0.0 region1.google-analytics.com
@@ -793,6 +798,8 @@
 0.0.0.0 sg-live.slatic.net
 0.0.0.0 sg.mmstat.com
 0.0.0.0 sg.napi.ucweb.com
+0.0.0.0 sg1-spiky.clevertap-prod.com
+0.0.0.0 sg1.clevertap-prod.com
 0.0.0.0 shasta-collector-production.upwork.com
 0.0.0.0 shopify-gtm-suite.getelevar.com
 0.0.0.0 shynet.rmrm.io
@@ -826,6 +833,7 @@
 0.0.0.0 static.fleshlight.com
 0.0.0.0 static.getclicky.com
 0.0.0.0 static.hotjar.com
+0.0.0.0 static.klaviyo.com
 0.0.0.0 static.narrativ.com
 0.0.0.0 stats.fluorescent.co
 0.0.0.0 stats.g.doubleclick.net

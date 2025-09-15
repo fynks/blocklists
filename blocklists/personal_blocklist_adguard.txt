@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-09-12 11:45:08 AM PKT
-! Number of unique domains: 973
+! Last updated: 2025-09-15 08:27:10 AM PKT
+! Number of unique domains: 981
 ! Homepage: https://github.com/fynks/blocklists
 ! License: MIT
 !
@@ -121,6 +121,7 @@
 ||9zuqbz.tdum.alibaba.com^
 ||a.aomeisoftware.com^
 ||a.cdnpure.com^
+||a.klaviyo.com^
 ||a.realsrv.com^
 ||a.tampermonkey.net^
 ||a1b.net^
@@ -151,6 +152,7 @@
 ||ads-api.x.com^
 ||ads.betfair.com^
 ||ads.digitalpoint.com^
+||ads.funmora.com^
 ||ads.twitter.com^
 ||ads.vk.com^
 ||adsapi.snapchat.com^
@@ -429,6 +431,7 @@
 ||evsw-zfdmag.one^
 ||evt.ilovepdf.com^
 ||explainplaysettwisting.com^
+||external-preview.redd.it^
 ||ezoicanalytics.com^
 ||f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net^
 ||f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net^
@@ -449,6 +452,7 @@
 ||fc7698c1280-xkxyytuk1752653253-sonar.xz.fbcdn.net^
 ||fc8d12b1880-fxtdlvfr1733995077-sonar.xz.fbcdn.net^
 ||fchbhd.tdum.alibaba.com^
+||fd23d9b0630-oqgiantx1757820448-sonar.xy.fbcdn.net^
 ||fe5d2ad8930-hfiooopi1744922240-sonar.xy.fbcdn.net^
 ||featureassets.org^
 ||fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net^
@@ -740,6 +744,7 @@
 ||raine.accuweather.com^
 ||realtime.ably.io^
 ||realtime.services.disqus.com^
+||rec.deezer.com^
 ||receivefreesms.co.uk^
 ||refpa426945.one^
 ||region1.google-analytics.com^
@@ -791,6 +796,8 @@
 ||sg-live.slatic.net^
 ||sg.mmstat.com^
 ||sg.napi.ucweb.com^
+||sg1-spiky.clevertap-prod.com^
+||sg1.clevertap-prod.com^
 ||shasta-collector-production.upwork.com^
 ||shopify-gtm-suite.getelevar.com^
 ||shynet.rmrm.io^
@@ -824,6 +831,7 @@
 ||static.fleshlight.com^
 ||static.getclicky.com^
 ||static.hotjar.com^
+||static.klaviyo.com^
 ||static.narrativ.com^
 ||stats.fluorescent.co^
 ||stats.g.doubleclick.net^
