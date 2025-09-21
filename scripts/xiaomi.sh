@@ -10,7 +10,7 @@ readonly OUTPUT_FILE_XIAOMI_ADGUARD="${OUTPUT_DIR}/xiaomi_blocklist_adguard.txt"
 readonly OUTPUT_FILE_XIAOMI_HOSTS="${OUTPUT_DIR}/xiaomi_blocklist_hosts.txt"
 readonly LOG_FILE="${LOGS_DIR}/xiaomi_blocklist_generation.log"
 readonly TEMP_DIR=$(mktemp -d)
-readonly FILTER_KEYWORDS=("xiaomi" "miui" "hyperos" "micloud")
+readonly FILTER_KEYWORDS=("xiaomi" "miui" "hyperos" "micloud" "miui-")
 readonly XIAOMI_SPECIFIC_URL="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt"
 readonly DOMAIN_LIST_URLS=(
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt"

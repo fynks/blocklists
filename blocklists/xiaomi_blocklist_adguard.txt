@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-09-15 08:27:04 AM PKT
-# Number of unique domains: 510
+# Last updated: 2025-09-21 07:24:36 PM PKT
+# Number of unique domains: 503
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -79,7 +79,6 @@
 ||api.xmpush.global.xiaomi.com^
 ||apkrep.ff.avast.sec.miui.com^
 ||apm-rum-ind.inf.miui.com^
-||app.chat.global.xiaomi.net.iberostar.com^
 ||app.greengurad.sec.miui.com^
 ||app.migc.g.mi.com^
 ||app.miui.com^
@@ -127,7 +126,6 @@
 ||cdn.fds-ssl.api.xiaomi.com^
 ||child.sec.miui.com^
 ||chong.sec.miui.com^
-||cms.browser.intl.miui.com^
 ||cms.sec.miui.com^
 ||cnbj1.fds.api.xiaomi.com^
 ||cnc.data.game.xiaomi.com^
@@ -158,7 +156,6 @@
 ||e.mi.com^
 ||emi-cube.ad.xiaomi.com^
 ||emq.xmpush.xiaomi.com^
-||error2020-newinternal-assist-user.idsru-apptest-payment.webproxy.idsru-hd.0-falcon-device-c.xiaomiyoupin.com^
 ||etl.xlmc.sec.miui.com^
 ||events.miui.com^
 ||extranet.ap-southeast-1.miui-l7-feedback.d6ocem01vo.elb.xiaomi.com^
@@ -178,6 +175,7 @@
 ||file.cdn.mvideo.xiaomi.com^
 ||find.api.micloud.xiaomi.net^
 ||findapi.micloud.xiaomi.net^
+||find.api.micloud.xiaomi.net.iberostar.com^
 ||flash.sec.intl.miui.com^
 ||flash.sec.miui.com^
 ||flow.sec.miui.com^
@@ -322,7 +320,6 @@
 ||notice.game.xiaomi.com^
 ||o2o.api.xiaomi.com^
 ||odml.ad.intl.xiaomi.com^
-||odml.ad.intl.xiaomi.com.mgslb.com^
 ||olgtqmiuicc.com^
 ||om.tracking.miui.com^
 ||openapi.vip.ptqy.gitv.tv^
@@ -356,7 +353,6 @@
 ||puma-api.ptqy.gitv.tv^
 ||p.www.xiaomi.com^
 ||qiye.xiaomi.com^
-||rayaxiaomi.com^
 ||r.browser.intl.miui.com^
 ||r.browser.miui.com^
 ||reader.browser.miui.com^
@@ -412,12 +408,10 @@
 ||srv.greenguard.sec.miui.com^
 ||srv.sec.miui.com^
 ||ssp.xiaomi.com^
-||stag.bssmini.pandora.xiaomi.com^
 ||staging.admin.e.mi.com^
 ||staging-analyze.pt.xiaomi.com^
 ||staging.api.zhuti.n.xiaomi.com^
 ||staging.appapi.n.xiaomi.com^
-||staging.cname.ad.xiaomi.com^
 ||staging-diagnosis.ad.xiaomi.com^
 ||staging.hk.mibi.xiaomi.com^
 ||staging.stat.pt.xiaomi.com^
@@ -461,7 +455,6 @@
 ||test-api.xmpush.xiaomi.com^
 ||testit.miui.com^
 ||thm.market.xiaomi.com^
-||thuthuatxiaomi.com^
 ||time.video.ptqy.gitv.tv^
 ||tj1.master.pt.xiaomi.com^
 ||tj1-new.scf.pt.xiaomi.com^
@@ -482,7 +475,6 @@
 ||tracker.xiaomixiaoai.com^
 ||tracking.eu.miui.com^
 ||tracking.india.miui.com^
-||tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com^
 ||tracking.intl.miui.com^
 ||tracking.miui.com^
 ||tracking.rus.miui.com^
@@ -497,6 +489,7 @@
 ||update.avlyun.sec.miui.com^
 ||upgrade.pandora.xiaomi.com^
 ||us.api.micloud.xiaomi.net^
+||us.appbackupapi.micloud.xiaomi.net.iberostar.com^
 ||userid.xiaomi.com^
 ||us.statusapi.micloud.xiaomi.net^
 ||utiq.mundoxiaomi.com^

@@ -1,7 +1,7 @@
 # Title: Xiaomi Ads and Tracking Blocklist
 # Description: Domains related to Xiaomi ads and tracking, compiled from multiple sources.
-# Last updated: 2025-09-15 08:27:04 AM PKT
-# Number of unique domains: 510
+# Last updated: 2025-09-21 07:24:36 PM PKT
+# Number of unique domains: 503
 #
 # Sources:
 # - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
@@ -79,7 +79,6 @@
 0.0.0.0 api.xmpush.global.xiaomi.com
 0.0.0.0 apkrep.ff.avast.sec.miui.com
 0.0.0.0 apm-rum-ind.inf.miui.com
-0.0.0.0 app.chat.global.xiaomi.net.iberostar.com
 0.0.0.0 app.greengurad.sec.miui.com
 0.0.0.0 app.migc.g.mi.com
 0.0.0.0 app.miui.com
@@ -127,7 +126,6 @@
 0.0.0.0 cdn.fds-ssl.api.xiaomi.com
 0.0.0.0 child.sec.miui.com
 0.0.0.0 chong.sec.miui.com
-0.0.0.0 cms.browser.intl.miui.com
 0.0.0.0 cms.sec.miui.com
 0.0.0.0 cnbj1.fds.api.xiaomi.com
 0.0.0.0 cnc.data.game.xiaomi.com
@@ -158,7 +156,6 @@
 0.0.0.0 e.mi.com
 0.0.0.0 emi-cube.ad.xiaomi.com
 0.0.0.0 emq.xmpush.xiaomi.com
-0.0.0.0 error2020-newinternal-assist-user.idsru-apptest-payment.webproxy.idsru-hd.0-falcon-device-c.xiaomiyoupin.com
 0.0.0.0 etl.xlmc.sec.miui.com
 0.0.0.0 events.miui.com
 0.0.0.0 extranet.ap-southeast-1.miui-l7-feedback.d6ocem01vo.elb.xiaomi.com
@@ -178,6 +175,7 @@
 0.0.0.0 file.cdn.mvideo.xiaomi.com
 0.0.0.0 find.api.micloud.xiaomi.net
 0.0.0.0 findapi.micloud.xiaomi.net
+0.0.0.0 find.api.micloud.xiaomi.net.iberostar.com
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 flash.sec.miui.com
 0.0.0.0 flow.sec.miui.com
@@ -322,7 +320,6 @@
 0.0.0.0 notice.game.xiaomi.com
 0.0.0.0 o2o.api.xiaomi.com
 0.0.0.0 odml.ad.intl.xiaomi.com
-0.0.0.0 odml.ad.intl.xiaomi.com.mgslb.com
 0.0.0.0 olgtqmiuicc.com
 0.0.0.0 om.tracking.miui.com
 0.0.0.0 openapi.vip.ptqy.gitv.tv
@@ -356,7 +353,6 @@
 0.0.0.0 puma-api.ptqy.gitv.tv
 0.0.0.0 p.www.xiaomi.com
 0.0.0.0 qiye.xiaomi.com
-0.0.0.0 rayaxiaomi.com
 0.0.0.0 r.browser.intl.miui.com
 0.0.0.0 r.browser.miui.com
 0.0.0.0 reader.browser.miui.com
@@ -412,12 +408,10 @@
 0.0.0.0 srv.greenguard.sec.miui.com
 0.0.0.0 srv.sec.miui.com
 0.0.0.0 ssp.xiaomi.com
-0.0.0.0 stag.bssmini.pandora.xiaomi.com
 0.0.0.0 staging.admin.e.mi.com
 0.0.0.0 staging-analyze.pt.xiaomi.com
 0.0.0.0 staging.api.zhuti.n.xiaomi.com
 0.0.0.0 staging.appapi.n.xiaomi.com
-0.0.0.0 staging.cname.ad.xiaomi.com
 0.0.0.0 staging-diagnosis.ad.xiaomi.com
 0.0.0.0 staging.hk.mibi.xiaomi.com
 0.0.0.0 staging.stat.pt.xiaomi.com
@@ -461,7 +455,6 @@
 0.0.0.0 test-api.xmpush.xiaomi.com
 0.0.0.0 testit.miui.com
 0.0.0.0 thm.market.xiaomi.com
-0.0.0.0 thuthuatxiaomi.com
 0.0.0.0 time.video.ptqy.gitv.tv
 0.0.0.0 tj1.master.pt.xiaomi.com
 0.0.0.0 tj1-new.scf.pt.xiaomi.com
@@ -482,7 +475,6 @@
 0.0.0.0 tracker.xiaomixiaoai.com
 0.0.0.0 tracking.eu.miui.com
 0.0.0.0 tracking.india.miui.com
-0.0.0.0 tracking-india-miui-com-1-771356448.ap-south-1.elb.amazonaws.com
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
@@ -497,6 +489,7 @@
 0.0.0.0 update.avlyun.sec.miui.com
 0.0.0.0 upgrade.pandora.xiaomi.com
 0.0.0.0 us.api.micloud.xiaomi.net
+0.0.0.0 us.appbackupapi.micloud.xiaomi.net.iberostar.com
 0.0.0.0 userid.xiaomi.com
 0.0.0.0 us.statusapi.micloud.xiaomi.net
 0.0.0.0 utiq.mundoxiaomi.com
