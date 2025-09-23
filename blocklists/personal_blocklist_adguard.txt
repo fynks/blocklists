@@ -1,7 +1,7 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-09-22 08:30:25 AM PKT
-! Number of unique domains: 1034
+! Last updated: 2025-09-15 08:27:10 AM PKT
+! Number of unique domains: 981
 ! Homepage: https://github.com/fynks/blocklists
 ! License: MIT
 !
@@ -11,7 +11,6 @@
 ||1.datadog.pool.ntp.org^
 ||13jyve.tdum.alibaba.com^
 ||186htf.tdum.alibaba.com^
-||1c1ebaba-dnsotls-ds.metric.gstatic.com^
 ||2.datadog.pool.ntp.org^
 ||207yse.tdum.alibaba.com^
 ||2fwx2m.tdum.alibaba.com^
@@ -27,7 +26,6 @@
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
 ||48g0zj.tdum.alibaba.com^
-||4a2e5643-dnsotls-ds.metric.gstatic.com^
 ||4c4cc75a16ed.cdn4.forter.com^
 ||4egr6tu425rgdrnkfxi6hrwukasv6fa7zumamhiy2467c4de2b6639d0am1.e.aa.online-metrix.net^
 ||4egr6tu42dbylxxprgvnufyt4hhe6km4wrtspwbq8aa86f414babe1fbam1.e.aa.online-metrix.net^
@@ -95,11 +93,6 @@
 ||54ty7j-conversions.appsflyersdk.com^
 ||54ty7j-dlsdk.appsflyersdk.com^
 ||54ty7j-launches.appsflyersdk.com^
-||54ty7j.cdn-settings.appsflyersdk.com^
-||54ty7j.conversions.appsflyersdk.com^
-||54ty7j.dlsdk.appsflyersdk.com^
-||54ty7j.inapps.appsflyersdk.com^
-||54ty7j.launches.appsflyersdk.com^
 ||5c88mn.tdum.alibaba.com^
 ||5h69il.tdum.alibaba.com^
 ||5hheh.tdum.alibaba.com^
@@ -117,8 +110,6 @@
 ||7o3c9y.cdn-settings.appsflyersdk.com^
 ||7o3c9y.conversions.appsflyersdk.com^
 ||7o3c9y.dlsdk.appsflyersdk.com^
-||7o3c9y.inapps.appsflyersdk.com^
-||7o3c9y.launches.appsflyersdk.com^
 ||7viywa.tdum.alibaba.com^
 ||7xs601.tdum.alibaba.com^
 ||81ar65.tdum.alibaba.com^
@@ -128,8 +119,6 @@
 ||9jp8hz.tdum.alibaba.com^
 ||9zu9eo.tdum.alibaba.com^
 ||9zuqbz.tdum.alibaba.com^
-||Dfw5u0-dnsotls-ds.metric.gstatic.com^
-||ZSdwj5-dnsotls-ds.metric.gstatic.com^
 ||a.aomeisoftware.com^
 ||a.cdnpure.com^
 ||a.klaviyo.com^
@@ -138,7 +127,6 @@
 ||a1b.net^
 ||a9yqt0.tdum.alibaba.com^
 ||aa.online-metrix.net^
-||aax.amazon-adsystem.com^
 ||ab.advertiserurl.com^
 ||aboveaveragefinallycast.com^
 ||abroad.api.comm.intl.miui.com^
@@ -177,8 +165,6 @@
 ||ae.mmstat.com^
 ||ak.sail-horizon.com^
 ||alb.reddit.com^
-||alogsus.umeng.com^
-||alogus.umeng.com^
 ||amazonwebservicesinc.tt.omtrdc.net^
 ||amdc.lazada.com^
 ||analytics.ahrefs.com^
@@ -193,7 +179,6 @@
 ||analytics.x.com^
 ||analytics.yeet.su^
 ||analyze-82dfgsi2.m-w.com^
-||android-safebrowsing.google.com^
 ||anothereldestprogeny.com^
 ||ap.octopuspop.com^
 ||api-ad-adapter.wps.com^
@@ -211,7 +196,6 @@
 ||api.game-sdk.com^
 ||api.howlapm.com^
 ||api.installer.xiaomi.com^
-||api.ipgeolocation.io^
 ||api.ipinfo.be^
 ||api.mixpanel.com^
 ||api.omappapi.com^
@@ -236,7 +220,6 @@
 ||app.adjust.world^
 ||app.partnerboost.com^
 ||app.posthog.com^
-||app.rybbit.io^
 ||applog.uc.cn^
 ||appsgrowthpromo-pa.clients6.google.com^
 ||arclight.vimeo.com^
@@ -339,7 +322,6 @@
 ||cdn3.forter.com^
 ||cdn4.buysellads.net^
 ||cdn9.forter.com^
-||cdp.cloud.unity3d.com^
 ||census-app.scorecardresearch.com^
 ||champagne.futurecdn.net^
 ||chatbot-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev^
@@ -360,7 +342,6 @@
 ||collector.wdp.brave.com^
 ||combine.asnapieu.com^
 ||conf.config-security.com^
-||config.uca.cloud.unity3d.com^
 ||configure.rayjump.com^
 ||configv2.unityads.unity3d.com^
 ||conn-check.icg-in.com^
@@ -378,9 +359,6 @@
 ||ct.pinterest.com^
 ||cuttlela.ucweb.com^
 ||cy.annussleys.com^
-||d.alicdn.com^
-||d.applovin.com^
-||d.applvn.com^
 ||d0dh.com^
 ||d0m2z2.tdum.alibaba.com^
 ||d1bxh8uas1mnw7.cloudfront.net^
@@ -389,7 +367,6 @@
 ||d2o5idwacg3gyw.cloudfront.net^
 ||d34r8q7sht0t9k.cloudfront.net^
 ||d35xxde4fgg0cx.cloudfront.net^
-||d8f26ead-dnsotls-ds.metric.gstatic.com^
 ||dap.digitalgov.gov^
 ||data-fb7f8b3ae8.heise.de^
 ||data-ingestion.flowgpt.com^
@@ -440,7 +417,6 @@
 ||epwiy9-cdn-settings.appsflyersdk.com^
 ||epwiy9-conversions.appsflyersdk.com^
 ||errlog.umeng.com^
-||errnewlogos.umeng.com^
 ||error-report.com^
 ||error-tracking.reddit.com^
 ||essential-apps-analytics.herokuapp.com^
@@ -487,7 +463,6 @@
 ||find.api.micloud.xiaomi.net^
 ||findapi.micloud.xiaomi.net^
 ||firebase-settings.crashlytics.com^
-||firebaseinstallations.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
 ||firstosama.com^
@@ -513,7 +488,6 @@
 ||freyr.futurecdn.net^
 ||fundingchoicesmessages.google.com^
 ||g4yq0.tdum.alibaba.com^
-||gateway.instagram.com^
 ||gator.volces.com^
 ||gcq844.tdum.alibaba.com^
 ||geller-pa.googleapis.com^
@@ -523,11 +497,6 @@
 ||geoip.businessinsider.com^
 ||geolocation.onetrust.com^
 ||gfhnmb.tdum.alibaba.com^
-||gfqu7z-cdn-settings.appsflyersdk.com^
-||gfqu7z-conversions.appsflyersdk.com^
-||gfqu7z-dlsdk.appsflyersdk.com^
-||gfqu7z-inapps.appsflyersdk.com^
-||gfqu7z-launches.appsflyersdk.com^
 ||gh.ddlc.top^
 ||ghproxy.cxkpro.top^
 ||ghyljj.tdum.alibaba.com^
@@ -613,7 +582,6 @@
 ||js.hscollectedforms.net^
 ||js.hubspot.com^
 ||js.hubspotfeedback.com^
-||js.memberful.com^
 ||js.monitor.azure.com^
 ||js.qualified.com^
 ||js0.cdn.applicationinsights.io^
@@ -623,7 +591,6 @@
 ||jupiter.intl.sys.miui.com^
 ||jupiter.sys.miui.com^
 ||kjtmcaqwjgatx.xyz^
-||kt.restowelected.com^
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
 ||lby2kd27c.com^
@@ -632,7 +599,6 @@
 ||li.protechts.net^
 ||liteanalytics.com^
 ||locationhistory-pa.googleapis.com^
-||locationhistoryplacedetails-pa.googleapis.com^
 ||log16-normal-alisg.tiktokv.com^
 ||log16-normal-useast5.tiktokv.us^
 ||logging.g.sst.secureserver.net^
@@ -668,8 +634,6 @@
 ||monorail-edge.shopifysvc.com^
 ||mqs-log.miui.com^
 ||mrepo.org^
-||ms.applovin.com^
-||ms.applvn.com^
 ||ms.bdstatic.com^
 ||msgacs-m.lazada.sg^
 ||mssdk-sg.tiktok.com^
@@ -684,7 +648,6 @@
 ||nitroscripts.com^
 ||no-track.as93.net^
 ||normalplayer.top^
-||notifications-ueeshp-pa.googleapis.com^
 ||notifications.payhelm.com^
 ||nowosama.com^
 ||nu.wolfmandiked.com^
@@ -740,7 +703,6 @@
 ||parking.bodiscdn.com^
 ||paxsenix.alwaysdata.net^
 ||pcdn.dengage.com^
-||peoplestackwebexperiments-pa.clients6.google.com^
 ||perseus-productanalytics.deliveryhero.net^
 ||persona-etl.wps.com^
 ||ph.ente.io^
@@ -797,14 +759,10 @@
 ||resolve.umeng.com^
 ||retcode-sg-lazada.arms.aliyuncs.com^
 ||rss.oneindia.com^
-||rt.applovin.com^
-||rt.applvn.com^
 ||rum-cdn.perfops.net^
-||s.amazon-adsystem.com^
 ||s.axon.ai^
 ||s111.twilightparadox.com^
 ||s2s.adjust.com^
-||safebrowsing.googleapis.com^
 ||sc-static.net^
 ||scripts.dkmedia.now.sh^
 ||sdk-02.moengage.com^
@@ -824,7 +782,6 @@
 ||secria.me^
 ||secure.statcounter.com^
 ||securepubads.g.doubleclick.net^
-||semanticlocation-pa.googleapis.com^
 ||sensors.snaptube.app^
 ||sentry-new.protontech.ch^
 ||sentry-reporter.ente.io^
@@ -884,14 +841,11 @@
 ||statsig.anthropic.com^
 ||statsigapi.net^
 ||stpd.cloud^
-||sts.applovin.com^
 ||syndication.exdynsrv.com^
 ||syndication.twitter.com^
 ||t.co^
 ||t.contentsquare.net^
-||t1.gstatic.com^
 ||t1.market.xiaomi.com^
-||t2.gstatic.com^
 ||t3760571.beget.tech^
 ||tab.volces.com^
 ||tag.aftvnews.com^
@@ -970,7 +924,6 @@
 ||usage-ping.brave.com^
 ||usage.hookvip.top^
 ||use.hetzner.com^
-||v7wZmn-dnsotls-ds.metric.gstatic.com^
 ||variations.brave.com^
 ||view.adjust.com^
 ||vulpix.bet^
@@ -980,15 +933,12 @@
 ||wct.link^
 ||wct.softonic.com^
 ||wd.sharethis.com^
-||web-fallback.facebook.com^
-||web.facebook.com^
 ||web.normalplayer.top^
 ||weblog.rclone.org^
 ||westerndigital.tt.omtrdc.net^
 ||widget.senja.io^
 ||widgetlogic.org^
 ||wl.spotify.com^
-||wpk-auth.ucweb.com^
 ||wr.tammarsayyid.com^
 ||www.1377x.to^
 ||www.addtoany.com^
@@ -1021,7 +971,6 @@
 ||x.dpstatic.com^
 ||x3x3x.xyz^
 ||xdisplay.site^
-||xgapromomanager-pa.googleapis.com^
 ||xiaomipakistan.site^
 ||xjp-jmacs.m.taobao.com^
 ||xjp-msgacs.m.taobao.com^
@@ -1029,7 +978,6 @@
 ||xml-v4.ngcluster-a.online^
 ||xp.atlassian.com^
 ||xxid.atl-paas.net^
-||yNBLZK-dnsotls-ds.metric.gstatic.com^
 ||yijxujolpfvold.com^
 ||ynuf.aliapp.org^
 ||yourdomain.com^
@@ -1040,4 +988,3 @@
 ||zxu2vu.cdn-settings.appsflyersdk.com^
 ||zxu2vu.conversions.appsflyersdk.com^
 ||zxu2vu.dlsdk.appsflyersdk.com^
-||zynga2-a.akamaihd.net^
