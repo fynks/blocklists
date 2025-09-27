@@ -1,31 +1,45 @@
 ! Title: Personal Blocklist (AdGuard Format)
 ! Description: Domains blocked based on personal preferences
-! Last updated: 2025-09-15 08:27:10 AM PKT
-! Number of unique domains: 981
+! Last updated: 2025-09-27 08:16:21 AM PKT
+! Number of unique domains: 1100
 ! Homepage: https://github.com/fynks/blocklists
 ! License: MIT
 !
 ! Blocklist format: ||example.com^
 
 ||0.datadog.pool.ntp.org^
+||0fa3Lv-dnsotls-ds.metric.gstatic.com^
+||0jMZvM-dnsotls-ds.metric.gstatic.com^
 ||1.datadog.pool.ntp.org^
 ||13jyve.tdum.alibaba.com^
 ||186htf.tdum.alibaba.com^
+||195ddab1-dnsotls-ds.metric.gstatic.com^
 ||2.datadog.pool.ntp.org^
 ||207yse.tdum.alibaba.com^
+||21f99f75-dnsotls-ds.metric.gstatic.com^
+||25a77c2a-dnsotls-ds.metric.gstatic.com^
+||2732ba54-dnsotls-ds.metric.gstatic.com^
 ||2fwx2m.tdum.alibaba.com^
 ||2gbelh-cdn-settings.appsflyersdk.com^
 ||2gbelh-conversions.appsflyersdk.com^
 ||2gbelh-launches.appsflyersdk.com^
 ||3.datadog.pool.ntp.org^
 ||362vx4.tdum.alibaba.com^
+||3M0ctX-dnsotls-ds.metric.gstatic.com^
+||3bea2d40-dnsotls-ds.metric.gstatic.com^
+||3cf91b25-dnsotls-ds.metric.gstatic.com^
 ||3dmret.tdum.alibaba.com^
 ||3f89hr.tdum.alibaba.com^
 ||3fm8vv.tdum.alibaba.com^
 ||3s2ix7.tdum.alibaba.com^
 ||3sjen3.tdum.alibaba.com^
 ||3yflsc.tdum.alibaba.com^
+||406e66c1-dnsotls-ds.metric.gstatic.com^
+||42521409-dnsotls-ds.metric.gstatic.com^
+||436e9dc6-dnsotls-ds.metric.gstatic.com^
 ||48g0zj.tdum.alibaba.com^
+||4F9dl8-dnsotls-ds.metric.gstatic.com^
+||4a21b354-dnsotls-ds.metric.gstatic.com^
 ||4c4cc75a16ed.cdn4.forter.com^
 ||4egr6tu425rgdrnkfxi6hrwukasv6fa7zumamhiy2467c4de2b6639d0am1.e.aa.online-metrix.net^
 ||4egr6tu42dbylxxprgvnufyt4hhe6km4wrtspwbq8aa86f414babe1fbam1.e.aa.online-metrix.net^
@@ -93,17 +107,26 @@
 ||54ty7j-conversions.appsflyersdk.com^
 ||54ty7j-dlsdk.appsflyersdk.com^
 ||54ty7j-launches.appsflyersdk.com^
+||57824565-dnsotls-ds.metric.gstatic.com^
+||5861c46a-dnsotls-ds.metric.gstatic.com^
+||5UkeIS-dnsotls-ds.metric.gstatic.com^
 ||5c88mn.tdum.alibaba.com^
 ||5h69il.tdum.alibaba.com^
 ||5hheh.tdum.alibaba.com^
+||5lAbuz-dnsotls-ds.metric.gstatic.com^
+||5ozJjM-dnsotls-ds.metric.gstatic.com^
 ||5rnk40.tdum.alibaba.com^
 ||5yq8ge.tdum.alibaba.com^
 ||5yv4af.tdum.alibaba.com^
 ||60beoj.tdum.alibaba.com^
+||612889a5-dnsotls-ds.metric.gstatic.com^
 ||6915.eu-api.swrve.com^
 ||6915.eu-content.swrve.com^
 ||6915.eu-identity.swrve.com^
+||6OBMTH-dnsotls-ds.metric.gstatic.com^
 ||6dpfps.tdum.alibaba.com^
+||77jilc-dnsotls-ds.metric.gstatic.com^
+||7bRvrm-dnsotls-ds.metric.gstatic.com^
 ||7bcvxi.tdum.alibaba.com^
 ||7e8xer.tdum.alibaba.com^
 ||7o3c9y.attr.appsflyersdk.com^
@@ -112,20 +135,63 @@
 ||7o3c9y.dlsdk.appsflyersdk.com^
 ||7viywa.tdum.alibaba.com^
 ||7xs601.tdum.alibaba.com^
+||819c077b-dnsotls-ds.metric.gstatic.com^
 ||81ar65.tdum.alibaba.com^
 ||85dhwr.tdum.alibaba.com^
+||898090ab-dnsotls-ds.metric.gstatic.com^
+||8cd9c733-dnsotls-ds.metric.gstatic.com^
+||8d456d87-dnsotls-ds.metric.gstatic.com^
 ||926yur.tdum.alibaba.com^
+||93245ae7-dnsotls-ds.metric.gstatic.com^
+||9700f895-dnsotls-ds.metric.gstatic.com^
+||9adf2ff4-dnsotls-ds.metric.gstatic.com^
+||9cc3ec43-dnsotls-ds.metric.gstatic.com^
 ||9ehu1c.tdum.alibaba.com^
 ||9jp8hz.tdum.alibaba.com^
 ||9zu9eo.tdum.alibaba.com^
 ||9zuqbz.tdum.alibaba.com^
+||BDiRjF-dnsotls-ds.metric.gstatic.com^
+||CftoEV-dnsotls-ds.metric.gstatic.com^
+||D9BdIX-dnsotls-ds.metric.gstatic.com^
+||DVoaha-dnsotls-ds.metric.gstatic.com^
+||Et742F-dnsotls-ds.metric.gstatic.com^
+||IAFQ56-dnsotls-ds.metric.gstatic.com^
+||IEskj9-dnsotls-ds.metric.gstatic.com^
+||IP5eh0-dnsotls-ds.metric.gstatic.com^
+||KBWXBH-dnsotls-ds.metric.gstatic.com^
+||LF1CJW-dnsotls-ds.metric.gstatic.com^
+||LcJ70X-dnsotls-ds.metric.gstatic.com^
+||MCmQqb-dnsotls-ds.metric.gstatic.com^
+||NiKWzt-dnsotls-ds.metric.gstatic.com^
+||PxIlBm-dnsotls-ds.metric.gstatic.com^
+||Q3FRP6-dnsotls-ds.metric.gstatic.com^
+||RFooMk-dnsotls-ds.metric.gstatic.com^
+||SFeoUo-dnsotls-ds.metric.gstatic.com^
+||T1EkLL-dnsotls-ds.metric.gstatic.com^
+||TTuybF-dnsotls-ds.metric.gstatic.com^
+||UcwkHW-dnsotls-ds.metric.gstatic.com^
+||VBiy1I-dnsotls-ds.metric.gstatic.com^
+||VHKfdx-dnsotls-ds.metric.gstatic.com^
+||VIvedd-dnsotls-ds.metric.gstatic.com^
+||Vo7Yvo-dnsotls-ds.metric.gstatic.com^
+||WXpJEp-dnsotls-ds.metric.gstatic.com^
+||XuCPOZ-dnsotls-ds.metric.gstatic.com^
+||Yryy9h-dnsotls-ds.metric.gstatic.com^
+||Yx6OLm-dnsotls-ds.metric.gstatic.com^
+||ZNIY0O-dnsotls-ds.metric.gstatic.com^
 ||a.aomeisoftware.com^
 ||a.cdnpure.com^
 ||a.klaviyo.com^
 ||a.realsrv.com^
 ||a.tampermonkey.net^
+||a15553f0-dnsotls-ds.metric.gstatic.com^
 ||a1b.net^
+||a5e261f2-dnsotls-ds.metric.gstatic.com^
+||a931f84d-dnsotls-ds.metric.gstatic.com^
+||a962ffe0-dnsotls-ds.metric.gstatic.com^
 ||a9yqt0.tdum.alibaba.com^
+||aJovJP-dnsotls-ds.metric.gstatic.com^
+||aQWrbL-dnsotls-ds.metric.gstatic.com^
 ||aa.online-metrix.net^
 ||ab.advertiserurl.com^
 ||aboveaveragefinallycast.com^
@@ -142,6 +208,7 @@
 ||ad.zanox.com^
 ||adash-emas.cn-hangzhou.aliyuncs.com^
 ||adashx.ut.daraz.com^
+||adc0bf71-dnsotls-ds.metric.gstatic.com^
 ||adclickad.com^
 ||addthis.com^
 ||adobe.tt.omtrdc.net^
@@ -163,6 +230,7 @@
 ||adv.sec.intl.miui.com^
 ||adv.sec.miui.com^
 ||ae.mmstat.com^
+||aeczrU-dnsotls-ds.metric.gstatic.com^
 ||ak.sail-horizon.com^
 ||alb.reddit.com^
 ||amazonwebservicesinc.tt.omtrdc.net^
@@ -179,6 +247,7 @@
 ||analytics.x.com^
 ||analytics.yeet.su^
 ||analyze-82dfgsi2.m-w.com^
+||android-safebrowsing.google.com^
 ||anothereldestprogeny.com^
 ||ap.octopuspop.com^
 ||api-ad-adapter.wps.com^
@@ -232,12 +301,16 @@
 ||at.cbsi.com^
 ||attr.union.ucweb.com^
 ||audid-api-sg.taobao.com^
+||auditrecording-pa.googleapis.com^
 ||auth.be.sec.miui.com^
 ||authbe.sec.intl.miui.com^
 ||automate-frontend.linksynergy.com^
 ||awssgp0-files.fds.api.xiaomi.com^
+||ayseHl-dnsotls-ds.metric.gstatic.com^
 ||b.px-cdn.net^
+||b052b534da2c4006.threatcast.guardsquare.com^
 ||b53d1.tdum.alibaba.com^
+||b9e11293-dnsotls-ds.metric.gstatic.com^
 ||bdad.123pan.cn^
 ||beacon-api.aliyuncs.com^
 ||beacons.gcp.gvt2.com^
@@ -250,8 +323,10 @@
 ||berke.wikimoon.sale^
 ||beyondwickedmapping.org^
 ||bf99042ofw.bf.dynatrace.com^
+||bfc828f0-dnsotls-ds.metric.gstatic.com^
 ||bizosama.com^
 ||bloatingexpectantretinal.com^
+||bo7Brt-dnsotls-ds.metric.gstatic.com^
 ||bo925b.tdum.alibaba.com^
 ||boobausauhipsa.net^
 ||bordeaux.futurecdn.net^
@@ -367,6 +442,9 @@
 ||d2o5idwacg3gyw.cloudfront.net^
 ||d34r8q7sht0t9k.cloudfront.net^
 ||d35xxde4fgg0cx.cloudfront.net^
+||d7013884-dnsotls-ds.metric.gstatic.com^
+||d7f8c5c3-dnsotls-ds.metric.gstatic.com^
+||d7fd1d8a-dnsotls-ds.metric.gstatic.com^
 ||dap.digitalgov.gov^
 ||data-fb7f8b3ae8.heise.de^
 ||data-ingestion.flowgpt.com^
@@ -395,9 +473,12 @@
 ||dv9cjr-launches.appsflyersdk.com^
 ||dz.mmstat.com^
 ||e.customeriomail.com^
+||e03846b3-dnsotls-ds.metric.gstatic.com^
 ||e0as5i.tdum.alibaba.com^
 ||e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com^
+||eOIlc9-dnsotls-ds.metric.gstatic.com^
 ||ea.pstmrk.it^
+||ebaaace8-dnsotls-ds.metric.gstatic.com^
 ||ebi5pn.tdum.alibaba.com^
 ||ecvjrxlrql.com^
 ||edge.adobedc.net^
@@ -420,6 +501,7 @@
 ||error-report.com^
 ||error-tracking.reddit.com^
 ||essential-apps-analytics.herokuapp.com^
+||etFQcQ-dnsotls-ds.metric.gstatic.com^
 ||eu-aa.online-metrix.net^
 ||eu-pcdn.dengage.com^
 ||euc1-turn.fpjs.io^
@@ -434,12 +516,19 @@
 ||external-preview.redd.it^
 ||ezoicanalytics.com^
 ||f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net^
+||f0803943-dnsotls-ds.metric.gstatic.com^
+||f0c87066-dnsotls-ds.metric.gstatic.com^
 ||f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net^
 ||f264cb70780-omkswsgt1726329075-sonar.xz.fbcdn.net^
+||f5182fd7-dnsotls-ds.metric.gstatic.com^
+||f582351d-dnsotls-ds.metric.gstatic.com^
 ||f6ba9f90630-ejdxnvaq1743405772-sonar.xy.fbcdn.net^
 ||f6f70237080-pxkcaouj1744644330-sonar.xz.fbcdn.net^
 ||f765a5b3430-pcmzwufj1726898299-sonar.xy.fbcdn.net^
+||f7d38408-dnsotls-ds.metric.gstatic.com^
 ||f7dd0854780-zqzcbmgs1744473812-sonar.xz.fbcdn.net^
+||f870db40-dnsotls-ds.metric.gstatic.com^
+||f9740dea-dnsotls-ds.metric.gstatic.com^
 ||f9bc57c2c80-hqjviaos1733150352-sonar.xz.fbcdn.net^
 ||fa0e1226030-gusmjjip1742407303-sonar.xy.fbcdn.net^
 ||fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net^
@@ -454,6 +543,7 @@
 ||fchbhd.tdum.alibaba.com^
 ||fd23d9b0630-oqgiantx1757820448-sonar.xy.fbcdn.net^
 ||fe5d2ad8930-hfiooopi1744922240-sonar.xy.fbcdn.net^
+||feEBst-dnsotls-ds.metric.gstatic.com^
 ||featureassets.org^
 ||fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net^
 ||federatedcompute-pa.googleapis.com^
@@ -463,6 +553,7 @@
 ||find.api.micloud.xiaomi.net^
 ||findapi.micloud.xiaomi.net^
 ||firebase-settings.crashlytics.com^
+||firebaseinstallations.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
 ||firstosama.com^
@@ -488,6 +579,7 @@
 ||freyr.futurecdn.net^
 ||fundingchoicesmessages.google.com^
 ||g4yq0.tdum.alibaba.com^
+||gateway.instagram.com^
 ||gator.volces.com^
 ||gcq844.tdum.alibaba.com^
 ||geller-pa.googleapis.com^
@@ -496,6 +588,7 @@
 ||geo.yahoo.com^
 ||geoip.businessinsider.com^
 ||geolocation.onetrust.com^
+||geomobileservices-pa.googleapis.com^
 ||gfhnmb.tdum.alibaba.com^
 ||gh.ddlc.top^
 ||ghproxy.cxkpro.top^
@@ -536,6 +629,10 @@
 ||i-sdk.mediation.unity3d.com^
 ||i.isnssdk.com^
 ||i.viafoura.co^
+||i0ZSQp-dnsotls-ds.metric.gstatic.com^
+||i2ivbs-dnsotls-ds.metric.gstatic.com^
+||iVsAsF-dnsotls-ds.metric.gstatic.com^
+||iZXubA-dnsotls-ds.metric.gstatic.com^
 ||ichnaea-web.netflix.com^
 ||id.google.com^
 ||id.google.com.pk^
@@ -560,6 +657,7 @@
 ||ipwho.is^
 ||ir-sdk.dun.163.com^
 ||iso-stats.cachyos.org^
+||jazzpakistan.threatcast.guardsquare.com^
 ||jd.rodlikemortal.com^
 ||jeestauglahity.net^
 ||jmacs-m.lazada.sg^
@@ -591,9 +689,12 @@
 ||jupiter.intl.sys.miui.com^
 ||jupiter.sys.miui.com^
 ||kjtmcaqwjgatx.xyz^
+||kuuRyT-dnsotls-ds.metric.gstatic.com^
+||lOK3tS-dnsotls-ds.metric.gstatic.com^
 ||launches.appsflyer.com^
 ||lazy.rayjump.com^
 ||lby2kd27c.com^
+||lese4u-dnsotls-ds.metric.gstatic.com^
 ||lf3-data.volccdn.com^
 ||li.blogtrottr.com^
 ||li.protechts.net^
@@ -607,6 +708,8 @@
 ||looker.com^
 ||loox.io^
 ||lv.greylaganteact.com^
+||mMElbX-dnsotls-ds.metric.gstatic.com^
+||mXRd6D-dnsotls-ds.metric.gstatic.com^
 ||mads.amazon-adsystem.com^
 ||magiskmanager.com^
 ||masahub2.com^
@@ -622,6 +725,7 @@
 ||mediocre-hire.pro^
 ||metrics.tacit.dk^
 ||misc.api.snaptube.app^
+||mj0Awj-dnsotls-ds.metric.gstatic.com^
 ||mobile.events.data.microsoft.com^
 ||mobile.pipe.aria.microsoft.com^
 ||mobile.useinsider.com^
@@ -703,6 +807,7 @@
 ||parking.bodiscdn.com^
 ||paxsenix.alwaysdata.net^
 ||pcdn.dengage.com^
+||peoplestackwebexperiments-pa.clients6.google.com^
 ||perseus-productanalytics.deliveryhero.net^
 ||persona-etl.wps.com^
 ||ph.ente.io^
@@ -758,11 +863,13 @@
 ||reqstat.api.mega.co.nz^
 ||resolve.umeng.com^
 ||retcode-sg-lazada.arms.aliyuncs.com^
+||ro9xfF-dnsotls-ds.metric.gstatic.com^
 ||rss.oneindia.com^
 ||rum-cdn.perfops.net^
 ||s.axon.ai^
 ||s111.twilightparadox.com^
 ||s2s.adjust.com^
+||safebrowsing.googleapis.com^
 ||sc-static.net^
 ||scripts.dkmedia.now.sh^
 ||sdk-02.moengage.com^
@@ -782,6 +889,7 @@
 ||secria.me^
 ||secure.statcounter.com^
 ||securepubads.g.doubleclick.net^
+||semanticlocation-pa.googleapis.com^
 ||sensors.snaptube.app^
 ||sentry-new.protontech.ch^
 ||sentry-reporter.ente.io^
@@ -815,6 +923,7 @@
 ||sparrow.cloudflare.com^
 ||spm.hextom.com^
 ||sponsors.vuejs.org^
+||spot-pa.googleapis.com^
 ||sq.brieryardish.com^
 ||ss3.4sqi.net^
 ||ssgtm-sbyzlt5hyq-ey.a.run.app^
@@ -853,6 +962,7 @@
 ||tagdelivery.mayoclinic.org^
 ||talaria.online^
 ||target.microsoft.com^
+||tdiqz4-dnsotls-ds.metric.gstatic.com^
 ||telemetry.api.swiftkey.com^
 ||telemetry.canva.com^
 ||test-4j1cfh261s.null-addr.net^
@@ -905,10 +1015,12 @@
 ||trk.storyly.io^
 ||tt.culinar9sync.com^
 ||tzm.px-cloud.net^
+||ubIawx-dnsotls-ds.metric.gstatic.com^
 ||uc.telemetry.eyeo.com^
 ||uc.ucweb.com^
 ||ulogs.umeng.com^
 ||ulogs.umengcloud.com^
+||ulp1p-pa.googleapis.com^
 ||um.tetelsillers.com^
 ||umami.manjaro.org^
 ||umini.shujupie.com^
@@ -924,7 +1036,11 @@
 ||usage-ping.brave.com^
 ||usage.hookvip.top^
 ||use.hetzner.com^
+||userlocation.googleapis.com^
+||v2CZZb-dnsotls-ds.metric.gstatic.com^
+||vFqvX2-dnsotls-ds.metric.gstatic.com^
 ||variations.brave.com^
+||vc1Wox-dnsotls-ds.metric.gstatic.com^
 ||view.adjust.com^
 ||vulpix.bet^
 ||w.chatlio.com^
@@ -933,6 +1049,7 @@
 ||wct.link^
 ||wct.softonic.com^
 ||wd.sharethis.com^
+||wdEfAj-dnsotls-ds.metric.gstatic.com^
 ||web.normalplayer.top^
 ||weblog.rclone.org^
 ||westerndigital.tt.omtrdc.net^
@@ -970,6 +1087,7 @@
 ||x.co^
 ||x.dpstatic.com^
 ||x3x3x.xyz^
+||xXZJmS-dnsotls-ds.metric.gstatic.com^
 ||xdisplay.site^
 ||xiaomipakistan.site^
 ||xjp-jmacs.m.taobao.com^
@@ -978,6 +1096,7 @@
 ||xml-v4.ngcluster-a.online^
 ||xp.atlassian.com^
 ||xxid.atl-paas.net^
+||yI9PmY-dnsotls-ds.metric.gstatic.com^
 ||yijxujolpfvold.com^
 ||ynuf.aliapp.org^
 ||yourdomain.com^

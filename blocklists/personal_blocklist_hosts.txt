@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Last updated: 2025-09-15 08:27:10 AM PKT
-# Number of unique domains: 981
+# Last updated: 2025-09-27 08:16:21 AM PKT
+# Number of unique domains: 1100
 # Homepage: https://github.com/fynks/blocklists
 # License: MIT
 # This blocklist is provided free of charge and without warranty.
@@ -10,24 +10,38 @@
 # Hosts file format: 0.0.0.0 example.com
 
 0.0.0.0 0.datadog.pool.ntp.org
+0.0.0.0 0fa3Lv-dnsotls-ds.metric.gstatic.com
+0.0.0.0 0jMZvM-dnsotls-ds.metric.gstatic.com
 0.0.0.0 1.datadog.pool.ntp.org
 0.0.0.0 13jyve.tdum.alibaba.com
 0.0.0.0 186htf.tdum.alibaba.com
+0.0.0.0 195ddab1-dnsotls-ds.metric.gstatic.com
 0.0.0.0 2.datadog.pool.ntp.org
 0.0.0.0 207yse.tdum.alibaba.com
+0.0.0.0 21f99f75-dnsotls-ds.metric.gstatic.com
+0.0.0.0 25a77c2a-dnsotls-ds.metric.gstatic.com
+0.0.0.0 2732ba54-dnsotls-ds.metric.gstatic.com
 0.0.0.0 2fwx2m.tdum.alibaba.com
 0.0.0.0 2gbelh-cdn-settings.appsflyersdk.com
 0.0.0.0 2gbelh-conversions.appsflyersdk.com
 0.0.0.0 2gbelh-launches.appsflyersdk.com
 0.0.0.0 3.datadog.pool.ntp.org
 0.0.0.0 362vx4.tdum.alibaba.com
+0.0.0.0 3M0ctX-dnsotls-ds.metric.gstatic.com
+0.0.0.0 3bea2d40-dnsotls-ds.metric.gstatic.com
+0.0.0.0 3cf91b25-dnsotls-ds.metric.gstatic.com
 0.0.0.0 3dmret.tdum.alibaba.com
 0.0.0.0 3f89hr.tdum.alibaba.com
 0.0.0.0 3fm8vv.tdum.alibaba.com
 0.0.0.0 3s2ix7.tdum.alibaba.com
 0.0.0.0 3sjen3.tdum.alibaba.com
 0.0.0.0 3yflsc.tdum.alibaba.com
+0.0.0.0 406e66c1-dnsotls-ds.metric.gstatic.com
+0.0.0.0 42521409-dnsotls-ds.metric.gstatic.com
+0.0.0.0 436e9dc6-dnsotls-ds.metric.gstatic.com
 0.0.0.0 48g0zj.tdum.alibaba.com
+0.0.0.0 4F9dl8-dnsotls-ds.metric.gstatic.com
+0.0.0.0 4a21b354-dnsotls-ds.metric.gstatic.com
 0.0.0.0 4c4cc75a16ed.cdn4.forter.com
 0.0.0.0 4egr6tu425rgdrnkfxi6hrwukasv6fa7zumamhiy2467c4de2b6639d0am1.e.aa.online-metrix.net
 0.0.0.0 4egr6tu42dbylxxprgvnufyt4hhe6km4wrtspwbq8aa86f414babe1fbam1.e.aa.online-metrix.net
@@ -95,17 +109,26 @@
 0.0.0.0 54ty7j-conversions.appsflyersdk.com
 0.0.0.0 54ty7j-dlsdk.appsflyersdk.com
 0.0.0.0 54ty7j-launches.appsflyersdk.com
+0.0.0.0 57824565-dnsotls-ds.metric.gstatic.com
+0.0.0.0 5861c46a-dnsotls-ds.metric.gstatic.com
+0.0.0.0 5UkeIS-dnsotls-ds.metric.gstatic.com
 0.0.0.0 5c88mn.tdum.alibaba.com
 0.0.0.0 5h69il.tdum.alibaba.com
 0.0.0.0 5hheh.tdum.alibaba.com
+0.0.0.0 5lAbuz-dnsotls-ds.metric.gstatic.com
+0.0.0.0 5ozJjM-dnsotls-ds.metric.gstatic.com
 0.0.0.0 5rnk40.tdum.alibaba.com
 0.0.0.0 5yq8ge.tdum.alibaba.com
 0.0.0.0 5yv4af.tdum.alibaba.com
 0.0.0.0 60beoj.tdum.alibaba.com
+0.0.0.0 612889a5-dnsotls-ds.metric.gstatic.com
 0.0.0.0 6915.eu-api.swrve.com
 0.0.0.0 6915.eu-content.swrve.com
 0.0.0.0 6915.eu-identity.swrve.com
+0.0.0.0 6OBMTH-dnsotls-ds.metric.gstatic.com
 0.0.0.0 6dpfps.tdum.alibaba.com
+0.0.0.0 77jilc-dnsotls-ds.metric.gstatic.com
+0.0.0.0 7bRvrm-dnsotls-ds.metric.gstatic.com
 0.0.0.0 7bcvxi.tdum.alibaba.com
 0.0.0.0 7e8xer.tdum.alibaba.com
 0.0.0.0 7o3c9y.attr.appsflyersdk.com
@@ -114,20 +137,63 @@
 0.0.0.0 7o3c9y.dlsdk.appsflyersdk.com
 0.0.0.0 7viywa.tdum.alibaba.com
 0.0.0.0 7xs601.tdum.alibaba.com
+0.0.0.0 819c077b-dnsotls-ds.metric.gstatic.com
 0.0.0.0 81ar65.tdum.alibaba.com
 0.0.0.0 85dhwr.tdum.alibaba.com
+0.0.0.0 898090ab-dnsotls-ds.metric.gstatic.com
+0.0.0.0 8cd9c733-dnsotls-ds.metric.gstatic.com
+0.0.0.0 8d456d87-dnsotls-ds.metric.gstatic.com
 0.0.0.0 926yur.tdum.alibaba.com
+0.0.0.0 93245ae7-dnsotls-ds.metric.gstatic.com
+0.0.0.0 9700f895-dnsotls-ds.metric.gstatic.com
+0.0.0.0 9adf2ff4-dnsotls-ds.metric.gstatic.com
+0.0.0.0 9cc3ec43-dnsotls-ds.metric.gstatic.com
 0.0.0.0 9ehu1c.tdum.alibaba.com
 0.0.0.0 9jp8hz.tdum.alibaba.com
 0.0.0.0 9zu9eo.tdum.alibaba.com
 0.0.0.0 9zuqbz.tdum.alibaba.com
+0.0.0.0 BDiRjF-dnsotls-ds.metric.gstatic.com
+0.0.0.0 CftoEV-dnsotls-ds.metric.gstatic.com
+0.0.0.0 D9BdIX-dnsotls-ds.metric.gstatic.com
+0.0.0.0 DVoaha-dnsotls-ds.metric.gstatic.com
+0.0.0.0 Et742F-dnsotls-ds.metric.gstatic.com
+0.0.0.0 IAFQ56-dnsotls-ds.metric.gstatic.com
+0.0.0.0 IEskj9-dnsotls-ds.metric.gstatic.com
+0.0.0.0 IP5eh0-dnsotls-ds.metric.gstatic.com
+0.0.0.0 KBWXBH-dnsotls-ds.metric.gstatic.com
+0.0.0.0 LF1CJW-dnsotls-ds.metric.gstatic.com
+0.0.0.0 LcJ70X-dnsotls-ds.metric.gstatic.com
+0.0.0.0 MCmQqb-dnsotls-ds.metric.gstatic.com
+0.0.0.0 NiKWzt-dnsotls-ds.metric.gstatic.com
+0.0.0.0 PxIlBm-dnsotls-ds.metric.gstatic.com
+0.0.0.0 Q3FRP6-dnsotls-ds.metric.gstatic.com
+0.0.0.0 RFooMk-dnsotls-ds.metric.gstatic.com
+0.0.0.0 SFeoUo-dnsotls-ds.metric.gstatic.com
+0.0.0.0 T1EkLL-dnsotls-ds.metric.gstatic.com
+0.0.0.0 TTuybF-dnsotls-ds.metric.gstatic.com
+0.0.0.0 UcwkHW-dnsotls-ds.metric.gstatic.com
+0.0.0.0 VBiy1I-dnsotls-ds.metric.gstatic.com
+0.0.0.0 VHKfdx-dnsotls-ds.metric.gstatic.com
+0.0.0.0 VIvedd-dnsotls-ds.metric.gstatic.com
+0.0.0.0 Vo7Yvo-dnsotls-ds.metric.gstatic.com
+0.0.0.0 WXpJEp-dnsotls-ds.metric.gstatic.com
+0.0.0.0 XuCPOZ-dnsotls-ds.metric.gstatic.com
+0.0.0.0 Yryy9h-dnsotls-ds.metric.gstatic.com
+0.0.0.0 Yx6OLm-dnsotls-ds.metric.gstatic.com
+0.0.0.0 ZNIY0O-dnsotls-ds.metric.gstatic.com
 0.0.0.0 a.aomeisoftware.com
 0.0.0.0 a.cdnpure.com
 0.0.0.0 a.klaviyo.com
 0.0.0.0 a.realsrv.com
 0.0.0.0 a.tampermonkey.net
+0.0.0.0 a15553f0-dnsotls-ds.metric.gstatic.com
 0.0.0.0 a1b.net
+0.0.0.0 a5e261f2-dnsotls-ds.metric.gstatic.com
+0.0.0.0 a931f84d-dnsotls-ds.metric.gstatic.com
+0.0.0.0 a962ffe0-dnsotls-ds.metric.gstatic.com
 0.0.0.0 a9yqt0.tdum.alibaba.com
+0.0.0.0 aJovJP-dnsotls-ds.metric.gstatic.com
+0.0.0.0 aQWrbL-dnsotls-ds.metric.gstatic.com
 0.0.0.0 aa.online-metrix.net
 0.0.0.0 ab.advertiserurl.com
 0.0.0.0 aboveaveragefinallycast.com
@@ -144,6 +210,7 @@
 0.0.0.0 ad.zanox.com
 0.0.0.0 adash-emas.cn-hangzhou.aliyuncs.com
 0.0.0.0 adashx.ut.daraz.com
+0.0.0.0 adc0bf71-dnsotls-ds.metric.gstatic.com
 0.0.0.0 adclickad.com
 0.0.0.0 addthis.com
 0.0.0.0 adobe.tt.omtrdc.net
@@ -165,6 +232,7 @@
 0.0.0.0 adv.sec.intl.miui.com
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 ae.mmstat.com
+0.0.0.0 aeczrU-dnsotls-ds.metric.gstatic.com
 0.0.0.0 ak.sail-horizon.com
 0.0.0.0 alb.reddit.com
 0.0.0.0 amazonwebservicesinc.tt.omtrdc.net
@@ -181,6 +249,7 @@
 0.0.0.0 analytics.x.com
 0.0.0.0 analytics.yeet.su
 0.0.0.0 analyze-82dfgsi2.m-w.com
+0.0.0.0 android-safebrowsing.google.com
 0.0.0.0 anothereldestprogeny.com
 0.0.0.0 ap.octopuspop.com
 0.0.0.0 api-ad-adapter.wps.com
@@ -234,12 +303,16 @@
 0.0.0.0 at.cbsi.com
 0.0.0.0 attr.union.ucweb.com
 0.0.0.0 audid-api-sg.taobao.com
+0.0.0.0 auditrecording-pa.googleapis.com
 0.0.0.0 auth.be.sec.miui.com
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 automate-frontend.linksynergy.com
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
+0.0.0.0 ayseHl-dnsotls-ds.metric.gstatic.com
 0.0.0.0 b.px-cdn.net
+0.0.0.0 b052b534da2c4006.threatcast.guardsquare.com
 0.0.0.0 b53d1.tdum.alibaba.com
+0.0.0.0 b9e11293-dnsotls-ds.metric.gstatic.com
 0.0.0.0 bdad.123pan.cn
 0.0.0.0 beacon-api.aliyuncs.com
 0.0.0.0 beacons.gcp.gvt2.com
@@ -252,8 +325,10 @@
 0.0.0.0 berke.wikimoon.sale
 0.0.0.0 beyondwickedmapping.org
 0.0.0.0 bf99042ofw.bf.dynatrace.com
+0.0.0.0 bfc828f0-dnsotls-ds.metric.gstatic.com
 0.0.0.0 bizosama.com
 0.0.0.0 bloatingexpectantretinal.com
+0.0.0.0 bo7Brt-dnsotls-ds.metric.gstatic.com
 0.0.0.0 bo925b.tdum.alibaba.com
 0.0.0.0 boobausauhipsa.net
 0.0.0.0 bordeaux.futurecdn.net
@@ -369,6 +444,9 @@
 0.0.0.0 d2o5idwacg3gyw.cloudfront.net
 0.0.0.0 d34r8q7sht0t9k.cloudfront.net
 0.0.0.0 d35xxde4fgg0cx.cloudfront.net
+0.0.0.0 d7013884-dnsotls-ds.metric.gstatic.com
+0.0.0.0 d7f8c5c3-dnsotls-ds.metric.gstatic.com
+0.0.0.0 d7fd1d8a-dnsotls-ds.metric.gstatic.com
 0.0.0.0 dap.digitalgov.gov
 0.0.0.0 data-fb7f8b3ae8.heise.de
 0.0.0.0 data-ingestion.flowgpt.com
@@ -397,9 +475,12 @@
 0.0.0.0 dv9cjr-launches.appsflyersdk.com
 0.0.0.0 dz.mmstat.com
 0.0.0.0 e.customeriomail.com
+0.0.0.0 e03846b3-dnsotls-ds.metric.gstatic.com
 0.0.0.0 e0as5i.tdum.alibaba.com
 0.0.0.0 e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
+0.0.0.0 eOIlc9-dnsotls-ds.metric.gstatic.com
 0.0.0.0 ea.pstmrk.it
+0.0.0.0 ebaaace8-dnsotls-ds.metric.gstatic.com
 0.0.0.0 ebi5pn.tdum.alibaba.com
 0.0.0.0 ecvjrxlrql.com
 0.0.0.0 edge.adobedc.net
@@ -422,6 +503,7 @@
 0.0.0.0 error-report.com
 0.0.0.0 error-tracking.reddit.com
 0.0.0.0 essential-apps-analytics.herokuapp.com
+0.0.0.0 etFQcQ-dnsotls-ds.metric.gstatic.com
 0.0.0.0 eu-aa.online-metrix.net
 0.0.0.0 eu-pcdn.dengage.com
 0.0.0.0 euc1-turn.fpjs.io
@@ -436,12 +518,19 @@
 0.0.0.0 external-preview.redd.it
 0.0.0.0 ezoicanalytics.com
 0.0.0.0 f0226f9e130-egbtktzq1727254053-sonar.xy.fbcdn.net
+0.0.0.0 f0803943-dnsotls-ds.metric.gstatic.com
+0.0.0.0 f0c87066-dnsotls-ds.metric.gstatic.com
 0.0.0.0 f2513eac630-ysxwlipe1727723654-sonar.xy.fbcdn.net
 0.0.0.0 f264cb70780-omkswsgt1726329075-sonar.xz.fbcdn.net
+0.0.0.0 f5182fd7-dnsotls-ds.metric.gstatic.com
+0.0.0.0 f582351d-dnsotls-ds.metric.gstatic.com
 0.0.0.0 f6ba9f90630-ejdxnvaq1743405772-sonar.xy.fbcdn.net
 0.0.0.0 f6f70237080-pxkcaouj1744644330-sonar.xz.fbcdn.net
 0.0.0.0 f765a5b3430-pcmzwufj1726898299-sonar.xy.fbcdn.net
+0.0.0.0 f7d38408-dnsotls-ds.metric.gstatic.com
 0.0.0.0 f7dd0854780-zqzcbmgs1744473812-sonar.xz.fbcdn.net
+0.0.0.0 f870db40-dnsotls-ds.metric.gstatic.com
+0.0.0.0 f9740dea-dnsotls-ds.metric.gstatic.com
 0.0.0.0 f9bc57c2c80-hqjviaos1733150352-sonar.xz.fbcdn.net
 0.0.0.0 fa0e1226030-gusmjjip1742407303-sonar.xy.fbcdn.net
 0.0.0.0 fadbf220b30-fpgvsmnh1729145557-sonar.xy.fbcdn.net
@@ -456,6 +545,7 @@
 0.0.0.0 fchbhd.tdum.alibaba.com
 0.0.0.0 fd23d9b0630-oqgiantx1757820448-sonar.xy.fbcdn.net
 0.0.0.0 fe5d2ad8930-hfiooopi1744922240-sonar.xy.fbcdn.net
+0.0.0.0 feEBst-dnsotls-ds.metric.gstatic.com
 0.0.0.0 featureassets.org
 0.0.0.0 fed8d5cc330-vkgsblhw1727688619-sonar.xy.fbcdn.net
 0.0.0.0 federatedcompute-pa.googleapis.com
@@ -465,6 +555,7 @@
 0.0.0.0 find.api.micloud.xiaomi.net
 0.0.0.0 findapi.micloud.xiaomi.net
 0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 firebaseinstallations.googleapis.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 firstosama.com
@@ -490,6 +581,7 @@
 0.0.0.0 freyr.futurecdn.net
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 g4yq0.tdum.alibaba.com
+0.0.0.0 gateway.instagram.com
 0.0.0.0 gator.volces.com
 0.0.0.0 gcq844.tdum.alibaba.com
 0.0.0.0 geller-pa.googleapis.com
@@ -498,6 +590,7 @@
 0.0.0.0 geo.yahoo.com
 0.0.0.0 geoip.businessinsider.com
 0.0.0.0 geolocation.onetrust.com
+0.0.0.0 geomobileservices-pa.googleapis.com
 0.0.0.0 gfhnmb.tdum.alibaba.com
 0.0.0.0 gh.ddlc.top
 0.0.0.0 ghproxy.cxkpro.top
@@ -538,6 +631,10 @@
 0.0.0.0 i-sdk.mediation.unity3d.com
 0.0.0.0 i.isnssdk.com
 0.0.0.0 i.viafoura.co
+0.0.0.0 i0ZSQp-dnsotls-ds.metric.gstatic.com
+0.0.0.0 i2ivbs-dnsotls-ds.metric.gstatic.com
+0.0.0.0 iVsAsF-dnsotls-ds.metric.gstatic.com
+0.0.0.0 iZXubA-dnsotls-ds.metric.gstatic.com
 0.0.0.0 ichnaea-web.netflix.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
@@ -562,6 +659,7 @@
 0.0.0.0 ipwho.is
 0.0.0.0 ir-sdk.dun.163.com
 0.0.0.0 iso-stats.cachyos.org
+0.0.0.0 jazzpakistan.threatcast.guardsquare.com
 0.0.0.0 jd.rodlikemortal.com
 0.0.0.0 jeestauglahity.net
 0.0.0.0 jmacs-m.lazada.sg
@@ -593,9 +691,12 @@
 0.0.0.0 jupiter.intl.sys.miui.com
 0.0.0.0 jupiter.sys.miui.com
 0.0.0.0 kjtmcaqwjgatx.xyz
+0.0.0.0 kuuRyT-dnsotls-ds.metric.gstatic.com
+0.0.0.0 lOK3tS-dnsotls-ds.metric.gstatic.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 lazy.rayjump.com
 0.0.0.0 lby2kd27c.com
+0.0.0.0 lese4u-dnsotls-ds.metric.gstatic.com
 0.0.0.0 lf3-data.volccdn.com
 0.0.0.0 li.blogtrottr.com
 0.0.0.0 li.protechts.net
@@ -609,6 +710,8 @@
 0.0.0.0 looker.com
 0.0.0.0 loox.io
 0.0.0.0 lv.greylaganteact.com
+0.0.0.0 mMElbX-dnsotls-ds.metric.gstatic.com
+0.0.0.0 mXRd6D-dnsotls-ds.metric.gstatic.com
 0.0.0.0 mads.amazon-adsystem.com
 0.0.0.0 magiskmanager.com
 0.0.0.0 masahub2.com
@@ -624,6 +727,7 @@
 0.0.0.0 mediocre-hire.pro
 0.0.0.0 metrics.tacit.dk
 0.0.0.0 misc.api.snaptube.app
+0.0.0.0 mj0Awj-dnsotls-ds.metric.gstatic.com
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 mobile.useinsider.com
@@ -705,6 +809,7 @@
 0.0.0.0 parking.bodiscdn.com
 0.0.0.0 paxsenix.alwaysdata.net
 0.0.0.0 pcdn.dengage.com
+0.0.0.0 peoplestackwebexperiments-pa.clients6.google.com
 0.0.0.0 perseus-productanalytics.deliveryhero.net
 0.0.0.0 persona-etl.wps.com
 0.0.0.0 ph.ente.io
@@ -760,11 +865,13 @@
 0.0.0.0 reqstat.api.mega.co.nz
 0.0.0.0 resolve.umeng.com
 0.0.0.0 retcode-sg-lazada.arms.aliyuncs.com
+0.0.0.0 ro9xfF-dnsotls-ds.metric.gstatic.com
 0.0.0.0 rss.oneindia.com
 0.0.0.0 rum-cdn.perfops.net
 0.0.0.0 s.axon.ai
 0.0.0.0 s111.twilightparadox.com
 0.0.0.0 s2s.adjust.com
+0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 sc-static.net
 0.0.0.0 scripts.dkmedia.now.sh
 0.0.0.0 sdk-02.moengage.com
@@ -784,6 +891,7 @@
 0.0.0.0 secria.me
 0.0.0.0 secure.statcounter.com
 0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 semanticlocation-pa.googleapis.com
 0.0.0.0 sensors.snaptube.app
 0.0.0.0 sentry-new.protontech.ch
 0.0.0.0 sentry-reporter.ente.io
@@ -817,6 +925,7 @@
 0.0.0.0 sparrow.cloudflare.com
 0.0.0.0 spm.hextom.com
 0.0.0.0 sponsors.vuejs.org
+0.0.0.0 spot-pa.googleapis.com
 0.0.0.0 sq.brieryardish.com
 0.0.0.0 ss3.4sqi.net
 0.0.0.0 ssgtm-sbyzlt5hyq-ey.a.run.app
@@ -855,6 +964,7 @@
 0.0.0.0 tagdelivery.mayoclinic.org
 0.0.0.0 talaria.online
 0.0.0.0 target.microsoft.com
+0.0.0.0 tdiqz4-dnsotls-ds.metric.gstatic.com
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry.canva.com
 0.0.0.0 test-4j1cfh261s.null-addr.net
@@ -907,10 +1017,12 @@
 0.0.0.0 trk.storyly.io
 0.0.0.0 tt.culinar9sync.com
 0.0.0.0 tzm.px-cloud.net
+0.0.0.0 ubIawx-dnsotls-ds.metric.gstatic.com
 0.0.0.0 uc.telemetry.eyeo.com
 0.0.0.0 uc.ucweb.com
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ulogs.umengcloud.com
+0.0.0.0 ulp1p-pa.googleapis.com
 0.0.0.0 um.tetelsillers.com
 0.0.0.0 umami.manjaro.org
 0.0.0.0 umini.shujupie.com
@@ -926,7 +1038,11 @@
 0.0.0.0 usage-ping.brave.com
 0.0.0.0 usage.hookvip.top
 0.0.0.0 use.hetzner.com
+0.0.0.0 userlocation.googleapis.com
+0.0.0.0 v2CZZb-dnsotls-ds.metric.gstatic.com
+0.0.0.0 vFqvX2-dnsotls-ds.metric.gstatic.com
 0.0.0.0 variations.brave.com
+0.0.0.0 vc1Wox-dnsotls-ds.metric.gstatic.com
 0.0.0.0 view.adjust.com
 0.0.0.0 vulpix.bet
 0.0.0.0 w.chatlio.com
@@ -935,6 +1051,7 @@
 0.0.0.0 wct.link
 0.0.0.0 wct.softonic.com
 0.0.0.0 wd.sharethis.com
+0.0.0.0 wdEfAj-dnsotls-ds.metric.gstatic.com
 0.0.0.0 web.normalplayer.top
 0.0.0.0 weblog.rclone.org
 0.0.0.0 westerndigital.tt.omtrdc.net
@@ -972,6 +1089,7 @@
 0.0.0.0 x.co
 0.0.0.0 x.dpstatic.com
 0.0.0.0 x3x3x.xyz
+0.0.0.0 xXZJmS-dnsotls-ds.metric.gstatic.com
 0.0.0.0 xdisplay.site
 0.0.0.0 xiaomipakistan.site
 0.0.0.0 xjp-jmacs.m.taobao.com
@@ -980,6 +1098,7 @@
 0.0.0.0 xml-v4.ngcluster-a.online
 0.0.0.0 xp.atlassian.com
 0.0.0.0 xxid.atl-paas.net
+0.0.0.0 yI9PmY-dnsotls-ds.metric.gstatic.com
 0.0.0.0 yijxujolpfvold.com
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 yourdomain.com
