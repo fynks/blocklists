@@ -1,8 +1,18 @@
-# blocklists
+# Blocklists
+
+A collection of blocklists for various purposes, including ad blocking, malware protection, and privacy enhancement.
 
 ---
 
-| Blocklist | Hosts | Adguard |
-| --------- | ------- | ------- |
-| Personal  | [Get](https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal_blocklist_hosts.txt) | [Get](https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal_blocklist_adguard.txt) |
-| Xiaomi    | [Get](https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/xiaomi_blocklist_hosts.txt) | [Get](https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/xiaomi_blocklist_adguard.txt) |
+### Personal Blocklist
+
+```
+https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal_blocklist_hosts.txt
+```
+
+### Common Blocklist
+
+#### Xiaomi | Hagezi
+```
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.xiaomi.txt
+```
