@@ -68,7 +68,8 @@ analytics.x.com
 
 ### Snapchat
 adsapi.snapchat.com  
-app-analytics-v2.snapchat.com  
+app-analytics-v2.snapchat.com
+tr.snapchat.com
 
 ---
 
