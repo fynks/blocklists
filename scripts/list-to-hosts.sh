@@ -102,22 +102,30 @@ generate_hosts_file() {
     
     print_status "${YELLOW}" "Generating hosts file..."
     
-    # Sort and remove duplicates, then format as hosts file
+    # Sort and remove duplicates first to get accurate count
+    local sorted_temp="${TEMP_FILE}.sorted"
+    sort -u "${TEMP_FILE}" > "${sorted_temp}"
+    local unique_count
+    unique_count=$(wc -l < "${sorted_temp}")
+    
+    # Generate hosts file with updated count
     {
         # Header
-        cat << 'EOF'
-# Title: Personal Blocklist (Hosts Format)
-# Description: Domains blocked based on personal preferences
-#
-# Hosts file format: 0.0.0.0 example.com
-
-EOF
+        echo "# Title: Personal Blocklist (Hosts Format)"
+        echo "# Description: Domains blocked based on personal preferences"
+        echo "# Total unique domains: ${unique_count}"
+        echo "#"
+        echo "# Hosts file format: 0.0.0.0 example.com"
+        echo ""
         
-        # Sort domains, remove duplicates, and prepend with 0.0.0.0
-        sort -u "${TEMP_FILE}" | while IFS= read -r domain; do
+        # Add domains with 0.0.0.0 prefix
+        while IFS= read -r domain; do
             echo "0.0.0.0 ${domain}"
-        done
+        done < "${sorted_temp}"
     } > "${OUTPUT_FILE}"
+    
+    # Cleanup sorted temp file
+    rm -f "${sorted_temp}"
     
     local unique_count
     unique_count=$(grep -c '^0\.0\.0\.0' "${OUTPUT_FILE}" || true)
