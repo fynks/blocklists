@@ -1,4 +1,5 @@
-### Google
+
+#============ Google ============
 ogads-pa.googleapis.com  
 ogads-pa.clients6.google.com
 clienttracing-pa.googleapis.com  
@@ -261,9 +262,7 @@ m.doubleclick.net
 mediavisor.doubleclick.net
 
 
----
-
-### Xiaomi / MIUI
+#============ Xiaomi / MIUI ============
 mcc-intl.inf.miui.com  
 adv.sec.intl.miui.com  
 adv.sec.miui.com  
@@ -286,9 +285,7 @@ sdkconfig.ad.intl.xiaomi.com
 tracking.rus.miui.com
 
 
----
-
-### Reddit
+#============ Reddit
 w3-reporting.reddit.com  
 w3-reporting-nel.reddit.com
 api2.branch.io  
@@ -302,9 +299,7 @@ error-tracking.reddit.com
 pixel.reddit.com
 pixel.redditmedia.com
 
----
-
-### Twitter / X
+#============ Twitter / X ============
 ads-api.twitter.com  
 ads-api.x.com  
 ads.twitter.com  
@@ -316,9 +311,7 @@ ads-bidder-api.twitter.com
 p.ttwitter.com
 scribe.twitter.com
 
----
-
-### Snapchat
+#============ Snapchat ============
 adsapi.snapchat.com  
 app-analytics-v2.snapchat.com
 app-analytics.snapchat.com
@@ -328,16 +321,12 @@ intg.snapchat.com
 learn.advertising.snapchat.com
 app-analytics.snapchat.com
 
----
-
-### Github
+#============ Github ============
 copilot-telemetry.githubusercontent.com
 collector.github.com
 collector-cdn.github.com
 
----
-
-### Spotify
+#============ Spotify ============
 adeventtracker.spotify.com
 adeventtrackermonitoring.spotify.com
 ads-fa.spotify.com
@@ -346,30 +335,22 @@ pixels.spotify.com
 pixel.spotify.com
 log2.spotify.com
 
----
-
-### Whatsspp
+#============ Whatsapp ============
 privatestats.whatsapp.net
 dit.whatsapp.net
 crashlogs.whatsapp.net
 
----
-
-### TikTok
+#============ TikTok ============
 analytics.tiktok.com  
 analytics.us.tiktok.com  
 
----
-
-# Bugsnag
+# Bugsnag ============
 notify.bugsnag.com
 sessions.bugsnag.com
 api.bugsnag.com
 app.bugsnag.com
 
----
-
-### AppsFlyer
+#============ AppsFlyer ============
 conversions.appsflyer.com  
 impression.appsflyer.com  
 appsflyersdk.com
@@ -377,14 +358,10 @@ appsflyersdk.com
 statsgoogle.appsflyer.com
 
 
----
-
-### Microsoft
+#============ Microsoft ============
 telemetry.api.swiftkey.com  
 
----
-
-### Misc
+#============ Misc ============
 mobileanalytics.us-east-1.amazonaws.com  
 dc-genai-access-provisioning-api.adobe.io  
 variations.brave.com
