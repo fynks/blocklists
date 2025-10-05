@@ -1,16 +1,23 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 352
+# Total unique domains: 394
 #
 # Hosts file format: 0.0.0.0 example.com
 
 0.0.0.0 4ng01p-launches.appsflyersdk.com
+0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 aax-us-east.amazon-adsystem.com
+0.0.0.0 aax-us-iad.amazon.com
+0.0.0.0 adclick.g.doublecklick.net
 0.0.0.0 ad-creatives-public.commondatastorage.googleapis.com
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 ade.googlesyndication.com
 0.0.0.0 adeventtrackermonitoring.spotify.com
 0.0.0.0 adeventtracker.spotify.com
+0.0.0.0 ad-g.doubleclick.net
 0.0.0.0 adsapi.snapchat.com
+0.0.0.0 ads-api.tiktok.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.x.com
 0.0.0.0 ads-bidder-api.twitter.com
@@ -210,15 +217,26 @@
 0.0.0.0 adservice.google.vu
 0.0.0.0 adservice.google.ws
 0.0.0.0 ads-fa.spotify.com
+0.0.0.0 ads-sg.tiktok.com
+0.0.0.0 ads.snapchat.com
+0.0.0.0 ads.tiktok.com
 0.0.0.0 ads.twitter.com
 0.0.0.0 ads.youtube.compixel.facebook.com
+0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 advertiserurl.com
+0.0.0.0 advertising-api-eu.amazon.com
+0.0.0.0 advice-ads.s3.amazonaws.com
 0.0.0.0 adv.sec.intl.miui.com
 0.0.0.0 adv.sec.miui.com
+0.0.0.0 affiliationjs.s3.amazonaws.com
 0.0.0.0 afs.googlesyndication.com
 0.0.0.0 alb.reddit.com
+0.0.0.0 amazonclix.com
+0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 analytics.githubassets.com
 0.0.0.0 analytics.picsart.com
+0.0.0.0 analytics.s3.amazonaws.com
+0.0.0.0 analytics-sg.tiktok.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.twitter.com
 0.0.0.0 analytics.us.tiktok.com
@@ -228,6 +246,7 @@
 0.0.0.0 api2.branch.io
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 api.branch.io
 0.0.0.0 api.bugsnag.com
 0.0.0.0 api.competition.intl.miui.com
 0.0.0.0 api.config-security.com
@@ -242,6 +261,7 @@
 0.0.0.0 app.getsentry.com
 0.0.0.0 app-measurement.com
 0.0.0.0 appsflyersdk.com
+0.0.0.0 assoc-amazon.com
 0.0.0.0 auth.be.sec.miui.com
 0.0.0.0 beacons2.gvt2.com
 0.0.0.0 beacons3.gvt2.com
@@ -251,6 +271,8 @@
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 business-api.tiktok.com
+0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.carbonads.com
 0.0.0.0 c.googlesyndication.com
@@ -258,10 +280,12 @@
 0.0.0.0 clientmetrics-pa.googleapis.com
 0.0.0.0 clienttracing-pa.googleapis.com
 0.0.0.0 clouderrorreporting.googleapis.com
+0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 collector-cdn.github.com
 0.0.0.0 collector.github.com
 0.0.0.0 content-analyticsadmin.googleapis.com
 0.0.0.0 content-analyticsdata.googleapis.com
+0.0.0.0 conversion.google.com
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 copilot-telemetry.githubusercontent.com
 0.0.0.0 crashlogs.whatsapp.net
@@ -275,11 +299,11 @@
 0.0.0.0 data.mistat.xiaomi.com
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
-0.0.0.0 dc-genai-access-provisioning-api.adobe.io
 0.0.0.0 dit.whatsapp.net
 0.0.0.0 d.reddit.com
 0.0.0.0 email.visitor.twitter.com
 0.0.0.0 error-tracking.reddit.com
+0.0.0.0 events.appsflyer.com
 0.0.0.0 events.reddit.com
 0.0.0.0 events.redditmedia.com
 0.0.0.0 fcmatch.google.com
@@ -287,14 +311,20 @@
 0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 fls.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 google-analytics.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
+0.0.0.0 i.instagram.com
 0.0.0.0 impression.appsflyer.com
 0.0.0.0 intg.snapchat.com
+0.0.0.0 laptop-updates.brave.com
+0.0.0.0 launches.appsflyer.com
 0.0.0.0 learn.advertising.snapchat.com
 0.0.0.0 log2.spotify.com
+0.0.0.0 log.byteoversea.com
 0.0.0.0 ma.googleads.g.doubleclick.net
 0.0.0.0 mail-ads.google.com
 0.0.0.0 mcc-intl.inf.miui.com
@@ -309,6 +339,7 @@
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 pagead.l.google.com
+0.0.0.0 pagead-tpc.l.google.com
 0.0.0.0 partnerad.l.doubleclick.net
 0.0.0.0 partnerad.l.google.com
 0.0.0.0 partner.googleadservices.com
@@ -319,17 +350,27 @@
 0.0.0.0 pixels.spotify.com
 0.0.0.0 privatestats.whatsapp.net
 0.0.0.0 p.ttwitter.com
+0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 qualtrics.com
+0.0.0.0 rcm-na.amazon-adsystem.com
+0.0.0.0 redirector.gvt1.com
 0.0.0.0 region1.analytics.google.com
+0.0.0.0 register.appsflyer.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 scribe.twitter.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 sentry.io
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 static.doubleclick.net
+0.0.0.0 stats.appsflyer.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 statsgoogle.appsflyer.com
+0.0.0.0 t.appsflyer.com
 0.0.0.0 tdum.alibaba.com
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 toc.googlesyndication.com
@@ -350,6 +391,7 @@
 0.0.0.0 w3-reporting.reddit.com
 0.0.0.0 wl.spotify.com
 0.0.0.0 www3.doubleclick.net
+0.0.0.0 www.doubleclick.net
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www-google-analytics.l.google.com

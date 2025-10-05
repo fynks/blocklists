@@ -260,7 +260,17 @@ ad.doubleclick.net
 static.doubleclick.net
 m.doubleclick.net
 mediavisor.doubleclick.net
-
+adclick.g.doublecklick.net
+googleads4.g.doubleclick.net
+pubads.g.doubleclick.net
+www.doubleclick.net
+ad-g.doubleclick.net
+cm.g.doubleclick.net
+fls.doubleclick.net
+redirector.gvt1.com
+securepubads.g.doubleclick.net
+pagead-tpc.l.google.com
+conversion.google.com
 
 #============ Xiaomi / MIUI ============
 mcc-intl.inf.miui.com  
@@ -284,12 +294,30 @@ sdkconfig.ad.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 tracking.rus.miui.com
 
+#============ Amazon ============
+mobileanalytics.us-east-1.amazonaws.com  
+adtago.s3.amazonaws.com
+analyticsengine.s3.amazonaws.com
+analytics.s3.amazonaws.com
+advice-ads.s3.amazonaws.com
+affiliationjs.s3.amazonaws.com
+advertising-api-eu.amazon.com
+aax.amazon-adsystem.com
+aax-us-east.amazon-adsystem.com
+aax-eu.amazon-adsystem.com
+c.amazon-adsystem.com
+s.amazon-adsystem.com
+amazonclix.com
+assoc-amazon.com
+rcm-na.amazon-adsystem.com
+aax-us-iad.amazon.com
 
-#============ Reddit
+#============ Reddit ============
 w3-reporting.reddit.com  
 w3-reporting-nel.reddit.com
 api2.branch.io  
 cdn.branch.io  
+api.branch.io
 d.reddit.com
 alb.reddit.com
 events.reddit.com
@@ -298,6 +326,7 @@ tracker.redditmedia.com
 error-tracking.reddit.com
 pixel.reddit.com
 pixel.redditmedia.com
+
 
 #============ Twitter / X ============
 ads-api.twitter.com  
@@ -319,7 +348,8 @@ tr.snapchat.com
 tr6.snapchat.com
 intg.snapchat.com
 learn.advertising.snapchat.com
-app-analytics.snapchat.com
+ads.snapchat.com
+sc-analytics.appspot.com
 
 #============ Github ============
 copilot-telemetry.githubusercontent.com
@@ -335,20 +365,42 @@ pixels.spotify.com
 pixel.spotify.com
 log2.spotify.com
 
-#============ Whatsapp ============
+#============ Whatsapp#============
 privatestats.whatsapp.net
 dit.whatsapp.net
 crashlogs.whatsapp.net
 
+#============ Brave Telemetry ============
+laptop-updates.brave.com
+variations.brave.com
+
+#============ Microsoft ============
+telemetry.api.swiftkey.com  
+
+
+
+
 #============ TikTok ============
 analytics.tiktok.com  
 analytics.us.tiktok.com  
+ads-api.tiktok.com
+analytics.tiktok.com
+ads-sg.tiktok.com
+analytics-sg.tiktok.com
+business-api.tiktok.com
+ads.tiktok.com
+log.byteoversea.com
 
-# Bugsnag ============
+#============  Bugsnag ============
 notify.bugsnag.com
 sessions.bugsnag.com
 api.bugsnag.com
 app.bugsnag.com
+
+#============ Sentry ============
+browser.sentry-cdn.com
+app.getsentry.com
+sentry.io
 
 #============ AppsFlyer ============
 conversions.appsflyer.com  
@@ -356,15 +408,14 @@ impression.appsflyer.com
 appsflyersdk.com
 4ng01p-launches.appsflyersdk.com
 statsgoogle.appsflyer.com
-
-
-#============ Microsoft ============
-telemetry.api.swiftkey.com  
+t.appsflyer.com
+events.appsflyer.com
+launches.appsflyer.com
+register.appsflyer.com
+stats.appsflyer.com
 
 #============ Misc ============
-mobileanalytics.us-east-1.amazonaws.com  
-dc-genai-access-provisioning-api.adobe.io  
-variations.brave.com
+i.instagram.com
 tdum.alibaba.com
 analytics.githubassets.com
 analytics.picsart.com
