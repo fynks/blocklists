@@ -3,6 +3,7 @@
 #
 # Hosts file format: 0.0.0.0 example.com
 
+0.0.0.0 4ng01p-launches.appsflyersdk.com
 0.0.0.0 adsapi.snapchat.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.x.com
@@ -43,6 +44,7 @@
 0.0.0.0 content-analyticsdata.googleapis.com
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 crashlogs.whatsapp.net
+0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 dap.digitalgov.gov
 0.0.0.0 datadog.pool.ntp.org
@@ -50,6 +52,7 @@
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
 0.0.0.0 dc-genai-access-provisioning-api.adobe.io
+0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 googleads.g.doubleclick.net
@@ -60,6 +63,7 @@
 0.0.0.0 mcc-intl.inf.miui.com
 0.0.0.0 metric.gstatic.com
 0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
+0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 qualtrics.com
 0.0.0.0 tdum.alibaba.com
