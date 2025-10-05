@@ -1,0 +1,302 @@
+# Title: General Blocklist (Hosts Format)
+# Description: Most domain ads & tracling related domains
+#
+# Hosts file format: 0.0.0.0 example.com
+
+#============ Ads =============
+
+# --- Amazon
+0.0.0.0 adtago.s3.amazonaws.com
+0.0.0.0 analyticsengine.s3.amazonaws.com
+0.0.0.0 analytics.s3.amazonaws.com
+0.0.0.0 advice-ads.s3.amazonaws.com
+0.0.0.0 affiliationjs.s3.amazonaws.com
+0.0.0.0 advertising-api-eu.amazon.com
+0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 aax-us-east.amazon-adsystem.com
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 amazonclix.com
+0.0.0.0 assoc-amazon.com
+0.0.0.0 rcm-na.amazon-adsystem.com
+0.0.0.0 aax-us-iad.amazon.com
+
+# --- Google Ads
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 adservice.google.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 afs.googlesyndication.com
+0.0.0.0 googleadservices.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 www.googlesyndication.com
+0.0.0.0 adclick.g.doublecklick.net
+0.0.0.0 media.admob.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 pubads.g.doubleclick.net
+
+# --- Doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 m.doubleclick.net
+0.0.0.0 mediavisor.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 www.doubleclick.net
+0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 fls.doubleclick.net
+0.0.0.0 redirector.gvt1.com
+
+# --- Adcolony
+0.0.0.0 ads30.adcolony.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 events3alt.adcolony.com
+0.0.0.0 wd.adcolony.com
+0.0.0.0 adcolony.com
+
+# --- Media.net
+0.0.0.0 static.media.net
+0.0.0.0 media.net
+0.0.0.0 adservetx.media.net
+
+# --- AppLovin
+0.0.0.0 a.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 pdn.applovin.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 settings.applovin.com
+
+# --- AdMob
+0.0.0.0 admob.com
+0.0.0.0 apps.admob.com
+0.0.0.0 api.admob.com
+0.0.0.0 c.admob.com
+0.0.0.0 mm.admob.com
+
+# --- Taboola
+0.0.0.0 cdn.taboola.com
+0.0.0.0 api.taboola.com
+0.0.0.0 trc.taboola.com
+0.0.0.0 images.taboola.com
+
+# --- StartApp
+0.0.0.0 data.startappservice.com
+0.0.0.0 imp.startappservice.com
+0.0.0.0 tracking.startappservice.com
+0.0.0.0 preim.startappservice.com
+
+# --- AdCash
+0.0.0.0 adcash.com
+0.0.0.0 cdn.adcash.com
+0.0.0.0 live.adcash.com
+
+
+#========= Analytics ==========
+
+# --- Google Analytics
+0.0.0.0 analytics.google.com
+0.0.0.0 click.googleanalytics.com
+0.0.0.0 google-analytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 stats.g.doubleclick.net
+
+# --- Adobe Analytics
+0.0.0.0 2o7.net
+0.0.0.0 omtrdc.net
+0.0.0.0 sc.omtrdc.net
+0.0.0.0 adobe.com.112.2o7.net
+0.0.0.0 metrics.adobe.com
+
+
+#======= Error Trackers =======
+
+# --- Bugsnag
+0.0.0.0 notify.bugsnag.com
+0.0.0.0 sessions.bugsnag.com
+0.0.0.0 api.bugsnag.com
+0.0.0.0 app.bugsnag.com
+
+# --- Sentry
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 app.getsentry.com
+0.0.0.0 sentry.io
+
+# --- LogRocket
+0.0.0.0 cdn.logrocket.io
+0.0.0.0 r.logrocket.io
+
+
+#====== Social Trackers =======
+
+# --- Facebook
+0.0.0.0 pixel.facebook.com
+0.0.0.0 an.facebook.com
+0.0.0.0 analytics.facebook.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 graph.facebook.com
+
+# --- Twitter
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 ads-api.twitter.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 t.co
+
+# --- LinkedIn
+0.0.0.0 ads.linkedin.com
+0.0.0.0 analytics.pointdrive.linkedin.com
+0.0.0.0 px.ads.linkedin.com
+0.0.0.0 dc.ads.linkedin.com
+
+# --- Pinterest
+0.0.0.0 ads.pinterest.com
+0.0.0.0 log.pinterest.com
+0.0.0.0 analytics.pinterest.com
+0.0.0.0 trk.pinterest.com
+0.0.0.0 ct.pinterest.com
+
+# --- Reddit
+0.0.0.0 events.reddit.com
+0.0.0.0 events.redditmedia.com
+0.0.0.0 alb.reddit.com
+
+# --- YouTube
+0.0.0.0 ads.youtube.com
+
+# --- TikTok
+0.0.0.0 ads-api.tiktok.com
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 ads-sg.tiktok.com
+0.0.0.0 analytics-sg.tiktok.com
+0.0.0.0 business-api.tiktok.com
+0.0.0.0 ads.tiktok.com
+0.0.0.0 log.byteoversea.com
+
+# --- Snapchat
+0.0.0.0 app-analytics.snapchat.com
+0.0.0.0 ads.snapchat.com
+0.0.0.0 sc-analytics.appspot.com
+
+# --- Instagram
+0.0.0.0 i.instagram.com
+
+
+#======== Telemetry =========
+
+# --- Microsoft Telemetry
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 redir.metaservices.microsoft.com
+0.0.0.0 choice.microsoft.com
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 telemetry.appex.bing.net
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 telemetry.remoteapp.windowsazure.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 watson.live.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 compatexchange.cloudapp.net
+0.0.0.0 cs1.wpc.v0cdn.net
+0.0.0.0 a-0001.a-msedge.net
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 feedback.windows.com
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 feedback.search.microsoft.com
+
+# --- Mozilla Telemetry
+0.0.0.0 telemetry.mozilla.org
+0.0.0.0 incoming.telemetry.mozilla.org
+0.0.0.0 telemetry-experiment.cdn.mozilla.net
+
+# --- Brave Telemetry
+0.0.0.0 laptop-updates.brave.com
+0.0.0.0 variations.brave.com
+
+
+#============ Mix =============
+
+# --- Branch.io
+0.0.0.0 api.branch.io
+0.0.0.0 cdn.branch.io
+0.0.0.0 api2.branch.io
+
+# --- AppsFlyer
+0.0.0.0 t.appsflyer.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 register.appsflyer.com
+0.0.0.0 stats.appsflyer.com
+
+# --- Localytics
+0.0.0.0 analytics.localytics.com
+0.0.0.0 manifest.localytics.com
+0.0.0.0 profile.localytics.com
+
+# --- Firebase
+0.0.0.0 app-measurement.com
+0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 firebaselogging.googleapis.com
+0.0.0.0 firebaseinstallations.googleapis.com
+
+# --- Crashlytics
+0.0.0.0 crashlyticsreports-pa.googleapis.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 reports.crashlytics.com
+
+
+#============ OEMs ============
+
+# --- Xiaomi
+0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 data.mistat.india.xiaomi.com
+0.0.0.0 data.mistat.rus.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 tracking.rus.miui.com
+0.0.0.0 globalapi.ad.xiaomi.com
+0.0.0.0 tracking.miui.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 sa.api.intl.miui.com
+0.0.0.0 tracking.india.miui.com
+
+#======== CDNs & Others ========
+
+# --- Ad-related CDNs
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 pagead-tpc.l.google.com
+0.0.0.0 adservice.google.co.uk
+0.0.0.0 adservice.google.de
+0.0.0.0 adservice.google.fr
+
+# --- Conversion Tracking
+0.0.0.0 ct.pinterest.com
+0.0.0.0 ct.pinterest.com
+0.0.0.0 alb.reddit.com
+0.0.0.0 conversion.google.com
