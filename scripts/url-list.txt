@@ -271,6 +271,7 @@ redirector.gvt1.com
 securepubads.g.doubleclick.net
 pagead-tpc.l.google.com
 conversion.google.com
+searchlabspartnerservice-pa.googleapis.com
 
 #============ Xiaomi / MIUI ============
 mcc-intl.inf.miui.com  
@@ -373,6 +374,7 @@ crashlogs.whatsapp.net
 #============ Brave Telemetry ============
 laptop-updates.brave.com
 variations.brave.com
+usage-ping.brave.com
 
 #============ Microsoft ============
 telemetry.api.swiftkey.com  
@@ -401,6 +403,7 @@ app.bugsnag.com
 browser.sentry-cdn.com
 app.getsentry.com
 sentry.io
+o33249.ingest.sentry.io
 
 #============ AppsFlyer ============
 conversions.appsflyer.com  
@@ -413,6 +416,7 @@ events.appsflyer.com
 launches.appsflyer.com
 register.appsflyer.com
 stats.appsflyer.com
+4ng01p-inapps.appsflyersdk.com
 
 #============ Misc ============
 i.instagram.com
@@ -430,6 +434,5 @@ app-measurement.com
 api.config-security.com
 pixel.facebook.com
 an.facebook.com
-browser.sentry-cdn.com
-app.getsentry.com
+browser-intake-datadoghq.com
 

@@ -1,9 +1,10 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 394
+# Total unique domains: 399
 #
 # Hosts file format: 0.0.0.0 example.com
 
+0.0.0.0 4ng01p-inapps.appsflyersdk.com
 0.0.0.0 4ng01p-launches.appsflyersdk.com
 0.0.0.0 aax.amazon-adsystem.com
 0.0.0.0 aax-eu.amazon-adsystem.com
@@ -270,6 +271,7 @@
 0.0.0.0 beacons5.gvt3.com
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
+0.0.0.0 browser-intake-datadoghq.com
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 c.amazon-adsystem.com
@@ -333,6 +335,7 @@
 0.0.0.0 metric.gstatic.com
 0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
 0.0.0.0 notify.bugsnag.com
+0.0.0.0 o33249.ingest.sentry.io
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 pagead2.googleadservices.com
@@ -361,6 +364,7 @@
 0.0.0.0 scribe.twitter.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 searchlabspartnerservice-pa.googleapis.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sentry.io
 0.0.0.0 sessions.bugsnag.com
@@ -381,6 +385,7 @@
 0.0.0.0 trackonomics.net
 0.0.0.0 trakksocial.googlecode.com
 0.0.0.0 tr.snapchat.com
+0.0.0.0 usage-ping.brave.com
 0.0.0.0 useinsider.com
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 variations.brave.com
