@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 399
+# Total unique domains: 401
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -317,6 +317,8 @@
 0.0.0.0 googleads4.g.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 google-analytics.com
+0.0.0.0 graph-fallback.instagram.com
+0.0.0.0 graph.instagram.co
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
 0.0.0.0 i.instagram.com

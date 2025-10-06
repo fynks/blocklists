@@ -366,10 +366,16 @@ pixels.spotify.com
 pixel.spotify.com
 log2.spotify.com
 
-#============ Whatsapp#============
+#============ Whatsapp ============
 privatestats.whatsapp.net
 dit.whatsapp.net
 crashlogs.whatsapp.net
+
+
+#============ Instagram ============
+graph.instagram.co
+graph-fallback.instagram.com
+
 
 #============ Brave Telemetry ============
 laptop-updates.brave.com
