@@ -1,11 +1,15 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 400
+# Total unique domains: 404
 #
 # Hosts file format: 0.0.0.0 example.com
 
 0.0.0.0 4ng01p-inapps.appsflyersdk.com
 0.0.0.0 4ng01p-launches.appsflyersdk.com
+0.0.0.0 7o3c9y.attr.appsflyersdk.com
+0.0.0.0 7o3c9y.conversions.appsflyersdk.com
+0.0.0.0 7o3c9y.inapps.appsflyersdk.com
+0.0.0.0 7o3c9y.launches.appsflyersdk.com
 0.0.0.0 aax.amazon-adsystem.com
 0.0.0.0 aax-eu.amazon-adsystem.com
 0.0.0.0 aax-us-east.amazon-adsystem.com
@@ -318,7 +322,7 @@
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 google-analytics.com
 0.0.0.0 graph-fallback.instagram.com
-0.0.0.0 graph.instagram.co
+0.0.0.0 graph.instagram.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
 0.0.0.0 impression.appsflyer.com

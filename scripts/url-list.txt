@@ -373,7 +373,7 @@ crashlogs.whatsapp.net
 
 
 #============ Instagram ============
-graph.instagram.co
+graph.instagram.com
 graph-fallback.instagram.com
 
 
@@ -423,6 +423,11 @@ launches.appsflyer.com
 register.appsflyer.com
 stats.appsflyer.com
 4ng01p-inapps.appsflyersdk.com
+7o3c9y.inapps.appsflyersdk.com
+7o3c9y.attr.appsflyersdk.com
+7o3c9y.conversions.appsflyersdk.com
+7o3c9y.launches.appsflyersdk.com
+
 
 #============ Misc ============
 tdum.alibaba.com
