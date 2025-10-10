@@ -425,7 +425,6 @@ stats.appsflyer.com
 4ng01p-inapps.appsflyersdk.com
 
 #============ Misc ============
-i.instagram.com
 tdum.alibaba.com
 analytics.githubassets.com
 analytics.picsart.com

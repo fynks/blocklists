@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 401
+# Total unique domains: 400
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -321,7 +321,6 @@
 0.0.0.0 graph.instagram.co
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
-0.0.0.0 i.instagram.com
 0.0.0.0 impression.appsflyer.com
 0.0.0.0 intg.snapchat.com
 0.0.0.0 laptop-updates.brave.com
