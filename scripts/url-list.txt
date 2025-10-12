@@ -384,20 +384,6 @@ usage-ping.brave.com
 #============ Microsoft ============
 telemetry.api.swiftkey.com  
 
-
-
-
-#============ TikTok ============
-analytics.tiktok.com  
-analytics.us.tiktok.com  
-ads-api.tiktok.com
-analytics.tiktok.com
-ads-sg.tiktok.com
-analytics-sg.tiktok.com
-business-api.tiktok.com
-ads.tiktok.com
-log.byteoversea.com
-
 #============  Bugsnag ============
 notify.bugsnag.com
 sessions.bugsnag.com

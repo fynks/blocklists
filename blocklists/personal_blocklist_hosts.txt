@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 408
+# Total unique domains: 400
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -22,7 +22,6 @@
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 ad-g.doubleclick.net
 0.0.0.0 adsapi.snapchat.com
-0.0.0.0 ads-api.tiktok.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.x.com
 0.0.0.0 ads-bidder-api.twitter.com
@@ -222,9 +221,7 @@
 0.0.0.0 adservice.google.vu
 0.0.0.0 adservice.google.ws
 0.0.0.0 ads-fa.spotify.com
-0.0.0.0 ads-sg.tiktok.com
 0.0.0.0 ads.snapchat.com
-0.0.0.0 ads.tiktok.com
 0.0.0.0 ads.twitter.com
 0.0.0.0 ads.youtube.compixel.facebook.com
 0.0.0.0 adtago.s3.amazonaws.com
@@ -242,10 +239,7 @@
 0.0.0.0 analytics.githubassets.com
 0.0.0.0 analytics.picsart.com
 0.0.0.0 analytics.s3.amazonaws.com
-0.0.0.0 analytics-sg.tiktok.com
-0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.twitter.com
-0.0.0.0 analytics.us.tiktok.com
 0.0.0.0 analytics.x.com
 0.0.0.0 android-safebrowsing.google.com
 0.0.0.0 an.facebook.com
@@ -279,7 +273,6 @@
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 browser-intake-datadoghq.com
 0.0.0.0 browser.sentry-cdn.com
-0.0.0.0 business-api.tiktok.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.carbonads.com
@@ -333,7 +326,6 @@
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 learn.advertising.snapchat.com
 0.0.0.0 log2.spotify.com
-0.0.0.0 log.byteoversea.com
 0.0.0.0 ma.googleads.g.doubleclick.net
 0.0.0.0 mail-ads.google.com
 0.0.0.0 mcc-intl.inf.miui.com
