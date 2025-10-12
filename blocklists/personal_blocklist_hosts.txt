@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 404
+# Total unique domains: 408
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -236,6 +236,7 @@
 0.0.0.0 affiliationjs.s3.amazonaws.com
 0.0.0.0 afs.googlesyndication.com
 0.0.0.0 alb.reddit.com
+0.0.0.0 alogsus.umeng.com
 0.0.0.0 amazonclix.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 analytics.githubassets.com
@@ -257,6 +258,7 @@
 0.0.0.0 api.config-security.com
 0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.googleadsapi.com
+0.0.0.0 api.honeycomb.io
 0.0.0.0 api.installer.xiaomi.com
 0.0.0.0 api.sec.intl.miui.com
 0.0.0.0 api.sec.miui.com
@@ -340,6 +342,7 @@
 0.0.0.0 metric.gstatic.com
 0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
 0.0.0.0 notify.bugsnag.com
+0.0.0.0 o1158394.ingest.us.sentry.io
 0.0.0.0 o33249.ingest.sentry.io
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
@@ -379,6 +382,7 @@
 0.0.0.0 stats.appsflyer.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 statsgoogle.appsflyer.com
+0.0.0.0 statsig.anthropic.com
 0.0.0.0 t.appsflyer.com
 0.0.0.0 tdum.alibaba.com
 0.0.0.0 telemetry.api.swiftkey.com

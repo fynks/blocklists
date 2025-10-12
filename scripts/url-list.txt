@@ -366,15 +366,14 @@ pixels.spotify.com
 pixel.spotify.com
 log2.spotify.com
 
-#============ Whatsapp ============
+#============ Meta ============
 privatestats.whatsapp.net
 dit.whatsapp.net
 crashlogs.whatsapp.net
-
-
-#============ Instagram ============
 graph.instagram.com
 graph-fallback.instagram.com
+pixel.facebook.com
+an.facebook.com
 
 
 #============ Brave Telemetry ============
@@ -410,6 +409,7 @@ browser.sentry-cdn.com
 app.getsentry.com
 sentry.io
 o33249.ingest.sentry.io
+o1158394.ingest.us.sentry.io
 
 #============ AppsFlyer ============
 conversions.appsflyer.com  
@@ -442,7 +442,7 @@ datadog.pool.ntp.org
 advertiserurl.com  
 app-measurement.com
 api.config-security.com
-pixel.facebook.com
-an.facebook.com
 browser-intake-datadoghq.com
-
+statsig.anthropic.com
+api.honeycomb.io
+alogsus.umeng.com
