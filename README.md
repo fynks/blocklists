@@ -10,6 +10,12 @@ A collection of blocklists for various purposes, including ad blocking, malware 
 https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal_blocklist_hosts.txt
 ```
 
+or
+
+```
+https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/personal_blocklist_hosts.txt
+```
+
 ### Common Blocklist
 
 #### Xiaomi | Hagezi
