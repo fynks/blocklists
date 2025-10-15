@@ -152,6 +152,9 @@ tracker.redditmedia.com
 error-tracking.reddit.com
 pixel.reddit.com
 pixel.redditmedia.com
+events.reddit.com
+rt.reddit.com
+
 
 
 #============ Twitter / X ============
@@ -179,7 +182,8 @@ sc-analytics.appspot.com
 
 #============ Github ============
 copilot-telemetry.githubusercontent.com
-collector.github.com
+collector.github.comc
+collector.githubapp.com
 collector-cdn.github.com
 
 #============ Spotify ============
@@ -206,6 +210,16 @@ f03f77a1830-dgkcbwjp1760491552-sonar.xy.fbcdn.net
 laptop-updates.brave.com
 variations.brave.com
 usage-ping.brave.com
+ads.brave.com
+ads-static.brave.com
+rewards.brave.com
+grant.rewards.brave.com
+p.brave.com
+p3a.brave.com
+variations.brave.com
+componentupdater.brave.com
+go-updater.brave.com
+
 
 #============ Microsoft ============
 telemetry.api.swiftkey.com  
@@ -293,4 +307,8 @@ api.honeycomb.io
 alogsus.umeng.com
 static.cloudflareinsights.com
 doubledouble.top
+crashlytics.com
+px.ads.linkedin.com
+s.adroll.com
+adsrvr.org
 

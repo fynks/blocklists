@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 242
+# Total unique domains: 256
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -25,8 +25,11 @@
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.x.com
 0.0.0.0 ads-bidder-api.twitter.com
+0.0.0.0 ads.brave.com
 0.0.0.0 ads-fa.spotify.com
+0.0.0.0 adsrvr.org
 0.0.0.0 ads.snapchat.com
+0.0.0.0 ads-static.brave.com
 0.0.0.0 ads.twitter.com
 0.0.0.0 ads.youtube.compixel.facebook.com
 0.0.0.0 advertiserurl.com
@@ -92,13 +95,16 @@
 0.0.0.0 clouderrorreporting.googleapis.com
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 collector-cdn.github.com
-0.0.0.0 collector.github.com
+0.0.0.0 collector.githubapp.com
+0.0.0.0 collector.github.comc
+0.0.0.0 componentupdater.brave.com
 0.0.0.0 content-analyticsadmin.googleapis.com
 0.0.0.0 content-analyticsdata.googleapis.com
 0.0.0.0 conversion.google.com
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 copilot-telemetry.githubusercontent.com
 0.0.0.0 crashlogs.whatsapp.net
+0.0.0.0 crashlytics.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 dap.digitalgov.gov
@@ -138,6 +144,8 @@
 0.0.0.0 googleads4.g.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 google-analytics.com
+0.0.0.0 go-updater.brave.com
+0.0.0.0 grant.rewards.brave.com
 0.0.0.0 graph-fallback.instagram.com
 0.0.0.0 graph.instagram.com
 0.0.0.0 hq1.appsflyer.com
@@ -169,6 +177,7 @@
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 onelink.appsflyer.com
+0.0.0.0 p3a.brave.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead46.l.doubleclick.net
@@ -177,6 +186,7 @@
 0.0.0.0 partnerad.l.doubleclick.net
 0.0.0.0 partnerad.l.google.com
 0.0.0.0 partner.googleadservices.com
+0.0.0.0 p.brave.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.reddit.com
 0.0.0.0 pixel.redditmedia.com
@@ -186,11 +196,15 @@
 0.0.0.0 privatestats.whatsapp.net
 0.0.0.0 p.ttwitter.com
 0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 px.ads.linkedin.com
 0.0.0.0 qualtrics.com
 0.0.0.0 r.browser.miui.com
 0.0.0.0 redirector.gvt1.com
 0.0.0.0 region1.analytics.google.com
 0.0.0.0 register.appsflyer.com
+0.0.0.0 rewards.brave.com
+0.0.0.0 rt.reddit.com
+0.0.0.0 s.adroll.com
 0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 scribe.twitter.com
 0.0.0.0 sdk.appsflyer.com
