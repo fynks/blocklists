@@ -1,6 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
 # Total unique domains: 256
+# Generated at: 15-10-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 

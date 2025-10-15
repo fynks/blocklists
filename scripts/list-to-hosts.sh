@@ -89,7 +89,7 @@ process_domains() {
         fi
     done < "${INPUT_FILE}"
     
-    print_status "${GREEN}" "Extracted ${domain_count} domains"
+    print_status "${GREEN}" "Processed ${domain_count} domains (including duplicates)"
 }
 
 # Generate hosts file
@@ -108,12 +108,17 @@ generate_hosts_file() {
     local unique_count
     unique_count=$(wc -l < "${sorted_temp}")
     
+    # Get current date
+    local current_date
+    current_date=$(date '+%d-%m-%Y')
+    
     # Generate hosts file with updated count
     {
         # Header
         echo "# Title: Personal Blocklist (Hosts Format)"
         echo "# Description: Domains blocked based on personal preferences"
         echo "# Total unique domains: ${unique_count}"
+        echo "# Generated at: ${current_date}"
         echo "#"
         echo "# Hosts file format: 0.0.0.0 example.com"
         echo ""
