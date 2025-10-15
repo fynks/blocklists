@@ -81,6 +81,11 @@ infinitedata-pa.googleapis.com
 xgapromomanager-pa.googleapis.com
 notifications-ueeshp-pa.googleapis.com
 blackhole.lun.ua
+googleadapis.l.google.com
+ssl-google-analytics.l.google.com
+www-google-analytics.l.google.com
+analytics.google.com
+
 
 #============ Xiaomi / MIUI ============
 mcc-intl.inf.miui.com  
@@ -103,24 +108,33 @@ data.mistat.rus.xiaomi.com
 sdkconfig.ad.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 tracking.rus.miui.com
-
-#============ Amazon ============
-mobileanalytics.us-east-1.amazonaws.com  
-adtago.s3.amazonaws.com
-analyticsengine.s3.amazonaws.com
-analytics.s3.amazonaws.com
-advice-ads.s3.amazonaws.com
-affiliationjs.s3.amazonaws.com
-advertising-api-eu.amazon.com
-aax.amazon-adsystem.com
-aax-us-east.amazon-adsystem.com
-aax-eu.amazon-adsystem.com
-c.amazon-adsystem.com
-s.amazon-adsystem.com
-amazonclix.com
-assoc-amazon.com
-rcm-na.amazon-adsystem.com
-aax-us-iad.amazon.com
+authbe.sec.intl.miui.com
+flash.sec.intl.miui.com
+api.setting.intl.miui.com
+data.sec.intl.miui.com
+log.avlyun.sec.intl.miui.com
+metok.sys.miui.com
+mazu.sec.miui.com
+auth.be.sec.miui.com
+adv.sec.miui.com
+api.sec.miui.com
+data.sec.miui.com
+logupdate.avlyun.sec.miui.com
+r.browser.miui.com
+tracking.miui.com
+data.mistat.intl.xiaomi.com
+storeconfig.mistat.intl.xiaomi.com
+api.ad.intl.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+api.miui.security.xiaomi.com
+globalapi.ad.xiaomi.com
+api.ad.xiaomi.com
+abtest.mistat.xiaomi.com
+o2o.api.xiaomi.com
+data.mistat.india.xiaomi.com
+data.mistat.rus.xiaomi.com
+data.mistat.xiaomi.com
+sdkconfig.ad.xiaomi.com
 
 #============ Reddit ============
 w3-reporting.reddit.com  
@@ -128,6 +142,8 @@ w3-reporting-nel.reddit.com
 api2.branch.io  
 cdn.branch.io  
 api.branch.io
+api2.branch.io
+api3.branch.io
 d.reddit.com
 alb.reddit.com
 events.reddit.com
@@ -225,8 +241,38 @@ stats.appsflyer.com
 7o3c9y.launches.appsflyersdk.com
 4ng01p-cdn-settings.appsflyersdk.com
 7o3c9y.cdn-settings.appsflyersdk.com
-
-
+dynamic-report-api.appsflyersdk.com
+privacy-sandbox.appsflyersdk.com
+gcdsdk.appsflyersdk.com
+dlsdk.appsflyersdk.com
+adrevenue.appsflyer.com
+api.appsflyer.com
+api2.appsflyer.com
+app.appsflyer.com
+appsflyer-report.honkaiimpact3.com
+attr.appsflyer.com
+banner.appsflyer.com
+cdnappicons.appsflyer.com
+dls2s.appsflyer.com
+dlsdk.appsflyer.com
+events.appsflyer.com
+fvalid.appsflyer.com
+gcd-s2s.appsflyer.com
+gcdsdk.appsflyer.com
+hq1.appsflyer.com
+impression.appsflyer.com
+inapps.appsflyer.com
+launches.appsflyer.com
+onelink.appsflyer.com
+register.appsflyer.com
+sdk-services.appsflyer.com
+sdk.appsflyer.com
+stats.appsflyer.com
+t.appsflyer.com
+track.appsflyer.com
+validate.appsflyer.com
+wa.appsflyer.com
+websdk.appsflyer.com
 
 #============ Misc ============
 tdum.alibaba.com
