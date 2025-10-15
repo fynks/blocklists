@@ -80,7 +80,7 @@ searchlabspartnerservice-pa.googleapis.com
 infinitedata-pa.googleapis.com
 xgapromomanager-pa.googleapis.com
 notifications-ueeshp-pa.googleapis.com
-
+blackhole.lun.ua
 
 #============ Xiaomi / MIUI ============
 mcc-intl.inf.miui.com  

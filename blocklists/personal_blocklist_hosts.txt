@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 213
+# Total unique domains: 214
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -78,6 +78,7 @@
 0.0.0.0 beacons5.gvt3.com
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
+0.0.0.0 blackhole.lun.ua
 0.0.0.0 browser-intake-datadoghq.com
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 c.amazon-adsystem.com
