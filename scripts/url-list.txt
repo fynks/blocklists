@@ -86,6 +86,9 @@ analytics.google.com
 
 
 #============ Xiaomi / MIUI ============
+# Additional Xiomi domains are fetched and added to list from:
+# https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt
+
 mcc-intl.inf.miui.com  
 adv.sec.intl.miui.com  
 adv.sec.miui.com  

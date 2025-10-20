@@ -19,10 +19,12 @@ readonly NC='\033[0m' # No Color
 readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly INPUT_FILE="${SCRIPT_DIR}/url-list.txt"
 readonly OUTPUT_FILE="${SCRIPT_DIR}/../blocklists/personal_blocklist_hosts.txt"
+readonly EXTERNAL_LIST_URL="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt"
 readonly TEMP_FILE="$(mktemp)"
+readonly TEMP_EXTERNAL="$(mktemp)"
 
 # Cleanup temporary files on exit
-trap 'rm -f "${TEMP_FILE}"' EXIT
+trap 'rm -f "${TEMP_FILE}" "${TEMP_EXTERNAL}"' EXIT
 
 # Print colored message
 print_status() {
@@ -89,7 +91,73 @@ process_domains() {
         fi
     done < "${INPUT_FILE}"
     
-    print_status "${GREEN}" "Processed ${domain_count} domains (including duplicates)"
+    print_status "${GREEN}" "Processed ${domain_count} domains from local file (including duplicates)"
+}
+
+# Fetch and process external blocklist
+fetch_external_list() {
+    local domain_count=0
+    
+    print_status "${YELLOW}" "Fetching external blocklist from ${EXTERNAL_LIST_URL}..."
+    
+    # Check if curl or wget is available
+    if command -v curl &> /dev/null; then
+        if ! curl -fsSL "${EXTERNAL_LIST_URL}" -o "${TEMP_EXTERNAL}"; then
+            print_status "${YELLOW}" "Warning: Failed to fetch external list with curl, continuing without it..."
+            return 0
+        fi
+    elif command -v wget &> /dev/null; then
+        if ! wget -qO "${TEMP_EXTERNAL}" "${EXTERNAL_LIST_URL}"; then
+            print_status "${YELLOW}" "Warning: Failed to fetch external list with wget, continuing without it..."
+            return 0
+        fi
+    else
+        print_status "${YELLOW}" "Warning: Neither curl nor wget found, skipping external list..."
+        return 0
+    fi
+    
+    print_status "${YELLOW}" "Processing external domains..."
+    
+    # Process the external file
+    while IFS= read -r line || [[ -n "${line}" ]]; do
+        # Skip empty lines and comments
+        [[ -z "${line}" ]] && continue
+        [[ "${line}" =~ ^[[:space:]]*# ]] && continue
+        
+        # Trim leading/trailing whitespace
+        line="$(echo "${line}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+        
+        # Skip if empty after trimming
+        [[ -z "${line}" ]] && continue
+        
+        # Extract domain (handle hosts file format: 0.0.0.0 domain or just domain)
+        domain="${line}"
+        
+        # If line starts with 0.0.0.0 or 127.0.0.1, extract the domain part
+        if [[ "${domain}" =~ ^(0\.0\.0\.0|127\.0\.0\.1)[[:space:]]+ ]]; then
+            domain="${domain#*[[:space:]]}"
+            domain="$(echo "${domain}" | sed -e 's/^[[:space:]]*//')"
+        fi
+        
+        # Remove protocol if present
+        domain="${domain#*://}"
+        
+        # Remove path, query string, and fragment
+        domain="${domain%%/*}"
+        domain="${domain%%\?*}"
+        domain="${domain%%#*}"
+        
+        # Remove port number
+        domain="${domain%%:*}"
+        
+        # Validate domain format
+        if [[ "${domain}" =~ ^[a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$ ]]; then
+            echo "${domain}" >> "${TEMP_FILE}"
+            domain_count=$((domain_count + 1))
+        fi
+    done < "${TEMP_EXTERNAL}"
+    
+    print_status "${GREEN}" "Processed ${domain_count} domains from external list (including duplicates)"
 }
 
 # Generate hosts file
@@ -161,6 +229,7 @@ main() {
     
     validate_input
     process_domains
+    fetch_external_list
     generate_hosts_file
     validate_output
     
