@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 266
+# Total unique domains: 264
 # Generated at: 20-10-2025
 #
 # Hosts file format: 0.0.0.0 example.com
@@ -125,7 +125,6 @@
 0.0.0.0 data.sec.miui.com
 0.0.0.0 dit.whatsapp.net
 0.0.0.0 dls2s.appsflyer.com
-0.0.0.0 dlsdk.appsflyer.com
 0.0.0.0 dlsdk.appsflyersdk.com
 0.0.0.0 doubledouble.top
 0.0.0.0 d.reddit.com
@@ -145,7 +144,6 @@
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fvalid.appsflyer.com
 0.0.0.0 gcd-s2s.appsflyer.com
-0.0.0.0 gcdsdk.appsflyer.com
 0.0.0.0 gcdsdk.appsflyersdk.com
 0.0.0.0 globalapi.ad.xiaomi.com
 0.0.0.0 googleadapis.l.google.com
