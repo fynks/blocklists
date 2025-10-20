@@ -182,7 +182,7 @@ sc-analytics.appspot.com
 
 #============ Github ============
 copilot-telemetry.githubusercontent.com
-collector.github.comc
+collector.github.com
 collector.githubapp.com
 collector-cdn.github.com
 
@@ -208,9 +208,17 @@ f03f77a1830-dgkcbwjp1760491552-sonar.xy.fbcdn.net
 
 #============ Brave Telemetry ============
 variations.brave.com
+usage-ping.brave.com
 
 #============ Microsoft ============
 telemetry.api.swiftkey.com  
+
+#============ Amazon ============
+s.amazon-adsystem.com
+mads.amazon-adsystem.com
+c.amazon-adsystem.com
+s.amazon-adsystem.com
+
 
 #============  Bugsnag ============
 notify.bugsnag.com
@@ -309,7 +317,14 @@ adsrvr.org
 c.23bece13537659fe414f68e45cedb2fcc42846e0dcd4f83c2ea9d2d6.com
 api.mixpanel.com
 hbsdk-config.log.smaato.net
-s.amazon-adsystem.com
 sdk.ad.smaato.net
-mads.amazon-adsystem.com
+ad.mail.ru
+c.appbaqend.com
+hbsdk-config.log.smaato.net
+nxj0g7.fscdn.eppo.cloud
+sdk-api-v1.singular.net
+api.segment.io
+api3.siftscience.com
+nxj0g7.fscdn.eppo.cloud
+
 

@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 258
+# Total unique domains: 266
 # Generated at: 20-10-2025
 #
 # Hosts file format: 0.0.0.0 example.com
@@ -24,6 +24,7 @@
 0.0.0.0 adeventtrackermonitoring.spotify.com
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 ad.mail.ru
 0.0.0.0 adrevenue.appsflyer.com
 0.0.0.0 adsapi.snapchat.com
 0.0.0.0 ads-api.twitter.com
@@ -50,6 +51,7 @@
 0.0.0.0 api2.appsflyer.com
 0.0.0.0 api2.branch.io
 0.0.0.0 api3.branch.io
+0.0.0.0 api3.siftscience.com
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 api.appsflyer.com
@@ -65,6 +67,7 @@
 0.0.0.0 api.mixpanel.com
 0.0.0.0 api.sec.intl.miui.com
 0.0.0.0 api.sec.miui.com
+0.0.0.0 api.segment.io
 0.0.0.0 api.setting.intl.miui.com
 0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 app-analytics-v2.snapchat.com
@@ -89,6 +92,8 @@
 0.0.0.0 browser-intake-datadoghq.com
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 c.23bece13537659fe414f68e45cedb2fcc42846e0dcd4f83c2ea9d2d6.com
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 c.appbaqend.com
 0.0.0.0 cdnappicons.appsflyer.com
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.carbonads.com
@@ -100,7 +105,7 @@
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 collector-cdn.github.com
 0.0.0.0 collector.githubapp.com
-0.0.0.0 collector.github.comc
+0.0.0.0 collector.github.com
 0.0.0.0 content-analyticsadmin.googleapis.com
 0.0.0.0 content-analyticsdata.googleapis.com
 0.0.0.0 conversion.google.com
@@ -173,6 +178,7 @@
 0.0.0.0 metric.gstatic.com
 0.0.0.0 notifications-ueeshp-pa.googleapis.com
 0.0.0.0 notify.bugsnag.com
+0.0.0.0 nxj0g7.fscdn.eppo.cloud
 0.0.0.0 o1158394.ingest.us.sentry.io
 0.0.0.0 o2o.api.xiaomi.com
 0.0.0.0 o33249.ingest.sentry.io
@@ -211,6 +217,7 @@
 0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 scribe.twitter.com
 0.0.0.0 sdk.ad.smaato.net
+0.0.0.0 sdk-api-v1.singular.net
 0.0.0.0 sdk.appsflyer.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
@@ -242,6 +249,7 @@
 0.0.0.0 trackonomics.net
 0.0.0.0 trakksocial.googlecode.com
 0.0.0.0 tr.snapchat.com
+0.0.0.0 usage-ping.brave.com
 0.0.0.0 useinsider.com
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 validate.appsflyer.com
