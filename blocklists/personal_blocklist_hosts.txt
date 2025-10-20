@@ -1,13 +1,16 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 256
-# Generated at: 15-10-2025
+# Total unique domains: 258
+# Generated at: 20-10-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
+0.0.0.0 4ng01p-attr.appsflyersdk.com
 0.0.0.0 4ng01p-cdn-settings.appsflyersdk.com
+0.0.0.0 4ng01p-conversions.appsflyersdk.com
 0.0.0.0 4ng01p-inapps.appsflyersdk.com
 0.0.0.0 4ng01p-launches.appsflyersdk.com
+0.0.0.0 4ng01p-pia.appsflyersdk.com
 0.0.0.0 7o3c9y.attr.appsflyersdk.com
 0.0.0.0 7o3c9y.cdn-settings.appsflyersdk.com
 0.0.0.0 7o3c9y.conversions.appsflyersdk.com
@@ -26,11 +29,9 @@
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.x.com
 0.0.0.0 ads-bidder-api.twitter.com
-0.0.0.0 ads.brave.com
 0.0.0.0 ads-fa.spotify.com
 0.0.0.0 adsrvr.org
 0.0.0.0 ads.snapchat.com
-0.0.0.0 ads-static.brave.com
 0.0.0.0 ads.twitter.com
 0.0.0.0 ads.youtube.compixel.facebook.com
 0.0.0.0 advertiserurl.com
@@ -61,6 +62,7 @@
 0.0.0.0 api.honeycomb.io
 0.0.0.0 api.installer.xiaomi.com
 0.0.0.0 api.miui.security.xiaomi.com
+0.0.0.0 api.mixpanel.com
 0.0.0.0 api.sec.intl.miui.com
 0.0.0.0 api.sec.miui.com
 0.0.0.0 api.setting.intl.miui.com
@@ -86,6 +88,7 @@
 0.0.0.0 blackhole.lun.ua
 0.0.0.0 browser-intake-datadoghq.com
 0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 c.23bece13537659fe414f68e45cedb2fcc42846e0dcd4f83c2ea9d2d6.com
 0.0.0.0 cdnappicons.appsflyer.com
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.carbonads.com
@@ -98,7 +101,6 @@
 0.0.0.0 collector-cdn.github.com
 0.0.0.0 collector.githubapp.com
 0.0.0.0 collector.github.comc
-0.0.0.0 componentupdater.brave.com
 0.0.0.0 content-analyticsadmin.googleapis.com
 0.0.0.0 content-analyticsdata.googleapis.com
 0.0.0.0 conversion.google.com
@@ -145,10 +147,9 @@
 0.0.0.0 googleads4.g.doubleclick.net
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 google-analytics.com
-0.0.0.0 go-updater.brave.com
-0.0.0.0 grant.rewards.brave.com
 0.0.0.0 graph-fallback.instagram.com
 0.0.0.0 graph.instagram.com
+0.0.0.0 hbsdk-config.log.smaato.net
 0.0.0.0 hq1.appsflyer.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
@@ -156,12 +157,12 @@
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 intg.snapchat.com
-0.0.0.0 laptop-updates.brave.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 learn.advertising.snapchat.com
 0.0.0.0 log2.spotify.com
 0.0.0.0 log.avlyun.sec.intl.miui.com
 0.0.0.0 logupdate.avlyun.sec.miui.com
+0.0.0.0 mads.amazon-adsystem.com
 0.0.0.0 ma.googleads.g.doubleclick.net
 0.0.0.0 mail-ads.google.com
 0.0.0.0 mazu.sec.miui.com
@@ -178,7 +179,9 @@
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 onelink.appsflyer.com
-0.0.0.0 p3a.brave.com
+0.0.0.0 p8ly86-attr.appsflyersdk.com
+0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
+0.0.0.0 p8ly86-launches.appsflyersdk.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead46.l.doubleclick.net
@@ -187,7 +190,6 @@
 0.0.0.0 partnerad.l.doubleclick.net
 0.0.0.0 partnerad.l.google.com
 0.0.0.0 partner.googleadservices.com
-0.0.0.0 p.brave.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.reddit.com
 0.0.0.0 pixel.redditmedia.com
@@ -203,11 +205,12 @@
 0.0.0.0 redirector.gvt1.com
 0.0.0.0 region1.analytics.google.com
 0.0.0.0 register.appsflyer.com
-0.0.0.0 rewards.brave.com
 0.0.0.0 rt.reddit.com
 0.0.0.0 s.adroll.com
+0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 scribe.twitter.com
+0.0.0.0 sdk.ad.smaato.net
 0.0.0.0 sdk.appsflyer.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
@@ -239,7 +242,6 @@
 0.0.0.0 trackonomics.net
 0.0.0.0 trakksocial.googlecode.com
 0.0.0.0 tr.snapchat.com
-0.0.0.0 usage-ping.brave.com
 0.0.0.0 useinsider.com
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 validate.appsflyer.com

@@ -207,19 +207,7 @@ f03f77a1830-dgkcbwjp1760491552-sonar.xy.fbcdn.net
 
 
 #============ Brave Telemetry ============
-laptop-updates.brave.com
 variations.brave.com
-usage-ping.brave.com
-ads.brave.com
-ads-static.brave.com
-rewards.brave.com
-grant.rewards.brave.com
-p.brave.com
-p3a.brave.com
-variations.brave.com
-componentupdater.brave.com
-go-updater.brave.com
-
 
 #============ Microsoft ============
 telemetry.api.swiftkey.com  
@@ -287,6 +275,13 @@ track.appsflyer.com
 validate.appsflyer.com
 wa.appsflyer.com
 websdk.appsflyer.com
+p8ly86-launches.appsflyersdk.com
+p8ly86-attr.appsflyersdk.com
+p8ly86-cdn-settings.appsflyersdk.com
+4ng01p-attr.appsflyersdk.com
+4ng01p-pia.appsflyersdk.com
+4ng01p-conversions.appsflyersdk.com
+
 
 #============ Misc ============
 tdum.alibaba.com
@@ -311,4 +306,10 @@ crashlytics.com
 px.ads.linkedin.com
 s.adroll.com
 adsrvr.org
+c.23bece13537659fe414f68e45cedb2fcc42846e0dcd4f83c2ea9d2d6.com
+api.mixpanel.com
+hbsdk-config.log.smaato.net
+s.amazon-adsystem.com
+sdk.ad.smaato.net
+mads.amazon-adsystem.com
 
