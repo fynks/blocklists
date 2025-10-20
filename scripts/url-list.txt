@@ -192,6 +192,7 @@ f03f77a1830-dgkcbwjp1760491552-sonar.xy.fbcdn.net
 #============ Brave Telemetry ============
 variations.brave.com
 usage-ping.brave.com
+analytics.brave.com
 
 #============ Microsoft ============
 telemetry.api.swiftkey.com  
