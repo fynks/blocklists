@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 708
-# Generated at: 20-10-2025
+# Total unique domains: 714
+# Generated at: 21-10-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -187,6 +187,8 @@
 0.0.0.0 cdna.sec.miui.com
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.carbonads.com
+0.0.0.0 cdn.cookielaw.org
+0.0.0.0 cdn-exp-sg-recommend.pt.xiaomi.com
 0.0.0.0 cdn.exp.xiaomi.com
 0.0.0.0 cdn.fds.api.xiaomi.com
 0.0.0.0 cdn.fds-ssl.api.xiaomi.com
@@ -205,6 +207,7 @@
 0.0.0.0 collector.githubapp.com
 0.0.0.0 collector.github.com
 0.0.0.0 comc4l7.pandora.xiaomi.com
+0.0.0.0 conf.config-security.com
 0.0.0.0 config.kuyun.com
 0.0.0.0 console.admin.xmpush.xiaomi.com
 0.0.0.0 content-analyticsadmin.googleapis.com
@@ -288,6 +291,7 @@
 0.0.0.0 fr-register.xmpush.global.xiaomi.com
 0.0.0.0 fr.register.xmpush.global.xiaomi.com
 0.0.0.0 fr.resolver.msg.global.xiaomi.net
+0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 fvalid.appsflyer.com
 0.0.0.0 gallery.cdn.pandora.xiaomi.com
 0.0.0.0 game.ad.xiaomi.com
@@ -454,6 +458,7 @@
 0.0.0.0 odml.ad.intl.xiaomi.com
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
+0.0.0.0 omnisnippet1.com
 0.0.0.0 om.tracking.miui.com
 0.0.0.0 onelink.appsflyer.com
 0.0.0.0 openapi.vip.ptqy.gitv.tv
@@ -469,6 +474,7 @@
 0.0.0.0 ottl7-l2.pandora.xiaomi.com
 0.0.0.0 p8ly86-attr.appsflyersdk.com
 0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
+0.0.0.0 p8ly86-conversions.appsflyersdk.com
 0.0.0.0 p8ly86-launches.appsflyersdk.com
 0.0.0.0 package.box.xiaomi.com
 0.0.0.0 package.cdn.pandora.xiaomi.com
