@@ -16,6 +16,22 @@ or
 https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/personal_blocklist_hosts.txt
 ```
 
+---
+
+### Reddit declutter
+
+```
+https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/reddit.txt
+```
+or
+
+```
+https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/reddit.txt
+```
+
+
+---
+
 ### Common Blocklist
 
 #### Xiaomi | Hagezi
