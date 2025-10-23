@@ -224,20 +224,30 @@ o1158394.ingest.us.sentry.io
 conversions.appsflyer.com  
 impression.appsflyer.com  
 appsflyersdk.com
-4ng01p-launches.appsflyersdk.com
 statsgoogle.appsflyer.com
 t.appsflyer.com
 events.appsflyer.com
 launches.appsflyer.com
 register.appsflyer.com
 stats.appsflyer.com
-4ng01p-inapps.appsflyersdk.com
-7o3c9y.inapps.appsflyersdk.com
-7o3c9y.attr.appsflyersdk.com
-7o3c9y.conversions.appsflyersdk.com
-7o3c9y.launches.appsflyersdk.com
+4ng01p-attr.appsflyersdk.com
 4ng01p-cdn-settings.appsflyersdk.com
+4ng01p-conversions.appsflyersdk.com
+4ng01p-inapps.appsflyersdk.com
+4ng01p-launches.appsflyersdk.com
+4ng01p-pia.appsflyersdk.com
+7o3c9y.attr.appsflyersdk.com
 7o3c9y.cdn-settings.appsflyersdk.com
+7o3c9y.conversions.appsflyersdk.com
+7o3c9y.dlsdk.appsflyersdk.com
+7o3c9y.inapps.appsflyersdk.com
+7o3c9y.launches.appsflyersdk.com
+p8ly86-attr.appsflyersdk.com
+p8ly86-cdn-settings.appsflyersdk.com
+p8ly86-conversions.appsflyersdk.com
+p8ly86-inapps.appsflyersdk.com
+p8ly86-launches.appsflyersdk.com
+p8ly86-register.appsflyersdk.com
 dynamic-report-api.appsflyersdk.com
 privacy-sandbox.appsflyersdk.com
 gcdsdk.appsflyersdk.com
@@ -262,13 +272,7 @@ track.appsflyer.com
 validate.appsflyer.com
 wa.appsflyer.com
 websdk.appsflyer.com
-p8ly86-launches.appsflyersdk.com
-p8ly86-attr.appsflyersdk.com
-p8ly86-cdn-settings.appsflyersdk.com
-4ng01p-attr.appsflyersdk.com
-4ng01p-pia.appsflyersdk.com
-4ng01p-conversions.appsflyersdk.com
-p8ly86-conversions.appsflyersdk.com
+
 
 
 #============ Misc ============
@@ -307,4 +311,5 @@ api3.siftscience.com
 cdn.cookielaw.org
 omnisnippet1.com
 conf.config-security.com
+www.statcounter.com
 

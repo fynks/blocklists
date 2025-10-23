@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 714
-# Generated at: 21-10-2025
+# Total unique domains: 718
+# Generated at: 23-10-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -16,6 +16,7 @@
 0.0.0.0 7o3c9y.attr.appsflyersdk.com
 0.0.0.0 7o3c9y.cdn-settings.appsflyersdk.com
 0.0.0.0 7o3c9y.conversions.appsflyersdk.com
+0.0.0.0 7o3c9y.dlsdk.appsflyersdk.com
 0.0.0.0 7o3c9y.inapps.appsflyersdk.com
 0.0.0.0 7o3c9y.launches.appsflyersdk.com
 0.0.0.0 a0.app.xiaomi.com
@@ -475,7 +476,9 @@
 0.0.0.0 p8ly86-attr.appsflyersdk.com
 0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
 0.0.0.0 p8ly86-conversions.appsflyersdk.com
+0.0.0.0 p8ly86-inapps.appsflyersdk.com
 0.0.0.0 p8ly86-launches.appsflyersdk.com
+0.0.0.0 p8ly86-register.appsflyersdk.com
 0.0.0.0 package.box.xiaomi.com
 0.0.0.0 package.cdn.pandora.xiaomi.com
 0.0.0.0 pagead2.googleadservices.com
@@ -713,6 +716,7 @@
 0.0.0.0 www.googletagservices.com
 0.0.0.0 www.kuyun.com
 0.0.0.0 www.miui.net
+0.0.0.0 www.statcounter.com
 0.0.0.0 www.traffic-media.co
 0.0.0.0 xadx.file.market.xiaomi.com
 0.0.0.0 xgapromomanager-pa.googleapis.com
