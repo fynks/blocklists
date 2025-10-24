@@ -15,6 +15,9 @@ www.reddit.com##faceplate-expandable-section-helper:has([aria-controls="RESOURCE
 ! Hide Games
 www.reddit.com##[noun="games_drawer"], [noun="games_drawer"]+hr
 
+! Answers
+www.reddit.com##faceplate-tracker[noun="gen_guides_sidebar"]
+
 ! Misc
 www.reddit.com##alert-controller
 www.reddit.com##.legal-links
