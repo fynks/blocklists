@@ -12,8 +12,8 @@ crashlyticsreports-pa.googleapis.com
 firebaselogging.googleapis.com
 firebase-settings.crashlytics.com  
 userlocation.googleapis.com
-id.google.com  
-id.google.com.pk  
+id.google.com
+id.google.com.pk
 google-analytics.com  
 www.google-analytics.com  
 googleads.g.doubleclick.net  
@@ -142,8 +142,6 @@ pixel.reddit.com
 pixel.redditmedia.com
 rt.reddit.com
 
-
-
 #============ Twitter / X ============
 ads-api.twitter.com  
 ads-api.x.com  
@@ -230,24 +228,6 @@ events.appsflyer.com
 launches.appsflyer.com
 register.appsflyer.com
 stats.appsflyer.com
-4ng01p-attr.appsflyersdk.com
-4ng01p-cdn-settings.appsflyersdk.com
-4ng01p-conversions.appsflyersdk.com
-4ng01p-inapps.appsflyersdk.com
-4ng01p-launches.appsflyersdk.com
-4ng01p-pia.appsflyersdk.com
-7o3c9y.attr.appsflyersdk.com
-7o3c9y.cdn-settings.appsflyersdk.com
-7o3c9y.conversions.appsflyersdk.com
-7o3c9y.dlsdk.appsflyersdk.com
-7o3c9y.inapps.appsflyersdk.com
-7o3c9y.launches.appsflyersdk.com
-p8ly86-attr.appsflyersdk.com
-p8ly86-cdn-settings.appsflyersdk.com
-p8ly86-conversions.appsflyersdk.com
-p8ly86-inapps.appsflyersdk.com
-p8ly86-launches.appsflyersdk.com
-p8ly86-register.appsflyersdk.com
 dynamic-report-api.appsflyersdk.com
 privacy-sandbox.appsflyersdk.com
 gcdsdk.appsflyersdk.com
