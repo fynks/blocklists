@@ -4,7 +4,7 @@
 # Usage: ./list-to-hosts.sh
 #
 # This script reads domains from url-list.txt and generates a hosts format
-# blocklist similar to personal_blocklist_hosts.txt
+# blocklist to personal.txt
 
 set -euo pipefail  # Exit on error, undefined variables, and pipe failures
 IFS=$'\n\t'        # Set safer Internal Field Separator
@@ -18,7 +18,7 @@ readonly NC='\033[0m' # No Color
 # Script directory and file paths
 readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly INPUT_FILE="${SCRIPT_DIR}/url-list.txt"
-readonly OUTPUT_FILE="${SCRIPT_DIR}/../blocklists/personal_blocklist_hosts.txt"
+readonly OUTPUT_FILE="${SCRIPT_DIR}/../blocklists/personal.txt"
 readonly EXTERNAL_LIST_URL="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt"
 readonly TEMP_FILE="$(mktemp)"
 readonly TEMP_EXTERNAL="$(mktemp)"

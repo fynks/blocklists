@@ -7,32 +7,30 @@ A collection of blocklists for various purposes, including ad blocking, malware 
 ### Personal Blocklist
 
 ```
-https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal_blocklist_hosts.txt
+https://raw.githubusercontent.com/fynks/blocklists/main/blocklistspersonal.txt
 ```
 
 or
 
 ```
-https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/personal_blocklist_hosts.txt
+https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklistspersonal.txt
 ```
 
 ---
 
-### Reddit declutter
+### Annoyances Blocklist
 
 ```
-https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/reddit.txt
+https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/annoyances.txt
 ```
 or
 
 ```
-https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/reddit.txt
-```
+https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/annoyances.txt
 
 
 ---
 
-### Common Blocklist
 
 #### Xiaomi | Hagezi
 ```
