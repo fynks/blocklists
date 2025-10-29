@@ -138,6 +138,12 @@ error-tracking.reddit.com
 pixel.reddit.com
 pixel.redditmedia.com
 rt.reddit.com
+click.redditmail.com
+conversions-config.reddit.com
+error-tracking.reddit.com
+pixel-config.reddit.com
+w3-reporting-nel.reddit.com
+
 
 #============ Twitter / X ============
 ads-api.twitter.com  
@@ -161,12 +167,15 @@ intg.snapchat.com
 learn.advertising.snapchat.com
 ads.snapchat.com
 sc-analytics.appspot.com
+rtam-collector.snapchat.com
+server-analytics.snapchat.com
 
 #============ Github ============
 copilot-telemetry.githubusercontent.com
 collector.github.com
 collector.githubapp.com
 collector-cdn.github.com
+analytics.githubassets.com
 
 #============ Spotify ============
 adeventtracker.spotify.com
@@ -254,7 +263,6 @@ websdk.appsflyer.com
 
 #============ Misc ============
 tdum.alibaba.com
-analytics.githubassets.com
 analytics.picsart.com
 qualtrics.com
 useinsider.com

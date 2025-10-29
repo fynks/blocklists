@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 256
-# Generated at: 28-10-2025
+# Total unique domains: 261
+# Generated at: 29-10-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -90,6 +90,7 @@
 0.0.0.0 cdn.cookielaw.org
 0.0.0.0 c.googlesyndication.com
 0.0.0.0 click.googleanalytics.com
+0.0.0.0 click.redditmail.com
 0.0.0.0 clientmetrics-pa.googleapis.com
 0.0.0.0 clienttracing-pa.googleapis.com
 0.0.0.0 clouderrorreporting.googleapis.com
@@ -102,6 +103,7 @@
 0.0.0.0 content-analyticsdata.googleapis.com
 0.0.0.0 conversion.google.com
 0.0.0.0 conversions.appsflyer.com
+0.0.0.0 conversions-config.reddit.com
 0.0.0.0 copilot-telemetry.githubusercontent.com
 0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 crashlytics.com
@@ -185,6 +187,7 @@
 0.0.0.0 partnerad.l.doubleclick.net
 0.0.0.0 partnerad.l.google.com
 0.0.0.0 partner.googleadservices.com
+0.0.0.0 pixel-config.reddit.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pixel.reddit.com
 0.0.0.0 pixel.redditmedia.com
@@ -200,6 +203,7 @@
 0.0.0.0 redirector.gvt1.com
 0.0.0.0 region1.analytics.google.com
 0.0.0.0 register.appsflyer.com
+0.0.0.0 rtam-collector.snapchat.com
 0.0.0.0 rt.reddit.com
 0.0.0.0 s.adroll.com
 0.0.0.0 s.amazon-adsystem.com
@@ -214,6 +218,7 @@
 0.0.0.0 searchlabspartnerservice-pa.googleapis.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sentry.io
+0.0.0.0 server-analytics.snapchat.com
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 ssl-google-analytics.l.google.com
