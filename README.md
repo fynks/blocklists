@@ -23,16 +23,18 @@ https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/personal.txt
 ```
 https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/annoyances.txt
 ```
+
 or
 
 ```
 https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/annoyances.txt
-
+```
 
 ---
 
 
-#### Xiaomi | Hagezi
+### Xiaomi | Hagezi
+
 ```
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.xiaomi.txt
 ```
