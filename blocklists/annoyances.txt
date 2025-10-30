@@ -1,6 +1,6 @@
 ! Title: Remove Annoyances
 ! Description: A minimal, opinionated filter list to declutter websites
-! Last updated: 2025-10-29
+! Last updated: 2025-10-30
 
 !
 ! ——— REDDIT —————————————————————————————————————————————————————————————
@@ -35,3 +35,22 @@ www.reddit.com##.legal-links
 ! — Right sidebar & changelog (dashboard)
 github.com##.dashboard-changelog
 github.com##.feed-right-column
+
+
+!
+! ——— Twitter/X ——————————————————————————————————————————————————————————————
+!
+! - Get verified
+twitter.com,x.com##[aria-label="Get Verified"]    
+! - Live spaces
+twitter.com,x.com##[data-testid="sidebarColumn"] [data-testid="placementTracking"]:last-child:upward(1) 
+! - Sidebar - Topics to follow
+twitter.com,x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+! - Sidebar - What's happening/Trending now/Trends for you
+twitter.com,x.com##[aria-label$="trending now" i]
+! - Sidebar - Who to follow/You might like
+twitter.com,x.com##[aria-label="who to follow" i]:upward(1)
+! - App Suggestion
+twitter.com,x.com###layers>div:last-of-type:has-text(Switch to the app)
+! - Grok
+twitter.com,x.com##[href="https://grok.com/"]
