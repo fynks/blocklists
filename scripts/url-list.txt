@@ -121,14 +121,18 @@ api.miui.security.xiaomi.com
 globalapi.ad.xiaomi.com
 abtest.mistat.xiaomi.com
 o2o.api.xiaomi.com
+tz.sec.xiaomi.com
+tracking.intl.miui.com
+api.aurogon.intl.miui.com
+api.brs.intl.miui.com
+find.api.micloud.xiaomi.net
+findapi.micloud.xiaomi.net
+
+
 
 #============ Reddit ============
 w3-reporting.reddit.com  
 w3-reporting-nel.reddit.com
-api2.branch.io  
-cdn.branch.io  
-api.branch.io
-api3.branch.io
 d.reddit.com
 alb.reddit.com
 events.reddit.com
@@ -140,9 +144,13 @@ pixel.redditmedia.com
 rt.reddit.com
 click.redditmail.com
 conversions-config.reddit.com
-error-tracking.reddit.com
 pixel-config.reddit.com
-w3-reporting-nel.reddit.com
+
+#============ Branch ============
+api.branch.io
+api2.branch.io
+api3.branch.io
+cdn.branch.io
 
 
 #============ Twitter / X ============
@@ -194,21 +202,27 @@ graph.instagram.com
 graph-fallback.instagram.com
 pixel.facebook.com
 an.facebook.com
-f03f77a1830-dgkcbwjp1760491552-sonar.xy.fbcdn.net
-
 
 #============ Brave Telemetry ============
 variations.brave.com
 usage-ping.brave.com
 analytics.brave.com
+unstoppabledomains.com
+buy.unstoppabledomains.com
+api.unstoppabledomains.com
+
 
 #============ Microsoft ============
 telemetry.api.swiftkey.com  
+bat.bing.com
+web.vortex.data.microsoft.com
+target.microsoft.com
 
 #============ Amazon ============
 s.amazon-adsystem.com
 mads.amazon-adsystem.com
 c.amazon-adsystem.com
+chatbot-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev
 
 
 #============  Bugsnag ============
@@ -223,6 +237,8 @@ app.getsentry.com
 sentry.io
 o33249.ingest.sentry.io
 o1158394.ingest.us.sentry.io
+o352714.ingest.sentry.io
+o418887.ingest.sentry.io
 
 #============ AppsFlyer ============
 conversions.appsflyer.com  
@@ -258,43 +274,128 @@ track.appsflyer.com
 validate.appsflyer.com
 wa.appsflyer.com
 websdk.appsflyer.com
+4ng01p-attr.appsflyersdk.com
+4ng01p-cdn-settings.appsflyersdk.com
+4ng01p-conversions.appsflyersdk.com
+4ng01p-inapps.appsflyersdk.com
+4ng01p-launches.appsflyersdk.com
+4ng01p-pia.appsflyersdk.com
+7o3c9y.attr.appsflyersdk.com
+7o3c9y.cdn-settings.appsflyersdk.com
+7o3c9y.conversions.appsflyersdk.com
+7o3c9y.dlsdk.appsflyersdk.com
+7o3c9y.inapps.appsflyersdk.com
+7o3c9y.launches.appsflyersdk.com
+p8ly86-attr.appsflyersdk.com
+p8ly86-cdn-settings.appsflyersdk.com
+p8ly86-conversions.appsflyersdk.com
+p8ly86-inapps.appsflyersdk.com
+p8ly86-launches.appsflyersdk.com
+p8ly86-register.appsflyersdk.com
 
 
+#============ TikTok ============
+mcs-sg.tiktokv.com
+gator.volces.com
 
-#============ Misc ============
+#============ LinkedIn ============
+px.ads.linkedin.com
+
+#============ Alibaba / AliExpress / Taobao ============
 tdum.alibaba.com
+fourier.alibaba.com
+fourier.taobao.com
+umlazada.alibaba.com
+mum.alibabachengdun.com
+xjp-msgacs.m.taobao.com
+xjp-jmacs.m.taobao.com
+
+#============ Lazada / Daraz ============
+adashx.ut.daraz.com
+h-adashx.ut.daraz.com
+jmacs-m.lazada.sg
+msgacs-m.lazada.sg
+
+#============ Cloudflare ============
+static.cloudflareinsights.com
+
+#============ Datadog ============
+browser-intake-datadoghq.com
+datadog.pool.ntp.org
+1.datadog.pool.ntp.org
+2.datadog.pool.ntp.org
+3.datadog.pool.ntp.org
+
+#============ OnlineMetrix / LexisNexis ============
+aa.online-metrix.net
+eu-aa.online-metrix.net
+h.online-metrix.net
+h64.online-metrix.net
+4egr6tu45c3liqkgnfli5mwjdvdkgk6e5zvr2lfy61834295e0fc94ceam1.e.aa.online-metrix.net
+4egr6tu4dhsjus23evggpke6rfrcj5nnsxam6qys681f6c475b5bebbfam1.e.aa.online-metrix.net
+4egr6tu4dv3xeynxkfscy6qb47cyyfuluj2ovxsmabe4c1c134dd76cdam1.e.aa.online-metrix.net
+4egr6tu4gmem5co6zjyfq3xfd65sepyzadqna7uv34600397763cc7b4am1.e.aa.online-metrix.net
+
+#============ Hostinger ============
+frontend-event-api.hostinger.com
+ping.asc.hstgr.cloud
+ping.bnk.hstgr.cloud
+ping.bos.hstgr.cloud
+ping.dci.hstgr.cloud
+ping.fast.hstgr.cloud
+ping.fra.hstgr.cloud
+ping.int.hstgr.cloud
+ping.kul.hstgr.cloud
+ping.mum.hstgr.cloud
+ping.nme.hstgr.cloud
+ping.phx.hstgr.cloud
+ping.srv.hstgr.cloud
+
+#============ Anthropic ============
+statsig.anthropic.com
+
+#============ Strava ============
+c.strava.com
+
+#============ WordPress ============
+stats.wp.com
+geo.wpforms.com
+
+
+#============ Misc Other ============
 analytics.picsart.com
 qualtrics.com
 useinsider.com
-cdn.carbonads.com
 trackonomics.net
 dap.digitalgov.gov
-datadog.pool.ntp.org
-advertiserurl.com  
+www.statcounter.com
+dz.mmstat.com
+ntp.ynuf.aliapp.org
 app-measurement.com
-api.config-security.com
-browser-intake-datadoghq.com
-statsig.anthropic.com
-api.honeycomb.io
-alogsus.umeng.com
-static.cloudflareinsights.com
-doubledouble.top
 crashlytics.com
-px.ads.linkedin.com
+cdn.cookielaw.org
+frequentrequirement.com
+ipify4.pling.com
+ipify6.pling.com
+api.mixpanel.com
+decide.mixpanel.com
+api.segment.io
+app.adjust.com
+app.adjust.io
+sdk-api-v1.singular.net
+api.onesignal.com
+invitejs.trustpilot.com
+cdn.carbonads.com
+advertiserurl.com
 s.adroll.com
 adsrvr.org
-c.23bece13537659fe414f68e45cedb2fcc42846e0dcd4f83c2ea9d2d6.com
-api.mixpanel.com
-hbsdk-config.log.smaato.net
-sdk.ad.smaato.net
-ad.mail.ru
-c.appbaqend.com
-nxj0g7.fscdn.eppo.cloud
-sdk-api-v1.singular.net
-api.segment.io
-api3.siftscience.com
-cdn.cookielaw.org
-omnisnippet1.com
-conf.config-security.com
-www.statcounter.com
+ads-api.ft.com
+doubledouble.top
+prebid.jazzdsp.com
+match.targetrtb.com
+nr.bidderstack.com
+id.rlcdn.com
+go.ezodn.com
+
+
 
