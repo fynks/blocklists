@@ -85,6 +85,83 @@ ssl-google-analytics.l.google.com
 analytics.google.com
 fundingchoicesmessages.google.com
 
+adservice.google.co.in
+marketingplatform.google.com
+smartlock.google.com
+bot2.googlerenewals.net
+linux2.googlerenewals.net
+www.googletagmanager.com
+ssl.googleanalytics.com
+click.googleanalytics.com
+alt2.googleanalytics.com
+alt4.googleanalytics.com
+sandbox.googleanalytics.com
+8a97175fd63e1d3a69f36979b9b34470.safeframe.googlesyndication.com
+fundingchoicesmessages.google.com
+b2b6d102cb7a4898bc54a3b73e31b759.safeframe.googlesyndication.com
+80d4b6e40cc712bf92fcdbabdd4345fd.safeframe.googlesyndication.com
+facf31c1c8559131d653f3c5ad4ecc78.safeframe.googlesyndication.com
+c23811bc8d067cdb4f00f6af2c918f3d.safeframe.googlesyndication.com
+region1.google-analytics.com
+firebaselogging-pa.googleapis.com
+afs.googlesyndication.com
+googleads.g.doubleclick.net
+googleads4.g.doubleclick.net
+google-analytics.com
+ssl.google-analytics.com
+www.google-analytics.com
+ads.google.com
+adservice.google.com
+s0-2mdn-net.l.google.com
+googleadservices.com
+pagead2.googleadservices.com
+www.googleadservices.com
+static.googleadsserving.cn
+googlesyndication.com
+ade.googlesyndication.com
+pagead.googlesyndication.com
+pagead2.googlesyndication.com
+tpc.googlesyndication.com
+displayads-formats.googleusercontent.com
+google-docs.org
+www-google.nl
+www.google-docs.org
+www.googlew.com
+www.www-google.nl
+www.wwwgoogles.com
+wwwgoogles.com
+13453765871837679316.googlegroups.com
+akademiagoogleads.com
+google-ticket.com
+pagead-googlehosted.l.google.com
+video-ad-stats.googlesyndication.com
+analytics-api-samples.googlecode.com
+googleads2.g.doubleclick.net
+www.doubleclickbygoogle.com
+video-stats.video.google.com
+4.afs.googleadservices.com
+partner.googleadservices.com
+www.googletagservices.com
+firebaselogging.googleapis.com
+googletagservices.com
+affiliate.googleusercontent.com
+buttons.googlesyndication.com
+drm-google-analtyic.com
+googledrive-en.com
+static-google-analtyic.com
+ssl-google-analytics.l.google.com
+googletagamnager.com
+analytics.google.com
+clientmetrics-pa.googleapis.com
+crashlyticsreports-pa.googleapis.com
+googleanalytics.com
+googletagmanager.com
+mail-ads.google.com
+ogads-pa.googleapis.com
+pagead.l.google.com
+partnerad.l.google.com
+wintricksbanner.googlepages.com
+www-google-analytics.l.google.com
 
 #============ Xiaomi ============
 mcc-intl.inf.miui.com  
@@ -128,6 +205,52 @@ api.brs.intl.miui.com
 find.api.micloud.xiaomi.net
 findapi.micloud.xiaomi.net
 
+api.ad.xiaomi.com
+cdn.ad.xiaomi.com
+e.ad.xiaomi.com
+test.e.ad.xiaomi.com
+globalapi.ad.xiaomi.com
+sdkconfig.ad.xiaomi.com
+test.ad.xiaomi.com
+zeus.ad.xiaomi.com
+sgp.o2o.api.xiaomi.com
+api.d.xiaomi.com
+api.ad.intl.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+data.mistat.intl.xiaomi.com
+storeconfig.mistat.intl.xiaomi.com
+cc.sys.intl.xiaomi.com
+ccc.sys.intl.xiaomi.com
+abtest.mistat.xiaomi.com
+data.mistat.xiaomi.com
+a.stat.xiaomi.com
+log.ad.xiaomi.com
+track.ad.xiaomi.com
+sdkconfig.ad.india.xiaomi.com
+diagnosis.ad.intl.xiaomi.com
+zeus.ad.intl.xiaomi.com
+ad.intl.xiaomi.com
+ad.xiaomi.com
+stat.xiaomi.com
+sa.api.intl.miui.com
+api.brs.intl.miui.com
+api.collect.data.intl.miui.com
+adv.sec.intl.miui.com
+api.sec.intl.miui.com
+authbe.sec.intl.miui.com
+data.sec.intl.miui.com
+flash.sec.intl.miui.com
+api.setting.intl.miui.com
+tracking.intl.miui.com
+cc.sys.miui.com
+ccc.sys.miui.com
+geofence.sys.miui.com
+fcanr.tracking.miui.com
+tracking.india.miui.com
+tracking.rus.miui.com
+logupdate.avlyun.sec.miui.com
+tracking.miui.com
+
 
 
 #============ Reddit ============
@@ -146,6 +269,12 @@ click.redditmail.com
 conversions-config.reddit.com
 pixel-config.reddit.com
 
+ads.reddit.com
+click.redditmail.com
+events.redditmedia.com
+rereddit.com
+www.rereddit.com
+
 #============ Branch ============
 api.branch.io
 api2.branch.io
@@ -163,6 +292,14 @@ static.ads-twitter.com
 email.visitor.twitter.com
 ads-bidder-api.twitter.com
 p.ttwitter.com
+scribe.twitter.com
+
+ads-api.twitter.com
+ads-twitter.com
+static.ads-twitter.com
+ads.twitter.com
+ads-bidder-api.twitter.com
+analytics.twitter.com
 scribe.twitter.com
 
 #============ Snapchat ============
@@ -298,8 +435,17 @@ p8ly86-register.appsflyersdk.com
 mcs-sg.tiktokv.com
 gator.volces.com
 
+log-va.tiktokv.com
+mon.tiktokv.com
+mon-va.tiktokv.com
+mcs-va.tiktokv.com
+
 #============ LinkedIn ============
+ads.linkedin.com
 px.ads.linkedin.com
+dc.ads.linkedin.com
+us-east-1.dc.ads.linkedin.com
+analytics.pointdrive.linkedin.com
 
 #============ Alibaba / AliExpress / Taobao ============
 tdum.alibaba.com
@@ -309,6 +455,18 @@ umlazada.alibaba.com
 mum.alibabachengdun.com
 xjp-msgacs.m.taobao.com
 xjp-jmacs.m.taobao.com
+
+abtest.alibaba.com
+hydra.alibaba.com
+stat.alibaba.com
+cmweb.ilike.alibaba.com
+img.alibaba.com
+offer.alibaba.com
+p4psearch.china.alibaba.com
+survey.china.alibaba.com
+dmtracking.alibaba.com
+dmtracking2.alibaba.com
+
 
 #============ Lazada / Daraz ============
 adashx.ut.daraz.com
@@ -331,6 +489,9 @@ aa.online-metrix.net
 eu-aa.online-metrix.net
 h.online-metrix.net
 h64.online-metrix.net
+h-sdk.online-metrix.net
+aa.online-metrix.net
+h.online-metrix.net
 4egr6tu45c3liqkgnfli5mwjdvdkgk6e5zvr2lfy61834295e0fc94ceam1.e.aa.online-metrix.net
 4egr6tu4dhsjus23evggpke6rfrcj5nnsxam6qys681f6c475b5bebbfam1.e.aa.online-metrix.net
 4egr6tu4dv3xeynxkfscy6qb47cyyfuluj2ovxsmabe4c1c134dd76cdam1.e.aa.online-metrix.net
@@ -356,6 +517,9 @@ statsig.anthropic.com
 
 #============ Strava ============
 c.strava.com
+analytics.strava.com
+tracing-collector.strava.com
+maisonstravaux.fr
 
 #============ WordPress ============
 stats.wp.com
