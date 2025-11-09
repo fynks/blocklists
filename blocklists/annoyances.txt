@@ -23,10 +23,14 @@ www.reddit.com##[noun="games_drawer"], [noun="games_drawer"]+hr
 ! - Answers
 www.reddit.com##faceplate-tracker[noun="gen_guides_sidebar"]
 
+! - Clean Menu
+www.reddit.com##faceplate-tracker.contents > :has-text(Earn)
+www.reddit.com##faceplate-tracker.contents > :has-text(Premium)
+www.reddit.com##faceplate-tracker.contents > :has-text(Reddit Pro)
+
 ! - Misc
 www.reddit.com##alert-controller
 www.reddit.com##.legal-links
-
 
 !
 ! ——— GITHUB ——————————————————————————————————————————————————————————————
