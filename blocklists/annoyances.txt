@@ -56,5 +56,4 @@ twitter.com,x.com##[aria-label$="trending now" i]
 twitter.com,x.com##[aria-label="who to follow" i]:upward(1)
 ! - App Suggestion
 twitter.com,x.com###layers>div:last-of-type:has-text(Switch to the app)
-! - Grok
-twitter.com,x.com##[href="https://grok.com/"]
+
