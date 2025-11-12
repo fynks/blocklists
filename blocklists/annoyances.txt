@@ -1,0 +1,77 @@
+! Title: Remove Annoyances
+! Description: A minimal, opinionated filter list to declutter websites
+! Last updated: 2025-10-30
+
+!
+! ——— REDDIT —————————————————————————————————————————————————————————————
+!
+
+! - Hide advertise button
+www.reddit.com###advertise-button
+
+! - Hide awards button
+www.reddit.com,sh.reddit.com##award-button
+
+! - Clean left side-bar
+www.reddit.com##left-nav-top-section
+www.reddit.com##left-nav-top-section+hr
+www.reddit.com##faceplate-expandable-section-helper:has([aria-controls="RESOURCES"])
+
+! - Hide Games
+www.reddit.com##[noun="games_drawer"], [noun="games_drawer"]+hr
+
+! - Answers
+www.reddit.com##faceplate-tracker[noun="gen_guides_sidebar"]
+
+! - Clean Menu
+www.reddit.com##faceplate-tracker.contents > :has-text(Earn)
+www.reddit.com##faceplate-tracker.contents > :has-text(Premium)
+www.reddit.com##faceplate-tracker.contents > :has-text(Reddit Pro)
+
+! - Misc
+www.reddit.com##alert-controller
+www.reddit.com##.legal-links
+
+!
+! ——— GITHUB ——————————————————————————————————————————————————————————————
+!
+
+! — Right sidebar & changelog (dashboard)
+github.com##.dashboard-changelog
+github.com##.feed-right-column
+
+
+!
+! ——— Twitter/X ——————————————————————————————————————————————————————————————
+!
+! - Get verified
+twitter.com,x.com##[aria-label="Get Verified"]    
+! - Live spaces
+twitter.com,x.com##[data-testid="sidebarColumn"] [data-testid="placementTracking"]:last-child:upward(1) 
+
+! - App Suggestion
+twitter.com,x.com###layers>div:last-of-type:has-text(Switch to the app)
+
+! - Premium button and twitter/x icon
+x.com##:has([aria-label="Timeline: Your Home Timeline"]) [data-testid="TopNavBar"] [href$="/premium_sign_up"]:upward(5)>:first-child ~ *
+
+! - Buttom buttons
+x.com##[aria-label="Primary"] [href="/i/grok"]
+! - side buttons
+x.com##[role="dialog"] :is([href="/i/premium_sign_up"], [href="/i/verified-orgs-signup"], [href="/i/account_analytics"], [href="/jobs"], [href="/i/monetization"], [href^="https://ads.x.com/"])
+
+! - Post analytics "Promote"
+x.com##[href$="/quick_promote_web/intro"]:upward(3) [data-testid="promotionInfoWrapper"]
+
+! - Grok
+x.com##[data-testid="GrokDrawerHeader"]
+x.com##[aria-label="Grok actions"]
+x.com##[aria-label="Enhance your post with Grok"]
+x.com##[aria-label="Profile Summary"]
+
+! - Settings
+x.com##[role="tablist"] :is([href="/settings/monetization"], [href^="/i/premium_sign_up"])
+
+! - "You aren’t verified yet" in profile 
+x.com##[aria-label="Home timeline"]:not(:has([href$="/header_photo"])) :is([href$="/premium_sign_up"]):upward(4)
+
