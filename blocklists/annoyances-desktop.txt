@@ -1,0 +1,95 @@
+! Title: Remove Annoyances
+! Description: A minimal, opinionated filter list to declutter websites
+! Last updated: 2025-10-30
+
+!
+! ——— REDDIT —————————————————————————————————————————————————————————————
+!
+
+! - Hide advertise button
+www.reddit.com###advertise-button
+
+! - Hide awards button
+www.reddit.com,sh.reddit.com##award-button
+
+! - Clean left side-bar
+www.reddit.com##left-nav-top-section
+www.reddit.com##left-nav-top-section+hr
+www.reddit.com##faceplate-expandable-section-helper:has([aria-controls="RESOURCES"])
+
+! - Hide Games
+www.reddit.com##[noun="games_drawer"], [noun="games_drawer"]+hr
+
+! - Answers
+www.reddit.com##faceplate-tracker[noun="gen_guides_sidebar"]
+
+! - Clean Menu
+www.reddit.com##faceplate-tracker.contents > :has-text(Earn)
+www.reddit.com##faceplate-tracker.contents > :has-text(Premium)
+www.reddit.com##faceplate-tracker.contents > :has-text(Reddit Pro)
+
+! - Misc
+www.reddit.com##alert-controller
+www.reddit.com##.legal-links
+
+!
+! ——— GITHUB ——————————————————————————————————————————————————————————————
+!
+
+! — Right sidebar & changelog (dashboard)
+github.com##.dashboard-changelog
+github.com##.feed-right-column
+
+
+!
+! ——— Twitter/X ——————————————————————————————————————————————————————————————
+!
+
+! Twitter/X - Get verified
+twitter.com,x.com##[aria-label="Get Verified"]    
+! Twitter/X - Live spaces
+twitter.com,x.com##[data-testid="sidebarColumn"] [data-testid="placementTracking"]:last-child:upward(1) 
+
+! everything in the sidebar except search, footer and relevant people
+x.com##[data-testid="sidebarColumn"] :is([aria-label="Footer"]):upward(2) > :not(.r-1h3ijdo, :has([aria-label="Search"]), :has([aria-label="Footer"]), :has([data-testid="searchFiltersAdvancedSearch"]), :has([aria-label="Relevant people"]) ):not(:has-text(Search filters))
+
+! Twitter/X - App Suggestion
+twitter.com,x.com###layers>div:last-of-type:has-text(Switch to the app)
+
+! grok
+x.com##[data-testid="GrokDrawerHeader"]
+x.com##[aria-label="Grok actions"]
+x.com##[aria-label="Enhance your post with Grok"]
+x.com##[aria-label="Profile Summary"]
+! hover card
+x.com##[data-testid="HoverCard"]:not(:has([aria-label="Smileys & people"]), :has([data-testid^="DM_Reaction_UserCell"]), :has([role="dialog"]), :has([href="/logout"])) > * > * > :last-child
+
+
+! home blue notification
+x.com##[aria-label="undefined unread items"]
+
+! side buttons
+x.com##[aria-label="Primary"] :is([href="/i/grok"], [href="/i/premium_sign_up"], [href="/i/verified-orgs-signup"], [href="/i/account_analytics"], [href="/jobs"], [href="/communities"]) 
+
+! twitter/x icon
+x.com##[role="banner"] [aria-label="X"]:upward(2)
+
+! inside more/dropdown
+x.com##[data-testid="Dropdown"]:upward(3) :is([href="/i/monetization"], [href="/jobs"], [href^="https://ads.x.com/"], [data-testid="highlightUpsell"])
+
+! settings
+x.com##[aria-label="Section navigation"] :is([href^="/i/account_analytics?"], [href="/settings/monetization"], [href^="/i/premium_sign_up?"])
+
+! messages drawer
+x.com##[data-testid="DMDrawer"]:upward(3)
+
+! edit profile
+x.com##[aria-labelledby="modal-header"] :is([data-testid="ProfessionalButton_Edit_Professional_Profile"])
+
+! three dots in the account button
+x.com##[data-testid="SideNav_AccountSwitcher_Button"] > * > svg:upward(1)
+
+! "You aren’t verified yet" in profile 
+x.com##[aria-label="Home timeline"]:not(:has([href$="/header_photo"])) :is([href$="/premium_sign_up"]):upward(4)
+! update
+x.com##[aria-label="Home timeline"] [href$="/premium_sign_up"]:upward(4)
