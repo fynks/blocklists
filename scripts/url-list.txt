@@ -288,6 +288,10 @@ bat.bing.com
 web.vortex.data.microsoft.com
 target.microsoft.com
 
+
+#============ Accuweather ============
+raine.accuweather.com
+
 #============ Amazon ============
 s.amazon-adsystem.com
 mads.amazon-adsystem.com
@@ -385,6 +389,7 @@ umlazada.alibaba.com
 mum.alibabachengdun.com
 xjp-msgacs.m.taobao.com
 xjp-jmacs.m.taobao.com
+audid-api-sg.taobao.com
 abtest.alibaba.com
 hydra.alibaba.com
 stat.alibaba.com
@@ -485,3 +490,13 @@ match.targetrtb.com
 nr.bidderstack.com
 id.rlcdn.com
 go.ezodn.com
+sg.mmstat.com
+px-intl.ucweb.com
+sec.umeng.com
+cdn.ynuf.aliapp.org
+ut.qwen.ai
+alogsus.umeng.com
+arms-retcode.aliyuncs.com
+errnewlogos.umeng.com
+cd.connatix.com
+prebid.scope3.com

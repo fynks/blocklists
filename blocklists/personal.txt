@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 434
-# Generated at: 07-11-2025
+# Total unique domains: 446
+# Generated at: 12-11-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -65,6 +65,7 @@
 0.0.0.0 afs.googlesyndication.com
 0.0.0.0 akademiagoogleads.com
 0.0.0.0 alb.reddit.com
+0.0.0.0 alogsus.umeng.com
 0.0.0.0 alt2.googleanalytics.com
 0.0.0.0 alt4.googleanalytics.com
 0.0.0.0 analytics-api-samples.googlecode.com
@@ -112,8 +113,10 @@
 0.0.0.0 app-measurement.com
 0.0.0.0 appsflyer-report.honkaiimpact3.com
 0.0.0.0 appsflyersdk.com
+0.0.0.0 arms-retcode.aliyuncs.com
 0.0.0.0 a.stat.xiaomi.com
 0.0.0.0 attr.appsflyer.com
+0.0.0.0 audid-api-sg.taobao.com
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 auth.be.sec.miui.com
 0.0.0.0 b2b6d102cb7a4898bc54a3b73e31b759.safeframe.googlesyndication.com
@@ -138,11 +141,13 @@
 0.0.0.0 ccc.sys.miui.com
 0.0.0.0 cc.sys.intl.xiaomi.com
 0.0.0.0 cc.sys.miui.com
+0.0.0.0 cd.connatix.com
 0.0.0.0 cdn.ad.xiaomi.com
 0.0.0.0 cdnappicons.appsflyer.com
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.carbonads.com
 0.0.0.0 cdn.cookielaw.org
+0.0.0.0 cdn.ynuf.aliapp.org
 0.0.0.0 c.googlesyndication.com
 0.0.0.0 chatbot-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev
 0.0.0.0 click.googleanalytics.com
@@ -190,6 +195,7 @@
 0.0.0.0 dz.mmstat.com
 0.0.0.0 e.ad.xiaomi.com
 0.0.0.0 email.visitor.twitter.com
+0.0.0.0 errnewlogos.umeng.com
 0.0.0.0 error-tracking.reddit.com
 0.0.0.0 eu-aa.online-metrix.net
 0.0.0.0 events.appsflyer.com
@@ -327,12 +333,15 @@
 0.0.0.0 pixel.spotify.com
 0.0.0.0 pixels.spotify.com
 0.0.0.0 prebid.jazzdsp.com
+0.0.0.0 prebid.scope3.com
 0.0.0.0 privacy-sandbox.appsflyersdk.com
 0.0.0.0 privatestats.whatsapp.net
 0.0.0.0 p.ttwitter.com
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 px.ads.linkedin.com
+0.0.0.0 px-intl.ucweb.com
 0.0.0.0 qualtrics.com
+0.0.0.0 raine.accuweather.com
 0.0.0.0 r.browser.miui.com
 0.0.0.0 redirector.gvt1.com
 0.0.0.0 region1.analytics.google.com
@@ -355,10 +364,12 @@
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdk-services.appsflyer.com
 0.0.0.0 searchlabspartnerservice-pa.googleapis.com
+0.0.0.0 sec.umeng.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sentry.io
 0.0.0.0 server-analytics.snapchat.com
 0.0.0.0 sessions.bugsnag.com
+0.0.0.0 sg.mmstat.com
 0.0.0.0 sgp.o2o.api.xiaomi.com
 0.0.0.0 smartlock.google.com
 0.0.0.0 ssl.google-analytics.com
@@ -405,6 +416,7 @@
 0.0.0.0 us-east-1.dc.ads.linkedin.com
 0.0.0.0 useinsider.com
 0.0.0.0 userlocation.googleapis.com
+0.0.0.0 ut.qwen.ai
 0.0.0.0 validate.appsflyer.com
 0.0.0.0 variations.brave.com
 0.0.0.0 video-ad-stats.googlesyndication.com
