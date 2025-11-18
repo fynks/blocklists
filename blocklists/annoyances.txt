@@ -28,6 +28,10 @@ www.reddit.com##faceplate-tracker.contents > :has-text(Earn)
 www.reddit.com##faceplate-tracker.contents > :has-text(Premium)
 www.reddit.com##faceplate-tracker.contents > :has-text(Reddit Pro)
 
+! - Recents
+www.reddit.com##reddit-recent-pages
+www.reddit.com##recent-posts
+
 ! - Misc
 www.reddit.com##alert-controller
 www.reddit.com##.legal-links

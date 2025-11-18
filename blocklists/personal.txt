@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 446
-# Generated at: 12-11-2025
+# Total unique domains: 427
+# Generated at: 18-11-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -41,7 +41,6 @@
 0.0.0.0 ad-g.doubleclick.net
 0.0.0.0 ad.intl.xiaomi.com
 0.0.0.0 adrevenue.appsflyer.com
-0.0.0.0 ads-api.ft.com
 0.0.0.0 adsapi.snapchat.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.x.com
@@ -52,7 +51,6 @@
 0.0.0.0 ads.google.com
 0.0.0.0 ads.linkedin.com
 0.0.0.0 ads.reddit.com
-0.0.0.0 adsrvr.org
 0.0.0.0 ads.snapchat.com
 0.0.0.0 ads-twitter.com
 0.0.0.0 ads.twitter.com
@@ -69,7 +67,6 @@
 0.0.0.0 alt2.googleanalytics.com
 0.0.0.0 alt4.googleanalytics.com
 0.0.0.0 analytics-api-samples.googlecode.com
-0.0.0.0 analytics.brave.com
 0.0.0.0 analytics.githubassets.com
 0.0.0.0 analytics.google.com
 0.0.0.0 analytics.picsart.com
@@ -102,9 +99,6 @@
 0.0.0.0 api.sec.miui.com
 0.0.0.0 api.segment.io
 0.0.0.0 api.setting.intl.miui.com
-0.0.0.0 api.unstoppabledomains.com
-0.0.0.0 app.adjust.com
-0.0.0.0 app.adjust.io
 0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app.appsflyer.com
@@ -134,7 +128,6 @@
 0.0.0.0 browser-intake-datadoghq.com
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 buttons.googlesyndication.com
-0.0.0.0 buy.unstoppabledomains.com
 0.0.0.0 c23811bc8d067cdb4f00f6af2c918f3d.safeframe.googlesyndication.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 ccc.sys.intl.xiaomi.com
@@ -214,7 +207,6 @@
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fourier.alibaba.com
 0.0.0.0 fourier.taobao.com
-0.0.0.0 frequentrequirement.com
 0.0.0.0 frontend-event-api.hostinger.com
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 fvalid.appsflyer.com
@@ -224,7 +216,6 @@
 0.0.0.0 geofence.sys.miui.com
 0.0.0.0 geo.wpforms.com
 0.0.0.0 globalapi.ad.xiaomi.com
-0.0.0.0 go.ezodn.com
 0.0.0.0 googleadapis.l.google.com
 0.0.0.0 googleads2.g.doubleclick.net
 0.0.0.0 googleads4.g.doubleclick.net
@@ -248,15 +239,12 @@
 0.0.0.0 hydra.alibaba.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.com.pk
-0.0.0.0 id.rlcdn.com
 0.0.0.0 img.alibaba.com
 0.0.0.0 impression.appsflyer.com
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 intg.snapchat.com
 0.0.0.0 invitejs.trustpilot.com
-0.0.0.0 ipify4.pling.com
-0.0.0.0 ipify6.pling.com
 0.0.0.0 jmacs-m.lazada.sg
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 learn.advertising.snapchat.com
@@ -271,7 +259,6 @@
 0.0.0.0 mail-ads.google.com
 0.0.0.0 maisonstravaux.fr
 0.0.0.0 marketingplatform.google.com
-0.0.0.0 match.targetrtb.com
 0.0.0.0 mazu.sec.miui.com
 0.0.0.0 mcc-intl.inf.miui.com
 0.0.0.0 mcs-sg.tiktokv.com
@@ -286,7 +273,6 @@
 0.0.0.0 mum.alibabachengdun.com
 0.0.0.0 notifications-ueeshp-pa.googleapis.com
 0.0.0.0 notify.bugsnag.com
-0.0.0.0 nr.bidderstack.com
 0.0.0.0 ntp.ynuf.aliapp.org
 0.0.0.0 o1158394.ingest.us.sentry.io
 0.0.0.0 o2o.api.xiaomi.com
@@ -352,7 +338,6 @@
 0.0.0.0 rt.reddit.com
 0.0.0.0 s0-2mdn-net.l.google.com
 0.0.0.0 sa.api.intl.miui.com
-0.0.0.0 s.adroll.com
 0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 sandbox.googleanalytics.com
 0.0.0.0 sc-analytics.appspot.com
@@ -369,7 +354,6 @@
 0.0.0.0 sentry.io
 0.0.0.0 server-analytics.snapchat.com
 0.0.0.0 sessions.bugsnag.com
-0.0.0.0 sg.mmstat.com
 0.0.0.0 sgp.o2o.api.xiaomi.com
 0.0.0.0 smartlock.google.com
 0.0.0.0 ssl.google-analytics.com
@@ -411,14 +395,11 @@
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tz.sec.xiaomi.com
 0.0.0.0 umlazada.alibaba.com
-0.0.0.0 unstoppabledomains.com
-0.0.0.0 usage-ping.brave.com
 0.0.0.0 us-east-1.dc.ads.linkedin.com
 0.0.0.0 useinsider.com
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 ut.qwen.ai
 0.0.0.0 validate.appsflyer.com
-0.0.0.0 variations.brave.com
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 video-analytics-api.cloudinary.com
 0.0.0.0 video-stats.video.google.com

@@ -274,14 +274,6 @@ graph-fallback.instagram.com
 pixel.facebook.com
 an.facebook.com
 
-#============ Brave Telemetry ============
-variations.brave.com
-usage-ping.brave.com
-analytics.brave.com
-unstoppabledomains.com
-buy.unstoppabledomains.com
-api.unstoppabledomains.com
-
 #============ Microsoft ============
 telemetry.api.swiftkey.com
 bat.bing.com
@@ -468,29 +460,16 @@ ntp.ynuf.aliapp.org
 app-measurement.com
 crashlytics.com
 cdn.cookielaw.org
-frequentrequirement.com
-ipify4.pling.com
-ipify6.pling.com
 api.mixpanel.com
 decide.mixpanel.com
 api.segment.io
-app.adjust.com
-app.adjust.io
 sdk-api-v1.singular.net
 api.onesignal.com
 invitejs.trustpilot.com
 cdn.carbonads.com
 advertiserurl.com
-s.adroll.com
-adsrvr.org
-ads-api.ft.com
 doubledouble.top
 prebid.jazzdsp.com
-match.targetrtb.com
-nr.bidderstack.com
-id.rlcdn.com
-go.ezodn.com
-sg.mmstat.com
 px-intl.ucweb.com
 sec.umeng.com
 cdn.ynuf.aliapp.org
