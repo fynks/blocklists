@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 427
-# Generated at: 18-11-2025
+# Total unique domains: 433
+# Generated at: 29-11-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -246,6 +246,9 @@
 0.0.0.0 intg.snapchat.com
 0.0.0.0 invitejs.trustpilot.com
 0.0.0.0 jmacs-m.lazada.sg
+0.0.0.0 jn8dkc.cdn-settings.appsflyersdk.com
+0.0.0.0 jn8dkc.inapps.appsflyersdk.com
+0.0.0.0 jn8dkc.launches.appsflyersdk.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 learn.advertising.snapchat.com
 0.0.0.0 linux2.googlerenewals.net
@@ -286,9 +289,12 @@
 0.0.0.0 p4psearch.china.alibaba.com
 0.0.0.0 p8ly86-attr.appsflyersdk.com
 0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
+0.0.0.0 p8ly86.cdn-settings.appsflyersdk.com
 0.0.0.0 p8ly86-conversions.appsflyersdk.com
 0.0.0.0 p8ly86-inapps.appsflyersdk.com
+0.0.0.0 p8ly86.inapps.appsflyersdk.com
 0.0.0.0 p8ly86-launches.appsflyersdk.com
+0.0.0.0 p8ly86.launches.appsflyersdk.com
 0.0.0.0 p8ly86-register.appsflyersdk.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com

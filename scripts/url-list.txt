@@ -357,6 +357,12 @@ p8ly86-conversions.appsflyersdk.com
 p8ly86-inapps.appsflyersdk.com
 p8ly86-launches.appsflyersdk.com
 p8ly86-register.appsflyersdk.com
+jn8dkc.cdn-settings.appsflyersdk.com
+jn8dkc.launches.appsflyersdk.com
+jn8dkc.inapps.appsflyersdk.com
+p8ly86.cdn-settings.appsflyersdk.com
+p8ly86.launches.appsflyersdk.com
+p8ly86.inapps.appsflyersdk.com
 
 #============ TikTok ============
 mcs-sg.tiktokv.com
