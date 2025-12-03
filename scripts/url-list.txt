@@ -491,4 +491,3 @@ sg.mmstat.com
 acs-m.daraz.pk
 px.effirst.com
 h-adashx.ut.lazada.com
-amdc.lazada.com
