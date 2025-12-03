@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 433
-# Generated at: 29-11-2025
+# Total unique domains: 440
+# Generated at: 03-12-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -31,6 +31,7 @@
 0.0.0.0 aa.online-metrix.net
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 abtest.mistat.xiaomi.com
+0.0.0.0 acs-m.daraz.pk
 0.0.0.0 adashx.ut.daraz.com
 0.0.0.0 adclick.g.doublecklick.net
 0.0.0.0 ad-creatives-public.commondatastorage.googleapis.com
@@ -66,6 +67,7 @@
 0.0.0.0 alogsus.umeng.com
 0.0.0.0 alt2.googleanalytics.com
 0.0.0.0 alt4.googleanalytics.com
+0.0.0.0 amdc.lazada.com
 0.0.0.0 analytics-api-samples.googlecode.com
 0.0.0.0 analytics.githubassets.com
 0.0.0.0 analytics.google.com
@@ -233,6 +235,7 @@
 0.0.0.0 graph.instagram.com
 0.0.0.0 h64.online-metrix.net
 0.0.0.0 h-adashx.ut.daraz.com
+0.0.0.0 h-adashx.ut.lazada.com
 0.0.0.0 h.online-metrix.net
 0.0.0.0 hq1.appsflyer.com
 0.0.0.0 h-sdk.online-metrix.net
@@ -286,6 +289,7 @@
 0.0.0.0 ogads-pa.clients6.google.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 onelink.appsflyer.com
+0.0.0.0 ossgw.alicdn.com
 0.0.0.0 p4psearch.china.alibaba.com
 0.0.0.0 p8ly86-attr.appsflyersdk.com
 0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
@@ -331,6 +335,7 @@
 0.0.0.0 p.ttwitter.com
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 px.ads.linkedin.com
+0.0.0.0 px.effirst.com
 0.0.0.0 px-intl.ucweb.com
 0.0.0.0 qualtrics.com
 0.0.0.0 raine.accuweather.com
@@ -360,6 +365,7 @@
 0.0.0.0 sentry.io
 0.0.0.0 server-analytics.snapchat.com
 0.0.0.0 sessions.bugsnag.com
+0.0.0.0 sg.mmstat.com
 0.0.0.0 sgp.o2o.api.xiaomi.com
 0.0.0.0 smartlock.google.com
 0.0.0.0 ssl.google-analytics.com
@@ -401,6 +407,7 @@
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tz.sec.xiaomi.com
 0.0.0.0 umlazada.alibaba.com
+0.0.0.0 usage-ping.brave.com
 0.0.0.0 us-east-1.dc.ads.linkedin.com
 0.0.0.0 useinsider.com
 0.0.0.0 userlocation.googleapis.com

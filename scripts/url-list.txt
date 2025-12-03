@@ -398,6 +398,7 @@ p4psearch.china.alibaba.com
 survey.china.alibaba.com
 dmtracking.alibaba.com
 dmtracking2.alibaba.com
+ossgw.alicdn.com
 
 #============ Lazada / Daraz ============
 adashx.ut.daraz.com
@@ -485,3 +486,9 @@ arms-retcode.aliyuncs.com
 errnewlogos.umeng.com
 cd.connatix.com
 prebid.scope3.com
+usage-ping.brave.com
+sg.mmstat.com
+acs-m.daraz.pk
+px.effirst.com
+h-adashx.ut.lazada.com
+amdc.lazada.com
