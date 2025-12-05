@@ -304,6 +304,7 @@ o33249.ingest.sentry.io
 o1158394.ingest.us.sentry.io
 o352714.ingest.sentry.io
 o418887.ingest.sentry.io
+o516780.ingest.sentry.io
 
 #============ AppsFlyer ============
 conversions.appsflyer.com
@@ -371,6 +372,7 @@ log-va.tiktokv.com
 mon.tiktokv.com
 mon-va.tiktokv.com
 mcs-va.tiktokv.com
+analytics.tiktok.com
 
 #============ LinkedIn ============
 ads.linkedin.com
@@ -405,6 +407,8 @@ adashx.ut.daraz.com
 h-adashx.ut.daraz.com
 jmacs-m.lazada.sg
 msgacs-m.lazada.sg
+acs-m.daraz.com.bd
+acs-m.daraz.pk
 
 #============ Cloudflare ============
 static.cloudflareinsights.com
@@ -463,6 +467,7 @@ trackonomics.net
 dap.digitalgov.gov
 www.statcounter.com
 dz.mmstat.com
+sg.mmstat.com
 ntp.ynuf.aliapp.org
 app-measurement.com
 crashlytics.com
@@ -487,7 +492,20 @@ errnewlogos.umeng.com
 cd.connatix.com
 prebid.scope3.com
 usage-ping.brave.com
-sg.mmstat.com
-acs-m.daraz.pk
 px.effirst.com
 h-adashx.ut.lazada.com
+arclight.vimeo.com
+gjapplog.ucweb.com
+u.expo.dev
+perseus-productanalytics.deliveryhero.net
+s2s.adjust.com
+shopify-metrics.reconvert.com
+service2.us.incognia.com
+sdk.iad-01.braze.com
+bf99042ofw.bf.dynatrace.com
+device-api.asnapieu.com
+api3.siftscience.com
+trk.storyly.io
+cdp-eu.customer.io
+nexus-websocket-a.intercom.io
+
