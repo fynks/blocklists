@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 456
-# Generated at: 05-12-2025
+# Total unique domains: 464
+# Generated at: 09-12-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -31,6 +31,7 @@
 0.0.0.0 aa.online-metrix.net
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 abtest.mistat.xiaomi.com
+0.0.0.0 accscdn.m.taobao.com
 0.0.0.0 acs-m.daraz.com.bd
 0.0.0.0 acs-m.daraz.pk
 0.0.0.0 adashx.ut.daraz.com
@@ -66,6 +67,7 @@
 0.0.0.0 akademiagoogleads.com
 0.0.0.0 alb.reddit.com
 0.0.0.0 alogsus.umeng.com
+0.0.0.0 alogus.umeng.com
 0.0.0.0 alt2.googleanalytics.com
 0.0.0.0 alt4.googleanalytics.com
 0.0.0.0 analytics-api-samples.googlecode.com
@@ -103,6 +105,7 @@
 0.0.0.0 api.sec.miui.com
 0.0.0.0 api.segment.io
 0.0.0.0 api.setting.intl.miui.com
+0.0.0.0 aplus.qwen.ai
 0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app.appsflyer.com
@@ -160,6 +163,7 @@
 0.0.0.0 collector-cdn.github.com
 0.0.0.0 collector.githubapp.com
 0.0.0.0 collector.github.com
+0.0.0.0 connect.facebook.net
 0.0.0.0 content-analyticsadmin.googleapis.com
 0.0.0.0 content-analyticsdata.googleapis.com
 0.0.0.0 conversion.google.com
@@ -224,6 +228,7 @@
 0.0.0.0 geofence.sys.miui.com
 0.0.0.0 geo.wpforms.com
 0.0.0.0 gjapplog.ucweb.com
+0.0.0.0 glitter.services.disqus.com
 0.0.0.0 globalapi.ad.xiaomi.com
 0.0.0.0 googleadapis.l.google.com
 0.0.0.0 googleads2.g.doubleclick.net
@@ -282,8 +287,10 @@
 0.0.0.0 metric.gstatic.com
 0.0.0.0 mon.tiktokv.com
 0.0.0.0 mon-va.tiktokv.com
+0.0.0.0 msdk.bloomreach.co
 0.0.0.0 msgacs-m.lazada.sg
 0.0.0.0 mum.alibabachengdun.com
+0.0.0.0 mum.alibabachengdun.net
 0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 notifications-ueeshp-pa.googleapis.com
 0.0.0.0 notify.bugsnag.com
@@ -399,6 +406,7 @@
 0.0.0.0 stat.xiaomi.com
 0.0.0.0 storeconfig.mistat.intl.xiaomi.com
 0.0.0.0 survey.china.alibaba.com
+0.0.0.0 talaria.online
 0.0.0.0 t.appsflyer.com
 0.0.0.0 target.microsoft.com
 0.0.0.0 tdum.alibaba.com

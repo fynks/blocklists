@@ -56,7 +56,6 @@ c.googlesyndication.com
 click.googleanalytics.com
 clientmetrics-pa.googleapis.com
 clouderrorreporting.googleapis.com
-ads.youtube.compixel.facebook.com
 afs.googlesyndication.com
 stats.g.doubleclick.net
 ad.doubleclick.net
@@ -271,8 +270,10 @@ dit.whatsapp.net
 crashlogs.whatsapp.net
 graph.instagram.com
 graph-fallback.instagram.com
+ads.youtube.compixel.facebook.com
 pixel.facebook.com
 an.facebook.com
+connect.facebook.net
 
 #============ Microsoft ============
 telemetry.api.swiftkey.com
@@ -381,6 +382,10 @@ dc.ads.linkedin.com
 us-east-1.dc.ads.linkedin.com
 analytics.pointdrive.linkedin.com
 
+#============ Qwen ================
+ut.qwen.ai
+aplus.qwen.ai
+
 #============ Alibaba / AliExpress / Taobao ============
 tdum.alibaba.com
 fourier.alibaba.com
@@ -390,6 +395,7 @@ mum.alibabachengdun.com
 xjp-msgacs.m.taobao.com
 xjp-jmacs.m.taobao.com
 audid-api-sg.taobao.com
+accscdn.m.taobao.com
 abtest.alibaba.com
 hydra.alibaba.com
 stat.alibaba.com
@@ -400,6 +406,7 @@ p4psearch.china.alibaba.com
 survey.china.alibaba.com
 dmtracking.alibaba.com
 dmtracking2.alibaba.com
+mum.alibabachengdun.net
 ossgw.alicdn.com
 
 #============ Lazada / Daraz ============
@@ -484,11 +491,11 @@ doubledouble.top
 prebid.jazzdsp.com
 px-intl.ucweb.com
 sec.umeng.com
-cdn.ynuf.aliapp.org
-ut.qwen.ai
-alogsus.umeng.com
-arms-retcode.aliyuncs.com
+alogus.umeng.com
 errnewlogos.umeng.com
+alogsus.umeng.com
+cdn.ynuf.aliapp.org
+arms-retcode.aliyuncs.com
 cd.connatix.com
 prebid.scope3.com
 usage-ping.brave.com
@@ -508,4 +515,6 @@ api3.siftscience.com
 trk.storyly.io
 cdp-eu.customer.io
 nexus-websocket-a.intercom.io
-
+glitter.services.disqus.com
+msdk.bloomreach.co
+talaria.online
