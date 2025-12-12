@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 464
-# Generated at: 09-12-2025
+# Total unique domains: 466
+# Generated at: 12-12-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -114,6 +114,7 @@
 0.0.0.0 app-measurement.com
 0.0.0.0 appsflyer-report.honkaiimpact3.com
 0.0.0.0 appsflyersdk.com
+0.0.0.0 appsgrowthpromo-pa.googleapis.com
 0.0.0.0 arclight.vimeo.com
 0.0.0.0 arms-retcode.aliyuncs.com
 0.0.0.0 a.stat.xiaomi.com
@@ -217,6 +218,7 @@
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 fls.doubleclick.net
+0.0.0.0 fls-na.amazon.com
 0.0.0.0 fourier.alibaba.com
 0.0.0.0 fourier.taobao.com
 0.0.0.0 frontend-event-api.hostinger.com
