@@ -131,6 +131,7 @@ www.wwwgoogles.com
 www3.doubleclick.net
 wwwgoogles.com
 xgapromomanager-pa.googleapis.com
+appsgrowthpromo-pa.googleapis.com
 
 #============ Accuweather ============
 raine.accuweather.com
@@ -174,6 +175,7 @@ c.amazon-adsystem.com
 chatbot-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev
 mads.amazon-adsystem.com
 s.amazon-adsystem.com
+fls-na.amazon.com
 
 #============ Anthropic ============
 statsig.anthropic.com
