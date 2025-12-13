@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 466
-# Generated at: 12-12-2025
+# Total unique domains: 474
+# Generated at: 13-12-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -150,6 +150,7 @@
 0.0.0.0 cdn.branch.io
 0.0.0.0 cdn.carbonads.com
 0.0.0.0 cdn.cookielaw.org
+0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.ynuf.aliapp.org
 0.0.0.0 cdp-eu.customer.io
 0.0.0.0 c.googlesyndication.com
@@ -211,6 +212,7 @@
 0.0.0.0 fcanr.tracking.miui.com
 0.0.0.0 fcmatch.google.com
 0.0.0.0 fcmatch.youtube.com
+0.0.0.0 federatedcompute-pa.googleapis.com
 0.0.0.0 find.api.micloud.xiaomi.net
 0.0.0.0 findapi.micloud.xiaomi.net
 0.0.0.0 firebaselogging.googleapis.com
@@ -262,6 +264,7 @@
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 intg.snapchat.com
 0.0.0.0 invitejs.trustpilot.com
+0.0.0.0 jetpack.wordpress.com
 0.0.0.0 jmacs-m.lazada.sg
 0.0.0.0 jn8dkc.cdn-settings.appsflyersdk.com
 0.0.0.0 jn8dkc.inapps.appsflyersdk.com
@@ -352,6 +355,7 @@
 0.0.0.0 privacy-sandbox.appsflyersdk.com
 0.0.0.0 privatestats.whatsapp.net
 0.0.0.0 p.ttwitter.com
+0.0.0.0 p.typekit.net
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 px.ads.linkedin.com
 0.0.0.0 px.effirst.com
@@ -394,6 +398,8 @@
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 ssl.googleanalytics.com
 0.0.0.0 ssl-google-analytics.l.google.com
+0.0.0.0 ss.qwen.ai
+0.0.0.0 sstats.adobe.com
 0.0.0.0 stat.alibaba.com
 0.0.0.0 static.ads-twitter.com
 0.0.0.0 static.cloudflareinsights.com
@@ -404,6 +410,7 @@
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 statsgoogle.appsflyer.com
 0.0.0.0 statsig.anthropic.com
+0.0.0.0 stats.kde.org
 0.0.0.0 stats.wp.com
 0.0.0.0 stat.xiaomi.com
 0.0.0.0 storeconfig.mistat.intl.xiaomi.com
@@ -432,6 +439,7 @@
 0.0.0.0 tr.snapchat.com
 0.0.0.0 tz.sec.xiaomi.com
 0.0.0.0 u.expo.dev
+0.0.0.0 umami.manjaro.org
 0.0.0.0 umlazada.alibaba.com
 0.0.0.0 usage-ping.brave.com
 0.0.0.0 us-east-1.dc.ads.linkedin.com

@@ -132,6 +132,8 @@ www3.doubleclick.net
 wwwgoogles.com
 xgapromomanager-pa.googleapis.com
 appsgrowthpromo-pa.googleapis.com
+federatedcompute-pa.googleapis.com
+
 
 #============ Accuweather ============
 raine.accuweather.com
@@ -340,6 +342,7 @@ analytics.picsart.com
 #============ Qwen ==== ============
 aplus.qwen.ai
 ut.qwen.ai
+ss.qwen.ai
 
 #============ Reddit ============
 ads.reddit.com
@@ -426,6 +429,8 @@ static.ads-twitter.com
 #============ WordPress ============
 geo.wpforms.com
 stats.wp.com
+jetpack.wordpress.com
+
 
 #============ Xiaomi ============
 a.stat.xiaomi.com
@@ -527,4 +532,8 @@ trk.storyly.io
 trackonomics.net
 arclight.vimeo.com
 invitejs.trustpilot.com
-
+sstats.adobe.com
+p.typekit.net
+stats.kde.org
+cdn.segment.com
+umami.manjaro.org
