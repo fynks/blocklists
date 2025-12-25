@@ -240,6 +240,10 @@ track.appsflyer.com
 validate.appsflyer.com
 wa.appsflyer.com
 websdk.appsflyer.com
+dv9cjr-cdn-settings.appsflyersdk.com
+dv9cjr-dlsdk.appsflyersdk.com
+dv9cjr-attr.appsflyersdk.com
+dv9cjr-conversions.appsflyersdk.com
 
 #============ Branch ============
 api.branch.io
@@ -412,6 +416,12 @@ mcs-sg.tiktokv.com
 mcs-va.tiktokv.com
 mon-va.tiktokv.com
 mon.tiktokv.com
+log16-normal-alisg.tiktokv.com
+mon-boot.tiktokv.com
+tnc-boot.tiktokv.com
+mon-sg.tiktokv.com
+log16-normal-alisg.tiktokv.com
+
 
 #============ Twitter / X ============
 ads-api.twitter.com

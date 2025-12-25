@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 474
-# Generated at: 13-12-2025
+# Total unique domains: 482
+# Generated at: 25-12-2025
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -198,6 +198,10 @@
 0.0.0.0 doubledouble.top
 0.0.0.0 d.reddit.com
 0.0.0.0 drm-google-analtyic.com
+0.0.0.0 dv9cjr-attr.appsflyersdk.com
+0.0.0.0 dv9cjr-cdn-settings.appsflyersdk.com
+0.0.0.0 dv9cjr-conversions.appsflyersdk.com
+0.0.0.0 dv9cjr-dlsdk.appsflyersdk.com
 0.0.0.0 dynamic-report-api.appsflyersdk.com
 0.0.0.0 dz.mmstat.com
 0.0.0.0 e.ad.xiaomi.com
@@ -272,6 +276,7 @@
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 learn.advertising.snapchat.com
 0.0.0.0 linux2.googlerenewals.net
+0.0.0.0 log16-normal-alisg.tiktokv.com
 0.0.0.0 log2.spotify.com
 0.0.0.0 log.ad.xiaomi.com
 0.0.0.0 log.avlyun.sec.intl.miui.com
@@ -290,6 +295,8 @@
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 metok.sys.miui.com
 0.0.0.0 metric.gstatic.com
+0.0.0.0 mon-boot.tiktokv.com
+0.0.0.0 mon-sg.tiktokv.com
 0.0.0.0 mon.tiktokv.com
 0.0.0.0 mon-va.tiktokv.com
 0.0.0.0 msdk.bloomreach.co
@@ -422,6 +429,7 @@
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 test.ad.xiaomi.com
 0.0.0.0 test.e.ad.xiaomi.com
+0.0.0.0 tnc-boot.tiktokv.com
 0.0.0.0 toc.googlesyndication.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 tr6.snapchat.com
