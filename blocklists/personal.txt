@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 482
-# Generated at: 25-12-2025
+# Total unique domains: 490
+# Generated at: 29-01-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -106,6 +106,8 @@
 0.0.0.0 api.segment.io
 0.0.0.0 api.setting.intl.miui.com
 0.0.0.0 aplus.qwen.ai
+0.0.0.0 app.adjust.net.in
+0.0.0.0 app.adjust.world
 0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app.appsflyer.com
@@ -253,6 +255,11 @@
 0.0.0.0 google-ticket.com
 0.0.0.0 graph-fallback.instagram.com
 0.0.0.0 graph.instagram.com
+0.0.0.0 grs.dbankcloud.asia
+0.0.0.0 grs.dbankcloud.cn
+0.0.0.0 grs.dbankcloud.com
+0.0.0.0 grs.dbankcloud.eu
+0.0.0.0 grs.platform.dbankcloud.ru
 0.0.0.0 h64.online-metrix.net
 0.0.0.0 h-adashx.ut.daraz.com
 0.0.0.0 h-adashx.ut.lazada.com
@@ -374,6 +381,7 @@
 0.0.0.0 region1.analytics.google.com
 0.0.0.0 region1.google-analytics.com
 0.0.0.0 register.appsflyer.com
+0.0.0.0 remote-data.asnapieu.com
 0.0.0.0 rereddit.com
 0.0.0.0 rtam-collector.snapchat.com
 0.0.0.0 rt.reddit.com

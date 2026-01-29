@@ -547,3 +547,11 @@ p.typekit.net
 stats.kde.org
 cdn.segment.com
 umami.manjaro.org
+remote-data.asnapieu.com
+app.adjust.world
+app.adjust.net.in
+grs.dbankcloud.eu
+grs.platform.dbankcloud.ru
+grs.dbankcloud.asia
+grs.dbankcloud.cn
+grs.dbankcloud.com
