@@ -253,6 +253,7 @@ cdn.branch.io
 
 #============ Brave ============
 usage-ping.brave.com
+static.ads.bravesoftware.com
 
 #============ Bugsnag ============
 api.bugsnag.com
@@ -324,6 +325,9 @@ bat.bing.com
 target.microsoft.com
 telemetry.api.swiftkey.com
 web.vortex.data.microsoft.com
+mobile.events.data.microsoft.com
+in.appcenter.ms
+
 
 #============ Mixpanel ============
 api.mixpanel.com
@@ -420,7 +424,6 @@ log16-normal-alisg.tiktokv.com
 mon-boot.tiktokv.com
 tnc-boot.tiktokv.com
 mon-sg.tiktokv.com
-log16-normal-alisg.tiktokv.com
 
 
 #============ Twitter / X ============
@@ -555,3 +558,13 @@ grs.platform.dbankcloud.ru
 grs.dbankcloud.asia
 grs.dbankcloud.cn
 grs.dbankcloud.com
+s2s.singular.net
+cdn.adnuntius.com
+js-agent.newrelic.com
+shorta.vip
+reqstat.api.mega.co.nz
+l.wl.co
+nv.wreckedulpan.com
+ynuf.aliapp.org
+retcode-sg-lazada.arms.aliyuncs.com
+sg-live.slatic.net
