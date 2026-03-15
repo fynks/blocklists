@@ -79,3 +79,190 @@ x.com##[role="tablist"] :is([href="/settings/monetization"], [href^="/i/premium_
 ! - "You aren’t verified yet" in profile 
 x.com##[aria-label="Home timeline"]:not(:has([href$="/header_photo"])) :is([href$="/premium_sign_up"]):upward(4)
 
+
+
+! Primary ad container (most reliable, single rule)
+x.com##[data-testid="placementTracking"]
+
+! Promoted trends in Explore / What's Happening sidebar
+x.com#?#[data-testid="trend"]:has-text(/Promoted|Gesponsert|Sponsorisé|Promovat|Sponsorlu|Реклама|推广|プロモーション|프로모션/)
+twitter.com#?#[data-testid="trend"]:has-text(/Promoted|Gesponsert|Sponsorisé|Promovat|Sponsorlu|Реклама|推广|プロモーション|프로모션/)
+
+
+! ============================================================
+! §2 – X PREMIUM / TWITTER BLUE UPSELLS
+! Covers nav items, modal dialogs, sidebar widgets, in-tweet banners,
+! the full-screen sign-up page auto-opened by X, and the Radar upsell.
+! ============================================================
+
+! "Subscribe to Premium" nav link (desktop + mobile hamburger)
+x.com##a[href="/i/premium_sign_up"]
+x.com##a[href*="premium_sign_up"]
+twitter.com##a[href="/i/premium_sign_up"]
+
+! Premium upsell cell injected into timelines (aria role cell with upgrade CTA)
+x.com##[data-testid="PremiumUpsell"]
+x.com##[data-testid="xPremiumUpsell"]
+
+! "Get Premium" / "Subscribe" bottom sheet / banner on mobile
+x.com#?#div[role="dialog"]:has(a[href*="premium_sign_up"])
+x.com#?#div[role="dialog"]:has(a[href*="i/premium"])
+
+! Sidebar "Subscribe to Premium" widget
+x.com##[data-testid="sidebarColumn"] a[href*="premium"]:upward(section)
+x.com##[data-testid="sidebarColumn"] [href="/i/premium_sign_up"]:upward(div)
+
+! Premium upsell inside focused/single tweet view (analytics upsell)
+x.com#?#article:has([data-testid="analyticsUpsell"])
+x.com##[data-testid="analyticsUpsell"]
+
+! "Upgrade to Premium+ to write longer posts" inline upsell
+x.com#?#div:has-text(/Upgrade to Premium\+? to write longer posts/i)
+
+! Radar premium upsell in Search / Explore
+x.com##[data-testid="radar_upsell"]
+x.com#?#[data-testid="sidebarColumn"] div:has-text(/Radar/):has(a[href*="premium"])
+
+! Full-screen Premium sign-up page (auto-opened by X)  — hide the page overlay
+x.com#?#div[data-testid="sheetDialog"]:has(a[href*="premium_sign_up"])
+x.com##[data-testid="sheetDialog"]:has(a[href*="premium_sign_up"])
+
+! "Verified Organizations" / "Creator Studio" nav items (premium-only pitches)
+x.com##a[href="/i/verified-orgs-signup"]
+x.com##a[data-testid="AppTabBar_VerifiedOrgs_Link"]
+x.com##a[href="/creator-studio"]
+
+
+! ============================================================
+! §3 – "GET THE APP" / MOBILE APP DOWNLOAD BANNERS
+! Targets the top smart-banner and the nav-menu "Get the app" link.
+! ============================================================
+
+! Smart / top-of-page app download banner (mobile web)
+x.com##[id="layers"] ~ div[style*="position: fixed"][style*="top: 0"]:has(a[href*="app"])
+x.com##div[data-testid="TopNavBar"] ~ div:has(a[href*="download"]):has(img[src*="apple"],img[src*="google"])
+
+! "Get the app" item in the mobile nav / hamburger menu
+x.com##a[href*="/download"]:has-text(/get the app/i):upward(li)
+x.com#?#a[href*="/download"]:has-text(/Get the app/i)
+twitter.com#?#a[href*="/download"]:has-text(/Get the app/i)
+
+! Persistent "Open in app" bottom bar on mobile browsers
+x.com#?#div[style*="position: fixed"][style*="bottom: 0"]:has(a[href*="app.adjust"],a[href*="itunes"],a[href*="play.google"])
+
+
+! ============================================================
+! §4 – SIDEBAR NOISE (desktop & tablet)
+! Who to follow, Topics to follow, Trends for you, What's Happening, Live
+! ============================================================
+
+! Who to follow / You might like
+x.com##[aria-label="Who to follow" i]:upward(1)
+x.com###wtf
+twitter.com##[aria-label="Who to follow" i]:upward(1)
+
+! Topics to follow
+x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+
+! Trending now / Trends for you  (the whole trends widget)
+x.com###trends
+x.com##[aria-label$="trending now" i]
+x.com##[aria-label="Timeline: Trending now"]
+twitter.com###trends
+
+! What's Happening widget
+x.com##[data-testid="sidebarColumn"] section:has([data-testid="trend"]):has(h2:has-text(/What's happening/i))
+
+! Live with X / Live bar
+x.com##[data-testid="LiveVideoCard"]
+x.com##[aria-label*="Live" i]:has([data-testid="LiveVideoCard"])
+
+
+! ============================================================
+! §5 – ALGORITHMIC INJECTIONS IN TIMELINE
+! Removes "Who to follow", "You might like", Topics, Community suggestions,
+! and other non-tweet cards inserted between tweets.
+! Uses translate/absolute-position pattern that X uses for injected rows.
+! ============================================================
+
+! Home timeline injected rows (keeps real tweets, progressbar, "show tweets" pills)
+x.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d+ Tweets?$/)):not(:has(>div:only-child:empty, article, [href^="/i/status/"], [role="progressbar"]))
+
+! Other timelines (profiles etc.)
+x.com##[aria-label$="'s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(>div:only-child:empty, article, [href^="/i/status/"], [role="progressbar"]))
+
+! Follow Topic / Recommended Topic buttons inside tweets
+x.com##article [aria-label^="Follow Topic"]
+x.com##[aria-label^="Recommended Topic" i]:upward(article)
+
+! "More Tweets" and "Discover more" section dividers in conversation threads
+x.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])
+x.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])~div
+x.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^Discover more$/):upward([style^="transform"])
+x.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^Discover more$/):upward([style^="transform"])~div
+
+
+! ============================================================
+! §6 – GROK (AI) PROMPTS & BUTTONS
+! ============================================================
+
+! "Ask Grok" button under tweets
+x.com##[data-testid="AskGrokButton"]
+x.com##[aria-label="Ask Grok" i]
+
+! Grok drawer / side panel
+x.com##[data-testid="GrokDrawer"]
+
+! Grok nav item in sidebar / bottom bar
+x.com##a[href="/i/grok"]
+x.com##a[data-testid="AppTabBar_Grok_Link"]
+
+! Grok "Install button" cards inside tweets
+x.com#?#article:has([data-testid="card.wrapper"]:has-text(/Grok/i)):has(button:has-text(/Install/i))
+
+
+! ============================================================
+! §7 – LOGIN / SIGN-UP NAGS (logged-out browsing)
+! ============================================================
+
+! "Sign up to see more" overlay / gate
+x.com##[data-testid="SignupButton"]:upward(div[role="dialog"])
+x.com#?#div[role="dialog"]:has([data-testid="SignupButton"]):not(:has([data-testid="LoginButton"]))
+
+! Bottom "Don't miss what's happening" / cookie-style signup bar
+x.com##div[aria-label="Sign up to see what's happening" i]
+x.com#?#div[style*="position: sticky"][style*="bottom"]:has(a[href*="signup"],button:has-text(/Sign up/i))
+
+! Interstitial login wall (full overlay blocking scroll)
+x.com##[data-testid="LoginCard"]
+
+
+! ============================================================
+! §8 – NOTIFICATIONS NOISE
+! ============================================================
+
+! "People you follow also liked" tweets in notifications
+x.com#?#[aria-label="Timeline: Notifications"] article:not(:has([data-testid="tweet"])):has([data-testid="UserCell"])
+
+! Promoted / sponsored notifications
+x.com#?#[aria-label="Timeline: Notifications"] article:has(span:has-text(/Promoted/i))
+
+
+! ============================================================
+! §9 – MISCELLANEOUS ANNOYANCES
+! ============================================================
+
+! "Job listings" cards inside tweets / For You feed
+x.com##[data-testid="jobCard"]
+
+! "People also search for" / Search recommendations box
+x.com##[data-testid="SearchResultsPage-To"] section:has([href^="/search?q="])
+
+! Community notes upsell / "Contribute to Community Notes"
+x.com#?#div:has-text(/Contribute to Community Notes/i):has(a[href*="birdwatch"])
+
+! X Money / Payments upsell
+x.com##a[href*="/settings/monetization"]:has-text(/Monetize/i):upward(li)
+
+! "Download the X app" end-of-timeline card
+x.com#?#div[data-testid="primaryColumn"] > div > div:last-child:has(a[href*="/download"]):has-text(/Download/i)
