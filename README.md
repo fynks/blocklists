@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal.txt
 or
 
 ```
-https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/personal.txt
+https://cdn.jsdelivr.net/gh/fynks/blocklists@latest/blocklists/personal.txt
 ```
 
 ---
@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/annoyances.tx
 or
 
 ```
-https://cdn.jsdelivr.net/gh/fynks/blocklists@main/blocklists/annoyances.txt
+https://cdn.jsdelivr.net/gh/fynks/blocklists@latest/blocklists/annoyances.txt
 ```
 
 ---
