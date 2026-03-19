@@ -9,77 +9,7 @@
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'><path fill='red' d='M7.775 0a1.8 1.8 0 0 0-1.273.527L.528 6.503A1.8 1.8 0 0 0 0 7.775v8.45c0 .478.19.936.528 1.274l5.974 5.974A1.8 1.8 0 0 0 7.775 24h8.45a1.8 1.8 0 0 0 1.273-.527l5.975-5.974A1.8 1.8 0 0 0 24 16.225v-8.45a1.8 1.8 0 0 0-.527-1.272L17.498.527A1.8 1.8 0 0 0 16.225 0zm4.427 3c1.02 0 .958 1.108.958 1.108v6.784s-.009.218.16.218c.188 0 .175-.226.175-.226l-.002-5.63s-.05-.986.959-.986c1.01 0 .97.983.97.983v7.621s.014.158.141.158s.944-2.122.944-2.122s.451-1.497 2.576-1.1c.038.008-.167.688-.167.688l-2.283 6.556S15.69 20.7 11.714 20.7c-5.044 0-4.808-5.407-4.814-5.405V7.562s-.016-.99.897-.99c.858 0 .849.99.849.99l.007 3.583s-.004.172.167.172c.16 0 .141-.172.141-.172l.01-5.926s-.055-1.162.966-1.162c1.04 0 .983 1.142.983 1.142v5.611s-.005.204.152.204c.168 0 .154-.206.154-.206l.01-6.693S11.18 3 12.202 3'/></svg>"
         type="image/svg+xml">
     <style>
-     *{ margin: 0; padding: 0; box-sizing: border-box;} :root{ --primary: #6366f1; --primary-dark: #4f46e5; --secondary: #5cf6c5; --accent: #10b981; --background: #f8fafc; --surface: #ffffff; --text-primary: #1e293b; --text-secondary: #64748b; --text-muted: #94a3b8; --border: #e2e8f0; --success: #10b981; --error: #ef4444; --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05); --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1); --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1); --radius-sm: 0.5rem; --radius-md: 0.75rem; --radius-lg: 1rem; --transition: all 0.2s ease;} [data-theme="dark"]{ --primary: #818cf8; --primary-dark: #6366f1; --secondary: #a78bfa; --background: #0f172a; --surface: #1e293b; --text-primary: #f1f5f9; --text-secondary: #cbd5e1; --text-muted: #94a3b8; --border: #334155; --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2); --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3); --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);} body{ font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; background-color: var(--background); color: var(--text-primary); line-height: 1.6; min-height: 100vh; padding: 2rem 1rem; transition: var(--transition);} .container{ max-width: 800px; margin: 0 auto;} .icon{ width: 1.1rem; height: 1.1rem; display: inline-block; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; } header{ text-align: center; margin-bottom: 2.5rem; position: relative;} .theme-toggle{ position: absolute; top: 0; right: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: var(--transition); box-shadow: var(--shadow-sm);} .theme-toggle:hover{ transform: translateY(-2px); box-shadow: var(--shadow-md);} .theme-toggle .icon{ width: 1.2rem; height: 1.2rem; color: var(--text-primary);} h1{ font-size: 2.5rem; font-weight: 800; margin-bottom: 0.75rem; background: linear-gradient(135deg, var(--primary), var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;} .subtitle{ font-size: 1.1rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto 1.5rem;} .search-container{ position: relative; max-width: 500px; margin: 0 auto 2rem;} .search-container input{ width: 100%; padding: 0.875rem 1rem 0.875rem 3rem; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--surface); color: var(--text-primary); font-size: 1rem; box-shadow: var(--shadow-sm); transition: var(--transition);} .search-container input:focus{ outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);} .search-icon{ position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-muted);} .stats{ display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap;} .stat-card{ background: var(--surface); border-radius: var(--radius-md); padding: 1rem 1.5rem; text-align: center; box-shadow: var(--shadow-sm); min-width: 320px;} .stat-value{ font-size: 1.75rem; font-weight: 700; color: rgba(255, 255, 0, 0.404); margin-bottom: 0.25rem;} .stat-label{ font-size: 0.875rem; color: var(--text-secondary);} .loading{ text-align: center; padding: 3rem 1rem;} .spinner{ width: 3rem; height: 3rem; border: 3px solid rgba(99, 102, 241, 0.2); border-top: 3px solid var(--primary); border-radius: 50%; margin: 0 auto 1.5rem; animation: spin 1s linear infinite;} @keyframes spin{ 0%{ transform: rotate(0deg);} 100%{ transform: rotate(360deg);}} .blocklist-grid{ display: grid; gap: 1.5rem; margin-bottom: 2.5rem;} .blocklist-card{ background: var(--surface); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm); border: 1px solid var(--border); transition: var(--transition);} .blocklist-card:hover{ transform: translateY(-3px); box-shadow: var(--shadow-md);} .blocklist-header{ display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;} .blocklist-title{ font-size: 1.25rem; font-weight: 600; color: var(--text-primary);} .blocklist-type{ background: rgba(99, 102, 241, 0.1); color: var(--primary); padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.8rem; font-weight: 500;} .blocklist-type.adguard{ background: rgba(236, 72, 153, 0.1); color: #d66ff5;} .blocklist-type.hosts{ background: rgba(16, 185, 129, 0.1); color: var(--accent);} .url-field{ margin-bottom: 1rem;} .url-label{ display: block; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem;} .blocklist-url{ background: rgba(241, 245, 249, 0.5); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.875rem 1rem; font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace; font-size: 0.875rem; color: var(--text-secondary); word-break: break-all; position: relative; overflow: hidden;} [data-theme="dark"] .blocklist-url{ background: rgba(30, 41, 59, 0.5);} .blocklist-url::before{ content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--primary), transparent);} .blocklist-actions{ display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 1.25rem;} .btn{ padding: 0.625rem 1.25rem; border-radius: var(--radius-sm); font-weight: 500; font-size: 0.9rem; cursor: pointer; transition: var(--transition); border: none; display: inline-flex; align-items: center; gap: 0.5rem;} .btn-primary{ background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white;} .btn-primary:hover{ background: linear-gradient(135deg, var(--primary-dark), var(--secondary)); transform: translateY(-1px); box-shadow: var(--shadow-md);} .btn-outline{ background: transparent; border: 1px solid var(--border); color: var(--text-primary);} .btn-outline:hover{ background: rgba(99, 102, 241, 0.05); border-color: var(--primary);} .btn-success{ background: var(--accent); color: white;} .btn-success:hover{ background: #059669; transform: translateY(-1px); box-shadow: var(--shadow-md);} .error{ background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.2); border-radius: var(--radius-md); padding: 2rem; text-align: center; color: var(--error); margin-bottom: 2rem;} .error h3{ margin-bottom: 0.75rem;} .error p{ color: var(--text-secondary);} footer{ text-align: center; padding-top: 2rem; border-top: 1px solid var(--border); color: var(--text-secondary); font-size: 0.9rem;} footer a{ color: var(--primary); text-decoration: none;} footer a:hover{ text-decoration: underline;} .notification{ position: fixed; bottom: 1.5rem; right: 1.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 1rem 1.5rem; box-shadow: var(--shadow-lg); display: flex; align-items: center; gap: 0.75rem; transform: translateY(100px); opacity: 0; transition: var(--transition); z-index: 1000;} .notification.show{ transform: translateY(0); opacity: 1;} .notification .icon{ color: var(--success);} @media (max-width: 768px){ body{ padding: 1rem;} h1{ font-size: 2rem;} .subtitle{ font-size: 1rem;} .stats{ gap: 1rem;} .stat-card{ padding: 0.75rem 1rem; min-width: 100px;} .stat-value{ font-size: 1.5rem;} .blocklist-grid{ gap: 1rem;} .blocklist-card{ padding: 1.25rem;} .blocklist-actions{ flex-direction: column;} .btn{ width: 100%; justify-content: center;}} @media (max-width: 480px){ .header{ margin-bottom: 2rem;} .stats{ flex-direction: column; align-items: center; gap: 0.75rem;} .stat-card{ width: 100%;}}
-        .container {
-            max-width: 1240px;
-        }
-
-        .controls-row {
-            max-width: 980px;
-            margin: 0 auto 2rem;
-            display: grid;
-            grid-template-columns: minmax(340px, 1fr) auto;
-            gap: 1rem;
-            align-items: center;
-        }
-
-        .controls-row .search-container {
-            max-width: none;
-            margin: 0;
-        }
-
-        .controls-row .stats {
-            margin: 0;
-            justify-content: flex-end;
-        }
-
-        .controls-row .stat-card {
-            min-width: 180px;
-            padding: 0.9rem 1.15rem;
-        }
-
-        .blocklist-grid {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 1.15rem;
-        }
-
-        .blocklist-card {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .blocklist-header {
-            margin-bottom: 1.1rem;
-        }
-
-        .blocklist-actions {
-            margin-top: auto;
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
-        .btn {
-            justify-content: center;
-        }
-
-        @media (max-width: 1100px) {
-            .container {
-                max-width: 900px;
-            }
-
-            .controls-row {
-                grid-template-columns: 1fr;
-            }
-
-            .controls-row .stats {
-                justify-content: center;
-            }
-
-            .blocklist-grid {
-                grid-template-columns: 1fr;
-            }
-        }
+ *{ margin: 0; padding: 0; box-sizing: border-box;} :root{ --primary: #6366f1; --primary-dark: #4f46e5; --secondary: #5cf6c5; --accent: #10b981; --background: #f8fafc; --surface: #ffffff; --text-primary: #1e293b; --text-secondary: #64748b; --text-muted: #94a3b8; --border: #e2e8f0; --success: #10b981; --error: #ef4444; --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05); --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1); --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1); --radius-sm: 0.5rem; --radius-md: 0.75rem; --radius-lg: 1rem; --transition: all 0.2s ease;} [data-theme="dark"]{ --primary: #818cf8; --primary-dark: #6366f1; --secondary: #a78bfa; --background: #0f172a; --surface: #1e293b; --text-primary: #f1f5f9; --text-secondary: #cbd5e1; --text-muted: #94a3b8; --border: #334155; --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2); --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3); --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);} body{ font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; background-color: var(--background); color: var(--text-primary); line-height: 1.6; min-height: 100vh; padding: 2rem 1rem; transition: var(--transition);} .container{ max-width: 1240px; margin: 0 auto;} .icon{ width: 1.1rem; height: 1.1rem; display: inline-block; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;} header{ text-align: center; margin-bottom: 2.5rem; position: relative;} .theme-toggle{ position: absolute; top: 0; right: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: var(--transition); box-shadow: var(--shadow-sm);} .theme-toggle:hover{ transform: translateY(-2px); box-shadow: var(--shadow-md);} .theme-toggle .icon{ width: 1.2rem; height: 1.2rem; color: var(--text-primary);} h1{ font-size: 2.5rem; font-weight: 800; margin-bottom: 0.75rem; background: linear-gradient(135deg, var(--primary), var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;} .subtitle{ font-size: 1.1rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto 1.5rem;} .controls-row{ max-width: 980px; margin: 0 auto 2rem; display: grid; grid-template-columns: minmax(340px, 1fr) auto; gap: 1rem; align-items: center;} .search-container{ position: relative; max-width: none; margin: 0;} .search-container input{ width: 100%; padding: 0.875rem 1rem 0.875rem 3rem; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--surface); color: var(--text-primary); font-size: 1rem; box-shadow: var(--shadow-sm); transition: var(--transition);} .search-container input:focus{ outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);} .search-icon{ position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-muted);} .stats{ margin: 0; display: flex; justify-content: flex-end; gap: 1rem;} .stat-card{ background: var(--surface); border-radius: var(--radius-md); padding: 0.9rem 1.15rem; text-align: center; box-shadow: var(--shadow-sm); min-width: 180px;} .stat-value{ font-size: 1.75rem; font-weight: 700; color: rgba(255, 255, 0, 0.404); margin-bottom: 0.25rem;} .stat-label{ font-size: 0.875rem; color: var(--text-secondary);} .loading{ text-align: center; padding: 3rem 1rem;} .spinner{ width: 3rem; height: 3rem; border: 3px solid rgba(99, 102, 241, 0.2); border-top: 3px solid var(--primary); border-radius: 50%; margin: 0 auto 1.5rem; animation: spin 1s linear infinite;} @keyframes spin{ 0%{ transform: rotate(0deg);} 100%{ transform: rotate(360deg);}} .blocklist-grid{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.15rem; margin-bottom: 2.5rem;} .blocklist-card{ background: var(--surface); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm); border: 1px solid var(--border); transition: var(--transition); display: flex; flex-direction: column; height: 100%;} .blocklist-card:hover{ transform: translateY(-3px); box-shadow: var(--shadow-md);} .blocklist-header{ margin-bottom: 1.1rem;} .blocklist-title{ font-size: 1.25rem; font-weight: 600; color: var(--text-primary);} .url-field{ margin-bottom: 1rem;} .url-label{ display: block; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem;} .blocklist-url{ background: rgba(241, 245, 249, 0.5); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.875rem 1rem; font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace; font-size: 0.875rem; color: var(--text-secondary); word-break: break-all; position: relative; overflow: hidden;} [data-theme="dark"] .blocklist-url{ background: rgba(30, 41, 59, 0.5);} .blocklist-url::before{ content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--primary), transparent);} .blocklist-actions{ margin-top: auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem;} .btn{ padding: 0.625rem 1.25rem; border-radius: var(--radius-sm); font-weight: 500; font-size: 0.9rem; cursor: pointer; transition: var(--transition); border: none; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;} .btn-primary{ background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white;} .btn-primary:hover{ background: linear-gradient(135deg, var(--primary-dark), var(--secondary)); transform: translateY(-1px); box-shadow: var(--shadow-md);} .btn-outline{ background: transparent; border: 1px solid var(--border); color: var(--text-primary);} .btn-outline:hover{ background: rgba(99, 102, 241, 0.05); border-color: var(--primary);} .btn-success{ background: var(--accent); color: white;} .btn-success:hover{ background: #059669; transform: translateY(-1px); box-shadow: var(--shadow-md);} .error{ background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.2); border-radius: var(--radius-md); padding: 2rem; text-align: center; color: var(--error); margin-bottom: 2rem;} .error h3{ margin-bottom: 0.75rem;} .error p{ color: var(--text-secondary);} footer{ text-align: center; padding-top: 2rem; border-top: 1px solid var(--border); color: var(--text-secondary); font-size: 0.9rem;} footer a{ color: var(--primary); text-decoration: none;} footer a:hover{ text-decoration: underline;} .notification{ position: fixed; bottom: 1.5rem; right: 1.5rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 1rem 1.5rem; box-shadow: var(--shadow-lg); display: flex; align-items: center; gap: 0.75rem; transform: translateY(100px); opacity: 0; transition: var(--transition); z-index: 1000;} .notification.show{ transform: translateY(0); opacity: 1;} .notification .icon{ color: var(--success);} @media (max-width: 1100px){ .container{ max-width: 900px;} .controls-row{ grid-template-columns: 1fr;} .stats{ justify-content: center;} .blocklist-grid{ grid-template-columns: 1fr;}} @media (max-width: 768px){ body{ padding: 1rem;} h1{ font-size: 2rem;} .subtitle{ font-size: 1rem;} .blocklist-card{ padding: 1.25rem;} .blocklist-actions{ grid-template-columns: 1fr;} .btn{ width: 100%;}} @media (max-width: 480px){ header{ margin-bottom: 2rem;} .stat-card{ width: 100%; min-width: 0;} .notification{ right: 1rem; left: 1rem; bottom: 1rem;}}
     </style>
 </head>
 
@@ -210,9 +140,18 @@
 
         // Search functionality
         const searchInput = document.getElementById('search-input');
+        const SEARCH_DEBOUNCE_MS = 120;
 
         // Blocklist data
         let allBlocklists = [];
+
+        function debounce(fn, delay) {
+            let timeoutId;
+            return (...args) => {
+                clearTimeout(timeoutId);
+                timeoutId = setTimeout(() => fn(...args), delay);
+            };
+        }
 
         function showNotification(message) {
             notificationText.textContent = message;
@@ -304,12 +243,12 @@
         function filterBlocklists() {
             const searchTerm = searchInput.value.toLowerCase();
             const filtered = allBlocklists.filter(blocklist =>
-                blocklist.name.toLowerCase().includes(searchTerm) ||
-                blocklist.url.toLowerCase().includes(searchTerm) ||
-                blocklist.jsdelivrUrl.toLowerCase().includes(searchTerm)
+                blocklist.searchText.includes(searchTerm)
             );
             renderBlocklists(filtered);
         }
+
+        const debouncedFilterBlocklists = debounce(filterBlocklists, SEARCH_DEBOUNCE_MS);
 
         async function fetchBlocklists() {
             try {
@@ -327,7 +266,8 @@
                     .map(item => ({
                         name: item.name,
                         url: `${RAW_BASE}/${item.name}`,
-                        jsdelivrUrl: `${JSDELIVR_BASE}/${item.name}`
+                        jsdelivrUrl: `${JSDELIVR_BASE}/${item.name}`,
+                        searchText: `${item.name} ${RAW_BASE}/${item.name} ${JSDELIVR_BASE}/${item.name}`.toLowerCase()
                     }));
 
                 updateStats();
@@ -352,7 +292,7 @@
             fetchBlocklists();
 
             // Add search event listener
-            searchInput.addEventListener('input', filterBlocklists);
+            searchInput.addEventListener('input', debouncedFilterBlocklists);
         });
 
         // Expose functions to global scope
