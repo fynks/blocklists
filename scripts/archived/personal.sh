@@ -94,7 +94,7 @@ validate_domain() {
 # Optimized chunk processing with better error handling
 process_chunk() {
     # Process JSON and filter domains
-    jq -r 'select(.status == "REQUEST_BLOCKED" and .device == "Phone") | .domain // empty' 2>/dev/null || true
+    jq -r 'select(.status == "REQUEST_BLOCKED" and .device == "My Phone") | .domain // empty' 2>/dev/null || true
 }
 
 # Enhanced blocklist generation with better formatting

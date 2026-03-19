@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 931
-# Generated at: 13-03-2026
+# Total unique domains: 961
+# Generated at: 19-03-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -69,6 +69,7 @@
 0.0.0.0 ads-fa.spotify.com
 0.0.0.0 ads.google.com
 0.0.0.0 ads.linkedin.com
+0.0.0.0 ads.pro-market.net
 0.0.0.0 ads.reddit.com
 0.0.0.0 ads.snapchat.com
 0.0.0.0 ads-twitter.com
@@ -90,6 +91,7 @@
 0.0.0.0 alt2.googleanalytics.com
 0.0.0.0 alt4.googleanalytics.com
 0.0.0.0 a.market.xiaomi.com
+0.0.0.0 analytics.ahrefs.com
 0.0.0.0 analytics-api-samples.googlecode.com
 0.0.0.0 analytics.ff.avast.sec.miui.com
 0.0.0.0 analytics.githubassets.com
@@ -134,6 +136,7 @@
 0.0.0.0 api.googleadsapi.com
 0.0.0.0 api.hybrid.xiaomi.com
 0.0.0.0 api.installer.xiaomi.com
+0.0.0.0 api.ipinfo.be
 0.0.0.0 api.jr.mi.com
 0.0.0.0 api.launcher.intl.miui.com
 0.0.0.0 api.micloud.xiaomi.net
@@ -157,6 +160,7 @@
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
+0.0.0.0 appads.daewoo.net.pk
 0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app.appsflyer.com
@@ -203,10 +207,12 @@
 0.0.0.0 bhpz.adj.st
 0.0.0.0 bigdata-lbs-pri-c3.alb.xiaomi.com
 0.0.0.0 blackhole.lun.ua
+0.0.0.0 blitzwallet.cfd
 0.0.0.0 bossadmin.pandora.xiaomi.com
 0.0.0.0 bot2.googlerenewals.net
 0.0.0.0 box.pandora.xiaomi.com
 0.0.0.0 browser-intake-datadoghq.com
+0.0.0.0 browser-intake-us5-datadoghq.com
 0.0.0.0 browser.miui.com
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 bsp.misc.pandora.xiaomi.com
@@ -241,12 +247,14 @@
 0.0.0.0 cdn.exp.xiaomi.com
 0.0.0.0 cdn.fds.api.xiaomi.com
 0.0.0.0 cdn.fds-ssl.api.xiaomi.com
+0.0.0.0 cdn.hengam.io
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.ynuf.aliapp.org
 0.0.0.0 cdp-eu.customer.io
 0.0.0.0 c.googlesyndication.com
 0.0.0.0 chatbot-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev
 0.0.0.0 child.sec.miui.com
+0.0.0.0 chimpstatic.com
 0.0.0.0 chong.sec.miui.com
 0.0.0.0 click.googleanalytics.com
 0.0.0.0 click.redditmail.com
@@ -254,6 +262,7 @@
 0.0.0.0 clienttracing-pa.googleapis.com
 0.0.0.0 clouderrorreporting.googleapis.com
 0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 cmp.inmobi.com
 0.0.0.0 cms.sec.miui.com
 0.0.0.0 cmweb.ilike.alibaba.com
 0.0.0.0 cnbj1.fds.api.xiaomi.com
@@ -325,6 +334,7 @@
 0.0.0.0 emi-cube.ad.xiaomi.com
 0.0.0.0 emq.xmpush.xiaomi.com
 0.0.0.0 errnewlogos.umeng.com
+0.0.0.0 error-analytics-sessions-production.shopifysvc.com
 0.0.0.0 error-tracking.reddit.com
 0.0.0.0 etl.xlmc.sec.miui.com
 0.0.0.0 eu-aa.online-metrix.net
@@ -463,6 +473,7 @@
 0.0.0.0 in.tv.global.mi.com
 0.0.0.0 invitejs.trustpilot.com
 0.0.0.0 invoice.netroam.mihome.xiaomi.net
+0.0.0.0 ip-check-perf.radar.cloudflare.com
 0.0.0.0 ip-info.ff.avast.sec.miui.com
 0.0.0.0 ip.ptqy.gitv.tv
 0.0.0.0 i.xiaomi.com
@@ -560,6 +571,7 @@
 0.0.0.0 mosapi.ad.intl.xiaomi.com
 0.0.0.0 mos-ortb-api.ad.intl.xiaomi.com
 0.0.0.0 mqs-log.miui.com
+0.0.0.0 mqtt-mini.facebook.com
 0.0.0.0 mr.fullstory.com
 0.0.0.0 msdk.bloomreach.co
 0.0.0.0 msg2.video.ptqy.gitv.tv
@@ -655,6 +667,7 @@
 0.0.0.0 pmir.sec.miui.com
 0.0.0.0 port.sec.intl.miui.com
 0.0.0.0 port.sec.miui.com
+0.0.0.0 posthog2.fluffleinfra.net
 0.0.0.0 prebid.jazzdsp.com
 0.0.0.0 prebid.scope3.com
 0.0.0.0 preload.xiaomi.com
@@ -690,6 +703,7 @@
 0.0.0.0 register.appsflyer.com
 0.0.0.0 register.xmpush.global.xiaomi.com
 0.0.0.0 remote-data.asnapieu.com
+0.0.0.0 repo.incognia.com
 0.0.0.0 report.n.xiaomi.com
 0.0.0.0 reqstat.api.mega.co.nz
 0.0.0.0 rereddit.com
@@ -718,8 +732,10 @@
 0.0.0.0 sandbox.activity.browser.intl.miui.com
 0.0.0.0 sandbox.googleanalytics.com
 0.0.0.0 sandbox.xmpush.xiaomi.com
+0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 scribe.twitter.com
+0.0.0.0 sc-static.net
 0.0.0.0 sdk-api-v1.singular.net
 0.0.0.0 sdk.appsflyer.com
 0.0.0.0 sdk-cache.video.ptqy.gitv.tv
@@ -739,12 +755,14 @@
 0.0.0.0 sec.resource.xiaomi.net
 0.0.0.0 sec.umeng.com
 0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 secure.quantserve.com
 0.0.0.0 secure.report.iss.xiaomi.com
 0.0.0.0 security.browser.miui.com
 0.0.0.0 sentry.be.xiaomi.com
 0.0.0.0 sentry.io
 0.0.0.0 sentry.pay.xiaomi.com
 0.0.0.0 sentry.sec.miui.com
+0.0.0.0 sentry.walletbot.me
 0.0.0.0 server-analytics.snapchat.com
 0.0.0.0 service2.us.incognia.com
 0.0.0.0 service4.us.incognia.com
@@ -763,7 +781,9 @@
 0.0.0.0 site.e.mi.com
 0.0.0.0 sjs.ptmi.gitv.pandora.xiaomi.com
 0.0.0.0 smartlock.google.com
+0.0.0.0 sonar6.xy.fbcdn.net
 0.0.0.0 sonar-iad3-2.xx.fbcdn.net
+0.0.0.0 sponsors.vuejs.org
 0.0.0.0 srv.greenguard.sec.miui.com
 0.0.0.0 srv.sec.miui.com
 0.0.0.0 ssl.google-analytics.com
@@ -822,6 +842,7 @@
 0.0.0.0 t7.a.market.xiaomi.com
 0.0.0.0 t7.market.xiaomi.com
 0.0.0.0 t7z.cupid.ptqy.gitv.tv
+0.0.0.0 tag.crsspxl.com
 0.0.0.0 talaria.online
 0.0.0.0 t.appsflyer.com
 0.0.0.0 t.app.xiaomi.com
@@ -848,6 +869,7 @@
 0.0.0.0 tj1.test.pay.xiaomi.com
 0.0.0.0 tnc-boot.tiktokv.com
 0.0.0.0 toc.googlesyndication.com
+0.0.0.0 ton.twimg.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 tr6.snapchat.com
 0.0.0.0 tracing-collector.strava.com
@@ -856,6 +878,7 @@
 0.0.0.0 tracker.ai.xiaomi.com
 0.0.0.0 tracker-preview.ai.xiaomi.com
 0.0.0.0 tracker.redditmedia.com
+0.0.0.0 tracking.aws.judge.me
 0.0.0.0 tracking.eu.miui.com
 0.0.0.0 tracking.india.miui.com
 0.0.0.0 tracking.intl.miui.com
@@ -864,6 +887,8 @@
 0.0.0.0 trackonomics.net
 0.0.0.0 traffic-media.co
 0.0.0.0 traffic-media.co.uk
+0.0.0.0 traffic-nts-ip-assoc.xy.fbcdn.net
+0.0.0.0 traffic-nts-ip-assoc.xz.fbcdn.net
 0.0.0.0 trakksocial.googlecode.com
 0.0.0.0 transfer.sec.miui.com
 0.0.0.0 trk.storyly.io
@@ -886,6 +911,8 @@
 0.0.0.0 userlocation.googleapis.com
 0.0.0.0 us.statusapi.micloud.xiaomi.net
 0.0.0.0 ut.qwen.ai
+0.0.0.0 v4.xz.fbcdn.net
+0.0.0.0 v6.xy.fbcdn.net
 0.0.0.0 validate.appsflyer.com
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 video-analytics-api.cloudinary.com
@@ -908,6 +935,7 @@
 0.0.0.0 w.pandora.xiaomi.com
 0.0.0.0 wtradv.market.xiaomi.com
 0.0.0.0 www3.doubleclick.net
+0.0.0.0 www.clarity.ms
 0.0.0.0 www.doubleclickbygoogle.com
 0.0.0.0 www.doubleclick.net
 0.0.0.0 www.googleadservices.com
@@ -922,6 +950,8 @@
 0.0.0.0 www.googlew.com
 0.0.0.0 www.kuyun.com
 0.0.0.0 www.miui.net
+0.0.0.0 www.myprotonvpn.shop
+0.0.0.0 www.ojrq.net
 0.0.0.0 www.rereddit.com
 0.0.0.0 www.statcounter.com
 0.0.0.0 www.traffic-media.co
