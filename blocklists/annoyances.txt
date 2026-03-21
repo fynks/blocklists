@@ -23,6 +23,11 @@ www.reddit.com##[noun="games_drawer"], [noun="games_drawer"]+hr
 ! - Answers
 www.reddit.com##faceplate-tracker[noun="gen_guides_sidebar"]
 
+! Reddit Answers logo in header (Mobile only)
+www.reddit.com###answers-nav-button
+! "Related Answers" (Mobile only)
+www.reddit.com###answers-suggested-queries-m3
+
 ! - Clean Menu
 www.reddit.com##faceplate-tracker.contents > :has-text(Earn)
 www.reddit.com##faceplate-tracker.contents > :has-text(Premium)
@@ -85,3 +90,5 @@ x.com##[data-testid="placementTracking"]
 ! Promoted trends in Explore / What's Happening sidebar
 x.com#?#[data-testid="trend"]:has-text(/Promoted|Gesponsert|Sponsorisé|Promovat|Sponsorlu|Реклама|推广|プロモーション|프로모션/)
 twitter.com#?#[data-testid="trend"]:has-text(/Promoted|Gesponsert|Sponsorisé|Promovat|Sponsorlu|Реклама|推广|プロモーション|프로모션/)
+
+
