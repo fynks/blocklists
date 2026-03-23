@@ -350,6 +350,7 @@ eu-aa.online-metrix.net
 h-sdk.online-metrix.net
 h.online-metrix.net
 h64.online-metrix.net
+eu-aa.online-metrix.net
 
 #============ Picsart ============
 analytics.picsart.com
@@ -431,6 +432,7 @@ log16-normal-alisg.tiktokv.com
 mon-boot.tiktokv.com
 tnc-boot.tiktokv.com
 mon-sg.tiktokv.com
+analytics.us.tiktok.com
 
 
 #============ Twitter / X ============
@@ -1026,3 +1028,7 @@ tracking.aws.judge.me
 www.clarity.ms
 www.myprotonvpn.shop
 www.ojrq.net
+conf.config-security.com
+loox.io
+sdk.iad-07.braze.com
+cdn.optimizely.com

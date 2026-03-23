@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 961
-# Generated at: 19-03-2026
+# Total unique domains: 966
+# Generated at: 23-03-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -101,6 +101,7 @@
 0.0.0.0 analytics.strava.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.twitter.com
+0.0.0.0 analytics.us.tiktok.com
 0.0.0.0 analytics.x.com
 0.0.0.0 android-safebrowsing.google.com
 0.0.0.0 an.facebook.com
@@ -248,6 +249,7 @@
 0.0.0.0 cdn.fds.api.xiaomi.com
 0.0.0.0 cdn.fds-ssl.api.xiaomi.com
 0.0.0.0 cdn.hengam.io
+0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.ynuf.aliapp.org
 0.0.0.0 cdp-eu.customer.io
@@ -272,6 +274,7 @@
 0.0.0.0 collector.github.com
 0.0.0.0 collector-pxljub4etb.perimeterx.net
 0.0.0.0 comc4l7.pandora.xiaomi.com
+0.0.0.0 conf.config-security.com
 0.0.0.0 config.kuyun.com
 0.0.0.0 connect.facebook.net
 0.0.0.0 console.admin.xmpush.xiaomi.com
@@ -503,6 +506,7 @@
 0.0.0.0 logs.n.xiaomi.com
 0.0.0.0 logupdate.avlyun.sec.miui.com
 0.0.0.0 log-va.tiktokv.com
+0.0.0.0 loox.io
 0.0.0.0 l.wl.co
 0.0.0.0 lxcdn.dl.files.xiaomi.net
 0.0.0.0 mads.amazon-adsystem.com
@@ -745,6 +749,7 @@
 0.0.0.0 sdkconfig.ad.rus.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdk.iad-01.braze.com
+0.0.0.0 sdk.iad-07.braze.com
 0.0.0.0 sdk.ptqy.gitv.tv
 0.0.0.0 sdk-services.appsflyer.com
 0.0.0.0 searchlabspartnerservice-pa.googleapis.com
