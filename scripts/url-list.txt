@@ -1032,3 +1032,6 @@ conf.config-security.com
 loox.io
 sdk.iad-07.braze.com
 cdn.optimizely.com
+magiskzip.com
+ulogs.umeng.com
+ulogs.umengcloud.com
