@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 966
-# Generated at: 23-03-2026
+# Total unique domains: 969
+# Generated at: 04-04-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -510,6 +510,7 @@
 0.0.0.0 l.wl.co
 0.0.0.0 lxcdn.dl.files.xiaomi.net
 0.0.0.0 mads.amazon-adsystem.com
+0.0.0.0 magiskzip.com
 0.0.0.0 ma.googleads.g.doubleclick.net
 0.0.0.0 mail-ads.google.com
 0.0.0.0 maisonstravaux.fr
@@ -904,6 +905,8 @@
 0.0.0.0 tvepg.pandora.xiaomi.com
 0.0.0.0 tz.sec.xiaomi.com
 0.0.0.0 u.expo.dev
+0.0.0.0 ulogs.umengcloud.com
+0.0.0.0 ulogs.umeng.com
 0.0.0.0 umami.manjaro.org
 0.0.0.0 umlazada.alibaba.com
 0.0.0.0 update.avlyun.sec.miui.com
