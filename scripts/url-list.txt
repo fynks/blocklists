@@ -244,6 +244,9 @@ dv9cjr-cdn-settings.appsflyersdk.com
 dv9cjr-dlsdk.appsflyersdk.com
 dv9cjr-attr.appsflyersdk.com
 dv9cjr-conversions.appsflyersdk.com
+54ty7j.conversions.appsflyersdk.com
+54ty7j.dlsdk.appsflyersdk.com
+54ty7j.cdn-settings.appsflyersdk.com
 
 #============ Branch ============
 api.branch.io
@@ -433,7 +436,7 @@ mon-boot.tiktokv.com
 tnc-boot.tiktokv.com
 mon-sg.tiktokv.com
 analytics.us.tiktok.com
-
+log-boot.tiktokv.com
 
 #============ Twitter / X ============
 ads-api.twitter.com
@@ -499,7 +502,6 @@ log.ad.xiaomi.com
 log.avlyun.sec.intl.miui.com
 logupdate.avlyun.sec.miui.com
 mazu.sec.miui.com
-mcc-intl.inf.miui.com
 metok.sys.miui.com
 o2o.api.xiaomi.com
 r.browser.miui.com
@@ -937,6 +939,8 @@ callback.xmpush.xiaomi.com
 emq.xmpush.xiaomi.com
 sandbox.xmpush.xiaomi.com
 vip-api.xmpush.xiaomi.com
+mcc-intl.inf.miui.com
+data.mistat.intl.xiaomi.com
 
 #============ Misc Other ============
 advertiserurl.com
@@ -1035,3 +1039,15 @@ cdn.optimizely.com
 magiskzip.com
 ulogs.umeng.com
 ulogs.umengcloud.com
+p8ly86.conversions.appsflyersdk.com
+app.adjust.io
+ip.prvtx.net
+adexchangeclear.com
+acscdn.com
+usrpubtrk.com
+allhoney.pro
+vhit.io
+riamiavid.com
+us1-spiky.clevertap-prod.com
+us1.clevertap-prod.com
+location.services.mozilla.com
