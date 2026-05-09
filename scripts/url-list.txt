@@ -1439,3 +1439,5 @@ hog.crowdin.com
 qb3mmcu0z3.kameleoon.io
 snippets.freshchat.com
 ssl.widgets.webengage.com
+sdk-01.moengage.com
+dummyapi.online

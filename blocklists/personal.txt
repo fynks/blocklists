@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1370
-# Generated at: 29-04-2026
+# Total unique domains: 1372
+# Generated at: 09-05-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -652,6 +652,7 @@
 0.0.0.0 d.reddit.com
 0.0.0.0 drm-google-analtyic.com
 0.0.0.0 drm.market.xiaomi.com
+0.0.0.0 dummyapi.online
 0.0.0.0 dv9cjr-attr.appsflyersdk.com
 0.0.0.0 dv9cjr-cdn-settings.appsflyersdk.com
 0.0.0.0 dv9cjr-conversions.appsflyersdk.com
@@ -1129,6 +1130,7 @@
 0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 scribe.twitter.com
 0.0.0.0 sc-static.net
+0.0.0.0 sdk-01.moengage.com
 0.0.0.0 sdk-api-v1.singular.net
 0.0.0.0 sdk.appsflyer.com
 0.0.0.0 sdk-cache.video.ptqy.gitv.tv
