@@ -1,6 +1,6 @@
 ! Title: Remove Annoyances
 ! Description: A minimal, opinionated filter list to declutter websites
-! Last updated: 2025-10-30
+! Last updated: 2026-05-22
 
 !
 ! ——— REDDIT —————————————————————————————————————————————————————————————
@@ -41,13 +41,124 @@ www.reddit.com##recent-posts
 www.reddit.com##alert-controller
 www.reddit.com##.legal-links
 
+! Ads for AI
+www.reddit.com##shreddit-ad-post:is([author="adobe"][post-title*="Firefly"], [author="anthropic-ai"], [author="apollo.io"], [author="kubit_ai"], [author="raybanmeta"], [domain$=".ai"], [post-title~="AI"])
+www.reddit.com##shreddit-ad-post:is([author="adobe"][post-title*="Firefly"], [author="anthropic-ai"], [author="apollo.io"], [author="kubit_ai"], [author="raybanmeta"], [domain$=".ai"], [post-title~="AI"]) + hr
+
+
 !
 ! ——— GITHUB ——————————————————————————————————————————————————————————————
 !
-
 ! — Right sidebar & changelog (dashboard)
 github.com##.dashboard-changelog
 github.com##.feed-right-column
+
+! -- https://github.com/ (Homepage - logged in)
+! "Chat with Copilot" icon in header next to search bar
+github.com##.prc-ButtonGroup-ButtonGroup-vFUrY:has(> div > [type="button"][href="/copilot"])
+! "Copilot" button in left hamburger menu (≡)
+github.com##[data-testid="side-nav-menu-item-COPILOT"]
+! "Ask Copilot" prompt box in "Home" feed
+github.com##.copilotPreview__container
+! "Copilot" section & separator in search bar auto-complete suggestions
+github.com##.ActionList-sectionDivider:has(> [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
+github.com##.ActionList-sectionDivider:has(+ .ActionList-sectionDivider > [role="presentation"] > .ActionListItem[data-command-name="search-copilot-chat"])
+! Changelog posts containing "Copilot" in right sidebar
+github.com##.dashboard-changelog .TimelineItem:has-text(/copilot/i)
+
+! Floating "Open in Copilot chat" icon when hovering over a pull request or issue.
+! * Requires enabling "New Dashboard Experience" in "Feature Preview"
+github.com##.DashboardListView-module__contextBubbleMenu__q0zmI:has(> button > svg.octicon-copilot)
+
+! Copilot menu option
+! * Requires enabling "Command Palette" in "Feature Preview"
+! * Use :remove() to fix arrow key navigation.
+github.com##command-palette-item[data-item-title="Copilot"]
+github.com##command-palette-item[data-item-title="Copilot"]:remove()
+
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/blob/main/GenAI-Blocklist.txt (File view)
+! "Ask Copilot about this file" button - Copilot logo in header bar above file contents
+github.com###blob-view-header-copilot-icon
+! "Ask Copilot about this snippet" button that appears after selecting lines in file view
+github.com###copilot-button-container
+! "Copilot" section & separator in navbar action Menu (...)
+! * Use :remove() to fix arrow key navigation
+github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"])
+github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"]):remove()
+github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"]) + .prc-ActionList-Divider-taVfb
+github.com##.prc-ActionMenu-ActionMenuContainer-Om1Qz > .prc-ActionList-ActionList-rPFF2 > .prc-ActionList-Group-lMIPQ:has(> [aria-label="Copilot"]) + .prc-ActionList-Divider-taVfb:remove()
+! "Agents" tab in repository navbar (while logged in)
+github.com##.prc-UnderlineNav-UnderlineNavItem-syRjR:has(> a[href*="/agents?"])
+! "Regenerate commit message" refresh icon when committing changes
+! * This doesn't block GitHub from using Copilot (AI) to generate the initial commit message.
+!   To prevent this, users would need to change their GitHub account settings.
+github.com##.prc-Button-IconButton-fyge7.prc-components-Invisible-bKOcl.prc-Button-ButtonBase-9n-Xk
+
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/issues/new (New issue page)
+! "Write with Copilot" below issue description
+! * Doesn't always appear. May be limited to issues from repository owner?
+! * The end of class name changed from "__RL1TZUq" to "__eCAAR". Is it dynamic?
+github.com##.Footer-module__footerButtonWrapper__RL1TZUq, .Footer-module__footerButtonWrapper__eCAAR
+
+! -- https://github.com/settings/copilot/features (Copilot features in account settings)
+! Promo banner for GitHub Copilot (Doesn't appear for all users)
+github.com##.start-copilot-banner
+! "Getting started" checklist section
+github.com##[data-testid="copilot-free-user-checklist"]
+
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/13 (Pull request)
+! "Copilot" promo when adding reviewers via gear icon
+github.com##[partial-name="copilot-assisted-review-upsell"]
+! "Code with agent mode" under "Development" section in sidebar
+github.com##.DevelopmentSection-module__developmentSectionContainer__fplqG
+
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/pull/15/files (Viewing changed files of a pull request)
+! "Ask Copilot" button next to "Review" button
+github.com##[partial-name="copilot-code-chat"]
+! "Ask Copilot about this file diff" icon that appears when hovering over diff
+github.com##.DiffLinesMenu-module__diff-button-container__vsLlS:has([data-testid="more-copilot-button"])
+! "Ask Copilot about this diff" in action menu (...)
+github.com##[data-target="copilot-diff-entry.menuItemsSlot"]
+
+! -- https://github.com/Stevoisiak/Stevos-GenAI-Blocklist/commit/0a4ba065e2b4e5b5ee60b23e6d01621561343af4 (Viewing commit)
+! "Copilot" section in menu that appears when hitting ▾ in code diff. (ie: "Ask about this diff")
+! * Use :remove() to fix arrow key navigation.
+github.com##[role="menuitem"]:has(.octicon-copilot)
+github.com##[role="menuitem"]:has(.octicon-copilot):remove()
+github.com##[role="menuitem"]:has(.octicon-copilot) + [data-component="ActionList.Divider"]
+github.com##[role="menuitem"]:has(.octicon-copilot) + [data-component="ActionList.Divider"]:remove()
+
+! -- https://github.com/zloirock/core-js/actions/runs/22272347580/job/64429009933 (Failed workflow job)
+! "Explain error" button
+github.com##[data-test-id="copilot-actions-chat-button"]
+
+! -- https://github.com/home (Homepage - logged out)
+! Header - Platform >  "AI Code Creation" section
+! * This filter might hide more than intended if the Copilot button gets moved to a column with non-ai features
+github.com##li:has(> div[class^="NavGroup-module__group"] a[href="https://github.com/features/copilot"])
+
+! Header - Resources > Explore by Topic > "AI" link
+github.com##li:has(> a[class^="NavLink-module__link"][href="https://github.com/resources/articles?topic=ai"])
+
+! "Try GitHub Copilot free" button
+github.com##.Primer_Brand__Button-module__Button___lDruK[href="/github-copilot/pro"]
+! "Your AI Partner everywhere" section
+github.com##[data-testid="Grid-_R_12b_"]
+! "Accelerate your entire workflow" section
+github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > :is(.lp-SectionIntro, .lp-SectionHero)
+! Footer - AI links
+github.com##.Link--secondary[href="/features/copilot"]
+github.com##.Link--secondary[href="/features/ai"]
+
+! -- https://github.com/features/ai
+! Block all but header and footer
+github.com##react-app[app-name="landing-pages"][initial-path="/features/ai"]
+
+! -- https://support.github.com/
+! Copilot button in header
+support.github.com##[data-fs="copilot_chat_nav"]
+! "Need instant help?" Copilot suggestion after searching
+support.github.com##.icXpMNcCnhao54vzcHSi:has(.prc-Flash-Flash-q6HW0)
 
 
 !
@@ -91,4 +202,8 @@ x.com##[data-testid="placementTracking"]
 x.com#?#[data-testid="trend"]:has-text(/Promoted|Gesponsert|Sponsorisé|Promovat|Sponsorlu|Реклама|推广|プロモーション|프로모션/)
 twitter.com#?#[data-testid="trend"]:has-text(/Promoted|Gesponsert|Sponsorisé|Promovat|Sponsorlu|Реклама|推广|プロモーション|프로모션/)
 
-
+!
+! ——— Facebook ——————————————————————————————————————————————————————————————
+!
+facebook.com##[data-dcm-id="1"]:has(.rtl-ignore.f2.a:has-text(/(Adobe Firefly|Meta AI)/))
+facebook.com##.m.nb[data-type="container"]:has([role="button"][aria-label="Meta AI"])
