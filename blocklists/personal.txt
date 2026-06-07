@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1014
-# Generated at: 04-06-2026
+# Total unique domains: 1016
+# Generated at: 07-06-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -176,6 +176,7 @@
 0.0.0.0 api.xmpush.global.xiaomi.com
 0.0.0.0 apkrep.ff.avast.sec.miui.com
 0.0.0.0 aplus.qwen.ai
+0.0.0.0 apmplus.volces.com
 0.0.0.0 apm-rum-ind.inf.miui.com
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.io
@@ -374,6 +375,7 @@
 0.0.0.0 eu-aa.online-metrix.net
 0.0.0.0 eu-ortb-api.ad.intl.xiaomi.com
 0.0.0.0 events.appsflyer.com
+0.0.0.0 events.mapbox.com
 0.0.0.0 events.miui.com
 0.0.0.0 events.reddit.com
 0.0.0.0 events.redditmedia.com
@@ -645,6 +647,7 @@
 0.0.0.0 o352714.ingest.sentry.io
 0.0.0.0 o418887.ingest.sentry.io
 0.0.0.0 o516780.ingest.sentry.io
+0.0.0.0 o5937.ingest.sentry.io
 0.0.0.0 odml.ad.intl.xiaomi.com
 0.0.0.0 offer.alibaba.com
 0.0.0.0 ogads-pa.clients6.google.com
@@ -803,7 +806,6 @@
 0.0.0.0 secure.report.iss.xiaomi.com
 0.0.0.0 security.browser.miui.com
 0.0.0.0 sentry.be.xiaomi.com
-0.0.0.0 sentry.io
 0.0.0.0 sentry.pay.xiaomi.com
 0.0.0.0 sentry.sec.miui.com
 0.0.0.0 sentry.walletbot.me

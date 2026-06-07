@@ -372,7 +372,7 @@ o33249.ingest.sentry.io
 o352714.ingest.sentry.io
 o418887.ingest.sentry.io
 o516780.ingest.sentry.io
-sentry.io
+o5937.ingest.sentry.io
 
 #============ Shopify ============
 shopify-metrics.reconvert.com
@@ -1078,3 +1078,5 @@ sdk-01.moengage.com
 dummyapi.online
 cdn.gladly.com
 www.effectivecpmnetwork.com
+events.mapbox.com
+apmplus.volces.com
