@@ -924,7 +924,12 @@ callback.xmpush.xiaomi.com
 emq.xmpush.xiaomi.com
 sandbox.xmpush.xiaomi.com
 vip-api.xmpush.xiaomi.com
-mcc-intl.inf.miui.com
+api.health.comm.miui.com
+resolver.msg.global.xiaomi.net
+app.migc.xiaomi.com
+api.xmpush.xiaomi.com
+app.xiaomi.com
+mistat.xiaomi.com
 
 
 #============ Unity ============
@@ -1080,3 +1085,6 @@ cdn.gladly.com
 www.effectivecpmnetwork.com
 events.mapbox.com
 apmplus.volces.com
+cdn.mida.so
+my.imageflow.store
+vd.7vid.net

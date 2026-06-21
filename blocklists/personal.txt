@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1016
-# Generated at: 07-06-2026
+# Total unique domains: 1025
+# Generated at: 21-06-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -153,6 +153,7 @@
 0.0.0.0 api.game.intl.miui.com
 0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.googleadsapi.com
+0.0.0.0 api.health.comm.miui.com
 0.0.0.0 api.hybrid.xiaomi.com
 0.0.0.0 api.installer.xiaomi.com
 0.0.0.0 api.ipinfo.be
@@ -174,6 +175,7 @@
 0.0.0.0 api.userway.org
 0.0.0.0 api.vip.miui.com
 0.0.0.0 api.xmpush.global.xiaomi.com
+0.0.0.0 api.xmpush.xiaomi.com
 0.0.0.0 apkrep.ff.avast.sec.miui.com
 0.0.0.0 aplus.qwen.ai
 0.0.0.0 apmplus.volces.com
@@ -192,6 +194,7 @@
 0.0.0.0 app-measurement.com
 0.0.0.0 appmetrica.yandex.ru
 0.0.0.0 app.migc.g.mi.com
+0.0.0.0 app.migc.xiaomi.com
 0.0.0.0 app.miui.com
 0.0.0.0 appsflyer-report.honkaiimpact3.com
 0.0.0.0 appsflyersdk.com
@@ -199,6 +202,7 @@
 0.0.0.0 appstore.cdn.pandora.xiaomi.com
 0.0.0.0 appstore.pandora.xiaomi.com
 0.0.0.0 appstore.ptmi.gitv.tv
+0.0.0.0 app.xiaomi.com
 0.0.0.0 aps1-turn.fpjs.io
 0.0.0.0 arclight.vimeo.com
 0.0.0.0 arms-retcode.aliyuncs.com
@@ -275,6 +279,7 @@
 0.0.0.0 cdn.fds-ssl.api.xiaomi.com
 0.0.0.0 cdn.gladly.com
 0.0.0.0 cdn.hengam.io
+0.0.0.0 cdn.mida.so
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.ynuf.aliapp.org
@@ -593,6 +598,7 @@
 0.0.0.0 mistat.rus.xiaomi.com
 0.0.0.0 mistat.rus.xiaomi.com.edgesuite.net
 0.0.0.0 mistat.rus.xiaomi.com.ksyna.net
+0.0.0.0 mistat.xiaomi.com
 0.0.0.0 mistat.xiaomi.com.download.ks-cdn.com
 0.0.0.0 mitv.tracking.india.miui.com
 0.0.0.0 mitv.tracking.intl.miui.com
@@ -628,6 +634,7 @@
 0.0.0.0 m.track.ad.xiaomi.com
 0.0.0.0 mum.alibabachengdun.com
 0.0.0.0 mum.alibabachengdun.net
+0.0.0.0 my.imageflow.store
 0.0.0.0 native.feedback.miui.com
 0.0.0.0 nav.browser.miui.com
 0.0.0.0 nav.sec.miui.com
@@ -752,6 +759,7 @@
 0.0.0.0 rereddit.com
 0.0.0.0 resolver.gslb.mi-idc.com
 0.0.0.0 resolver.mi.xiaomi.com
+0.0.0.0 resolver.msg.global.xiaomi.net
 0.0.0.0 retcode-sg-lazada.arms.aliyuncs.com
 0.0.0.0 riamiavid.com
 0.0.0.0 router.tracking.miui.com
@@ -965,6 +973,7 @@
 0.0.0.0 us.statusapi.micloud.xiaomi.net
 0.0.0.0 ut.qwen.ai
 0.0.0.0 validate.appsflyer.com
+0.0.0.0 vd.7vid.net
 0.0.0.0 vhit.io
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 video-analytics-api.cloudinary.com
