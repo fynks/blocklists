@@ -1,6 +1,6 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1025
+# Total unique domains: 1028
 # Generated at: 21-06-2026
 #
 # Hosts file format: 0.0.0.0 example.com
@@ -484,6 +484,7 @@
 0.0.0.0 httpdns.browser.miui.com
 0.0.0.0 huosai.xiaomi.com
 0.0.0.0 hybrid.miui.com
+0.0.0.0 hybrid.xiaomi.com
 0.0.0.0 hydra.alibaba.com
 0.0.0.0 i.api.xmpush.xiaomi.com
 0.0.0.0 id.google.com
@@ -869,10 +870,12 @@
 0.0.0.0 stat.miui.com
 0.0.0.0 stat.pandora.xiaomi.com
 0.0.0.0 stats.appsflyer.com
+0.0.0.0 stats-fm.music.xiaomi.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 statsgoogle.appsflyer.com
 0.0.0.0 statsig.anthropic.com
 0.0.0.0 stats.kde.org
+0.0.0.0 stats.music.xiaomi.com
 0.0.0.0 stats.wp.com
 0.0.0.0 statusapi.micloud.xiaomi.net
 0.0.0.0 stat.www.xiaomi.com
