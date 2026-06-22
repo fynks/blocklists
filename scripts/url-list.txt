@@ -1092,3 +1092,5 @@ events.mapbox.com
 apmplus.volces.com
 cdn.mida.so
 my.imageflow.store
+new-sentry.gitlab.net
+snowplowprd.trx.gitlab.net

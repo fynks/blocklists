@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1030
-# Generated at: 21-06-2026
+# Total unique domains: 1032
+# Generated at: 22-06-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -606,6 +606,7 @@
 0.0.0.0 mitv.tracking.intl.miui.com
 0.0.0.0 mitv.tracking.miui.com
 0.0.0.0 mitv.tracking.rus.miui.com
+0.0.0.0 miui-fxcse.avlyun.com
 0.0.0.0 miui-l7-data-other-c3.pt.miui.com
 0.0.0.0 miui-l7-data-other.pt.miui.com
 0.0.0.0 miui.net
@@ -641,6 +642,7 @@
 0.0.0.0 nav.browser.miui.com
 0.0.0.0 nav.sec.miui.com
 0.0.0.0 netcheck.pandora.xiaomi.com
+0.0.0.0 new-sentry.gitlab.net
 0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 nginx.34.sec.miui.com
 0.0.0.0 nl.rcd.ptqy.gitv.tv
@@ -839,6 +841,7 @@
 0.0.0.0 sjs.ptmi.gitv.pandora.xiaomi.com
 0.0.0.0 smartlock.google.com
 0.0.0.0 snippets.freshchat.com
+0.0.0.0 snowplowprd.trx.gitlab.net
 0.0.0.0 sonar6-dfw6-1.xx.fbcdn.net
 0.0.0.0 sonar6.xy.fbcdn.net
 0.0.0.0 sonar-gmp1-1.xx.fbcdn.net
