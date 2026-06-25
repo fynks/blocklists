@@ -10,24 +10,12 @@ A collection of blocklists for various purposes, including ad blocking, malware 
 https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/personal.txt
 ```
 
-or
-
-```
-https://cdn.jsdelivr.net/gh/fynks/blocklists@latest/blocklists/personal.txt
-```
-
 ---
 
 ### Annoyances Blocklist
 
 ```
 https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/annoyances.txt
-```
-
-or
-
-```
-https://cdn.jsdelivr.net/gh/fynks/blocklists@latest/blocklists/annoyances.txt
 ```
 
 ---
