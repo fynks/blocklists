@@ -266,6 +266,8 @@ cdn.branch.io
 #============ Brave ============
 usage-ping.brave.com
 static.ads.bravesoftware.com
+static.ads.brave.com
+
 
 #============ Bugsnag ============
 api.bugsnag.com
