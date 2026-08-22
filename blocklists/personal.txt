@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1033
-# Generated at: 19-07-2026
+# Total unique domains: 1047
+# Generated at: 22-08-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -9,6 +9,7 @@
 0.0.0.0 13453765871837679316.googlegroups.com
 0.0.0.0 1.datadog.pool.ntp.org
 0.0.0.0 2.datadog.pool.ntp.org
+0.0.0.0 34329.pecannerous.com
 0.0.0.0 3.datadog.pool.ntp.org
 0.0.0.0 3rdupgrade.pandora.xiaomi.com
 0.0.0.0 4.afs.googleadservices.com
@@ -20,6 +21,7 @@
 0.0.0.0 4ng01p-cdn-settings.appsflyersdk.com
 0.0.0.0 4ng01p.cdn-settings.appsflyersdk.com
 0.0.0.0 4ng01p-conversions.appsflyersdk.com
+0.0.0.0 4ng01p.conversions.appsflyersdk.com
 0.0.0.0 4ng01p-inapps.appsflyersdk.com
 0.0.0.0 4ng01p.inapps.appsflyersdk.com
 0.0.0.0 4ng01p-launches.appsflyersdk.com
@@ -44,6 +46,7 @@
 0.0.0.0 abroad.api.comm.intl.miui.com
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 abtest.mistat.xiaomi.com
+0.0.0.0 abtest-va-sg.data.mioffice.cn
 0.0.0.0 account.migc.g.mi.com
 0.0.0.0 accscdn.m.taobao.com
 0.0.0.0 acscdn.com
@@ -101,6 +104,7 @@
 0.0.0.0 afs.googlesyndication.com
 0.0.0.0 a.hl.mi.com
 0.0.0.0 akademiagoogleads.com
+0.0.0.0 a.klaviyo.com
 0.0.0.0 alb.reddit.com
 0.0.0.0 allhoney.pro
 0.0.0.0 alogsus.umeng.com
@@ -380,6 +384,7 @@
 0.0.0.0 etl.xlmc.sec.miui.com
 0.0.0.0 eu-aa.online-metrix.net
 0.0.0.0 eu-ortb-api.ad.intl.xiaomi.com
+0.0.0.0 eu-pcdn.dengage.com
 0.0.0.0 events.appsflyer.com
 0.0.0.0 events.mapbox.com
 0.0.0.0 events.miui.com
@@ -508,6 +513,7 @@
 0.0.0.0 india.miui.com
 0.0.0.0 indrive-api.exponea.com
 0.0.0.0 infinitedata-pa.googleapis.com
+0.0.0.0 infinitepixeltracking.com
 0.0.0.0 inf.miui.com
 0.0.0.0 in-miuilog.sms.intl.xiaomi.com
 0.0.0.0 in-ortb-api.ad.intl.xiaomi.com
@@ -530,6 +536,7 @@
 0.0.0.0 jn8dkc.launches.appsflyersdk.com
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.appboycdn.com
+0.0.0.0 js.wpadmngr.com
 0.0.0.0 jupiter.intl.sys.miui.com
 0.0.0.0 jupiter.rus.sys.miui.com
 0.0.0.0 jupiter.sys.miui.com
@@ -539,6 +546,7 @@
 0.0.0.0 lg.api.xmpush.xiaomi.com
 0.0.0.0 lg-bgp-misc.pandora.xiaomi.com
 0.0.0.0 linux2.googlerenewals.net
+0.0.0.0 livechat.nextop.com
 0.0.0.0 live.miphone.pandora.xiaomi.com
 0.0.0.0 location.services.mozilla.com
 0.0.0.0 log16-normal-alisg.tiktokv.com
@@ -750,6 +758,7 @@
 0.0.0.0 r.browser.intl.miui.com
 0.0.0.0 r.browser.miui.com
 0.0.0.0 reader.browser.miui.com
+0.0.0.0 realtimeeventfeeds.viafoura.co
 0.0.0.0 realtime.services.disqus.com
 0.0.0.0 redirector.gvt1.com
 0.0.0.0 redirect.pandora.xiaomi.com
@@ -793,6 +802,7 @@
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 scribe.twitter.com
+0.0.0.0 scripts.claspo.io
 0.0.0.0 sc-static.net
 0.0.0.0 sdk-01.moengage.com
 0.0.0.0 sdk-api-v1.singular.net
@@ -826,6 +836,8 @@
 0.0.0.0 service2.us.incognia.com
 0.0.0.0 service4.us.incognia.com
 0.0.0.0 sessions.bugsnag.com
+0.0.0.0 sg1.clevertap-prod.com
+0.0.0.0 sg1-spiky.clevertap-prod.com
 0.0.0.0 sg-live.slatic.net
 0.0.0.0 sg.mmstat.com
 0.0.0.0 sgpapi.ad.intl.xiaomi.com
@@ -872,6 +884,7 @@
 0.0.0.0 static.game.xiaomi.com
 0.0.0.0 static.googleadsserving.cn
 0.0.0.0 static-google-analtyic.com
+0.0.0.0 static.klaviyo.com
 0.0.0.0 static.ptqy.gitv.tv
 0.0.0.0 stat.miui.com
 0.0.0.0 stat.pandora.xiaomi.com
@@ -954,6 +967,7 @@
 0.0.0.0 trackonomics.net
 0.0.0.0 traffic-media.co
 0.0.0.0 traffic-media.co.uk
+0.0.0.0 traffic-nts-ip-assoc.xy.fbcdn.net
 0.0.0.0 trakksocial.googlecode.com
 0.0.0.0 transfer.sec.miui.com
 0.0.0.0 trk.storyly.io
