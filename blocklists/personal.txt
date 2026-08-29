@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1047
-# Generated at: 22-08-2026
+# Total unique domains: 1061
+# Generated at: 29-08-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -203,6 +203,7 @@
 0.0.0.0 app.miui.com
 0.0.0.0 appsflyer-report.honkaiimpact3.com
 0.0.0.0 appsflyersdk.com
+0.0.0.0 appsgrowthpromo-pa.clients6.google.com
 0.0.0.0 appsgrowthpromo-pa.googleapis.com
 0.0.0.0 appstore.cdn.pandora.xiaomi.com
 0.0.0.0 appstore.pandora.xiaomi.com
@@ -345,6 +346,7 @@
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
 0.0.0.0 decide.mixpanel.com
+0.0.0.0 default.exp-tas.com
 0.0.0.0 default.tracking.miui.com
 0.0.0.0 de.pandora.xiaomi.com
 0.0.0.0 device-api.asnapieu.com
@@ -663,6 +665,7 @@
 0.0.0.0 nv.wreckedulpan.com
 0.0.0.0 o1158394.ingest.us.sentry.io
 0.0.0.0 o2o.api.xiaomi.com
+0.0.0.0 o30969.ingest.us.sentry.io
 0.0.0.0 o33249.ingest.sentry.io
 0.0.0.0 o352714.ingest.sentry.io
 0.0.0.0 o418887.ingest.sentry.io
@@ -855,8 +858,13 @@
 0.0.0.0 snippets.freshchat.com
 0.0.0.0 snowplowprd.trx.gitlab.net
 0.0.0.0 sonar6-dfw6-1.xx.fbcdn.net
+0.0.0.0 sonar6.fkhi11-1.fna.fbcdn.net
+0.0.0.0 sonar6-kul3-1.xx.fbcdn.net
+0.0.0.0 sonar6-sin6-1.xx.fbcdn.net
 0.0.0.0 sonar6.xy.fbcdn.net
+0.0.0.0 sonar.fkul8-1.fna.fbcdn.net
 0.0.0.0 sonar-gmp1-1.xx.fbcdn.net
+0.0.0.0 sonar-mrs2-1.xx.fbcdn.net
 0.0.0.0 sonar-prg1-1.xx.fbcdn.net
 0.0.0.0 sponsors.vuejs.org
 0.0.0.0 srv.greenguard.sec.miui.com
@@ -968,6 +976,7 @@
 0.0.0.0 traffic-media.co
 0.0.0.0 traffic-media.co.uk
 0.0.0.0 traffic-nts-ip-assoc.xy.fbcdn.net
+0.0.0.0 traffic-nts-ip-assoc.xz.fbcdn.net
 0.0.0.0 trakksocial.googlecode.com
 0.0.0.0 transfer.sec.miui.com
 0.0.0.0 trk.storyly.io
@@ -983,6 +992,7 @@
 0.0.0.0 umami.manjaro.org
 0.0.0.0 umami.priorato.org
 0.0.0.0 umlazada.alibaba.com
+0.0.0.0 umuc.tt.omtrdc.net
 0.0.0.0 update.avlyun.sec.miui.com
 0.0.0.0 upgrade.pandora.xiaomi.com
 0.0.0.0 us1.clevertap-prod.com
@@ -995,6 +1005,8 @@
 0.0.0.0 usrpubtrk.com
 0.0.0.0 us.statusapi.micloud.xiaomi.net
 0.0.0.0 ut.qwen.ai
+0.0.0.0 v4.xz.fbcdn.net
+0.0.0.0 v6.xy.fbcdn.net
 0.0.0.0 validate.appsflyer.com
 0.0.0.0 vhit.io
 0.0.0.0 video-ad-stats.googlesyndication.com
@@ -1014,6 +1026,7 @@
 0.0.0.0 webview.unityads.unity3d.com
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 wintricksbanner.googlepages.com
+0.0.0.0 wj.fuseddagos.com
 0.0.0.0 wl.spotify.com
 0.0.0.0 wl.voip.game.xiaomi.com
 0.0.0.0 w.pandora.xiaomi.com
@@ -1049,6 +1062,7 @@
 0.0.0.0 xjp-msgacs.m.taobao.com
 0.0.0.0 xlmc.sec.miui.com
 0.0.0.0 ynuf.aliapp.org
+0.0.0.0 yw.acutewc.com
 0.0.0.0 zeus.ad.intl.xiaomi.com
 0.0.0.0 zeus.ad.xiaomi.com
 0.0.0.0 z-p42.graph.instagram.com

@@ -134,6 +134,7 @@ xgapromomanager-pa.googleapis.com
 appsgrowthpromo-pa.googleapis.com
 federatedcompute-pa.googleapis.com
 sba.keys.ohttp.prod.via.google
+appsgrowthpromo-pa.clients6.google.com
 
 
 #============ Accuweather ============
@@ -376,6 +377,7 @@ o352714.ingest.sentry.io
 o418887.ingest.sentry.io
 o516780.ingest.sentry.io
 o5937.ingest.sentry.io
+o30969.ingest.us.sentry.io
 
 #============ Shopify ============
 shopify-metrics.reconvert.com
@@ -1031,6 +1033,15 @@ sonar-prg1-1.xx.fbcdn.net
 sonar-gmp1-1.xx.fbcdn.net
 sonar6.xy.fbcdn.net
 sonar6-dfw6-1.xx.fbcdn.net
+traffic-nts-ip-assoc.xz.fbcdn.net
+v6.xy.fbcdn.net
+v4.xz.fbcdn.net
+traffic-nts-ip-assoc.xz.fbcdn.net
+sonar.fkul8-1.fna.fbcdn.net
+sonar6.fkhi11-1.fna.fbcdn.net
+sonar6-sin6-1.xx.fbcdn.net
+sonar6-kul3-1.xx.fbcdn.net
+sonar-mrs2-1.xx.fbcdn.net
 sponsors.vuejs.org
 tag.crsspxl.com
 ton.twimg.com
@@ -1112,4 +1123,7 @@ sg1.clevertap-prod.com
 aa.online-metrix.net
 realtimeeventfeeds.viafoura.co
 eu-pcdn.dengage.com
-
+yw.acutewc.com
+wj.fuseddagos.com
+default.exp-tas.com
+umuc.tt.omtrdc.net
