@@ -1,10 +1,11 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1061
-# Generated at: 29-08-2026
+# Total unique domains: 1073
+# Generated at: 15-09-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
+0.0.0.0 0hdN3T-dnsotls-ds.metric.gstatic.com
 0.0.0.0 11-c3.bigdata.ctc.neo.xiaomi.com
 0.0.0.0 13453765871837679316.googlegroups.com
 0.0.0.0 1.datadog.pool.ntp.org
@@ -31,6 +32,8 @@
 0.0.0.0 54ty7j.conversions.appsflyersdk.com
 0.0.0.0 54ty7j.dlsdk.appsflyersdk.com
 0.0.0.0 5-c3.bigdata.ctc.neo.xiaomi.com
+0.0.0.0 5d63e1ac-dnsotls-ds.metric.gstatic.com
+0.0.0.0 621GG1-dnsotls-ds.metric.gstatic.com
 0.0.0.0 7o3c9y.attr.appsflyersdk.com
 0.0.0.0 7o3c9y.cdn-settings.appsflyersdk.com
 0.0.0.0 7o3c9y.conversions.appsflyersdk.com
@@ -71,6 +74,7 @@
 0.0.0.0 ad.intl.xiaomi.com.edgesuite.net
 0.0.0.0 ad.intl.xiaomi.com.ksyna.net
 0.0.0.0 ad.mi.com
+0.0.0.0 ad.miui.com
 0.0.0.0 ad.quickapp.hybrid.xiaomi.com
 0.0.0.0 adrevenue.appsflyer.com
 0.0.0.0 ad.rus.xiaomi.com
@@ -288,6 +292,8 @@
 0.0.0.0 cdn.mida.so
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
+0.0.0.0 cdn-v4.amp-endpoint3.com
+0.0.0.0 cdn-v6.amp-endpoint3.com
 0.0.0.0 cdn.ynuf.aliapp.org
 0.0.0.0 cdp-eu.customer.io
 0.0.0.0 c.googlesyndication.com
@@ -421,6 +427,7 @@
 0.0.0.0 flow.sec.miui.com
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fls-na.amazon.com
+0.0.0.0 footprints-pa.googleapis.com
 0.0.0.0 fourier.alibaba.com
 0.0.0.0 fourier.taobao.com
 0.0.0.0 fr-api.xmpush.global.xiaomi.com
@@ -517,6 +524,7 @@
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 infinitepixeltracking.com
 0.0.0.0 inf.miui.com
+0.0.0.0 iNLWCf-dnsotls-ds.metric.gstatic.com
 0.0.0.0 in-miuilog.sms.intl.xiaomi.com
 0.0.0.0 in-ortb-api.ad.intl.xiaomi.com
 0.0.0.0 in-protect-dev.sec.intl.miui.com
@@ -542,6 +550,7 @@
 0.0.0.0 jupiter.intl.sys.miui.com
 0.0.0.0 jupiter.rus.sys.miui.com
 0.0.0.0 jupiter.sys.miui.com
+0.0.0.0 k4kwBz-dnsotls-ds.metric.gstatic.com
 0.0.0.0 kuyun.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 learn.advertising.snapchat.com
@@ -550,6 +559,7 @@
 0.0.0.0 linux2.googlerenewals.net
 0.0.0.0 livechat.nextop.com
 0.0.0.0 live.miphone.pandora.xiaomi.com
+0.0.0.0 locationhistoryplacedetails-pa.googleapis.com
 0.0.0.0 location.services.mozilla.com
 0.0.0.0 log16-normal-alisg.tiktokv.com
 0.0.0.0 log2.spotify.com
@@ -718,6 +728,7 @@
 0.0.0.0 partner.googleadservices.com
 0.0.0.0 pb.bi.gitv.tv
 0.0.0.0 pb.scudapogees.com
+0.0.0.0 peoplestackwebexperiments-pa.clients6.google.com
 0.0.0.0 perseus-productanalytics.deliveryhero.net
 0.0.0.0 pi.ias.xiaomi.com
 0.0.0.0 pixel.ad.intl.xiaomi.com
@@ -778,6 +789,7 @@
 0.0.0.0 resolver.mi.xiaomi.com
 0.0.0.0 resolver.msg.global.xiaomi.net
 0.0.0.0 retcode-sg-lazada.arms.aliyuncs.com
+0.0.0.0 reward.ad.miui.com
 0.0.0.0 riamiavid.com
 0.0.0.0 router.tracking.miui.com
 0.0.0.0 r.sg.sec.miui.com
@@ -793,7 +805,9 @@
 0.0.0.0 rus.miui.com
 0.0.0.0 ruvideo.cdn.pandora.intl.xiaomi.com
 0.0.0.0 ru.video.intl.xiaomi.com
+0.0.0.0 s0.2mdn.net
 0.0.0.0 s0-2mdn-net.l.google.com
+0.0.0.0 s1.2mdn.net
 0.0.0.0 s2s.adjust.com
 0.0.0.0 s2s.singular.net
 0.0.0.0 sa.api.intl.miui.com
@@ -867,6 +881,7 @@
 0.0.0.0 sonar-mrs2-1.xx.fbcdn.net
 0.0.0.0 sonar-prg1-1.xx.fbcdn.net
 0.0.0.0 sponsors.vuejs.org
+0.0.0.0 spot-pa.googleapis.com
 0.0.0.0 srv.greenguard.sec.miui.com
 0.0.0.0 srv.sec.miui.com
 0.0.0.0 ssl.google-analytics.com
@@ -912,6 +927,7 @@
 0.0.0.0 storeconfig.mistat.xiaomi.com
 0.0.0.0 streamback.ff.avast.sec.miui.com
 0.0.0.0 strike.fox.com
+0.0.0.0 stun.l.google.com
 0.0.0.0 survey.china.alibaba.com
 0.0.0.0 sys.intl.xiaomi.com
 0.0.0.0 sys.tv.india.xiaomi.com
@@ -1038,9 +1054,7 @@
 0.0.0.0 www.effectivecpmnetwork.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.google-analytics.com
-0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 www.google-docs.org
-0.0.0.0 www-google.nl
 0.0.0.0 www.googleoptimize.com
 0.0.0.0 wwwgoogles.com
 0.0.0.0 www.googletagmanager.com
@@ -1053,8 +1067,6 @@
 0.0.0.0 www.rereddit.com
 0.0.0.0 www.statcounter.com
 0.0.0.0 www.traffic-media.co
-0.0.0.0 www.www-google.nl
-0.0.0.0 www.wwwgoogles.com
 0.0.0.0 xadx.file.market.xiaomi.com
 0.0.0.0 xgapromomanager-pa.googleapis.com
 0.0.0.0 xiazai.xiaomi.com
