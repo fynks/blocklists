@@ -8,8 +8,8 @@
 #   -v         Verbose mode (show duplicates being removed)
 #   -h         Show this help
 #
-# This script reads domains from url-list.txt and generates a hosts format
-# blocklist to personal.txt
+# This script reads domains from url-list.txt, deduplicates the source list,
+# and generates a hosts format blocklist to personal.txt
 
 set -euo pipefail  # Exit on error, undefined variables, and pipe failures
 IFS=$'\n\t'        # Set safer Internal Field Separator
@@ -31,9 +31,10 @@ readonly OUTPUT_FILE="${SCRIPT_DIR}/../blocklists/personal.txt"
 readonly EXTERNAL_LIST_URL="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/domains/native.xiaomi.txt"
 readonly TEMP_FILE="$(mktemp)"
 readonly TEMP_EXTERNAL="$(mktemp)"
+readonly TEMP_DEDUPLICATED_INPUT="$(mktemp)"
 
 # Cleanup temporary files on exit
-trap 'rm -f "${TEMP_FILE}" "${TEMP_EXTERNAL}"' EXIT
+trap 'rm -f "${TEMP_FILE}" "${TEMP_EXTERNAL}" "${TEMP_DEDUPLICATED_INPUT}"' EXIT
 
 # Print colored message
 print_status() {
@@ -90,6 +91,8 @@ process_domains() {
         if [[ "${line}" =~ ^[[:space:]]*# ]]; then
             # Detect section headers (e.g. #============ Name ============)
             if [[ "${line}" =~ ^#=+[[:space:]]* ]]; then
+                echo "${line}" >> "${TEMP_DEDUPLICATED_INPUT}"
+
                 # Print stats for previous section if enabled
                 print_section_stats "${current_section}" "${section_original}" "${section_unique}"
                 
@@ -139,6 +142,7 @@ process_domains() {
         else
             # New unique domain
             echo "${domain}" >> "${TEMP_FILE}"
+            echo "${domain}" >> "${TEMP_DEDUPLICATED_INPUT}"
             echo "${domain}" >> "${temp_seen}"
             total_unique=$((total_unique + 1))
             section_unique=$((section_unique + 1))
@@ -147,6 +151,12 @@ process_domains() {
     
     # Print stats for last section
     print_section_stats "${current_section}" "${section_original}" "${section_unique}"
+
+    # Replace the source list with the same normalized, unique domains used
+    # to generate the hosts file.
+    chmod --reference="${INPUT_FILE}" "${TEMP_DEDUPLICATED_INPUT}"
+    mv "${TEMP_DEDUPLICATED_INPUT}" "${INPUT_FILE}"
+    print_status "${GREEN}" "Updated source list with ${total_unique} unique domains: ${INPUT_FILE}"
     
     # Cleanup
     rm -f "${temp_seen}"
