@@ -24,5 +24,5 @@ https://raw.githubusercontent.com/fynks/blocklists/main/blocklists/annoyances.tx
 ### Xiaomi | Hagezi
 
 ```
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.xiaomi.txt
+https://hagezi-mirror.dnsbunker.org/hosts/native.xiaomi.txt
 ```
