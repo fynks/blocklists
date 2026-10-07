@@ -207,7 +207,7 @@ main() {
     log_info "Extracting domains from JSON data..."
     
     export -f process_chunk
-    if ! stdbuf -oL < "${PATHS[INPUT_FILE]}" parallel --pipe -N1000 --block 1M --progress process_chunk > "$TEMP_DIR/new_domains.txt" 2>/dev/null; then
+    if ! SHELL="$BASH" stdbuf -oL < "${PATHS[INPUT_FILE]}" parallel --pipe -N1000 --block 1M --progress process_chunk > "$TEMP_DIR/new_domains.txt" 2>/dev/null; then
         log_warn "Some parallel processing errors occurred, continuing with available data..."
     fi
 
