@@ -1417,14 +1417,10 @@
 0.0.0.0 www.googletagservices.com
 0.0.0.0 www.googlew.com
 0.0.0.0 www.kuyun.com
-0.0.0.0 www.mega-debrid.eu
-0.0.0.0 www.miui.net
 0.0.0.0 www.myprotonvpn.shop
 0.0.0.0 www.ojrq.net
 0.0.0.0 www.playwire.com
-0.0.0.0 www.rekhta.org
 0.0.0.0 www.rereddit.com
-0.0.0.0 www.statcounter.com
 0.0.0.0 www.tkqlhce.com
 0.0.0.0 www.traffic-media.co
 0.0.0.0 xadx.file.market.xiaomi.com
