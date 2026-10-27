@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #
-# url-to-hosts.sh - Extract domains from blocked.json and build a hosts blocklist
+# url-to-hosts.sh - Merge blocked.json domains into url-list.txt and build
+#                   a hosts format blocklist
+#
 # Usage: ./url-to-hosts.sh [options]
 #
 # Options:
@@ -10,96 +12,86 @@
 #   -v        Verbose mode (show duplicates being removed)
 #   -h        Show this help
 #
-# Pipeline:
-#   blocked.json -> unique domains -> url-list.txt (new "Blocked JSON" section)
-#                -> global deduplication -> blocklists/personal.txt (hosts format)
+# Pipeline: blocked.json (optional, unioned into the "Blocked JSON" section
+# of url-list.txt) + url-list.txt -> URL normalization + global dedup ->
+# blocklists/personal.txt (hosts format)
 #
-# Subdomains of the base domains listed in SKIP_SUBDOMAIN_BASES are dropped
-# from every step (see the setting near the top of this script).
-#
-# Everything is done with streaming tools (jq + awk + sort) so the whole
-# pipeline stays linear in the size of the input.
+# blocked.json is optional: when it is absent, empty or unparsable the
+# script works with url-list.txt only. Domains already in url-list.txt are
+# always kept.
 
-set -euo pipefail  # Exit on error, undefined variables, and pipe failures
-IFS=$'\n\t'        # Set safer Internal Field Separator
+set -euo pipefail
+IFS=$'\n\t'
 
-# Colors for output
 readonly RED='\033[0;31m'
 readonly GREEN='\033[0;32m'
 readonly YELLOW='\033[1;33m'
-readonly NC='\033[0m' # No Color
+readonly NC='\033[0m'
 
-# Default values for options (can be overridden via command line flags)
 SHOW_STATS=false
 VERBOSE=false
 JSON_FILE=""
 EXTRA_SKIP_BASES=()
 
-# ---------------------------------------------------------------------------
-# Skip list: any *subdomain* of the base domains below is dropped from every
-# step (extraction, url-list.txt, deduplication and the generated blocklist).
-# The base domain itself is kept.
-#
-# Example: "*.metric.gstatic.com" and "*.fbcdn.net" are used with randomly
-# generated subdomains, so they would otherwise add thousands of useless
-# entries to the list.
-# ---------------------------------------------------------------------------
+# Any *subdomain* of these bases is dropped everywhere; the base itself is
+# kept. Both are hosts that publish random machine-generated subdomains that
+# would otherwise add thousands of entries.
 readonly SKIP_SUBDOMAIN_BASES=(
     "metric.gstatic.com"
     "fbcdn.net"
 )
 
-# Script directory and file paths
 readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly INPUT_FILE="${SCRIPT_DIR}/url-list.txt"
 readonly OUTPUT_FILE="${SCRIPT_DIR}/../blocklists/personal.txt"
 readonly DEFAULT_JSON_FILE="${SCRIPT_DIR}/blocked.json"
 readonly SECTION_MARKER="#============ Blocked JSON ============"
 
-# Temporary files
 TEMP_JSON_DOMAINS=""
+TEMP_OLD_SECTION=""
 TEMP_MERGED=""
 TEMP_CLEAN=""
 TEMP_SORTED=""
 TEMP_SKIP_LIST=""
 
-# Cleanup temporary files on exit
 cleanup() {
-    rm -f "${TEMP_JSON_DOMAINS}" "${TEMP_MERGED}" "${TEMP_CLEAN}" "${TEMP_SORTED}" "${TEMP_SKIP_LIST}"
+    rm -f "${TEMP_JSON_DOMAINS}" "${TEMP_JSON_DOMAINS}.union" \
+          "${TEMP_OLD_SECTION}" "${TEMP_MERGED}" "${TEMP_CLEAN}" \
+          "${TEMP_SORTED}" "${TEMP_SKIP_LIST}"
 }
 trap cleanup EXIT
 
-# Print colored message
 print_status() {
     local color=$1
     shift
     echo -e "${color}[$(date '+%Y-%m-%d %H:%M:%S')]${NC} $*"
 }
 
-# Validate input files exist
+# Validate input files. blocked.json is optional; url-list.txt is only
+# required when the JSON cannot supply domains either.
 validate_input() {
-    if [[ ! -f "${JSON_FILE}" ]]; then
-        print_status "${RED}" "Error: blocked.json not found: ${JSON_FILE}"
-        exit 1
+    if [[ -f "${JSON_FILE}" && -s "${JSON_FILE}" ]]; then
+        HAVE_JSON=true
+    else
+        HAVE_JSON=false
+        if [[ ! -e "${JSON_FILE}" ]]; then
+            print_status "${YELLOW}" "blocked.json not found (${JSON_FILE}), continuing with url-list.txt only"
+        else
+            print_status "${YELLOW}" "blocked.json is empty (${JSON_FILE}), continuing with url-list.txt only"
+        fi
     fi
 
-    if [[ ! -s "${JSON_FILE}" ]]; then
-        print_status "${RED}" "Error: blocked.json is empty: ${JSON_FILE}"
-        exit 1
-    fi
-
-    if [[ ! -f "${INPUT_FILE}" ]]; then
-        print_status "${RED}" "Error: Input file not found: ${INPUT_FILE}"
-        exit 1
-    fi
-
-    if [[ ! -s "${INPUT_FILE}" ]]; then
-        print_status "${RED}" "Error: Input file is empty: ${INPUT_FILE}"
-        exit 1
+    if [[ ! -f "${INPUT_FILE}" || ! -s "${INPUT_FILE}" ]]; then
+        if [[ "${HAVE_JSON}" == true ]]; then
+            print_status "${YELLOW}" "url-list.txt missing or empty, a new list will be created at ${INPUT_FILE}"
+        else
+            print_status "${RED}" "Error: no input available: ${JSON_FILE} is absent/empty and ${INPUT_FILE} is missing or empty"
+            exit 1
+        fi
     fi
 }
 
-# Write the configured skip bases to a file (read by the awk passes)
+# Dump the skip bases to a temp file the awk passes read
 write_skip_list() {
     TEMP_SKIP_LIST="$(mktemp)"
 
@@ -117,27 +109,40 @@ write_skip_list() {
     fi
 }
 
-# Extract domains from blocked.json -> TEMP_JSON_DOMAINS (unique, valid)
+# Extract domains from blocked.json into TEMP_JSON_DOMAINS (unique, valid).
+# On failure TEMP_JSON_DOMAINS is left empty and the caller falls back to
+# url-list.txt.
 extract_json_domains() {
+    if [[ "${HAVE_JSON}" != true ]]; then
+        : > "${TEMP_JSON_DOMAINS}"
+        return 0
+    fi
+
     print_status "${YELLOW}" "Extracting domains from ${JSON_FILE}..."
 
-    local raw_domains
+    local raw_domains jq_failed=false
     raw_domains="$(mktemp)"
 
     if command -v jq >/dev/null 2>&1; then
-        # Streaming extraction of the "domain" field of every item
-        jq -r '.items[]? | .domain // empty' "${JSON_FILE}" > "${raw_domains}"
+        if ! jq -r '.items[]? | .domain // empty' "${JSON_FILE}" > "${raw_domains}" 2>/dev/null; then
+            jq_failed=true
+        fi
     else
-        # Fallback parser when jq is not available
         grep -oE '"domain"[[:space:]]*:[[:space:]]*"[^"]+"' "${JSON_FILE}" \
             | sed -E 's/.*"domain"[[:space:]]*:[[:space:]]*"([^"]+)".*/\1/' \
-            > "${raw_domains}"
+            > "${raw_domains}" || true
+    fi
+
+    if [[ "${jq_failed}" == true ]]; then
+        print_status "${YELLOW}" "Warning: could not parse ${JSON_FILE}, continuing with url-list.txt only"
+        : > "${TEMP_JSON_DOMAINS}"
+        rm -f "${raw_domains}"
+        return 0
     fi
 
     local total
     total="$(wc -l < "${raw_domains}")"
 
-    # Validate, drop skipped subdomains and deduplicate in one streaming pass
     awk -v skipfile="${TEMP_SKIP_LIST}" '
         function load_skip() {
             while ((getline line < skipfile) > 0) {
@@ -151,7 +156,6 @@ extract_json_domains() {
             close(skipfile)
         }
 
-        # Returns 1 when the domain is a strict subdomain of a skipped base
         function is_skipped(domain,   i, base) {
             domain = tolower(domain)
             for (i = 1; i <= nskip; i++) {
@@ -182,48 +186,92 @@ extract_json_domains() {
     skipped="${skipped:-0}"
     rm -f "${raw_domains}" "${TEMP_JSON_DOMAINS}.skipped"
 
+    if [[ ! -s "${TEMP_JSON_DOMAINS}" ]]; then
+        print_status "${YELLOW}" "No valid domains found in ${JSON_FILE}, continuing with url-list.txt only"
+        return 0
+    fi
+
     local unique
     unique="$(wc -l < "${TEMP_JSON_DOMAINS}")"
     print_status "${GREEN}" "Extracted ${total} entries, ${unique} unique valid domains, $(( total - unique - skipped )) duplicates and ${skipped} skipped subdomains dropped"
 }
 
-# Merge the JSON domains into url-list.txt as a dedicated section
+# Union the fresh extraction with the previous "Blocked JSON" section so
+# domains survive re-runs even after leaving the JSON.
 merge_into_url_list() {
+    # Nothing new to add, leave url-list.txt alone
+    if [[ ! -s "${TEMP_JSON_DOMAINS}" ]]; then
+        return 0
+    fi
+
     print_status "${YELLOW}" "Merging domains into ${INPUT_FILE}..."
 
-    # Drop a previously generated "Blocked JSON" section (marker -> next section)
-    awk -v marker="${SECTION_MARKER}" '
-        $0 == marker { skip = 1; next }
-        skip && /^#=+[[:space:]]/ { skip = 0 }
-        skip { next }
-        { print }
-    ' "${INPUT_FILE}" > "${TEMP_MERGED}"
+    : > "${TEMP_OLD_SECTION}"
+    if [[ -f "${INPUT_FILE}" && -s "${INPUT_FILE}" ]]; then
+        awk -v marker="${SECTION_MARKER}" '
+            $0 == marker          { grab = 1; next }
+            grab && /^#=+[[:space:]]/ { grab = 0 }
+            grab && /^[[:space:]]*#/  { next }
+            grab && NF               { print }
+        ' "${INPUT_FILE}" > "${TEMP_OLD_SECTION}"
 
-    # Append the fresh section
+        if [[ -s "${TEMP_OLD_SECTION}" ]]; then
+            local kept
+            kept="$(wc -l < "${TEMP_OLD_SECTION}")"
+            print_status "${YELLOW}" "Keeping ${kept} domains already present in the Blocked JSON section"
+        fi
+    fi
+
+    # Case-insensitive dedup happens in the next pass, so sort -u is enough here
+    if [[ -s "${TEMP_OLD_SECTION}" ]]; then
+        sort -u "${TEMP_OLD_SECTION}" "${TEMP_JSON_DOMAINS}" > "${TEMP_JSON_DOMAINS}.union"
+    else
+        cp "${TEMP_JSON_DOMAINS}" "${TEMP_JSON_DOMAINS}.union"
+    fi
+
+    if [[ -f "${INPUT_FILE}" && -s "${INPUT_FILE}" ]]; then
+        awk -v marker="${SECTION_MARKER}" '
+            $0 == marker { skip = 1; next }
+            skip && /^#=+[[:space:]]/ { skip = 0 }
+            skip { next }
+            { print }
+        ' "${INPUT_FILE}" > "${TEMP_MERGED}"
+    else
+        : > "${TEMP_MERGED}"
+    fi
+
     {
         printf '%s\n' "${SECTION_MARKER}"
-        cat "${TEMP_JSON_DOMAINS}"
+        cat "${TEMP_JSON_DOMAINS}.union"
     } >> "${TEMP_MERGED}"
 
     chmod --reference="${INPUT_FILE}" "${TEMP_MERGED}" 2>/dev/null || true
     mv "${TEMP_MERGED}" "${INPUT_FILE}"
 
-    print_status "${GREEN}" "Updated source list: ${INPUT_FILE}"
+    local total_domain_count
+    total_domain_count="$(wc -l < "${TEMP_JSON_DOMAINS}.union")"
+    print_status "${GREEN}" "Updated source list with ${total_domain_count} domains in the Blocked JSON section: ${INPUT_FILE}"
 }
 
-# Deduplicate the whole list (globally) while keeping the section structure
+# Normalize URLs (https://x.com/p?y:8080 -> x.com), drop skipped subdomains
+# and invalid entries, deduplicate globally and case-insensitively.
 deduplicate_list() {
+    if [[ ! -f "${INPUT_FILE}" || ! -s "${INPUT_FILE}" ]]; then
+        return 0
+    fi
+
     print_status "${YELLOW}" "Deduplicating ${INPUT_FILE}..."
 
-    local dup_file
+    local dup_file skip_file invalid_file
     dup_file="$(mktemp)"
-
-    local skip_file
     skip_file="$(mktemp)"
+    invalid_file="$(mktemp)"
 
-    # Single pass, associative array based dedup (O(n) instead of O(n^2) greps)
+    # Single-pass O(n) dedup via awk associative arrays
     awk -v stats="$([[ ${SHOW_STATS} == true ]] && echo 1 || echo 0)" \
+        -v verbose="$([[ ${VERBOSE} == true ]] && echo 1 || echo 0)" \
         -v dupfile="${dup_file}" \
+        -v invalidfile="${invalid_file}" \
         -v skipfile="${TEMP_SKIP_LIST}" \
         -v skipfile_out="${skip_file}" '
         function load_skip() {
@@ -238,7 +286,6 @@ deduplicate_list() {
             close(skipfile)
         }
 
-        # Returns 1 when the domain is a strict subdomain of a skipped base
         function is_skipped(domain,   i, base) {
             domain = tolower(domain)
             for (i = 1; i <= nskip; i++) {
@@ -257,7 +304,6 @@ deduplicate_list() {
             load_skip()
         }
 
-        # Section headers are kept as-is
         /^#=+[[:space:]]/ {
             if (stats) {
                 printf("  Section: %s\n    Original: %d, Unique: %d, Removed: %d\n",
@@ -274,7 +320,6 @@ deduplicate_list() {
             next
         }
 
-        # Any other comment line is dropped
         /^[[:space:]]*#/ { next }
 
         {
@@ -283,7 +328,26 @@ deduplicate_list() {
             gsub(/[[:space:]]+$/, "", line)
             if (line == "") next
 
+            # Markdown-style separators (---) would leak into the blocklist
+            if (line ~ /^-+$/) next
+
             section_original++
+
+            # Normalize URLs to bare domains:
+            #   https://sub.host.tld/path?a=b#anchor:8080 -> sub.host.tld
+            if (line ~ /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\//) urls++
+            sub(/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\//, "", line)  # scheme
+            sub(/[\/?#:].*/, "", line)                     # path/query/fragment/port
+            sub(/\.+$/, "", line)                          # trailing dot
+
+            if (line == "") next
+
+            if (line !~ /^[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?)*$/) {
+                invalid++
+                if (verbose) print "  Dropping invalid domain: " line > "/dev/stderr"
+                print line > invalidfile
+                next
+            }
 
             # Skipped subdomains are dropped from the list as well
             if (is_skipped(line)) {
@@ -291,8 +355,8 @@ deduplicate_list() {
                 next
             }
 
-            # DNS is case insensitive: dedupe on the lowercased key but keep
-            # the original spelling of the first occurrence
+            # DNS is case insensitive: dedupe on the lowercased key, keep the
+            # original spelling of the first occurrence
             key = tolower(line)
 
             if (key in seen) {
@@ -312,6 +376,7 @@ deduplicate_list() {
                        section_original - section_unique) > "/dev/stderr"
             }
             close(dupfile)
+            close(invalidfile)
             close(skipfile_out)
         }
     ' "${INPUT_FILE}" > "${TEMP_CLEAN}"
@@ -328,21 +393,27 @@ deduplicate_list() {
         done < "${skip_file}"
     fi
 
-    local removed skipped_removed
+    local removed skipped_removed invalid_removed
     removed="$(wc -l < "${dup_file}")"
     skipped_removed="$(wc -l < "${skip_file}")"
-    rm -f "${dup_file}" "${skip_file}"
+    invalid_removed="$(wc -l < "${invalid_file}")"
+    rm -f "${dup_file}" "${skip_file}" "${invalid_file}"
 
     chmod --reference="${INPUT_FILE}" "${TEMP_CLEAN}" 2>/dev/null || true
     mv "${TEMP_CLEAN}" "${INPUT_FILE}"
+    print_status "${GREEN}" "Updated source list with normalized, unique domains: ${INPUT_FILE}"
 
     local unique_count
     unique_count="$(grep -cve '^[[:space:]]*#' "${INPUT_FILE}" || true)"
 
-    print_status "${GREEN}" "Deduplicated list: ${unique_count} unique domains, ${removed} duplicates removed, ${skipped_removed} skipped subdomains dropped"
+    if [[ "${unique_count}" -eq 0 ]]; then
+        print_status "${RED}" "Error: no valid domains found to generate a blocklist"
+        exit 1
+    fi
+
+    print_status "${GREEN}" "Deduplicated list: ${unique_count} unique domains, ${removed} duplicates removed, ${skipped_removed} skipped subdomains dropped, ${invalid_removed} invalid entries dropped"
 }
 
-# Generate hosts file
 generate_hosts_file() {
     local output_dir
     output_dir="$(dirname "${OUTPUT_FILE}")"
@@ -351,7 +422,6 @@ generate_hosts_file() {
 
     print_status "${YELLOW}" "Generating hosts file..."
 
-    # Sorted unique domains (comments and blank lines removed)
     grep -vE '^[[:space:]]*(#|$)' "${INPUT_FILE}" | sort -u > "${TEMP_SORTED}"
 
     local unique_count
@@ -375,7 +445,6 @@ generate_hosts_file() {
     print_status "${GREEN}" "Output: ${OUTPUT_FILE}"
 }
 
-# Validate output file
 validate_output() {
     if [[ ! -f "${OUTPUT_FILE}" ]]; then
         print_status "${RED}" "Error: Failed to generate output file"
@@ -390,7 +459,6 @@ validate_output() {
     print_status "${GREEN}" "Validation successful!"
 }
 
-# Main execution
 main() {
     while getopts "j:k:svh" opt; do
         case $opt in
@@ -401,15 +469,16 @@ main() {
             h)
                 echo "Usage: $0 [options]"
                 echo ""
-                echo "Extracts domains from blocked.json, adds them to url-list.txt,"
+                echo "Merges domains from blocked.json (optional) into url-list.txt,"
                 echo "deduplicates the list and generates a hosts format blocklist."
+                echo "Existing domains in url-list.txt are always kept."
                 echo ""
                 echo "Options:"
                 echo "  -j FILE   Path to blocked.json (default: ${DEFAULT_JSON_FILE})"
                 echo "  -k BASE   Additional base domain whose subdomains are skipped"
-                echo "  -s         Show per-section deduplication statistics"
-                echo "  -v         Verbose mode (show duplicates being removed)"
-                echo "  -h         Show this help"
+                echo "  -s        Show per-section deduplication statistics"
+                echo "  -v        Verbose mode (show duplicates being removed)"
+                echo "  -h        Show this help"
                 echo ""
                 echo "Configured skip bases (subdomains of these are dropped):"
                 for base in "${SKIP_SUBDOMAIN_BASES[@]}"; do
@@ -424,11 +493,12 @@ main() {
     JSON_FILE="${JSON_FILE:-${DEFAULT_JSON_FILE}}"
 
     TEMP_JSON_DOMAINS="$(mktemp)"
+    TEMP_OLD_SECTION="$(mktemp)"
     TEMP_MERGED="$(mktemp)"
     TEMP_CLEAN="$(mktemp)"
     TEMP_SORTED="$(mktemp)"
 
-    print_status "${GREEN}" "Starting blocklist generation from blocked.json..."
+    print_status "${GREEN}" "Starting blocklist generation..."
 
     write_skip_list
     validate_input
@@ -441,5 +511,4 @@ main() {
     print_status "${GREEN}" "Done! Blocklist is ready to deploy."
 }
 
-# Run main function
 main "$@"
