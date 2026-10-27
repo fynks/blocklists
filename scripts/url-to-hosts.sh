@@ -39,6 +39,8 @@ EXTRA_SKIP_BASES=()
 readonly SKIP_SUBDOMAIN_BASES=(
     "metric.gstatic.com"
     "fbcdn.net"
+    "rekhtadictionary.com"
+    ""
 )
 
 readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
