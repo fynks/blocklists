@@ -16,11 +16,6 @@
 0.0.0.0 3rdupgrade.pandora.xiaomi.com
 0.0.0.0 4821.ase.aidcgroup.net
 0.0.0.0 4.afs.googleadservices.com
-0.0.0.0 4c3e89021b49.w.hcaptcha.com
-0.0.0.0 4egr6tu45c3liqkgnfli5mwjdvdkgk6e5zvr2lfy61834295e0fc94ceam1.e.aa.online-metrix.net
-0.0.0.0 4egr6tu4dhsjus23evggpke6rfrcj5nnsxam6qys681f6c475b5bebbfam1.e.aa.online-metrix.net
-0.0.0.0 4egr6tu4dv3xeynxkfscy6qb47cyyfuluj2ovxsmabe4c1c134dd76cdam1.e.aa.online-metrix.net
-0.0.0.0 4egr6tu4gmem5co6zjyfq3xfd65sepyzadqna7uv34600397763cc7b4am1.e.aa.online-metrix.net
 0.0.0.0 4ng01p-attr.appsflyersdk.com
 0.0.0.0 4ng01p.attr.appsflyersdk.com
 0.0.0.0 4ng01p-cdn-settings.appsflyersdk.com
@@ -286,7 +281,6 @@
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
 0.0.0.0 awsusor0-cdn.fds-ssl.api.xiaomi.com
 0.0.0.0 b2b6d102cb7a4898bc54a3b73e31b759.safeframe.googlesyndication.com
-0.0.0.0 b992c1a02ac9.w.hcaptcha.com
 0.0.0.0 bam-cell.nr-data.net
 0.0.0.0 bam.nr-data.net
 0.0.0.0 banner.appsflyer.com
@@ -331,7 +325,6 @@
 0.0.0.0 c3.api.xmpush.xiaomi.com
 0.0.0.0 c3-bgp.pandora.xiaomi.com
 0.0.0.0 c3mini.pandora.xiaomi.com
-0.0.0.0 c481f3348728.w.hcaptcha.com
 0.0.0.0 callback.xmpush.xiaomi.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 careers.hotjar.com
@@ -445,8 +438,6 @@
 0.0.0.0 ct.pinterest.com
 0.0.0.0 cupid.ad.xiaomi.com
 0.0.0.0 cupid.ptqy.gitv.tv
-0.0.0.0 customer.io
-0.0.0.0 d65ee2bdc556.w.hcaptcha.com
 0.0.0.0 d67581f703714a82.threatcast.guardsquare.com
 0.0.0.0 dap.digitalgov.gov
 0.0.0.0 d.applovin.com
@@ -534,7 +525,6 @@
 0.0.0.0 fcanr.tracking.miui.com
 0.0.0.0 fcmatch.google.com
 0.0.0.0 fcmatch.youtube.com
-0.0.0.0 fd5f4d330b8a.w.hcaptcha.com
 0.0.0.0 federatedcompute-pa.googleapis.com
 0.0.0.0 feedback.d.xiaomi.com
 0.0.0.0 feedback.miui.com
@@ -1358,9 +1348,7 @@
 0.0.0.0 www.googletagservices.com
 0.0.0.0 www.googlew.com
 0.0.0.0 www.kuyun.com
-0.0.0.0 www.mega-debrid.eu
 0.0.0.0 www.miui.net
-0.0.0.0 www.myprotonvpn.shop
 0.0.0.0 www.ojrq.net
 0.0.0.0 www.rereddit.com
 0.0.0.0 www.statcounter.com
@@ -1380,3 +1368,4 @@
 0.0.0.0 zeus.ad.intl.xiaomi.com
 0.0.0.0 zeus.ad.xiaomi.com
 0.0.0.0 z-p42.graph.instagram.com
+0.0.0.0 traffic-nts-ip-assoc.xy.fbcdn.net
