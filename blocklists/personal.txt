@@ -1,21 +1,28 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1375
-# Generated at: 27-10-2026
+# Total unique domains: 1399
+# Generated at: 02-11-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
 0.0.0.0 0.datadog.pool.ntp.org
+0.0.0.0 0fb10e1233e5.w.hcaptcha.com
 0.0.0.0 11-c3.bigdata.ctc.neo.xiaomi.com
 0.0.0.0 13453765871837679316.googlegroups.com
 0.0.0.0 1383.ase.aidcgroup.net
 0.0.0.0 1.datadog.pool.ntp.org
 0.0.0.0 2.datadog.pool.ntp.org
 0.0.0.0 34329.pecannerous.com
+0.0.0.0 3c1d5867902b42a0.threatcast.guardsquare.com
 0.0.0.0 3.datadog.pool.ntp.org
 0.0.0.0 3rdupgrade.pandora.xiaomi.com
 0.0.0.0 4821.ase.aidcgroup.net
 0.0.0.0 4.afs.googleadservices.com
+0.0.0.0 4c3e89021b49.w.hcaptcha.com
+0.0.0.0 4egr6tu45c3liqkgnfli5mwjdvdkgk6e5zvr2lfy61834295e0fc94ceam1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4dhsjus23evggpke6rfrcj5nnsxam6qys681f6c475b5bebbfam1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4dv3xeynxkfscy6qb47cyyfuluj2ovxsmabe4c1c134dd76cdam1.e.aa.online-metrix.net
+0.0.0.0 4egr6tu4gmem5co6zjyfq3xfd65sepyzadqna7uv34600397763cc7b4am1.e.aa.online-metrix.net
 0.0.0.0 4ng01p-attr.appsflyersdk.com
 0.0.0.0 4ng01p.attr.appsflyersdk.com
 0.0.0.0 4ng01p-cdn-settings.appsflyersdk.com
@@ -141,11 +148,13 @@
 0.0.0.0 alt2.googleanalytics.com
 0.0.0.0 alt4.googleanalytics.com
 0.0.0.0 a.market.xiaomi.com
+0.0.0.0 amplitude.com
 0.0.0.0 analytics.adobe.io
 0.0.0.0 analytics.ahrefs.com
 0.0.0.0 analytics-api-samples.googlecode.com
 0.0.0.0 analytics.authoritymedia.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
+0.0.0.0 analytics.everyapp.team
 0.0.0.0 analytics.ff.avast.sec.miui.com
 0.0.0.0 analytics.fossunited.org
 0.0.0.0 analytics.githubassets.com
@@ -267,10 +276,13 @@
 0.0.0.0 arclight.vimeo.com
 0.0.0.0 arms-retcode.aliyuncs.com
 0.0.0.0 ase.aidcgroup.net
+0.0.0.0 assetsconfigcdn.org
+0.0.0.0 assets.context.ly
 0.0.0.0 a.stat.xiaomi.com
 0.0.0.0 attr.appsflyer.com
 0.0.0.0 auction.unityads.unity3d.com
 0.0.0.0 audid-api-sg.taobao.com
+0.0.0.0 auditrecording-pa.googleapis.com
 0.0.0.0 au.ff.avast.sec.miui.com
 0.0.0.0 a.union.mi.com
 0.0.0.0 a.union.xiaomi.com
@@ -281,6 +293,7 @@
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
 0.0.0.0 awsusor0-cdn.fds-ssl.api.xiaomi.com
 0.0.0.0 b2b6d102cb7a4898bc54a3b73e31b759.safeframe.googlesyndication.com
+0.0.0.0 b992c1a02ac9.w.hcaptcha.com
 0.0.0.0 bam-cell.nr-data.net
 0.0.0.0 bam.nr-data.net
 0.0.0.0 banner.appsflyer.com
@@ -292,6 +305,7 @@
 0.0.0.0 beacons5.gvt3.com
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
+0.0.0.0 beyondwickedmapping.org
 0.0.0.0 bf99042ofw.bf.dynatrace.com
 0.0.0.0 bgp.data.game.xiaomi.com
 0.0.0.0 bgp.fe01.c3.xiaomi.com
@@ -325,6 +339,7 @@
 0.0.0.0 c3.api.xmpush.xiaomi.com
 0.0.0.0 c3-bgp.pandora.xiaomi.com
 0.0.0.0 c3mini.pandora.xiaomi.com
+0.0.0.0 c481f3348728.w.hcaptcha.com
 0.0.0.0 callback.xmpush.xiaomi.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 careers.hotjar.com
@@ -371,6 +386,7 @@
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.siftscience.com
 0.0.0.0 cdn-test.mouseflow.com
+0.0.0.0 cdnt.netcoresmartech.com
 0.0.0.0 cdn-v4.amp-endpoint3.com
 0.0.0.0 cdn-v6.amp-endpoint3.com
 0.0.0.0 cdn.viglink.com
@@ -428,6 +444,7 @@
 0.0.0.0 conversions-config.reddit.com
 0.0.0.0 cookiebot.com
 0.0.0.0 copilot-telemetry.githubusercontent.com
+0.0.0.0 counter.dev
 0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 crashlytics.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
@@ -438,6 +455,8 @@
 0.0.0.0 ct.pinterest.com
 0.0.0.0 cupid.ad.xiaomi.com
 0.0.0.0 cupid.ptqy.gitv.tv
+0.0.0.0 customer.io
+0.0.0.0 d65ee2bdc556.w.hcaptcha.com
 0.0.0.0 d67581f703714a82.threatcast.guardsquare.com
 0.0.0.0 dap.digitalgov.gov
 0.0.0.0 d.applovin.com
@@ -483,6 +502,7 @@
 0.0.0.0 d.xiaomi.com
 0.0.0.0 dynamic-report-api.appsflyersdk.com
 0.0.0.0 dz.mmstat.com
+0.0.0.0 e589d74375f8.w.hcaptcha.com
 0.0.0.0 e.ad.xiaomi.com
 0.0.0.0 ea.pstmrk.it
 0.0.0.0 edge.fullstory.com
@@ -525,6 +545,8 @@
 0.0.0.0 fcanr.tracking.miui.com
 0.0.0.0 fcmatch.google.com
 0.0.0.0 fcmatch.youtube.com
+0.0.0.0 fd5f4d330b8a.w.hcaptcha.com
+0.0.0.0 featureassets.org
 0.0.0.0 federatedcompute-pa.googleapis.com
 0.0.0.0 feedback.d.xiaomi.com
 0.0.0.0 feedback.miui.com
@@ -694,6 +716,7 @@
 0.0.0.0 jn8dkc.conversions.appsflyersdk.com
 0.0.0.0 jn8dkc.inapps.appsflyersdk.com
 0.0.0.0 jn8dkc.launches.appsflyersdk.com
+0.0.0.0 jn8dkc.register.appsflyersdk.com
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.appboycdn.com
 0.0.0.0 js.driftt.com
@@ -727,6 +750,7 @@
 0.0.0.0 logonext.tv.kuyun.com
 0.0.0.0 log.pinterest.com
 0.0.0.0 log.pt.xiaomi.com
+0.0.0.0 logsapi.zoho.com
 0.0.0.0 logs.n.xiaomi.com
 0.0.0.0 logs.roku.com
 0.0.0.0 logupdate.avlyun.sec.miui.com
@@ -831,6 +855,7 @@
 0.0.0.0 msga.ptqy.gitv.tv
 0.0.0.0 msg.ptqy.gitv.tv
 0.0.0.0 msg.video.ptqy.gitv.tv
+0.0.0.0 m.stripe.com
 0.0.0.0 m.stripe.network
 0.0.0.0 m.track.ad.xiaomi.com
 0.0.0.0 mum.alibabachengdun.com
@@ -961,6 +986,7 @@
 0.0.0.0 privacy-sandbox.appsflyersdk.com
 0.0.0.0 privatestats.whatsapp.net
 0.0.0.0 prod.pyxis.atp.fox
+0.0.0.0 prodregistryv2.org
 0.0.0.0 prod.uidapi.com
 0.0.0.0 propellerads.com
 0.0.0.0 protect.dev.sec.intl.miui.com
@@ -1080,6 +1106,7 @@
 0.0.0.0 secure.quantserve.com
 0.0.0.0 secure.report.iss.xiaomi.com
 0.0.0.0 security.browser.miui.com
+0.0.0.0 semanticlocation-pa.googleapis.com
 0.0.0.0 sentry.be.xiaomi.com
 0.0.0.0 sentry.io
 0.0.0.0 sentry.pay.xiaomi.com
@@ -1140,6 +1167,7 @@
 0.0.0.0 staging.stat.pt.xiaomi.com
 0.0.0.0 stat.alibaba.com
 0.0.0.0 statdynamic.com
+0.0.0.0 static.addtoany.com
 0.0.0.0 static.ads.brave.com
 0.0.0.0 static.ads.bravesoftware.com
 0.0.0.0 static.ads-twitter.com
@@ -1176,6 +1204,7 @@
 0.0.0.0 stun.l.google.com
 0.0.0.0 survey.china.alibaba.com
 0.0.0.0 surveys.hotjar.com
+0.0.0.0 swgo.appflare.dev
 0.0.0.0 sync.mathtag.com
 0.0.0.0 sync-tm.everesttech.net
 0.0.0.0 sys.intl.xiaomi.com
@@ -1183,8 +1212,10 @@
 0.0.0.0 t15.market.xiaomi.com
 0.0.0.0 t17.market.xiaomi.com
 0.0.0.0 t1.a.market.xiaomi.com
+0.0.0.0 t1.gstatic.com
 0.0.0.0 t1.market.xiaomi.com
 0.0.0.0 t2.a.market.xiaomi.com
+0.0.0.0 t2.gstatic.com
 0.0.0.0 t2.market.xiaomi.com
 0.0.0.0 t3.a.market.xiaomi.com
 0.0.0.0 t3.market.xiaomi.com
@@ -1215,6 +1246,7 @@
 0.0.0.0 testit.miui.com
 0.0.0.0 thm.market.xiaomi.com
 0.0.0.0 time.video.ptqy.gitv.tv
+0.0.0.0 time.xtracloud.net
 0.0.0.0 tj1.master.pt.xiaomi.com
 0.0.0.0 tj1-new.scf.pt.xiaomi.com
 0.0.0.0 tj1.payment.pt.xiaomi.com
@@ -1227,6 +1259,7 @@
 0.0.0.0 tj1.staging.pay.xiaomi.com
 0.0.0.0 tj1.test.pay.xiaomi.com
 0.0.0.0 tnc-boot.tiktokv.com
+0.0.0.0 toblog.tobsnssdk.com
 0.0.0.0 toc.googlesyndication.com
 0.0.0.0 ton.twimg.com
 0.0.0.0 tools.mouseflow.com
@@ -1337,6 +1370,7 @@
 0.0.0.0 www.doubleclickbygoogle.com
 0.0.0.0 www.doubleclick.net
 0.0.0.0 www.dpbolvw.net
+0.0.0.0 www.dubcdn.com
 0.0.0.0 www.effectivecpmnetwork.com
 0.0.0.0 www.gbooksdownloader.com
 0.0.0.0 www.googleadservices.com
@@ -1348,7 +1382,9 @@
 0.0.0.0 www.googletagservices.com
 0.0.0.0 www.googlew.com
 0.0.0.0 www.kuyun.com
+0.0.0.0 www.mega-debrid.eu
 0.0.0.0 www.miui.net
+0.0.0.0 www.myprotonvpn.shop
 0.0.0.0 www.ojrq.net
 0.0.0.0 www.rereddit.com
 0.0.0.0 www.statcounter.com
@@ -1368,4 +1404,3 @@
 0.0.0.0 zeus.ad.intl.xiaomi.com
 0.0.0.0 zeus.ad.xiaomi.com
 0.0.0.0 z-p42.graph.instagram.com
-0.0.0.0 traffic-nts-ip-assoc.xy.fbcdn.net

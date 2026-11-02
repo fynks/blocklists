@@ -1405,3 +1405,27 @@ xp.apple.com
 yumenetworks.com
 yw.gtcpicnics.com
 #============ Blocked JSON ============
+time.xtracloud.net
+auditrecording-pa.googleapis.com
+t2.gstatic.com
+3c1d5867902b42a0.threatcast.guardsquare.com
+static.addtoany.com
+toblog.tobsnssdk.com
+www.dubcdn.com
+t1.gstatic.com
+assets.context.ly
+m.stripe.com
+analytics.everyapp.team
+counter.dev
+amplitude.com
+cdnt.netcoresmartech.com
+0fb10e1233e5.w.hcaptcha.com
+e589d74375f8.w.hcaptcha.com
+logsapi.zoho.com
+beyondwickedmapping.org
+assetsconfigcdn.org
+featureassets.org
+prodregistryv2.org
+swgo.appflare.dev
+semanticlocation-pa.googleapis.com
+jn8dkc.register.appsflyersdk.com
