@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1399
-# Generated at: 02-11-2026
+# Total unique domains: 1408
+# Generated at: 05-11-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -212,6 +212,7 @@
 0.0.0.0 api.ipgeolocation.io
 0.0.0.0 api.ipify.org
 0.0.0.0 api.ipinfo.be
+0.0.0.0 api.ip.sb
 0.0.0.0 api.jr.mi.com
 0.0.0.0 api-js.mixpanel.com
 0.0.0.0 api.lab.amplitude.com
@@ -305,6 +306,7 @@
 0.0.0.0 beacons5.gvt3.com
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
+0.0.0.0 beacon-v2.helpscout.net
 0.0.0.0 beyondwickedmapping.org
 0.0.0.0 bf99042ofw.bf.dynatrace.com
 0.0.0.0 bgp.data.game.xiaomi.com
@@ -437,14 +439,15 @@
 0.0.0.0 consumer.inapp.customer.io
 0.0.0.0 content-analyticsadmin.googleapis.com
 0.0.0.0 content-analyticsdata.googleapis.com
+0.0.0.0 contributions.guardianapis.com
 0.0.0.0 control.kochava.com
 0.0.0.0 controller.india.xiaomi.com
 0.0.0.0 conversion.google.com
+0.0.0.0 conversions.af-sdk.com
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 conversions-config.reddit.com
 0.0.0.0 cookiebot.com
 0.0.0.0 copilot-telemetry.githubusercontent.com
-0.0.0.0 counter.dev
 0.0.0.0 crashlogs.whatsapp.net
 0.0.0.0 crashlytics.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
@@ -704,6 +707,9 @@
 0.0.0.0 ip-info.ff.avast.sec.miui.com
 0.0.0.0 ip.prvtx.net
 0.0.0.0 ip.ptqy.gitv.tv
+0.0.0.0 ipv4-check-perf.radar.cloudflare.com
+0.0.0.0 ipv6-check-perf.radar.cloudflare.com
+0.0.0.0 ipwho.is
 0.0.0.0 ironsource.mobi
 0.0.0.0 is.conermoocher.com
 0.0.0.0 i.viafoura.co
@@ -728,6 +734,7 @@
 0.0.0.0 jupiter.rus.sys.miui.com
 0.0.0.0 jupiter.sys.miui.com
 0.0.0.0 kuyun.com
+0.0.0.0 launches.af-sdk.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 learn.advertising.snapchat.com
 0.0.0.0 lg.api.xmpush.xiaomi.com
@@ -736,6 +743,7 @@
 0.0.0.0 live.chartboost.com
 0.0.0.0 livechat.nextop.com
 0.0.0.0 live.miphone.pandora.xiaomi.com
+0.0.0.0 localization.digi-prod.pbs.org
 0.0.0.0 locationhistory-pa.googleapis.com
 0.0.0.0 locationhistoryplacedetails-pa.googleapis.com
 0.0.0.0 location.services.mozilla.com
@@ -855,7 +863,6 @@
 0.0.0.0 msga.ptqy.gitv.tv
 0.0.0.0 msg.ptqy.gitv.tv
 0.0.0.0 msg.video.ptqy.gitv.tv
-0.0.0.0 m.stripe.com
 0.0.0.0 m.stripe.network
 0.0.0.0 m.track.ad.xiaomi.com
 0.0.0.0 mum.alibabachengdun.com
@@ -1026,6 +1033,7 @@
 0.0.0.0 refersion.com
 0.0.0.0 region1.analytics.google.com
 0.0.0.0 region1.google-analytics.com
+0.0.0.0 register.af-sdk.com
 0.0.0.0 register.appsflyer.com
 0.0.0.0 register.xmpush.global.xiaomi.com
 0.0.0.0 remote-data.asnapieu.com
@@ -1235,6 +1243,7 @@
 0.0.0.0 t.appsflyer.com
 0.0.0.0 t.app.xiaomi.com
 0.0.0.0 target.microsoft.com
+0.0.0.0 taskassist-pa.clients6.google.com
 0.0.0.0 tdum.alibaba.com
 0.0.0.0 telemetry.1passwordservices.com
 0.0.0.0 telemetry.api.swiftkey.com
