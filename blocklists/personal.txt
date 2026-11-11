@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1408
-# Generated at: 05-11-2026
+# Total unique domains: 1427
+# Generated at: 11-11-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -294,6 +294,7 @@
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
 0.0.0.0 awsusor0-cdn.fds-ssl.api.xiaomi.com
 0.0.0.0 b2b6d102cb7a4898bc54a3b73e31b759.safeframe.googlesyndication.com
+0.0.0.0 b58180f82587.w.hcaptcha.com
 0.0.0.0 b992c1a02ac9.w.hcaptcha.com
 0.0.0.0 bam-cell.nr-data.net
 0.0.0.0 bam.nr-data.net
@@ -312,6 +313,7 @@
 0.0.0.0 bgp.data.game.xiaomi.com
 0.0.0.0 bgp.fe01.c3.xiaomi.com
 0.0.0.0 bgp.tv.pandora.xiaomi.com
+0.0.0.0 b-graph.facebook.com
 0.0.0.0 bhpz.adj.st
 0.0.0.0 bigdata-lbs-pri-c3.alb.xiaomi.com
 0.0.0.0 bingads.microsoft.com
@@ -505,6 +507,7 @@
 0.0.0.0 d.xiaomi.com
 0.0.0.0 dynamic-report-api.appsflyersdk.com
 0.0.0.0 dz.mmstat.com
+0.0.0.0 e265f1b6d22d.w.hcaptcha.com
 0.0.0.0 e589d74375f8.w.hcaptcha.com
 0.0.0.0 e.ad.xiaomi.com
 0.0.0.0 ea.pstmrk.it
@@ -514,6 +517,7 @@
 0.0.0.0 emi-cube.ad.xiaomi.com
 0.0.0.0 emq.xmpush.xiaomi.com
 0.0.0.0 epss.alibaba-inc.com
+0.0.0.0 e.rankprompt.com
 0.0.0.0 errnewlogos.umeng.com
 0.0.0.0 error-analytics-sessions-production.shopifysvc.com
 0.0.0.0 error-tracking.reddit.com
@@ -622,6 +626,7 @@
 0.0.0.0 google-ticket.com
 0.0.0.0 go.redirectingat.com
 0.0.0.0 go.skimresources.com
+0.0.0.0 graph.facebook.com
 0.0.0.0 graph-fallback.instagram.com
 0.0.0.0 graph.instagram.com
 0.0.0.0 greenanalytics.autos
@@ -792,6 +797,7 @@
 0.0.0.0 media.pre.pandora.xiaomi.com
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 metadotcom.fbthirdpartypixel.com
+0.0.0.0 meta.lucida.su
 0.0.0.0 metok.sys.miui.com
 0.0.0.0 metric.gstatic.com
 0.0.0.0 metrics2.data.hicloud.com
@@ -868,6 +874,7 @@
 0.0.0.0 mum.alibabachengdun.com
 0.0.0.0 mum.alibabachengdun.net
 0.0.0.0 my.imageflow.store
+0.0.0.0 myip.ipip.net
 0.0.0.0 native.feedback.miui.com
 0.0.0.0 nav.browser.miui.com
 0.0.0.0 nav.sec.miui.com
@@ -962,6 +969,7 @@
 0.0.0.0 perseus-productanalytics.deliveryhero.net
 0.0.0.0 pi.ias.xiaomi.com
 0.0.0.0 pippio.com
+0.0.0.0 piqo.app
 0.0.0.0 pi.reddit.com
 0.0.0.0 pixel.ad.intl.xiaomi.com
 0.0.0.0 pixel-config.reddit.com
@@ -973,6 +981,7 @@
 0.0.0.0 pixel.redditmedia.com
 0.0.0.0 pixel.spotify.com
 0.0.0.0 pixels.spotify.com
+0.0.0.0 plausible.canine.tools
 0.0.0.0 plausible.cdn42.ch
 0.0.0.0 plausible.imranr.dev
 0.0.0.0 plausible.io
@@ -1015,6 +1024,7 @@
 0.0.0.0 qcc.qualcomm.com
 0.0.0.0 qevents.quora.com
 0.0.0.0 qiye.xiaomi.com
+0.0.0.0 qobuz.surveysparrow.com
 0.0.0.0 qualtrics.com
 0.0.0.0 quantcast.com
 0.0.0.0 quantserve.com
@@ -1097,6 +1107,7 @@
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.rus.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 sdkconfig.intl.xiaomi.com
 0.0.0.0 sdk.iad-01.braze.com
 0.0.0.0 sdk.iad-04.braze.com
 0.0.0.0 sdk.iad-07.braze.com
@@ -1147,6 +1158,7 @@
 0.0.0.0 smartlock.google.com
 0.0.0.0 smetrics.samsung.com
 0.0.0.0 snap.licdn.com
+0.0.0.0 snippet.growsumo.com
 0.0.0.0 snippets.freshchat.com
 0.0.0.0 snowplowanalytics.com
 0.0.0.0 snowplowprd.trx.gitlab.net
@@ -1238,6 +1250,7 @@
 0.0.0.0 tag.crsspxl.com
 0.0.0.0 tagmanager.google.com
 0.0.0.0 tags.bluekai.com
+0.0.0.0 tags.tiqcdn.com
 0.0.0.0 talaria.online
 0.0.0.0 tapi.pureapk.com
 0.0.0.0 t.appsflyer.com
@@ -1400,6 +1413,7 @@
 0.0.0.0 www.tkqlhce.com
 0.0.0.0 www.traffic-media.co
 0.0.0.0 xadx.file.market.xiaomi.com
+0.0.0.0 xb1fx5ndom.kameleoon.io
 0.0.0.0 xgapromomanager-pa.googleapis.com
 0.0.0.0 xiazai.xiaomi.com
 0.0.0.0 xjp-jmacs.m.taobao.com
