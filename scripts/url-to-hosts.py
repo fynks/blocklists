@@ -45,6 +45,8 @@ SKIP_SUBDOMAIN_BASES = [
     "metric.gstatic.com",
     "fbcdn.net",
     "rekhtadictionary.com",
+    "rekhta.pc.cdn.bitgravity.com",
+    "rekhtastaticcdn.pc.cdn.bitgravity.com"
 ]
 
 # Bare domain: labels of alnum/hyphen, no leading/trailing hyphen per label.
