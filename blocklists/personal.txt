@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1427
-# Generated at: 11-11-2026
+# Total unique domains: 1437
+# Generated at: 18-11-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -153,6 +153,7 @@
 0.0.0.0 analytics.ahrefs.com
 0.0.0.0 analytics-api-samples.googlecode.com
 0.0.0.0 analytics.authoritymedia.com
+0.0.0.0 analytics.cosmicstack.org
 0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 analytics.everyapp.team
 0.0.0.0 analytics.ff.avast.sec.miui.com
@@ -344,6 +345,7 @@
 0.0.0.0 c3-bgp.pandora.xiaomi.com
 0.0.0.0 c3mini.pandora.xiaomi.com
 0.0.0.0 c481f3348728.w.hcaptcha.com
+0.0.0.0 cache.pythia.futureplc.com
 0.0.0.0 callback.xmpush.xiaomi.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 careers.hotjar.com
@@ -383,6 +385,7 @@
 0.0.0.0 cdn.mida.so
 0.0.0.0 cdn.modusygunaciro.com
 0.0.0.0 cdn.mouseflow.com
+0.0.0.0 cdn.nyhizyjybawozi.com
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.permutive.com
@@ -429,6 +432,7 @@
 0.0.0.0 collector.github.com
 0.0.0.0 collector-pxljub4etb.cl6.px-cloud.net
 0.0.0.0 collector-pxljub4etb.perimeterx.net
+0.0.0.0 collector.xhworld.today
 0.0.0.0 comc4l7.pandora.xiaomi.com
 0.0.0.0 conf.config-security.com
 0.0.0.0 config.kuyun.com
@@ -475,6 +479,7 @@
 0.0.0.0 data.mistat.xiaomi.com
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
+0.0.0.0 dcdn.veonadx.com
 0.0.0.0 decide.mixpanel.com
 0.0.0.0 default.exp-tas.com
 0.0.0.0 default.tracking.miui.com
@@ -511,6 +516,7 @@
 0.0.0.0 e589d74375f8.w.hcaptcha.com
 0.0.0.0 e.ad.xiaomi.com
 0.0.0.0 ea.pstmrk.it
+0.0.0.0 edge.browser-fp.production.linktr.ee
 0.0.0.0 edge.fullstory.com
 0.0.0.0 email.visitor.twitter.com
 0.0.0.0 e.mi.com
@@ -644,9 +650,11 @@
 0.0.0.0 h64.online-metrix.net
 0.0.0.0 h-adashx.ut.daraz.com
 0.0.0.0 h-adashx.ut.lazada.com
+0.0.0.0 hawk.techradar.com
 0.0.0.0 hd.browser.miui.com
 0.0.0.0 hd.cathaytrash.com
 0.0.0.0 hd.xiaomi.com
+0.0.0.0 hedgehogs.infrawrench.com
 0.0.0.0 heyue.xiaomi.com
 0.0.0.0 hk.mibi.xiaomi.com
 0.0.0.0 hog.crowdin.com
@@ -1046,6 +1054,7 @@
 0.0.0.0 register.af-sdk.com
 0.0.0.0 register.appsflyer.com
 0.0.0.0 register.xmpush.global.xiaomi.com
+0.0.0.0 relay.fbpigeon.com
 0.0.0.0 remote-data.asnapieu.com
 0.0.0.0 repo.incognia.com
 0.0.0.0 report.n.xiaomi.com
@@ -1154,6 +1163,7 @@
 0.0.0.0 si.ptqy.gitv.tv
 0.0.0.0 site.e.mi.com
 0.0.0.0 sjs.ptmi.gitv.pandora.xiaomi.com
+0.0.0.0 slice.vanilla.futurecdn.net
 0.0.0.0 smartclip.com
 0.0.0.0 smartlock.google.com
 0.0.0.0 smetrics.samsung.com
@@ -1179,6 +1189,7 @@
 0.0.0.0 ssp.xiaomi.com
 0.0.0.0 ss.qwen.ai
 0.0.0.0 sstats.adobe.com
+0.0.0.0 sstrk.qobuz.com
 0.0.0.0 staging-analyze.pt.xiaomi.com
 0.0.0.0 staging.api.zhuti.n.xiaomi.com
 0.0.0.0 staging.appapi.n.xiaomi.com
@@ -1200,6 +1211,7 @@
 0.0.0.0 static.hotjar.com
 0.0.0.0 static.klaviyo.com
 0.0.0.0 static-mon.yandex.net
+0.0.0.0 static-proxy.strpst.com
 0.0.0.0 static.ptqy.gitv.tv
 0.0.0.0 stat.miui.com
 0.0.0.0 stat.pandora.xiaomi.com
@@ -1308,6 +1320,7 @@
 0.0.0.0 traffic-media.co
 0.0.0.0 traffic-media.co.uk
 0.0.0.0 trakksocial.googlecode.com
+0.0.0.0 transcend-cdn.com
 0.0.0.0 transfer.sec.miui.com
 0.0.0.0 traumatictrash.com
 0.0.0.0 tr.facebook.com
@@ -1351,6 +1364,7 @@
 0.0.0.0 validate.appsflyer.com
 0.0.0.0 vars.hotjar.com
 0.0.0.0 vd.ambotalaing.com
+0.0.0.0 verifycdn.agego.com
 0.0.0.0 vhit.io
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 video-analytics-api.cloudinary.com
@@ -1426,4 +1440,5 @@
 0.0.0.0 yw.gtcpicnics.com
 0.0.0.0 zeus.ad.intl.xiaomi.com
 0.0.0.0 zeus.ad.xiaomi.com
+0.0.0.0 zn0izjiulta2j2t4o-upwork.siteintercept.qualtrics.com
 0.0.0.0 z-p42.graph.instagram.com
