@@ -46,7 +46,10 @@ SKIP_SUBDOMAIN_BASES = [
     "fbcdn.net",
     "rekhtadictionary.com",
     "rekhta.pc.cdn.bitgravity.com",
-    "rekhtastaticcdn.pc.cdn.bitgravity.com"
+    "rekhtastaticcdn.pc.cdn.bitgravity.com",
+    "m.stripe.com", 
+    "counter.dev", 
+    "app.ahrefs.com"
 ]
 
 # Bare domain: labels of alnum/hyphen, no leading/trailing hyphen per label.
