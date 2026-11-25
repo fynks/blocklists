@@ -1,7 +1,7 @@
 # Title: Personal Blocklist (Hosts Format)
 # Description: Domains blocked based on personal preferences
-# Total unique domains: 1437
-# Generated at: 18-11-2026
+# Total unique domains: 1452
+# Generated at: 25-11-2026
 #
 # Hosts file format: 0.0.0.0 example.com
 
@@ -278,6 +278,7 @@
 0.0.0.0 arclight.vimeo.com
 0.0.0.0 arms-retcode.aliyuncs.com
 0.0.0.0 ase.aidcgroup.net
+0.0.0.0 assets.adobedtm.com
 0.0.0.0 assetsconfigcdn.org
 0.0.0.0 assets.context.ly
 0.0.0.0 a.stat.xiaomi.com
@@ -292,6 +293,7 @@
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 auth.be.sec.miui.com
 0.0.0.0 auth.ff.avast.sec.miui.com
+0.0.0.0 avangard.pareporeh.info
 0.0.0.0 awssgp0-files.fds.api.xiaomi.com
 0.0.0.0 awsusor0-cdn.fds-ssl.api.xiaomi.com
 0.0.0.0 b2b6d102cb7a4898bc54a3b73e31b759.safeframe.googlesyndication.com
@@ -301,6 +303,7 @@
 0.0.0.0 bam.nr-data.net
 0.0.0.0 banner.appsflyer.com
 0.0.0.0 bat.bing.com
+0.0.0.0 bba767c15348.w.hcaptcha.com
 0.0.0.0 beacons2.gvt2.com
 0.0.0.0 beacons3.gvt2.com
 0.0.0.0 beacons4.gvt2.com
@@ -399,6 +402,7 @@
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.ynuf.aliapp.org
 0.0.0.0 cdp-eu.customer.io
+0.0.0.0 cfgc.zztfly.com
 0.0.0.0 c.googlesyndication.com
 0.0.0.0 chatbot-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev
 0.0.0.0 checkip.amazonaws.com
@@ -480,6 +484,7 @@
 0.0.0.0 data.sec.intl.miui.com
 0.0.0.0 data.sec.miui.com
 0.0.0.0 dcdn.veonadx.com
+0.0.0.0 dcfb3178d337.w.hcaptcha.com
 0.0.0.0 decide.mixpanel.com
 0.0.0.0 default.exp-tas.com
 0.0.0.0 default.tracking.miui.com
@@ -854,6 +859,7 @@
 0.0.0.0 mlog.search.xiaomi.net
 0.0.0.0 mob.api.xmpush.xiaomi.com
 0.0.0.0 mobile.events.data.microsoft.com
+0.0.0.0 mobile.useinsider.com
 0.0.0.0 mob.pandora.xiaomi.com
 0.0.0.0 mon.be.xiaomi.com
 0.0.0.0 mon-boot.tiktokv.com
@@ -939,6 +945,7 @@
 0.0.0.0 otlp-http-production.shopifysvc.com
 0.0.0.0 ottl7-l2.pandora.xiaomi.com
 0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 p11.techlab-cdn.com
 0.0.0.0 p4psearch.china.alibaba.com
 0.0.0.0 p8ly86-attr.appsflyersdk.com
 0.0.0.0 p8ly86-cdn-settings.appsflyersdk.com
@@ -1024,6 +1031,7 @@
 0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 pull.mitv.pandora.xiaomi.com
 0.0.0.0 puma-api.ptqy.gitv.tv
+0.0.0.0 push.aplu.io
 0.0.0.0 p.www.xiaomi.com
 0.0.0.0 px.effirst.com
 0.0.0.0 px-intl.ucweb.com
@@ -1233,6 +1241,7 @@
 0.0.0.0 storeconfig.mistat.xiaomi.com
 0.0.0.0 streamback.ff.avast.sec.miui.com
 0.0.0.0 strike.fox.com
+0.0.0.0 stun.hitv.com
 0.0.0.0 stun.l.google.com
 0.0.0.0 survey.china.alibaba.com
 0.0.0.0 surveys.hotjar.com
